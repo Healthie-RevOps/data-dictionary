@@ -25,6 +25,13 @@ on:
 permissions:
   contents: write  # so we can commit updated caches/snapshots/HTML back to the repo
 
+# Opt the workflow's JavaScript actions (checkout, setup-node, setup-python,
+# upload-artifact) into Node 24 ahead of the June 2, 2026 default flip. Lets us
+# verify Node-24 compatibility now and silences the deprecation warning. Remove
+# this once we've bumped to Node-24-native majors of each action.
+env:
+  FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: "true"
+
 concurrency:
   group: sfdc-dictionary-sync
   cancel-in-progress: false
