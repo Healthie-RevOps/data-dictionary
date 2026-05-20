@@ -1,0 +1,34 @@
+# --- Secrets / credentials (NEVER commit) ---
+hubspot.config.yml
+.sf-auth/
+.env
+.env.*
+*.pem
+*.key
+
+# --- Local Salesforce CLI state ---
+.sfdx/
+.sf/
+
+# --- macOS / editor cruft ---
+.DS_Store
+.idea/
+.vscode/
+*.swp
+
+# --- Python ---
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+venv/
+.pytest_cache/
+
+# --- Sandboxes / scratch (not part of the repo) ---
+.playwright-mcp/
+.claude/
+tmp/
+
+# --- Generated previews kept local-only (the canonical generated files are committed at root) ---
+sfdc_dict_*.png
+*_preview.png

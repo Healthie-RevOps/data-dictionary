@@ -1,0 +1,101 @@
+{
+  "Plan_Group__c": [
+    {
+      "value": "Enterprise",
+      "label": "Enterprise",
+      "active": true
+    },
+    {
+      "value": "Group",
+      "label": "Group",
+      "active": true
+    },
+    {
+      "value": "Starter",
+      "label": "Starter",
+      "active": true
+    },
+    {
+      "value": "Essentials",
+      "label": "Essentials",
+      "active": true
+    },
+    {
+      "value": "Plus",
+      "label": "Plus",
+      "active": true
+    },
+    {
+      "value": "Plus Trial",
+      "label": "Plus Trial",
+      "active": true
+    },
+    {
+      "value": "DHS Plus Trial",
+      "label": "DHS Plus Trial",
+      "active": true
+    },
+    {
+      "value": "Add-On",
+      "label": "Add-On",
+      "active": true
+    },
+    {
+      "value": "Core",
+      "label": "Core",
+      "active": true
+    },
+    {
+      "value": "Integration",
+      "label": "Integration",
+      "active": true
+    }
+  ],
+  "Stripe_Status__c": [
+    {
+      "value": "active past_due",
+      "label": "active past_due",
+      "active": true
+    },
+    {
+      "value": "unpaid",
+      "label": "unpaid",
+      "active": true
+    },
+    {
+      "value": "canceled",
+      "label": "canceled",
+      "active": true
+    },
+    {
+      "value": "incomplete",
+      "label": "incomplete",
+      "active": true
+    },
+    {
+      "value": "incomplete_expired",
+      "label": "incomplete_expired",
+      "active": true
+    },
+    {
+      "value": "active",
+      "label": "active",
+      "active": true
+    },
+    {
+      "value": "past_due",
+      "label": "past_due",
+      "active": true
+    },
+    {
+      "value": "trialing",
+      "label": "trialing",
+      "active": true
+    },
+    {
+      "value": "paused",
+      "label": "paused",
+      "active": true
+    }
+  ]
+}

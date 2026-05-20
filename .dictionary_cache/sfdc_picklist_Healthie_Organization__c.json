@@ -1,0 +1,29 @@
+{
+  "Anticipated_of_Providers__c": [
+    {
+      "value": "Only me",
+      "label": "Only me",
+      "active": true
+    },
+    {
+      "value": "2-5",
+      "label": "2-5",
+      "active": true
+    },
+    {
+      "value": "6-10",
+      "label": "6-10",
+      "active": true
+    },
+    {
+      "value": "11-50",
+      "label": "11-50",
+      "active": true
+    },
+    {
+      "value": "50+",
+      "label": "50+",
+      "active": true
+    }
+  ]
+}

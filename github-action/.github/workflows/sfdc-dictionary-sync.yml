@@ -1,0 +1,137 @@
+name: SFDC Data Dictionary weekly sync
+
+# Reconciles the live Salesforce schema against the Peapod SFDC Data Dictionary
+# landing page on HubSpot.
+#
+# Replaces the Cowork-hosted scheduled task that hit network-allowlist blockers.
+# See README.md alongside this workflow for setup, secrets, and rollback.
+
+on:
+  schedule:
+    # Mondays at 12:00 UTC. GitHub's cron is in UTC, not local time.
+    # Adjust if you want a different US-eastern offset.
+    - cron: "0 12 * * 1"
+  workflow_dispatch:
+    inputs:
+      skip_publish:
+        description: "Generate HTML but do not push to HubSpot (smoke test)"
+        required: false
+        default: "false"
+        type: choice
+        options:
+          - "false"
+          - "true"
+
+permissions:
+  contents: write  # so we can commit updated caches/snapshots/HTML back to the repo
+
+concurrency:
+  group: sfdc-dictionary-sync
+  cancel-in-progress: false
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python 3.11
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Set up Node (for the Salesforce CLI)
+        uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+
+      - name: Install Salesforce CLI
+        run: |
+          npm install -g @salesforce/cli
+          sf --version
+
+      - name: Authenticate Salesforce via stored auth URL
+        env:
+          SFDX_AUTH_URL: ${{ secrets.SFDX_AUTH_URL }}
+        run: |
+          if [ -z "$SFDX_AUTH_URL" ]; then
+            echo "::error::Repository secret SFDX_AUTH_URL is not set." >&2
+            exit 2
+          fi
+          printf '%s' "$SFDX_AUTH_URL" > /tmp/sfdx-auth-url.txt
+          sf org login sfdx-url --sfdx-url-file /tmp/sfdx-auth-url.txt \
+            --set-default --alias prod
+          # Verify a default org is set (does not print secrets)
+          sf org list --json | python -c 'import json,sys;d=json.load(sys.stdin)["result"];print("default org alias=",[o.get("alias") for o in d.get("nonScratchOrgs",[]) if o.get("isDefaultUsername")])'
+
+      - name: Generate the dictionary HTML
+        run: |
+          # The generator's expected layout matches the repo root (V5 docx, caches/, etc.).
+          python3 generate_sfdc_dictionary_html.py
+        env:
+          # Disable any interactive prompts in case sf falls back to them
+          SF_DISABLE_TELEMETRY: "true"
+          SF_AUTOUPDATE_DISABLE: "true"
+
+      - name: Publish to HubSpot
+        if: ${{ github.event.inputs.skip_publish != 'true' }}
+        env:
+          HUBSPOT_TOKEN: ${{ secrets.HUBSPOT_TOKEN }}
+        run: |
+          if [ -z "$HUBSPOT_TOKEN" ]; then
+            echo "::error::Repository secret HUBSPOT_TOKEN is not set." >&2
+            exit 2
+          fi
+          python3 scripts/publish_to_hubspot.py \
+            --template deploy_template_peapod_sfdc_data_dictionary.html
+
+      - name: Commit updated snapshot files
+        if: ${{ always() && github.event_name != 'pull_request' }}
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
+          # Stage exactly the files this workflow is allowed to evolve.
+          # (We do NOT stage `git add -A` so secret-laden files in the workspace
+          # cannot accidentally be committed.)
+          git add -- \
+            peapod_sfdc_data_dictionary.html \
+            peapod_sfdc_data_dictionary_standalone.html \
+            deploy_template_peapod_sfdc_data_dictionary.html \
+            .dictionary_cache/sfdc_*.json 2>/dev/null || true
+
+          if git diff --staged --quiet; then
+            echo "No changes to commit."
+          else
+            git commit -m "weekly: refresh SFDC data dictionary $(date -u +%Y-%m-%d)"
+            git push
+          fi
+
+      - name: Upload generated HTML as workflow artifact
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: sfdc-dictionary-${{ github.run_id }}
+          path: |
+            peapod_sfdc_data_dictionary.html
+            peapod_sfdc_data_dictionary_standalone.html
+            deploy_template_peapod_sfdc_data_dictionary.html
+          if-no-files-found: warn
+          retention-days: 90
+
+      - name: Summarize run
+        if: always()
+        run: |
+          echo "## SFDC Data Dictionary sync" >> $GITHUB_STEP_SUMMARY
+          echo "" >> $GITHUB_STEP_SUMMARY
+          echo "- Date: $(date -u +%Y-%m-%d)" >> $GITHUB_STEP_SUMMARY
+          echo "- Publish skipped: ${{ github.event.inputs.skip_publish || 'false' }}" >> $GITHUB_STEP_SUMMARY
+          echo "- Trigger: ${{ github.event_name }}" >> $GITHUB_STEP_SUMMARY
+          if [ -f peapod_sfdc_data_dictionary.html ]; then
+            echo "- HTML size: $(stat -c%s peapod_sfdc_data_dictionary.html 2>/dev/null || stat -f%z peapod_sfdc_data_dictionary.html) bytes" >> $GITHUB_STEP_SUMMARY
+          fi
+          echo "" >> $GITHUB_STEP_SUMMARY
+          echo "Remember: HubSpot's prerender cache may delay the live page update by up to 10 hours. Click 'Update' on the landing page in HubSpot's UI to flush it immediately." >> $GITHUB_STEP_SUMMARY

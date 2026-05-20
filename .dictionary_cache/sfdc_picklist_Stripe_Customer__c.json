@@ -1,0 +1,444 @@
+{
+  "Current_Plan_Group__c": [
+    {
+      "value": "Enterprise",
+      "label": "Enterprise",
+      "active": true
+    },
+    {
+      "value": "Group",
+      "label": "Group",
+      "active": true
+    },
+    {
+      "value": "Starter",
+      "label": "Starter",
+      "active": true
+    },
+    {
+      "value": "Essentials",
+      "label": "Essentials",
+      "active": true
+    },
+    {
+      "value": "Plus",
+      "label": "Plus",
+      "active": true
+    },
+    {
+      "value": "Plus Trial",
+      "label": "Plus Trial",
+      "active": true
+    },
+    {
+      "value": "DHS Plus Trial",
+      "label": "DHS Plus Trial",
+      "active": true
+    },
+    {
+      "value": "Small Practices",
+      "label": "Small Practices",
+      "active": true
+    },
+    {
+      "value": "Beginnings",
+      "label": "Beginnings",
+      "active": true
+    },
+    {
+      "value": "Student",
+      "label": "Student",
+      "active": true
+    },
+    {
+      "value": "Add-On",
+      "label": "Add-On",
+      "active": true
+    },
+    {
+      "value": "Canceled Plan",
+      "label": "Canceled Plan",
+      "active": true
+    },
+    {
+      "value": "Canceled Trial",
+      "label": "Canceled Trial",
+      "active": true
+    },
+    {
+      "value": "Practice Plus",
+      "label": "Practice Plus",
+      "active": true
+    },
+    {
+      "value": "Core",
+      "label": "Core",
+      "active": true
+    },
+    {
+      "value": "Integration",
+      "label": "Integration",
+      "active": true
+    }
+  ],
+  "Customer_Status__c": [
+    {
+      "value": "Active Trial",
+      "label": "Active Trial",
+      "active": true
+    },
+    {
+      "value": "Customer",
+      "label": "Customer",
+      "active": true
+    },
+    {
+      "value": "Trial Ended",
+      "label": "Trial Ended",
+      "active": true
+    },
+    {
+      "value": "Churned",
+      "label": "Churned",
+      "active": true
+    }
+  ],
+  "Previous_Plan_Group__c": [
+    {
+      "value": "Enterprise",
+      "label": "Enterprise",
+      "active": true
+    },
+    {
+      "value": "Group",
+      "label": "Group",
+      "active": true
+    },
+    {
+      "value": "Starter",
+      "label": "Starter",
+      "active": true
+    },
+    {
+      "value": "Essentials",
+      "label": "Essentials",
+      "active": true
+    },
+    {
+      "value": "Plus",
+      "label": "Plus",
+      "active": true
+    },
+    {
+      "value": "Plus Trial",
+      "label": "Plus Trial",
+      "active": true
+    },
+    {
+      "value": "DHS Plus Trial",
+      "label": "DHS Plus Trial",
+      "active": true
+    },
+    {
+      "value": "Small Practices",
+      "label": "Small Practices",
+      "active": true
+    },
+    {
+      "value": "Beginnings",
+      "label": "Beginnings",
+      "active": true
+    },
+    {
+      "value": "Student",
+      "label": "Student",
+      "active": true
+    },
+    {
+      "value": "Add-On",
+      "label": "Add-On",
+      "active": true
+    },
+    {
+      "value": "Canceled Plan",
+      "label": "Canceled Plan",
+      "active": true
+    },
+    {
+      "value": "Canceled Trial",
+      "label": "Canceled Trial",
+      "active": true
+    },
+    {
+      "value": "Practice Plus",
+      "label": "Practice Plus",
+      "active": true
+    },
+    {
+      "value": "Core",
+      "label": "Core",
+      "active": true
+    },
+    {
+      "value": "Integration",
+      "label": "Integration",
+      "active": true
+    }
+  ],
+  "Customer_Type__c": [
+    {
+      "value": "Enterprise",
+      "label": "Enterprise",
+      "active": true
+    },
+    {
+      "value": "Private Practice",
+      "label": "Private Practice",
+      "active": true
+    }
+  ],
+  "Stripe_Status__c": [
+    {
+      "value": "active past_due",
+      "label": "active past_due",
+      "active": true
+    },
+    {
+      "value": "unpaid",
+      "label": "unpaid",
+      "active": true
+    },
+    {
+      "value": "canceled",
+      "label": "canceled",
+      "active": true
+    },
+    {
+      "value": "incomplete",
+      "label": "incomplete",
+      "active": true
+    },
+    {
+      "value": "incomplete_expired",
+      "label": "incomplete_expired",
+      "active": true
+    },
+    {
+      "value": "active",
+      "label": "active",
+      "active": true
+    },
+    {
+      "value": "past_due",
+      "label": "past_due",
+      "active": true
+    },
+    {
+      "value": "trialing",
+      "label": "trialing",
+      "active": true
+    },
+    {
+      "value": "paused",
+      "label": "paused",
+      "active": true
+    }
+  ],
+  "ChartMogul_Tags__c": [
+    {
+      "value": "starter",
+      "label": "starter",
+      "active": true
+    },
+    {
+      "value": "started-as-starter",
+      "label": "started-as-starter",
+      "active": true
+    },
+    {
+      "value": "Digital Health Company",
+      "label": "Digital Health Company",
+      "active": true
+    },
+    {
+      "value": "BM",
+      "label": "B&M",
+      "active": true
+    },
+    {
+      "value": "Other",
+      "label": "Other",
+      "active": true
+    },
+    {
+      "value": "Merged Clients",
+      "label": "Merged Clients",
+      "active": true
+    },
+    {
+      "value": "non-subscription-revenue",
+      "label": "non-subscription-revenue",
+      "active": true
+    },
+    {
+      "value": "Behavioral Health",
+      "label": "Behavioral Health",
+      "active": true
+    },
+    {
+      "value": "Nutrition and Weight Loss",
+      "label": "Nutrition and Weight Loss",
+      "active": true
+    },
+    {
+      "value": "4. Part 3 Partnerships",
+      "label": "4. Part 3 Partnerships",
+      "active": true
+    },
+    {
+      "value": "Personalized Medicine",
+      "label": "Personalized Medicine",
+      "active": true
+    },
+    {
+      "value": "merged-customer",
+      "label": "merged-customer",
+      "active": true
+    },
+    {
+      "value": "Chronic Disease Management",
+      "label": "Chronic Disease Management",
+      "active": true
+    },
+    {
+      "value": "4. Part 2 Built-In (Special Terms)",
+      "label": "4. Part 2 Built-In (Special Terms)",
+      "active": true
+    },
+    {
+      "value": "Women's Health",
+      "label": "Women's Health",
+      "active": true
+    },
+    {
+      "value": "Re-Seller",
+      "label": "Re-Seller",
+      "active": true
+    },
+    {
+      "value": "Sleep",
+      "label": "Sleep",
+      "active": true
+    },
+    {
+      "value": "Learning Disability",
+      "label": "Learning Disability",
+      "active": true
+    },
+    {
+      "value": "Brain Health",
+      "label": "Brain Health",
+      "active": true
+    },
+    {
+      "value": "Cardiovascular Health",
+      "label": "Cardiovascular Health",
+      "active": true
+    },
+    {
+      "value": "Care Navigation",
+      "label": "Care Navigation",
+      "active": true
+    },
+    {
+      "value": "E. Not Dev First",
+      "label": "E. Not Dev First",
+      "active": true
+    },
+    {
+      "value": "Pediatrics / Caregiving",
+      "label": "Pediatrics / Caregiving",
+      "active": true
+    },
+    {
+      "value": "Pulmonary",
+      "label": "Pulmonary",
+      "active": true
+    },
+    {
+      "value": "ADHD",
+      "label": "ADHD",
+      "active": true
+    },
+    {
+      "value": "Functional Medicine",
+      "label": "Functional Medicine",
+      "active": true
+    },
+    {
+      "value": "Men's Wellness",
+      "label": "Men's Wellness",
+      "active": true
+    },
+    {
+      "value": "Pain Management",
+      "label": "Pain Management",
+      "active": true
+    },
+    {
+      "value": "4. Part 1 Stripe Connect Fees",
+      "label": "4. Part 1 Stripe Connect Fees",
+      "active": true
+    },
+    {
+      "value": "Addiction Treatment",
+      "label": "Addiction Treatment",
+      "active": true
+    },
+    {
+      "value": "Digestive",
+      "label": "Digestive",
+      "active": true
+    },
+    {
+      "value": "Direct Patient Care",
+      "label": "Direct Patient Care",
+      "active": true
+    },
+    {
+      "value": "End of Life",
+      "label": "End of Life",
+      "active": true
+    },
+    {
+      "value": "Fay Nutrition",
+      "label": "Fay Nutrition",
+      "active": true
+    },
+    {
+      "value": "Health Coaching",
+      "label": "Health Coaching",
+      "active": true
+    },
+    {
+      "value": "Health Insurance",
+      "label": "Health Insurance",
+      "active": true
+    },
+    {
+      "value": "Hormone Therapy",
+      "label": "Hormone Therapy",
+      "active": true
+    },
+    {
+      "value": "Primary Care",
+      "label": "Primary Care",
+      "active": true
+    },
+    {
+      "value": "SpringHealth",
+      "label": "SpringHealth",
+      "active": true
+    }
+  ]
+}

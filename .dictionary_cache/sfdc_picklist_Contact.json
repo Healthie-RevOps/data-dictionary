@@ -1,0 +1,2020 @@
+{
+  "Salutation": [
+    {
+      "value": "Mr.",
+      "label": "Mr.",
+      "active": true
+    },
+    {
+      "value": "Ms.",
+      "label": "Ms.",
+      "active": true
+    },
+    {
+      "value": "Mrs.",
+      "label": "Mrs.",
+      "active": true
+    },
+    {
+      "value": "Dr.",
+      "label": "Dr.",
+      "active": true
+    },
+    {
+      "value": "Prof.",
+      "label": "Prof.",
+      "active": true
+    }
+  ],
+  "MailingGeocodeAccuracy": [
+    {
+      "value": "Address",
+      "label": "Address",
+      "active": true
+    },
+    {
+      "value": "NearAddress",
+      "label": "Near Address",
+      "active": true
+    },
+    {
+      "value": "Block",
+      "label": "Block",
+      "active": true
+    },
+    {
+      "value": "Street",
+      "label": "Street",
+      "active": true
+    },
+    {
+      "value": "ExtendedZip",
+      "label": "Extended Zip",
+      "active": true
+    },
+    {
+      "value": "Zip",
+      "label": "Zip",
+      "active": true
+    },
+    {
+      "value": "Neighborhood",
+      "label": "Neighborhood",
+      "active": true
+    },
+    {
+      "value": "City",
+      "label": "City",
+      "active": true
+    },
+    {
+      "value": "County",
+      "label": "County",
+      "active": true
+    },
+    {
+      "value": "State",
+      "label": "State",
+      "active": true
+    },
+    {
+      "value": "Unknown",
+      "label": "Unknown",
+      "active": true
+    }
+  ],
+  "LeadSource": [
+    {
+      "value": "API Docs",
+      "label": "API Docs",
+      "active": true
+    },
+    {
+      "value": "Apollo",
+      "label": "Apollo",
+      "active": true
+    },
+    {
+      "value": "Calendly",
+      "label": "Calendly",
+      "active": true
+    },
+    {
+      "value": "Capterra",
+      "label": "Capterra",
+      "active": true
+    },
+    {
+      "value": "Customer Referral",
+      "label": "Customer Referral",
+      "active": true
+    },
+    {
+      "value": "Digital Ad",
+      "label": "Digital Ad",
+      "active": true
+    },
+    {
+      "value": "Ebook",
+      "label": "Ebook",
+      "active": true
+    },
+    {
+      "value": "Elion",
+      "label": "Elion",
+      "active": true
+    },
+    {
+      "value": "Email Marketing",
+      "label": "Email Marketing",
+      "active": true
+    },
+    {
+      "value": "Employee Referral",
+      "label": "Employee Referral",
+      "active": true
+    },
+    {
+      "value": "Event",
+      "label": "Event",
+      "active": true
+    },
+    {
+      "value": "G2",
+      "label": "G2",
+      "active": true
+    },
+    {
+      "value": "Hello-At Email",
+      "label": "Hello-At Email",
+      "active": true
+    },
+    {
+      "value": "Help Scout",
+      "label": "Help Scout",
+      "active": true
+    },
+    {
+      "value": "LinkedIn Inbound",
+      "label": "LinkedIn Inbound",
+      "active": true
+    },
+    {
+      "value": "Newsletter",
+      "label": "Newsletter",
+      "active": true
+    },
+    {
+      "value": "Outbound",
+      "label": "Outbound",
+      "active": true
+    },
+    {
+      "value": "Paid Ad",
+      "label": "Paid Ad",
+      "active": true
+    },
+    {
+      "value": "Partner",
+      "label": "Partner",
+      "active": true
+    },
+    {
+      "value": "PR",
+      "label": "PR",
+      "active": true
+    },
+    {
+      "value": "Webinar",
+      "label": "Webinar",
+      "active": true
+    },
+    {
+      "value": "Website",
+      "label": "Website",
+      "active": true
+    },
+    {
+      "value": "Clay",
+      "label": "Clay",
+      "active": true
+    },
+    {
+      "value": "Qualified.com",
+      "label": "Qualified.com",
+      "active": true
+    },
+    {
+      "value": "PartnerStack",
+      "label": "PartnerStack",
+      "active": true
+    }
+  ],
+  "ContactSource": [
+    {
+      "value": "Auto Create",
+      "label": "Auto Create",
+      "active": true
+    },
+    {
+      "value": "Email Message",
+      "label": "Email Message",
+      "active": true
+    },
+    {
+      "value": "Meeting Digest",
+      "label": "Meeting Digest",
+      "active": true
+    },
+    {
+      "value": "Seller Home",
+      "label": "Seller Home",
+      "active": true
+    }
+  ],
+  "TitleType": [
+    {
+      "value": "ceo",
+      "label": "CEO",
+      "active": true
+    },
+    {
+      "value": "executive",
+      "label": "Executive",
+      "active": true
+    },
+    {
+      "value": "vp",
+      "label": "VP",
+      "active": true
+    },
+    {
+      "value": "directorOrManager",
+      "label": "Director or Manager",
+      "active": true
+    },
+    {
+      "value": "individualContributor",
+      "label": "Individual Contributor",
+      "active": true
+    }
+  ],
+  "DepartmentGroup": [
+    {
+      "value": "chiefExecutive",
+      "label": "Chief Executive",
+      "active": true
+    },
+    {
+      "value": "sales",
+      "label": "Sales",
+      "active": true
+    },
+    {
+      "value": "finance",
+      "label": "Finance",
+      "active": true
+    },
+    {
+      "value": "tech",
+      "label": "Tech",
+      "active": true
+    },
+    {
+      "value": "support",
+      "label": "Support",
+      "active": true
+    },
+    {
+      "value": "legal",
+      "label": "Legal",
+      "active": true
+    },
+    {
+      "value": "humanResources",
+      "label": "Human Resources",
+      "active": true
+    },
+    {
+      "value": "customerSuccess",
+      "label": "Customer Success",
+      "active": true
+    },
+    {
+      "value": "marketing",
+      "label": "Marketing",
+      "active": true
+    },
+    {
+      "value": "other",
+      "label": "Other",
+      "active": true
+    }
+  ],
+  "BuyerAttributes": [
+    {
+      "value": "Detractor",
+      "label": "Detractor",
+      "active": true
+    },
+    {
+      "value": "DecisionMaker",
+      "label": "Decision Maker",
+      "active": true
+    },
+    {
+      "value": "Buyer",
+      "label": "Buyer",
+      "active": true
+    },
+    {
+      "value": "ExecutiveSponsor",
+      "label": "Executive Sponsor",
+      "active": true
+    },
+    {
+      "value": "Champion",
+      "label": "Champion",
+      "active": true
+    },
+    {
+      "value": "BusinessUser",
+      "label": "Business User",
+      "active": true
+    },
+    {
+      "value": "Evaluator",
+      "label": "Evaluator",
+      "active": true
+    },
+    {
+      "value": "TechnicalExpert",
+      "label": "Technical Expert",
+      "active": true
+    }
+  ],
+  "Enterprise_Category__c": [
+    {
+      "value": "Clinic",
+      "label": "Clinic",
+      "active": true
+    },
+    {
+      "value": "Corporate Wellness",
+      "label": "Corporate Wellness",
+      "active": true
+    },
+    {
+      "value": "Enterprise",
+      "label": "Enterprise",
+      "active": true
+    },
+    {
+      "value": "Fitness",
+      "label": "Gym / Fitness",
+      "active": true
+    },
+    {
+      "value": "Government",
+      "label": "Government",
+      "active": true
+    },
+    {
+      "value": "Health System",
+      "label": "Health System",
+      "active": true
+    },
+    {
+      "value": "Insurance",
+      "label": "Insurance",
+      "active": true
+    },
+    {
+      "value": "Nonprofit",
+      "label": "Nonprofit",
+      "active": true
+    },
+    {
+      "value": "Practice",
+      "label": "Private Practice",
+      "active": true
+    },
+    {
+      "value": "Retail",
+      "label": "Retail",
+      "active": true
+    },
+    {
+      "value": "Corporate Whale",
+      "label": "Sodexo",
+      "active": true
+    },
+    {
+      "value": "Health Startup",
+      "label": "Startup",
+      "active": true
+    },
+    {
+      "value": "Business Coach",
+      "label": "Coaching program",
+      "active": true
+    },
+    {
+      "value": "Genomics",
+      "label": "Genomics",
+      "active": true
+    },
+    {
+      "value": "Research",
+      "label": "Research",
+      "active": true
+    },
+    {
+      "value": "University",
+      "label": "University",
+      "active": true
+    },
+    {
+      "value": "WIC",
+      "label": "WIC",
+      "active": true
+    },
+    {
+      "value": "Compass",
+      "label": "Compass",
+      "active": true
+    }
+  ],
+  "Current_Solution__c": [
+    {
+      "value": "Unknown",
+      "label": "Unknown",
+      "active": true
+    },
+    {
+      "value": "Competitor: Fruit Street",
+      "label": "Competitor: Fruit Street",
+      "active": true
+    },
+    {
+      "value": "Competitor: Kaizen",
+      "label": "Competitor: Kaizen",
+      "active": true
+    },
+    {
+      "value": "Competitor: Kalix",
+      "label": "Competitor: Kalix",
+      "active": true
+    },
+    {
+      "value": "Competitor: Leaf",
+      "label": "Competitor: Leaf",
+      "active": true
+    },
+    {
+      "value": "Competitor: MindBody",
+      "label": "Competitor: MindBody",
+      "active": true
+    },
+    {
+      "value": "Competitor: Nutrimedy",
+      "label": "Competitor: Nutrimedy",
+      "active": true
+    },
+    {
+      "value": "Competitor: Power2Practice",
+      "label": "Competitor: Power2Practice",
+      "active": true
+    },
+    {
+      "value": "Competitor: Practice Better",
+      "label": "Competitor: Practice Better",
+      "active": true
+    },
+    {
+      "value": "EMR/EHR",
+      "label": "EMR/EHR",
+      "active": true
+    },
+    {
+      "value": "None (piecemeal)",
+      "label": "None (piecemeal)",
+      "active": true
+    }
+  ],
+  "Provider_Type_3__c": [
+    {
+      "value": "Acupuncturist",
+      "label": "Acupuncturist",
+      "active": true
+    },
+    {
+      "value": "Chiropractor",
+      "label": "Chiropractor",
+      "active": true
+    },
+    {
+      "value": "Dietitian",
+      "label": "Dietitian",
+      "active": true
+    },
+    {
+      "value": "Health Coach",
+      "label": "Health Coach",
+      "active": true
+    },
+    {
+      "value": "Lactation Consultant",
+      "label": "Lactation Consultant",
+      "active": true
+    },
+    {
+      "value": "Massage Therapist",
+      "label": "Massage Therapist",
+      "active": true
+    },
+    {
+      "value": "Naturopath",
+      "label": "Naturopath",
+      "active": true
+    },
+    {
+      "value": "Nutritionist",
+      "label": "Nutritionist",
+      "active": true
+    },
+    {
+      "value": "Personal Trainer",
+      "label": "Personal Trainer",
+      "active": true
+    },
+    {
+      "value": "Physical Therapist",
+      "label": "Physical Therapist",
+      "active": true
+    },
+    {
+      "value": "Other Doctor/MD",
+      "label": "Other Doctor/MD",
+      "active": true
+    },
+    {
+      "value": "Unknown",
+      "label": "Unknown",
+      "active": true
+    }
+  ],
+  "Type__c": [
+    {
+      "value": "Unknown",
+      "label": "Unknown",
+      "active": true
+    },
+    {
+      "value": "Provider",
+      "label": "Provider",
+      "active": true
+    },
+    {
+      "value": "Client",
+      "label": "Client",
+      "active": true
+    },
+    {
+      "value": "Other",
+      "label": "Other",
+      "active": true
+    },
+    {
+      "value": "Partner",
+      "label": "Partner",
+      "active": true
+    }
+  ],
+  "SIQ_Module__c": [
+    {
+      "value": "SMBs",
+      "label": "SMBs",
+      "active": true
+    },
+    {
+      "value": "Institutions",
+      "label": "Institutions",
+      "active": true
+    },
+    {
+      "value": "Lactation Consultants",
+      "label": "Lactation Consultants",
+      "active": true
+    }
+  ],
+  "Contact_Form_Topic__c": [
+    {
+      "value": "Getting Started with Healthie",
+      "label": "Getting Started with Healthie",
+      "active": true
+    },
+    {
+      "value": "My Healthie Membership",
+      "label": "My Healthie Membership",
+      "active": true
+    },
+    {
+      "value": "Partnering with Healthie",
+      "label": "Partnering with Healthie",
+      "active": true
+    },
+    {
+      "value": "Careers at Healthie",
+      "label": "Careers at Healthie",
+      "active": true
+    },
+    {
+      "value": "Something Else",
+      "label": "Something Else",
+      "active": true
+    }
+  ],
+  "Lead_Origin__c": [
+    {
+      "value": "FMCA",
+      "label": "FMCA",
+      "active": true
+    },
+    {
+      "value": "Find A Health Coach",
+      "label": "Find A Health Coach",
+      "active": true
+    },
+    {
+      "value": "IIN",
+      "label": "IIN",
+      "active": true
+    },
+    {
+      "value": "The Health Coach Group",
+      "label": "The Health Coach Group",
+      "active": true
+    },
+    {
+      "value": "Whole30 Coaching",
+      "label": "Whole30 Coaching",
+      "active": true
+    },
+    {
+      "value": "Other Origin",
+      "label": "Other Origin",
+      "active": true
+    },
+    {
+      "value": "University of Minnesota",
+      "label": "University of Minnesota",
+      "active": true
+    },
+    {
+      "value": "Canadian School of Natural Nutrition",
+      "label": "Canadian School of Natural Nutrition",
+      "active": true
+    },
+    {
+      "value": "Aircare",
+      "label": "Aircare",
+      "active": true
+    },
+    {
+      "value": "CAND 2018",
+      "label": "CAND 2018",
+      "active": true
+    },
+    {
+      "value": "Facebook Community Group",
+      "label": "Facebook Community Group",
+      "active": true
+    },
+    {
+      "value": "Andrea Beaman",
+      "label": "Andrea Beaman",
+      "active": true
+    },
+    {
+      "value": "TDinAustin",
+      "label": "TDinAustin",
+      "active": true
+    },
+    {
+      "value": "Jane App",
+      "label": "Jane App",
+      "active": true
+    },
+    {
+      "value": "NYC Meetup",
+      "label": "NYC Meetup",
+      "active": true
+    }
+  ],
+  "Provider_Specialty__c": [
+    {
+      "value": "Chronic Illness Nutrition",
+      "label": "Chronic Illness Nutrition",
+      "active": true
+    },
+    {
+      "value": "Culinary Nutrition",
+      "label": "Culinary Nutrition",
+      "active": true
+    },
+    {
+      "value": "Diabetes Prevention and Management",
+      "label": "Diabetes Prevention and Management",
+      "active": true
+    },
+    {
+      "value": "Eating Disorders",
+      "label": "Eating Disorders",
+      "active": true
+    },
+    {
+      "value": "Food Sensitivities or LEAP",
+      "label": "Food Sensitivities or LEAP",
+      "active": true
+    },
+    {
+      "value": "Functional Nutrition",
+      "label": "Functional Nutrition",
+      "active": true
+    },
+    {
+      "value": "Gerontological Nutrition",
+      "label": "Gerontological Nutrition",
+      "active": true
+    },
+    {
+      "value": "Oncology Nutrition",
+      "label": "Oncology Nutrition",
+      "active": true
+    },
+    {
+      "value": "Pediatric Nutrition",
+      "label": "Pediatric Nutrition",
+      "active": true
+    },
+    {
+      "value": "Renal Nutrition",
+      "label": "Renal Nutrition",
+      "active": true
+    },
+    {
+      "value": "Sports Nutrition",
+      "label": "Sports Nutrition",
+      "active": true
+    },
+    {
+      "value": "Weight Management",
+      "label": "Weight Management",
+      "active": true
+    }
+  ],
+  "Coaching_Program__c": [
+    {
+      "value": "Functional Medicine Coaching Academy",
+      "label": "FMCA Functional Medicine Coaching Academy",
+      "active": true
+    },
+    {
+      "value": "Whole30 Coaching",
+      "label": "Whole30 Coaching",
+      "active": true
+    },
+    {
+      "value": "Institute for Integrative Nutrition",
+      "label": "IIN Institute for Integrative Nutrition",
+      "active": true
+    },
+    {
+      "value": "Primal Health Coach",
+      "label": "Primal Health Coach",
+      "active": true
+    },
+    {
+      "value": "Wellcoaches",
+      "label": "Wellcoaches",
+      "active": true
+    },
+    {
+      "value": "Health Coach Institute",
+      "label": "Health Coach Institute",
+      "active": true
+    },
+    {
+      "value": "School of Applied Functional Medicine",
+      "label": "School of Applied Functional Medicine",
+      "active": true
+    },
+    {
+      "value": "American Council on Exercise",
+      "label": "ACE American Council on Exercise",
+      "active": true
+    },
+    {
+      "value": "Integrative Women's Health Institute",
+      "label": "Integrative Women's Health Institute",
+      "active": true
+    },
+    {
+      "value": "Institute for Functional Health Coaching",
+      "label": "Institute for Functional Health Coaching",
+      "active": true
+    },
+    {
+      "value": "Institute for the Psychology of Eating",
+      "label": "Institute for the Psychology of Eating",
+      "active": true
+    },
+    {
+      "value": "International Nurse Coach Association",
+      "label": "International Nurse Coach Association",
+      "active": true
+    },
+    {
+      "value": "Real Balance",
+      "label": "Real Balance",
+      "active": true
+    },
+    {
+      "value": "Dr. Sears Wellness Institute",
+      "label": "Dr. Sears Wellness Institute",
+      "active": true
+    },
+    {
+      "value": "Duke Integrative Medicine",
+      "label": "Duke Integrative Medicine",
+      "active": true
+    },
+    {
+      "value": "Maryland University of Integrative Health",
+      "label": "MUIH Maryland University of Integrative Health",
+      "active": true
+    },
+    {
+      "value": "Canadian School of Natural Nutrition",
+      "label": "Canadian School of Natural Nutrition",
+      "active": true
+    },
+    {
+      "value": "University of Minnesota",
+      "label": "University of Minnesota",
+      "active": true
+    },
+    {
+      "value": "Institute for Functional Medicine",
+      "label": "IFM Institute for Functional Medicine",
+      "active": true
+    },
+    {
+      "value": "Integrative and Functional Nutrition Academy",
+      "label": "Integrative and Functional Nutrition Academy",
+      "active": true
+    },
+    {
+      "value": "Functional Nutrition Alliance",
+      "label": "FNA Functional Nutrition Alliance",
+      "active": true
+    },
+    {
+      "value": "The Health Coach Group",
+      "label": "HCG The Health Coach Group",
+      "active": true
+    },
+    {
+      "value": "Andrea Beaman",
+      "label": "Andrea Beaman",
+      "active": true
+    },
+    {
+      "value": "Functional Diagnostic Nutrition",
+      "label": "Functional Diagnostic Nutrition",
+      "active": true
+    },
+    {
+      "value": "MedFit Network",
+      "label": "MedFit Network",
+      "active": true
+    },
+    {
+      "value": "Wellness Coaches Collective",
+      "label": "Wellness Coaches Collective",
+      "active": true
+    },
+    {
+      "value": "American Fitness Professionals & Associates",
+      "label": "American Fitness Professionals & Associates",
+      "active": true
+    },
+    {
+      "value": "Collegiate & Professional Sports Dietitians Association",
+      "label": "Collegiate & Professional Sports Dietitians Association",
+      "active": true
+    },
+    {
+      "value": "Academy Healing Nutrition",
+      "label": "Academy Healing Nutrition",
+      "active": true
+    },
+    {
+      "value": "Georgetown University",
+      "label": "Georgetown University",
+      "active": true
+    },
+    {
+      "value": "Functional Medicine - Fast Track",
+      "label": "FMFT Functional Medicine - Fast Track",
+      "active": true
+    },
+    {
+      "value": "LEAP",
+      "label": "LEAP",
+      "active": true
+    },
+    {
+      "value": "Other",
+      "label": "Other",
+      "active": true
+    }
+  ],
+  "Provider_Type__c": [
+    {
+      "value": "Acupuncturist",
+      "label": "Acupuncturist",
+      "active": true
+    },
+    {
+      "value": "Chiropractor",
+      "label": "Chiropractor",
+      "active": true
+    },
+    {
+      "value": "Dietitian",
+      "label": "Dietitian",
+      "active": true
+    },
+    {
+      "value": "Health Coach",
+      "label": "Health Coach",
+      "active": true
+    },
+    {
+      "value": "Lactation Consultant",
+      "label": "Lactation Consultant",
+      "active": true
+    },
+    {
+      "value": "Massage Therapist",
+      "label": "Massage Therapist",
+      "active": true
+    },
+    {
+      "value": "Naturopath",
+      "label": "Naturopath",
+      "active": true
+    },
+    {
+      "value": "Nutritionist",
+      "label": "Nutritionist",
+      "active": true
+    },
+    {
+      "value": "Personal Trainer",
+      "label": "Personal Trainer",
+      "active": true
+    },
+    {
+      "value": "Doctor/MD",
+      "label": "Physician (PA, MD)",
+      "active": true
+    },
+    {
+      "value": "Unknown",
+      "label": "Other",
+      "active": true
+    },
+    {
+      "value": "Nurse",
+      "label": "Nurse",
+      "active": true
+    },
+    {
+      "value": "Pharmacist",
+      "label": "Pharmacist",
+      "active": true
+    },
+    {
+      "value": "Hypnotist",
+      "label": "Hypnotist",
+      "active": true
+    },
+    {
+      "value": "Mental Health",
+      "label": "Mental Health",
+      "active": true
+    },
+    {
+      "value": "Multi-disciplinary",
+      "label": "Multi-disciplinary",
+      "active": true
+    },
+    {
+      "value": "Life Coach",
+      "label": "Life Coach",
+      "active": true
+    },
+    {
+      "value": "Business Coach",
+      "label": "Business Coach",
+      "active": true
+    },
+    {
+      "value": "Physical Therapist",
+      "label": "Physical Therapist",
+      "active": true
+    },
+    {
+      "value": "BOT - ignore this opp or lead",
+      "label": "BOT - ignore this opp or lead",
+      "active": true
+    }
+  ],
+  "Provider_Reported_Source__c": [
+    {
+      "value": "Google Search",
+      "label": "Google Search",
+      "active": true
+    },
+    {
+      "value": "Received E-mail from Healthie",
+      "label": "Received E-mail from Healthie",
+      "active": true
+    },
+    {
+      "value": "CustomerReferral",
+      "label": "Customer Referral",
+      "active": true
+    },
+    {
+      "value": "Reactivation",
+      "label": "Reactivation",
+      "active": true
+    },
+    {
+      "value": "Organic Social",
+      "label": "Organic Social",
+      "active": true
+    },
+    {
+      "value": "Ebook",
+      "label": "Ebook",
+      "active": true
+    },
+    {
+      "value": "Bootcamp",
+      "label": "Bootcamp",
+      "active": true
+    },
+    {
+      "value": "Coaching program",
+      "label": "Coaching program",
+      "active": true
+    },
+    {
+      "value": "Group Demo",
+      "label": "Group Demo",
+      "active": true
+    },
+    {
+      "value": "External Blog Post",
+      "label": "External Blog Post",
+      "active": true
+    },
+    {
+      "value": "Healthie Blog Post",
+      "label": "Healthie Blog Post",
+      "active": true
+    },
+    {
+      "value": "Other Conference",
+      "label": "Other Conference",
+      "active": true
+    },
+    {
+      "value": "Other Webinar",
+      "label": "Other Webinar",
+      "active": true
+    },
+    {
+      "value": "Other / Unknown",
+      "label": "Other / Unknown",
+      "active": true
+    },
+    {
+      "value": "Facebook Message",
+      "label": "Facebook Message",
+      "active": true
+    },
+    {
+      "value": "Facebook / Facebook Group",
+      "label": "Facebook / Facebook Group",
+      "active": true
+    },
+    {
+      "value": "Instagram",
+      "label": "Instagram",
+      "active": true
+    },
+    {
+      "value": "LinkedIn",
+      "label": "LinkedIn",
+      "active": true
+    },
+    {
+      "value": "The Health Coach Group",
+      "label": "The Health Coach Group",
+      "active": true
+    },
+    {
+      "value": "Aircare",
+      "label": "Aircare",
+      "active": true
+    },
+    {
+      "value": "CAND 2018",
+      "label": "CAND 2018",
+      "active": true
+    },
+    {
+      "value": "FNCE",
+      "label": "FNCE",
+      "active": true
+    },
+    {
+      "value": "FMCA",
+      "label": "FMCA",
+      "active": true
+    },
+    {
+      "value": "Whole30 Coaching",
+      "label": "Whole30 Coaching",
+      "active": true
+    },
+    {
+      "value": "RD Entrepreneur Symposium",
+      "label": "RD Entrepreneur Symposium",
+      "active": true
+    },
+    {
+      "value": "IFNA",
+      "label": "IFNA",
+      "active": true
+    }
+  ],
+  "Account_Customer_Status__c": [
+    {
+      "value": "Prospect",
+      "label": "Prospect",
+      "active": true
+    },
+    {
+      "value": "Active Trial",
+      "label": "Active Trial",
+      "active": true
+    },
+    {
+      "value": "Trial Ended",
+      "label": "Trial Ended",
+      "active": true
+    },
+    {
+      "value": "Returned Prospect",
+      "label": "Returned Prospect",
+      "active": true
+    },
+    {
+      "value": "Qualified Prospect",
+      "label": "Qualified Prospect",
+      "active": true
+    },
+    {
+      "value": "Customer",
+      "label": "Customer",
+      "active": true
+    },
+    {
+      "value": "Churned",
+      "label": "Churned",
+      "active": true
+    }
+  ],
+  "What_s_your_team_size__c": [
+    {
+      "value": "Just me!",
+      "label": "Just me!",
+      "active": true
+    },
+    {
+      "value": "2-5",
+      "label": "2-5",
+      "active": true
+    },
+    {
+      "value": "6-10",
+      "label": "6-10",
+      "active": true
+    },
+    {
+      "value": "11+",
+      "label": "11+",
+      "active": true
+    },
+    {
+      "value": "2-10",
+      "label": "2-10",
+      "active": true
+    },
+    {
+      "value": "11-50",
+      "label": "11-50",
+      "active": true
+    },
+    {
+      "value": "51-250",
+      "label": "51-250",
+      "active": true
+    },
+    {
+      "value": "251+",
+      "label": "251+",
+      "active": true
+    }
+  ],
+  "Biggest_Pain_Point__c": [
+    {
+      "value": "AI Functionality",
+      "label": "AI Functionality",
+      "active": true
+    },
+    {
+      "value": "Slow Documentation",
+      "label": "Slow Documentation",
+      "active": true
+    },
+    {
+      "value": "Billing Concerns",
+      "label": "Billing Concerns",
+      "active": true
+    },
+    {
+      "value": "Patient Engagement (scheduling, follow ups, telehealth, etc.)",
+      "label": "Patient Engagement (scheduling, follow ups, telehealth, etc.)",
+      "active": true
+    },
+    {
+      "value": "Interoperability Challenges",
+      "label": "Interoperability Challenges",
+      "active": true
+    },
+    {
+      "value": "No API / Lack API",
+      "label": "No API / Lack API",
+      "active": true
+    },
+    {
+      "value": "Difficulty Measuring Outcomes",
+      "label": "Difficulty Measuring Outcomes",
+      "active": true
+    },
+    {
+      "value": "Other",
+      "label": "Other",
+      "active": true
+    }
+  ],
+  "Anticipated_of_Providers__c": [
+    {
+      "value": "Only me",
+      "label": "Only me",
+      "active": true
+    },
+    {
+      "value": "2-5",
+      "label": "2-5",
+      "active": true
+    },
+    {
+      "value": "6-10",
+      "label": "6-10",
+      "active": true
+    },
+    {
+      "value": "11-50",
+      "label": "11-50",
+      "active": true
+    },
+    {
+      "value": "50+",
+      "label": "50+",
+      "active": true
+    }
+  ],
+  "Contact_Specialty__c": [
+    {
+      "value": "Behavioral Health",
+      "label": "Behavioral Health",
+      "active": true
+    },
+    {
+      "value": "Nutritional Care",
+      "label": "Nutritional Care",
+      "active": true
+    },
+    {
+      "value": "Other / Multi Specialty",
+      "label": "Other / Multi Specialty",
+      "active": true
+    },
+    {
+      "value": "Primary Care & Family Medicine",
+      "label": "Primary Care & Family Medicine",
+      "active": true
+    },
+    {
+      "value": "Wellness / Health Coaching",
+      "label": "Wellness / Health Coaching",
+      "active": true
+    },
+    {
+      "value": "Women's Health",
+      "label": "Women's Health",
+      "active": true
+    },
+    {
+      "value": "Musculoskeletal (MSK)",
+      "label": "Musculoskeletal (MSK)",
+      "active": true
+    }
+  ],
+  "Switching_EHR__c": [
+    {
+      "value": "In the next 30 Days",
+      "label": "In the next 30 Days",
+      "active": true
+    },
+    {
+      "value": "In the next 3 Months",
+      "label": "In the next 3 Months",
+      "active": true
+    },
+    {
+      "value": "In the next 12 Months",
+      "label": "In the next 12 Months",
+      "active": true
+    },
+    {
+      "value": "I'm just researching",
+      "label": "I'm just researching",
+      "active": true
+    },
+    {
+      "value": "I'm not considering switching",
+      "label": "I'm not considering switching",
+      "active": true
+    }
+  ],
+  "Current_Plan__c": [
+    {
+      "value": "Enterprise",
+      "label": "Enterprise",
+      "active": true
+    },
+    {
+      "value": "Group",
+      "label": "Group",
+      "active": true
+    },
+    {
+      "value": "Starter",
+      "label": "Starter",
+      "active": true
+    },
+    {
+      "value": "Essentials",
+      "label": "Essentials",
+      "active": true
+    },
+    {
+      "value": "Plus",
+      "label": "Plus",
+      "active": true
+    },
+    {
+      "value": "Add-On",
+      "label": "Add-On",
+      "active": true
+    },
+    {
+      "value": "Plus Trial",
+      "label": "Plus Trial",
+      "active": true
+    },
+    {
+      "value": "DHS Plus Trial",
+      "label": "DHS Plus Trial",
+      "active": true
+    },
+    {
+      "value": "Core",
+      "label": "Core",
+      "active": true
+    },
+    {
+      "value": "Integration",
+      "label": "Integration",
+      "active": true
+    },
+    {
+      "value": "Trial Ended",
+      "label": "Trial Ended",
+      "active": true
+    }
+  ],
+  "asknicely__CSAT_Type__c": [
+    {
+      "value": "Satisfied",
+      "label": "Satisfied",
+      "active": true
+    },
+    {
+      "value": "Neutral",
+      "label": "Neutral",
+      "active": true
+    },
+    {
+      "value": "Unsatisfied",
+      "label": "Unsatisfied",
+      "active": true
+    }
+  ],
+  "asknicely__FIVESTAR_Type__c": [
+    {
+      "value": "Satisfied",
+      "label": "Satisfied",
+      "active": true
+    },
+    {
+      "value": "Neutral",
+      "label": "Neutral",
+      "active": true
+    },
+    {
+      "value": "Unsatisfied",
+      "label": "Unsatisfied",
+      "active": true
+    }
+  ],
+  "asknicely__NPS_Type__c": [
+    {
+      "value": "Promoter",
+      "label": "Promoter",
+      "active": true
+    },
+    {
+      "value": "Passive",
+      "label": "Passive",
+      "active": true
+    },
+    {
+      "value": "Detractor",
+      "label": "Detractor",
+      "active": true
+    }
+  ],
+  "Latest_Source__c": [
+    {
+      "value": "Organic Search",
+      "label": "Organic Search",
+      "active": true
+    },
+    {
+      "value": "Paid Search",
+      "label": "Paid Search",
+      "active": true
+    },
+    {
+      "value": "Email Marketing",
+      "label": "Email Marketing",
+      "active": true
+    },
+    {
+      "value": "Organic Social",
+      "label": "Organic Social",
+      "active": true
+    },
+    {
+      "value": "Referrals",
+      "label": "Referrals",
+      "active": true
+    },
+    {
+      "value": "Other Campaigns",
+      "label": "Other Campaigns",
+      "active": true
+    },
+    {
+      "value": "Direct Traffic",
+      "label": "Direct Traffic",
+      "active": true
+    },
+    {
+      "value": "Offline Sources",
+      "label": "Offline Sources",
+      "active": true
+    },
+    {
+      "value": "Paid Social",
+      "label": "Paid Social",
+      "active": true
+    }
+  ],
+  "Original_Source__c": [
+    {
+      "value": "Organic Search",
+      "label": "Organic Search",
+      "active": true
+    },
+    {
+      "value": "Paid Search",
+      "label": "Paid Search",
+      "active": true
+    },
+    {
+      "value": "Email Marketing",
+      "label": "Email Marketing",
+      "active": true
+    },
+    {
+      "value": "Organic Social",
+      "label": "Organic Social",
+      "active": true
+    },
+    {
+      "value": "Referrals",
+      "label": "Referrals",
+      "active": true
+    },
+    {
+      "value": "Other Campaigns",
+      "label": "Other Campaigns",
+      "active": true
+    },
+    {
+      "value": "Direct Traffic",
+      "label": "Direct Traffic",
+      "active": true
+    },
+    {
+      "value": "Offline Sources",
+      "label": "Offline Sources",
+      "active": true
+    },
+    {
+      "value": "Paid Social",
+      "label": "Paid Social",
+      "active": true
+    }
+  ],
+  "Contact_Status__c": [
+    {
+      "value": "Lead",
+      "label": "Lead",
+      "active": true
+    },
+    {
+      "value": "MQL",
+      "label": "MQL",
+      "active": true
+    },
+    {
+      "value": "Sales Rejected",
+      "label": "Sales Rejected",
+      "active": true
+    },
+    {
+      "value": "Working",
+      "label": "Working",
+      "active": true
+    },
+    {
+      "value": "SQO",
+      "label": "SQO",
+      "active": true
+    },
+    {
+      "value": "Do Not Contact",
+      "label": "Do Not Contact",
+      "active": true
+    },
+    {
+      "value": "Bad Contact Info",
+      "label": "Bad Contact Info",
+      "active": true
+    },
+    {
+      "value": "Nurture",
+      "label": "Nurture",
+      "active": true
+    },
+    {
+      "value": "Customer",
+      "label": "Customer",
+      "active": true
+    }
+  ],
+  "Account_Status_Contact__c": [
+    {
+      "value": "Prospect",
+      "label": "Prospect",
+      "active": true
+    },
+    {
+      "value": "Returned Prospect",
+      "label": "Returned Prospect",
+      "active": true
+    },
+    {
+      "value": "Qualified Prospect",
+      "label": "Qualified Prospect",
+      "active": true
+    },
+    {
+      "value": "Customer",
+      "label": "Customer",
+      "active": true
+    },
+    {
+      "value": "Churned",
+      "label": "Churned",
+      "active": true
+    }
+  ],
+  "Apollo_Stage__c": [
+    {
+      "value": "Cold",
+      "label": "Cold",
+      "active": true
+    },
+    {
+      "value": "Approaching",
+      "label": "Approaching",
+      "active": true
+    },
+    {
+      "value": "Replied",
+      "label": "Replied",
+      "active": true
+    },
+    {
+      "value": "Interested",
+      "label": "Interested",
+      "active": true
+    },
+    {
+      "value": "Not Interested",
+      "label": "Not Interested",
+      "active": true
+    },
+    {
+      "value": "Unresponsive",
+      "label": "Unresponsive",
+      "active": true
+    },
+    {
+      "value": "Do Not Contact",
+      "label": "Do Not Contact",
+      "active": true
+    },
+    {
+      "value": "Bad Data",
+      "label": "Bad Data",
+      "active": true
+    },
+    {
+      "value": "Changed Jobs",
+      "label": "Changed Jobs",
+      "active": true
+    },
+    {
+      "value": "Nurturing",
+      "label": "Nurturing",
+      "active": true
+    }
+  ],
+  "Outreach_Type__c": [
+    {
+      "value": "Cold",
+      "label": "Cold",
+      "active": true
+    },
+    {
+      "value": "Warm",
+      "label": "Warm",
+      "active": true
+    }
+  ],
+  "Reject_Reason__c": [
+    {
+      "value": "Marketplace Partner",
+      "label": "Marketplace Partner",
+      "active": true
+    },
+    {
+      "value": "No Longer in Business",
+      "label": "No Longer in Business",
+      "active": true
+    },
+    {
+      "value": "Not a True Fit",
+      "label": "Not a True Fit",
+      "active": true
+    },
+    {
+      "value": "Not Enough Information",
+      "label": "Not Enough Information",
+      "active": true
+    },
+    {
+      "value": "Not in Healthcare Field",
+      "label": "Not in Healthcare Field",
+      "active": true
+    },
+    {
+      "value": "Not Interested",
+      "label": "Not Interested",
+      "active": true
+    },
+    {
+      "value": "Other",
+      "label": "Other",
+      "active": true
+    },
+    {
+      "value": "Signed up with Competitor",
+      "label": "Signed up with Competitor",
+      "active": true
+    },
+    {
+      "value": "Signed up with Reseller",
+      "label": "Signed up with Reseller",
+      "active": true
+    },
+    {
+      "value": "SMB",
+      "label": "SMB",
+      "active": true
+    },
+    {
+      "value": "Spam",
+      "label": "Spam",
+      "active": true
+    },
+    {
+      "value": "Unresponsive",
+      "label": "Unresponsive",
+      "active": true
+    },
+    {
+      "value": "Not ready: Went/Stayed with Competitor",
+      "label": "Not ready: Went/Stayed with Competitor",
+      "active": true
+    },
+    {
+      "value": "Not ready: Timing",
+      "label": "Not ready: Timing",
+      "active": true
+    },
+    {
+      "value": "Not ready: Pricing",
+      "label": "Not ready: Pricing",
+      "active": true
+    },
+    {
+      "value": "Not ready: Other",
+      "label": "Not ready: Other",
+      "active": true
+    },
+    {
+      "value": "Not ready: No reason given",
+      "label": "Not ready: No reason given",
+      "active": true
+    },
+    {
+      "value": "Not ready: In-house solution",
+      "label": "Not ready: In-house solution",
+      "active": true
+    },
+    {
+      "value": "Job seeker/researcher",
+      "label": "Job seeker/researcher",
+      "active": true
+    },
+    {
+      "value": "Invalid Email",
+      "label": "Invalid Email",
+      "active": true
+    },
+    {
+      "value": "Competitor",
+      "label": "Competitor",
+      "active": true
+    },
+    {
+      "value": "Not a fit",
+      "label": "Not a fit",
+      "active": true
+    }
+  ],
+  "Lifecycle_Stage__c": [
+    {
+      "value": "Subscriber",
+      "label": "Subscriber",
+      "active": true
+    },
+    {
+      "value": "Lead",
+      "label": "Lead",
+      "active": true
+    },
+    {
+      "value": "Marketing Qualified Lead",
+      "label": "Marketing Qualified Lead",
+      "active": true
+    },
+    {
+      "value": "Sales Accepted Lead",
+      "label": "Sales Accepted Lead",
+      "active": true
+    },
+    {
+      "value": "Opportunity",
+      "label": "Opportunity",
+      "active": true
+    },
+    {
+      "value": "Customer",
+      "label": "Customer",
+      "active": true
+    },
+    {
+      "value": "Not Qualified",
+      "label": "Not Qualified",
+      "active": true
+    },
+    {
+      "value": "Churned",
+      "label": "Churned",
+      "active": true
+    }
+  ],
+  "Opportunity_Stage_Contact__c": [
+    {
+      "value": "Discovery",
+      "label": "Discovery",
+      "active": true
+    },
+    {
+      "value": "Product & Integration Review",
+      "label": "Product & Integration Review",
+      "active": true
+    },
+    {
+      "value": "Presentation / Influence",
+      "label": "Presentation / Influence",
+      "active": true
+    },
+    {
+      "value": "Negotiation",
+      "label": "Negotiation",
+      "active": true
+    },
+    {
+      "value": "Contracting",
+      "label": "Contracting",
+      "active": true
+    },
+    {
+      "value": "Closed Won",
+      "label": "Closed Won",
+      "active": true
+    },
+    {
+      "value": "Closed Lost",
+      "label": "Closed Lost",
+      "active": true
+    },
+    {
+      "value": "Qualifying",
+      "label": "Qualifying",
+      "active": true
+    },
+    {
+      "value": "Trial",
+      "label": "Trial",
+      "active": true
+    },
+    {
+      "value": "Notice Sent",
+      "label": "Notice Sent",
+      "active": true
+    },
+    {
+      "value": "Communicating",
+      "label": "Communicating",
+      "active": true
+    },
+    {
+      "value": "Pending Renewal",
+      "label": "Pending Renewal",
+      "active": true
+    }
+  ],
+  "Original_Source_Channel__c": [
+    {
+      "value": "Organic Search",
+      "label": "Organic Search",
+      "active": true
+    },
+    {
+      "value": "Paid Search",
+      "label": "Paid Search",
+      "active": true
+    },
+    {
+      "value": "Email Marketing",
+      "label": "Email Marketing",
+      "active": true
+    },
+    {
+      "value": "Organic Social",
+      "label": "Organic Social",
+      "active": true
+    },
+    {
+      "value": "Referrals",
+      "label": "Referrals",
+      "active": true
+    },
+    {
+      "value": "Direct Traffic",
+      "label": "Direct Traffic",
+      "active": true
+    },
+    {
+      "value": "Paid Social",
+      "label": "Paid Social",
+      "active": true
+    }
+  ],
+  "Latest_Source_Channel__c": [
+    {
+      "value": "Organic Search",
+      "label": "Organic Search",
+      "active": true
+    },
+    {
+      "value": "Paid Search",
+      "label": "Paid Search",
+      "active": true
+    },
+    {
+      "value": "Email Marketing",
+      "label": "Email Marketing",
+      "active": true
+    },
+    {
+      "value": "Organic Social",
+      "label": "Organic Social",
+      "active": true
+    },
+    {
+      "value": "Referrals",
+      "label": "Referrals",
+      "active": true
+    },
+    {
+      "value": "Direct Traffic",
+      "label": "Direct Traffic",
+      "active": true
+    },
+    {
+      "value": "Paid Social",
+      "label": "Paid Social",
+      "active": true
+    }
+  ]
+}

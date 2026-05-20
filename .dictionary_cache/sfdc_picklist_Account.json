@@ -1,0 +1,3773 @@
+{
+  "Type": [
+    {
+      "value": "SMB (Small - Midsize Business)",
+      "label": "SMB (Small - Midsize Business)",
+      "active": true
+    },
+    {
+      "value": "SME (Small - Midsize Enterprise)",
+      "label": "SME (Small - Midsize Enterprise)",
+      "active": true
+    },
+    {
+      "value": "Large Enterprise",
+      "label": "Large Enterprise",
+      "active": true
+    },
+    {
+      "value": "Partner",
+      "label": "Partner",
+      "active": true
+    },
+    {
+      "value": "Marketplace",
+      "label": "Marketplace \ud83e\udd1d",
+      "active": true
+    },
+    {
+      "value": "Private Practice",
+      "label": "Private Practice",
+      "active": true
+    },
+    {
+      "value": "Enterprise",
+      "label": "Enterprise",
+      "active": true
+    },
+    {
+      "value": "Group Practice",
+      "label": "Group Practice",
+      "active": true
+    }
+  ],
+  "BillingGeocodeAccuracy": [
+    {
+      "value": "Address",
+      "label": "Address",
+      "active": true
+    },
+    {
+      "value": "NearAddress",
+      "label": "Near Address",
+      "active": true
+    },
+    {
+      "value": "Block",
+      "label": "Block",
+      "active": true
+    },
+    {
+      "value": "Street",
+      "label": "Street",
+      "active": true
+    },
+    {
+      "value": "ExtendedZip",
+      "label": "Extended Zip",
+      "active": true
+    },
+    {
+      "value": "Zip",
+      "label": "Zip",
+      "active": true
+    },
+    {
+      "value": "Neighborhood",
+      "label": "Neighborhood",
+      "active": true
+    },
+    {
+      "value": "City",
+      "label": "City",
+      "active": true
+    },
+    {
+      "value": "County",
+      "label": "County",
+      "active": true
+    },
+    {
+      "value": "State",
+      "label": "State",
+      "active": true
+    },
+    {
+      "value": "Unknown",
+      "label": "Unknown",
+      "active": true
+    }
+  ],
+  "ShippingGeocodeAccuracy": [
+    {
+      "value": "Address",
+      "label": "Address",
+      "active": true
+    },
+    {
+      "value": "NearAddress",
+      "label": "Near Address",
+      "active": true
+    },
+    {
+      "value": "Block",
+      "label": "Block",
+      "active": true
+    },
+    {
+      "value": "Street",
+      "label": "Street",
+      "active": true
+    },
+    {
+      "value": "ExtendedZip",
+      "label": "Extended Zip",
+      "active": true
+    },
+    {
+      "value": "Zip",
+      "label": "Zip",
+      "active": true
+    },
+    {
+      "value": "Neighborhood",
+      "label": "Neighborhood",
+      "active": true
+    },
+    {
+      "value": "City",
+      "label": "City",
+      "active": true
+    },
+    {
+      "value": "County",
+      "label": "County",
+      "active": true
+    },
+    {
+      "value": "State",
+      "label": "State",
+      "active": true
+    },
+    {
+      "value": "Unknown",
+      "label": "Unknown",
+      "active": true
+    }
+  ],
+  "Industry": [
+    {
+      "value": "Food & Beverage",
+      "label": "Food & Beverage",
+      "active": true
+    },
+    {
+      "value": "Government",
+      "label": "Government",
+      "active": true
+    },
+    {
+      "value": "Healthcare",
+      "label": "Healthcare",
+      "active": true
+    },
+    {
+      "value": "Hospitality",
+      "label": "Hospitality",
+      "active": true
+    },
+    {
+      "value": "Insurance",
+      "label": "Insurance",
+      "active": true
+    },
+    {
+      "value": "Machinery",
+      "label": "Machinery",
+      "active": true
+    },
+    {
+      "value": "Manufacturing",
+      "label": "Manufacturing",
+      "active": true
+    },
+    {
+      "value": "Media",
+      "label": "Media",
+      "active": true
+    },
+    {
+      "value": "Not For Profit",
+      "label": "Not For Profit",
+      "active": true
+    },
+    {
+      "value": "Other",
+      "label": "Other",
+      "active": true
+    },
+    {
+      "value": "Recreation",
+      "label": "Recreation",
+      "active": true
+    },
+    {
+      "value": "Retail",
+      "label": "Retail",
+      "active": true
+    },
+    {
+      "value": "Shipping",
+      "label": "Shipping",
+      "active": true
+    },
+    {
+      "value": "Technology",
+      "label": "Technology",
+      "active": true
+    },
+    {
+      "value": "Telecommunications",
+      "label": "Telecommunications",
+      "active": true
+    },
+    {
+      "value": "Transportation",
+      "label": "Transportation",
+      "active": true
+    },
+    {
+      "value": "Hospital & Health Care",
+      "label": "Hospital & Health Care",
+      "active": true
+    },
+    {
+      "value": "Health, Wellness and Fitness",
+      "label": "Health, Wellness and Fitness",
+      "active": true
+    },
+    {
+      "value": "Computer Software",
+      "label": "Computer Software",
+      "active": true
+    }
+  ],
+  "AccountSource": [
+    {
+      "value": "API Docs",
+      "label": "API Docs",
+      "active": true
+    },
+    {
+      "value": "Apollo",
+      "label": "Apollo",
+      "active": true
+    },
+    {
+      "value": "Calendly",
+      "label": "Calendly",
+      "active": true
+    },
+    {
+      "value": "Capterra",
+      "label": "Capterra",
+      "active": true
+    },
+    {
+      "value": "Customer Referral",
+      "label": "Customer Referral",
+      "active": true
+    },
+    {
+      "value": "Digital Ad",
+      "label": "Digital Ad",
+      "active": true
+    },
+    {
+      "value": "Ebook",
+      "label": "Ebook",
+      "active": true
+    },
+    {
+      "value": "Elion",
+      "label": "Elion",
+      "active": true
+    },
+    {
+      "value": "Email Marketing",
+      "label": "Email Marketing",
+      "active": true
+    },
+    {
+      "value": "Employee Referral",
+      "label": "Employee Referral",
+      "active": true
+    },
+    {
+      "value": "Event",
+      "label": "Event",
+      "active": true
+    },
+    {
+      "value": "G2",
+      "label": "G2",
+      "active": true
+    },
+    {
+      "value": "Hello-At Email",
+      "label": "Hello-At Email",
+      "active": true
+    },
+    {
+      "value": "Help Scout",
+      "label": "Help Scout",
+      "active": true
+    },
+    {
+      "value": "LinkedIn Inbound",
+      "label": "LinkedIn Inbound",
+      "active": true
+    },
+    {
+      "value": "Newsletter",
+      "label": "Newsletter",
+      "active": true
+    },
+    {
+      "value": "Outbound",
+      "label": "Outbound",
+      "active": true
+    },
+    {
+      "value": "Paid Ad",
+      "label": "Paid Ad",
+      "active": true
+    },
+    {
+      "value": "Partner",
+      "label": "Partner",
+      "active": true
+    },
+    {
+      "value": "PR",
+      "label": "PR",
+      "active": true
+    },
+    {
+      "value": "Webinar",
+      "label": "Webinar",
+      "active": true
+    },
+    {
+      "value": "Website",
+      "label": "Website",
+      "active": true
+    },
+    {
+      "value": "Clay",
+      "label": "Clay",
+      "active": true
+    },
+    {
+      "value": "Qualified.com",
+      "label": "Qualified.com",
+      "active": true
+    },
+    {
+      "value": "PartnerStack",
+      "label": "PartnerStack",
+      "active": true
+    }
+  ],
+  "Current_Solution__c": [
+    {
+      "value": "Unknown",
+      "label": "Unknown",
+      "active": true
+    },
+    {
+      "value": "Competitor: Fruit Street",
+      "label": "Competitor: Fruit Street",
+      "active": true
+    },
+    {
+      "value": "Competitor: Kaizen",
+      "label": "Competitor: Kaizen",
+      "active": true
+    },
+    {
+      "value": "Competitor: Kalix",
+      "label": "Competitor: Kalix",
+      "active": true
+    },
+    {
+      "value": "Competitor: Leaf",
+      "label": "Competitor: Leaf",
+      "active": true
+    },
+    {
+      "value": "Competitor: MindBody",
+      "label": "Competitor: MindBody",
+      "active": true
+    },
+    {
+      "value": "Competitor: Nutrimedy",
+      "label": "Competitor: Nutrimedy",
+      "active": true
+    },
+    {
+      "value": "Competitor: Power2Practice",
+      "label": "Competitor: Power2Practice",
+      "active": true
+    },
+    {
+      "value": "Competitor: Practice Better",
+      "label": "Competitor: Practice Better",
+      "active": true
+    },
+    {
+      "value": "EMR/EHR",
+      "label": "EMR/EHR",
+      "active": true
+    },
+    {
+      "value": "None (piecemeal)",
+      "label": "None (piecemeal)",
+      "active": true
+    }
+  ],
+  "Enterprise_Category__c": [
+    {
+      "value": "Clinic",
+      "label": "Clinic",
+      "active": true
+    },
+    {
+      "value": "Corporate Wellness",
+      "label": "Corporate Wellness",
+      "active": true
+    },
+    {
+      "value": "Enterprise",
+      "label": "Enterprise",
+      "active": true
+    },
+    {
+      "value": "Fitness",
+      "label": "Gym / Fitness",
+      "active": true
+    },
+    {
+      "value": "Government",
+      "label": "Government",
+      "active": true
+    },
+    {
+      "value": "Health System",
+      "label": "Health System",
+      "active": true
+    },
+    {
+      "value": "Insurance",
+      "label": "Insurance",
+      "active": true
+    },
+    {
+      "value": "Nonprofit",
+      "label": "Nonprofit",
+      "active": true
+    },
+    {
+      "value": "Practice",
+      "label": "Private Practice",
+      "active": true
+    },
+    {
+      "value": "Retail",
+      "label": "Retail",
+      "active": true
+    },
+    {
+      "value": "Corporate Whale",
+      "label": "Sodexo",
+      "active": true
+    },
+    {
+      "value": "Health Startup",
+      "label": "Startup",
+      "active": true
+    },
+    {
+      "value": "Business Coach",
+      "label": "Coaching program",
+      "active": true
+    },
+    {
+      "value": "Genomics",
+      "label": "Genomics",
+      "active": true
+    },
+    {
+      "value": "Research",
+      "label": "Research",
+      "active": true
+    },
+    {
+      "value": "University",
+      "label": "University",
+      "active": true
+    },
+    {
+      "value": "WIC",
+      "label": "WIC",
+      "active": true
+    },
+    {
+      "value": "Compass",
+      "label": "Compass",
+      "active": true
+    }
+  ],
+  "SIQ_Module__c": [
+    {
+      "value": "SMB's",
+      "label": "SMB's",
+      "active": true
+    },
+    {
+      "value": "Institutions",
+      "label": "Institutions",
+      "active": true
+    },
+    {
+      "value": "Lactation Consultants",
+      "label": "Lactation Consultants",
+      "active": true
+    }
+  ],
+  "Lead_Origin__c": [
+    {
+      "value": "FMCA",
+      "label": "FMCA",
+      "active": true
+    },
+    {
+      "value": "Find A Health Coach",
+      "label": "Find A Health Coach",
+      "active": true
+    },
+    {
+      "value": "IIN",
+      "label": "IIN",
+      "active": true
+    },
+    {
+      "value": "The Health Coach Group",
+      "label": "The Health Coach Group",
+      "active": true
+    },
+    {
+      "value": "Whole30 Coaching",
+      "label": "Whole30 Coaching",
+      "active": true
+    },
+    {
+      "value": "Other Origin",
+      "label": "Other Origin",
+      "active": true
+    },
+    {
+      "value": "University of Minnesota",
+      "label": "University of Minnesota",
+      "active": true
+    },
+    {
+      "value": "Canadian School of Natural Nutrition",
+      "label": "Canadian School of Natural Nutrition",
+      "active": true
+    },
+    {
+      "value": "Aircare",
+      "label": "Aircare",
+      "active": true
+    },
+    {
+      "value": "CAND 2018",
+      "label": "CAND 2018",
+      "active": true
+    },
+    {
+      "value": "Facebook Community Group",
+      "label": "Facebook Community Group",
+      "active": true
+    },
+    {
+      "value": "Andrea Beaman",
+      "label": "Andrea Beaman",
+      "active": true
+    },
+    {
+      "value": "TDinAustin",
+      "label": "TDinAustin",
+      "active": true
+    }
+  ],
+  "Gift_Type__c": [
+    {
+      "value": "Shirt",
+      "label": "Shirt",
+      "active": true
+    },
+    {
+      "value": "Hoodie",
+      "label": "Hoodie",
+      "active": true
+    },
+    {
+      "value": "Card",
+      "label": "Card",
+      "active": true
+    },
+    {
+      "value": "Other",
+      "label": "Other",
+      "active": true
+    }
+  ],
+  "Gift_Size__c": [
+    {
+      "value": "Small",
+      "label": "Small",
+      "active": true
+    },
+    {
+      "value": "Medium",
+      "label": "Medium",
+      "active": true
+    },
+    {
+      "value": "Large",
+      "label": "Large",
+      "active": true
+    },
+    {
+      "value": "XL",
+      "label": "XL",
+      "active": true
+    },
+    {
+      "value": "XXL",
+      "label": "XXL",
+      "active": true
+    }
+  ],
+  "Vitally_Churn_Reason__c": [
+    {
+      "value": "Billing/Payment Issue",
+      "label": "Billing/Payment Issue",
+      "active": true
+    },
+    {
+      "value": "Billing or Payment Issues",
+      "label": "Billing or Payment Issues",
+      "active": true
+    },
+    {
+      "value": "Built-In House",
+      "label": "Built-In House",
+      "active": true
+    },
+    {
+      "value": "Change in Business",
+      "label": "Change in Business",
+      "active": true
+    },
+    {
+      "value": "Change in Business/Internal Change",
+      "label": "Change in Business/Internal Change",
+      "active": true
+    },
+    {
+      "value": "Competition",
+      "label": "Competition",
+      "active": true
+    },
+    {
+      "value": "Customer fit",
+      "label": "Customer fit",
+      "active": true
+    },
+    {
+      "value": "Implementation",
+      "label": "Implementation",
+      "active": true
+    },
+    {
+      "value": "Inadequate Support for Technical Issues",
+      "label": "Inadequate Support for Technical Issues",
+      "active": true
+    },
+    {
+      "value": "Lack of Product Updates or Innovation",
+      "label": "Lack of Product Updates or Innovation",
+      "active": true
+    },
+    {
+      "value": "Lack of value",
+      "label": "Lack of value",
+      "active": true
+    },
+    {
+      "value": "Mismatched Expectations",
+      "label": "Mismatched Expectations",
+      "active": true
+    },
+    {
+      "value": "Price",
+      "label": "Price",
+      "active": true
+    },
+    {
+      "value": "Product Fit",
+      "label": "Product Fit",
+      "active": true
+    },
+    {
+      "value": "Product Limitations",
+      "label": "Product Limitations",
+      "active": true
+    },
+    {
+      "value": "Product Performance",
+      "label": "Product Performance",
+      "active": true
+    },
+    {
+      "value": "Reason Not Provided",
+      "label": "Reason not provided",
+      "active": true
+    },
+    {
+      "value": "Shut Down",
+      "label": "Shut down",
+      "active": true
+    },
+    {
+      "value": "Utilization",
+      "label": "Utilization",
+      "active": true
+    },
+    {
+      "value": "NR: Change in business",
+      "label": "NR: Change in business",
+      "active": true
+    },
+    {
+      "value": "R: Product limitations",
+      "label": "R: Product limitations",
+      "active": true
+    },
+    {
+      "value": "R: Product fit",
+      "label": "R: Product fit",
+      "active": true
+    },
+    {
+      "value": "NR: Built in-house",
+      "label": "NR: Built in-house",
+      "active": true
+    },
+    {
+      "value": "NR: Utilization",
+      "label": "NR: Utilization",
+      "active": true
+    },
+    {
+      "value": "R: Implementation",
+      "label": "R: Implementation",
+      "active": true
+    },
+    {
+      "value": "R: Product performance",
+      "label": "R: Product performance",
+      "active": true
+    },
+    {
+      "value": "NR: Billing or payment issues",
+      "label": "NR: Billing or payment issues",
+      "active": true
+    },
+    {
+      "value": "NR: Shut down",
+      "label": "NR: Shut down",
+      "active": true
+    },
+    {
+      "value": "NR: Business Pivot",
+      "label": "NR: Business Pivot",
+      "active": true
+    }
+  ],
+  "Previous_Current_Plan__c": [
+    {
+      "value": "Enterprise",
+      "label": "Enterprise",
+      "active": true
+    },
+    {
+      "value": "Group",
+      "label": "Group",
+      "active": true
+    },
+    {
+      "value": "Starter",
+      "label": "Starter",
+      "active": true
+    },
+    {
+      "value": "Essentials",
+      "label": "Essentials",
+      "active": true
+    },
+    {
+      "value": "Plus",
+      "label": "Plus",
+      "active": true
+    },
+    {
+      "value": "Plus Trial",
+      "label": "Plus Trial",
+      "active": true
+    },
+    {
+      "value": "DHS Plus Trial",
+      "label": "DHS Plus Trial",
+      "active": true
+    },
+    {
+      "value": "Add-On",
+      "label": "Add-On",
+      "active": true
+    },
+    {
+      "value": "Small Practices",
+      "label": "Small Practices",
+      "active": true
+    },
+    {
+      "value": "Beginnings",
+      "label": "Beginnings",
+      "active": true
+    },
+    {
+      "value": "Student",
+      "label": "Student",
+      "active": true
+    },
+    {
+      "value": "Canceled Trial",
+      "label": "Canceled Trial",
+      "active": true
+    },
+    {
+      "value": "Canceled Plan",
+      "label": "Canceled Plan",
+      "active": true
+    },
+    {
+      "value": "No Plan",
+      "label": "No Plan",
+      "active": true
+    },
+    {
+      "value": "Practice Plus",
+      "label": "Practice Plus",
+      "active": true
+    },
+    {
+      "value": "Core",
+      "label": "Core",
+      "active": true
+    },
+    {
+      "value": "Integration",
+      "label": "Integration",
+      "active": true
+    }
+  ],
+  "Stripe_Status__c": [
+    {
+      "value": "active past_due",
+      "label": "active past_due",
+      "active": true
+    },
+    {
+      "value": "unpaid",
+      "label": "unpaid",
+      "active": true
+    },
+    {
+      "value": "canceled",
+      "label": "canceled",
+      "active": true
+    },
+    {
+      "value": "incomplete",
+      "label": "incomplete",
+      "active": true
+    },
+    {
+      "value": "incomplete_expired",
+      "label": "incomplete_expired",
+      "active": true
+    },
+    {
+      "value": "active",
+      "label": "active",
+      "active": true
+    },
+    {
+      "value": "past_due",
+      "label": "past_due",
+      "active": true
+    },
+    {
+      "value": "trialing",
+      "label": "trialing",
+      "active": true
+    },
+    {
+      "value": "paused",
+      "label": "paused",
+      "active": true
+    }
+  ],
+  "Stripe_Customer_Status__c": [
+    {
+      "value": "active past_due",
+      "label": "active past_due",
+      "active": true
+    },
+    {
+      "value": "unpaid",
+      "label": "unpaid",
+      "active": true
+    },
+    {
+      "value": "canceled",
+      "label": "canceled",
+      "active": true
+    },
+    {
+      "value": "incomplete",
+      "label": "incomplete",
+      "active": true
+    },
+    {
+      "value": "incomplete_expired",
+      "label": "incomplete_expired",
+      "active": true
+    },
+    {
+      "value": "active",
+      "label": "active",
+      "active": true
+    },
+    {
+      "value": "past_due",
+      "label": "past_due",
+      "active": true
+    },
+    {
+      "value": "trialing",
+      "label": "trialing",
+      "active": true
+    },
+    {
+      "value": "paused",
+      "label": "paused",
+      "active": true
+    }
+  ],
+  "Trial_Plan__c": [
+    {
+      "value": "Enterprise",
+      "label": "Enterprise",
+      "active": true
+    },
+    {
+      "value": "Group",
+      "label": "Group",
+      "active": true
+    },
+    {
+      "value": "Starter",
+      "label": "Starter",
+      "active": true
+    },
+    {
+      "value": "Essentials",
+      "label": "Essentials",
+      "active": true
+    },
+    {
+      "value": "Plus",
+      "label": "Plus",
+      "active": true
+    },
+    {
+      "value": "Plus Trial",
+      "label": "Plus Trial",
+      "active": true
+    },
+    {
+      "value": "DHS Plus Trial",
+      "label": "DHS Plus Trial",
+      "active": true
+    },
+    {
+      "value": "Add-On",
+      "label": "Add-On",
+      "active": true
+    },
+    {
+      "value": "Small Practices",
+      "label": "Small Practices",
+      "active": true
+    },
+    {
+      "value": "Beginnings",
+      "label": "Beginnings",
+      "active": true
+    },
+    {
+      "value": "Student",
+      "label": "Student",
+      "active": true
+    },
+    {
+      "value": "Canceled Trial",
+      "label": "Canceled Trial",
+      "active": true
+    },
+    {
+      "value": "Canceled Plan",
+      "label": "Canceled Plan",
+      "active": true
+    },
+    {
+      "value": "No Plan",
+      "label": "No Plan",
+      "active": true
+    },
+    {
+      "value": "Practice Plus",
+      "label": "Practice Plus",
+      "active": true
+    },
+    {
+      "value": "Core",
+      "label": "Core",
+      "active": true
+    },
+    {
+      "value": "Integration",
+      "label": "Integration",
+      "active": true
+    }
+  ],
+  "Integration_Updates__c": [
+    {
+      "value": "New",
+      "label": "New",
+      "active": true
+    }
+  ],
+  "Current_EMR_EHR__c": [
+    {
+      "value": "AdvancedMD",
+      "label": "AdvancedMD",
+      "active": true
+    },
+    {
+      "value": "Allscripts",
+      "label": "Allscripts",
+      "active": true
+    },
+    {
+      "value": "AthenaHealth",
+      "label": "AthenaHealth",
+      "active": true
+    },
+    {
+      "value": "Built In-House",
+      "label": "Built In-House",
+      "active": true
+    },
+    {
+      "value": "Canvas",
+      "label": "Canvas",
+      "active": true
+    },
+    {
+      "value": "DrChrono",
+      "label": "DrChrono",
+      "active": true
+    },
+    {
+      "value": "ECW (E-Clinical Works)",
+      "label": "ECW (E-Clinical Works)",
+      "active": true
+    },
+    {
+      "value": "Elation",
+      "label": "Elation",
+      "active": true
+    },
+    {
+      "value": "Epic MyChart",
+      "label": "Epic MyChart",
+      "active": true
+    },
+    {
+      "value": "Healthie",
+      "label": "Healthie",
+      "active": true
+    },
+    {
+      "value": "MedFusion",
+      "label": "MedFusion",
+      "active": true
+    },
+    {
+      "value": "NextGen",
+      "label": "NextGen",
+      "active": true
+    },
+    {
+      "value": "Salesforce Health Cloud",
+      "label": "Salesforce Health Cloud",
+      "active": true
+    },
+    {
+      "value": "Tebra",
+      "label": "Tebra",
+      "active": true
+    }
+  ],
+  "Contract_Type__c": [
+    {
+      "value": "PMPM",
+      "label": "PMPM",
+      "active": true
+    },
+    {
+      "value": "Standard",
+      "label": "Standard",
+      "active": true
+    }
+  ],
+  "vitally_Current_Health_Category__c": [
+    {
+      "value": "Healthy",
+      "label": "Healthy",
+      "active": true
+    },
+    {
+      "value": "Concerning",
+      "label": "Concerning",
+      "active": true
+    },
+    {
+      "value": "Poor",
+      "label": "Poor",
+      "active": true
+    }
+  ],
+  "Renewal_Program_Stage__c": [
+    {
+      "value": "QBR / Call Scheduled",
+      "label": "QBR / Call Scheduled",
+      "active": true
+    },
+    {
+      "value": "Initiated Renewal Conversation",
+      "label": "Initiated Renewal Conversation",
+      "active": true
+    },
+    {
+      "value": "Finalize Customer Renewal",
+      "label": "Finalize Customer Renewal",
+      "active": true
+    },
+    {
+      "value": "Customer is set to Autorenew",
+      "label": "Customer is set to Autorenew",
+      "active": true
+    }
+  ],
+  "Renewal_Scenario__c": [
+    {
+      "value": "Green",
+      "label": "Green",
+      "active": true
+    },
+    {
+      "value": "Yellow",
+      "label": "Yellow",
+      "active": true
+    },
+    {
+      "value": "Red",
+      "label": "Red",
+      "active": true
+    }
+  ],
+  "ClaimMD_Type__c": [
+    {
+      "value": "Unlimited",
+      "label": "Unlimited",
+      "active": true
+    },
+    {
+      "value": "Small Volume",
+      "label": "Small Volume",
+      "active": true
+    },
+    {
+      "value": "Basic",
+      "label": "Basic",
+      "active": true
+    }
+  ],
+  "Partner_Priority_Level__c": [
+    {
+      "value": "High",
+      "label": "High",
+      "active": true
+    },
+    {
+      "value": "Medium",
+      "label": "Medium",
+      "active": true
+    },
+    {
+      "value": "Low",
+      "label": "Low",
+      "active": true
+    }
+  ],
+  "Company_Size__c": [
+    {
+      "value": "Just me!",
+      "label": "Just me!",
+      "active": true
+    },
+    {
+      "value": "2-5",
+      "label": "2-5",
+      "active": true
+    },
+    {
+      "value": "6-10",
+      "label": "6-10",
+      "active": true
+    },
+    {
+      "value": "11+",
+      "label": "11+",
+      "active": true
+    }
+  ],
+  "Contracted_to_Case_Study__c": [
+    {
+      "value": "No",
+      "label": "No",
+      "active": true
+    },
+    {
+      "value": "Yes",
+      "label": "Yes",
+      "active": true
+    }
+  ],
+  "Implmentation_Phase__c": [
+    {
+      "value": "1. Kickoff & Discovery",
+      "label": "1. Kickoff & Discovery",
+      "active": true
+    },
+    {
+      "value": "2: Assessment & Data Gathering",
+      "label": "2: Assessment & Data Gathering",
+      "active": true
+    },
+    {
+      "value": "3. Workflow Design & Configuration",
+      "label": "3. Workflow Design & Configuration",
+      "active": true
+    },
+    {
+      "value": "4. Training & Go Live",
+      "label": "4. Training & Go Live",
+      "active": true
+    },
+    {
+      "value": "5. Post Live & Transition",
+      "label": "5. Post Live & Transition",
+      "active": true
+    }
+  ],
+  "Contracted_to_Use_Logo__c": [
+    {
+      "value": "No",
+      "label": "No",
+      "active": true
+    },
+    {
+      "value": "Yes",
+      "label": "Yes",
+      "active": true
+    }
+  ],
+  "vitally_Industry_Segment__c": [
+    {
+      "value": "Reseller",
+      "label": "Reseller",
+      "active": true
+    },
+    {
+      "value": "Men\u2019s Health",
+      "label": "Men\u2019s Health",
+      "active": true
+    },
+    {
+      "value": "Women's Health",
+      "label": "Women's Health",
+      "active": true
+    },
+    {
+      "value": "Neurology",
+      "label": "Neurology",
+      "active": true
+    },
+    {
+      "value": "Substance Use",
+      "label": "Substance Use",
+      "active": true
+    },
+    {
+      "value": "Therapy",
+      "label": "Therapy",
+      "active": true
+    },
+    {
+      "value": "Integrative Care",
+      "label": "Integrative Care",
+      "active": true
+    },
+    {
+      "value": "LGBTQ+",
+      "label": "LGBTQ+",
+      "active": true
+    },
+    {
+      "value": "Grocery Store",
+      "label": "Grocery Store",
+      "active": true
+    },
+    {
+      "value": "Nutrition / Food as Medicine",
+      "label": "Nutrition / Food as Medicine",
+      "active": true
+    },
+    {
+      "value": "Functional Medicine",
+      "label": "Functional Medicine",
+      "active": true
+    },
+    {
+      "value": "Coaching",
+      "label": "Coaching",
+      "active": true
+    },
+    {
+      "value": "AgeTech",
+      "label": "AgeTech",
+      "active": true
+    },
+    {
+      "value": "Weight Management",
+      "label": "Weight Management",
+      "active": true
+    },
+    {
+      "value": "Family Care",
+      "label": "Family Care",
+      "active": true
+    },
+    {
+      "value": "MSK",
+      "label": "MSK",
+      "active": true
+    },
+    {
+      "value": "Fitness",
+      "label": "Fitness",
+      "active": true
+    },
+    {
+      "value": "Sleep Care",
+      "label": "Sleep Care",
+      "active": true
+    },
+    {
+      "value": "Health & Wellness",
+      "label": "Health & Wellness",
+      "active": true
+    },
+    {
+      "value": "Behavioral Health",
+      "label": "Behavioral Health",
+      "active": true
+    },
+    {
+      "value": "Clinical Care",
+      "label": "Clinical Care",
+      "active": true
+    },
+    {
+      "value": "Cardiology",
+      "label": "Cardiology",
+      "active": true
+    },
+    {
+      "value": "Mental Health",
+      "label": "Mental Health",
+      "active": true
+    },
+    {
+      "value": "Primary Care",
+      "label": "Primary Care",
+      "active": true
+    },
+    {
+      "value": "Dietician",
+      "label": "Dietician",
+      "active": true
+    },
+    {
+      "value": "Chronic Care Management",
+      "label": "Chronic Care Management",
+      "active": true
+    },
+    {
+      "value": "Oncology",
+      "label": "Oncology",
+      "active": true
+    },
+    {
+      "value": "Pediatrics",
+      "label": "Pediatrics",
+      "active": true
+    },
+    {
+      "value": "Ketamine Therapy",
+      "label": "Ketamine Therapy",
+      "active": true
+    },
+    {
+      "value": "Longevity",
+      "label": "Longevity",
+      "active": true
+    },
+    {
+      "value": "Home Care",
+      "label": "Home Care",
+      "active": true
+    },
+    {
+      "value": "COPD Management",
+      "label": "COPD Management",
+      "active": true
+    },
+    {
+      "value": "Nurse Practitioners",
+      "label": "Nurse Practitioners",
+      "active": true
+    },
+    {
+      "value": "Benefits Provider",
+      "label": "Benefits Provider",
+      "active": true
+    },
+    {
+      "value": "Holistic Wellness",
+      "label": "Holistic Wellness",
+      "active": true
+    },
+    {
+      "value": "Diabetes",
+      "label": "Diabetes",
+      "active": true
+    },
+    {
+      "value": "Speech Therapy",
+      "label": "Speech Therapy",
+      "active": true
+    },
+    {
+      "value": "Addition Recovery",
+      "label": "Addition Recovery",
+      "active": true
+    },
+    {
+      "value": "Men's Health",
+      "label": "Men's Health",
+      "active": true
+    },
+    {
+      "value": "ADHD",
+      "label": "ADHD",
+      "active": true
+    },
+    {
+      "value": "Athletes",
+      "label": "Athletes",
+      "active": true
+    },
+    {
+      "value": "Insurance",
+      "label": "Insurance",
+      "active": true
+    },
+    {
+      "value": "Physical Therapy",
+      "label": "Physical Therapy",
+      "active": true
+    },
+    {
+      "value": "Non Profit",
+      "label": "Non Profit",
+      "active": true
+    },
+    {
+      "value": "Eating Disorder Support",
+      "label": "Eating Disorder Support",
+      "active": true
+    }
+  ],
+  "vitally_Is_this_customer_a_good_referral__c": [
+    {
+      "value": "Yes",
+      "label": "Yes",
+      "active": true
+    },
+    {
+      "value": "No",
+      "label": "No",
+      "active": true
+    }
+  ],
+  "vitally_Reason_for_Pulse__c": [
+    {
+      "value": "Billing, Price, Payment Issues",
+      "label": "Billing, Price, Payment Issues",
+      "active": true
+    },
+    {
+      "value": "Customer is Engaged",
+      "label": "Customer is Engaged",
+      "active": true
+    },
+    {
+      "value": "Implementation Challenges",
+      "label": "Implementation Challenges",
+      "active": true
+    },
+    {
+      "value": "Lack of Product Updates or Innovation",
+      "label": "Lack of Product Updates or Innovation",
+      "active": true
+    },
+    {
+      "value": "Other",
+      "label": "Other",
+      "active": true
+    },
+    {
+      "value": "Product Performance",
+      "label": "Product Performance",
+      "active": true
+    },
+    {
+      "value": "Support Challenges",
+      "label": "Support Challenges",
+      "active": true
+    },
+    {
+      "value": "Usage Decrease",
+      "label": "Usage Decrease",
+      "active": true
+    },
+    {
+      "value": "Product Related Issues",
+      "label": "Product Related Issues",
+      "active": true
+    },
+    {
+      "value": "Product Defect or System Bug",
+      "label": "Product Defect or System Bug",
+      "active": true
+    },
+    {
+      "value": "Platform Stability / Reliability Incident",
+      "label": "Platform Stability / Reliability Incident",
+      "active": true
+    },
+    {
+      "value": "Customer Disengagement",
+      "label": "Customer Disengagement",
+      "active": true
+    },
+    {
+      "value": "Customer Organizational Change",
+      "label": "Customer Organizational Change",
+      "active": true
+    },
+    {
+      "value": "Implementation / Onboarding Failure",
+      "label": "Implementation / Onboarding Failure",
+      "active": true
+    },
+    {
+      "value": "Support Experience Breakdown",
+      "label": "Support Experience Breakdown",
+      "active": true
+    },
+    {
+      "value": "Low Product Adoption / Workflow Misalignment",
+      "label": "Low Product Adoption / Workflow Misalignment",
+      "active": true
+    },
+    {
+      "value": "External Business Risk",
+      "label": "External Business Risk",
+      "active": true
+    },
+    {
+      "value": "Third-Party Integration Issue (ie. Labs enrollment)",
+      "label": "Third-Party Integration Issue (ie. Labs enrollment)",
+      "active": true
+    }
+  ],
+  "vitally_New_Group_Complete_Live_Call_14__c": [
+    {
+      "value": "PP Upgrade",
+      "label": "PP Upgrade",
+      "active": true
+    },
+    {
+      "value": "Yes",
+      "label": "Yes",
+      "active": true
+    },
+    {
+      "value": "No",
+      "label": "No",
+      "active": true
+    }
+  ],
+  "Referenceable__c": [
+    {
+      "value": "No",
+      "label": "No",
+      "active": true
+    },
+    {
+      "value": "Yes",
+      "label": "Yes",
+      "active": true
+    }
+  ],
+  "Case_Study_Complete__c": [
+    {
+      "value": "No",
+      "label": "No",
+      "active": true
+    },
+    {
+      "value": "Yes",
+      "label": "Yes",
+      "active": true
+    }
+  ],
+  "Partner_Billing_Arrangement__c": [
+    {
+      "value": "Harbor Re-Seller",
+      "label": "Harbor Re-Seller",
+      "active": true
+    },
+    {
+      "value": "20% Revenue Share (No Direct Billing)",
+      "label": "20% Revenue Share (No Direct Billing)",
+      "active": true
+    },
+    {
+      "value": "20% Revenue Share (Direct Billing)",
+      "label": "20% Revenue Share (Direct Billing)",
+      "active": true
+    },
+    {
+      "value": "Other - 10% Revenue Share",
+      "label": "Other - 10% Revenue Share",
+      "active": true
+    },
+    {
+      "value": "Other - Custom",
+      "label": "Other - Custom",
+      "active": true
+    }
+  ],
+  "Implementation_Tier__c": [
+    {
+      "value": "Bronze",
+      "label": "Bronze",
+      "active": true
+    },
+    {
+      "value": "Silver",
+      "label": "Silver",
+      "active": true
+    },
+    {
+      "value": "Gold",
+      "label": "Gold",
+      "active": true
+    }
+  ],
+  "Primary_Churn_Reason__c": [
+    {
+      "value": "N/A",
+      "label": "N/A",
+      "active": true
+    },
+    {
+      "value": "NR: Change in business",
+      "label": "NR: Change in business",
+      "active": true
+    },
+    {
+      "value": "R: Lost to Competitor - Product",
+      "label": "R: Lost to Competitor - Product",
+      "active": true
+    },
+    {
+      "value": "R: Poor Implementation",
+      "label": "R: Poor Implementation",
+      "active": true
+    },
+    {
+      "value": "NR: Not core ICP",
+      "label": "NR: Not core ICP",
+      "active": true
+    },
+    {
+      "value": "NR: Other",
+      "label": "NR: Other",
+      "active": true
+    },
+    {
+      "value": "R: Product limitations",
+      "label": "R: Product limitations",
+      "active": true
+    }
+  ],
+  "Secondary_Churn_Reason__c": [
+    {
+      "value": "N/A",
+      "label": "N/A",
+      "active": true
+    },
+    {
+      "value": "NR: Change in business",
+      "label": "NR: Change in business",
+      "active": true
+    },
+    {
+      "value": "R: Lost to Competitor - Product",
+      "label": "R: Lost to Competitor - Product",
+      "active": true
+    },
+    {
+      "value": "R: Poor Implementation",
+      "label": "R: Poor Implementation",
+      "active": true
+    },
+    {
+      "value": "NR: Not core ICP",
+      "label": "NR: Not core ICP",
+      "active": true
+    },
+    {
+      "value": "NR: Other",
+      "label": "NR: Other",
+      "active": true
+    },
+    {
+      "value": "R: Product limitations",
+      "label": "R: Product limitations",
+      "active": true
+    }
+  ],
+  "Vitally_Platform_Feature_Usage__c": [
+    {
+      "value": "Chat",
+      "label": "Chat",
+      "active": true
+    },
+    {
+      "value": "Programs",
+      "label": "Programs",
+      "active": true
+    },
+    {
+      "value": "Calendar",
+      "label": "Calendar",
+      "active": true
+    },
+    {
+      "value": "Documents",
+      "label": "Documents",
+      "active": true
+    },
+    {
+      "value": "Superbills",
+      "label": "Superbills",
+      "active": true
+    },
+    {
+      "value": "CMS 1500",
+      "label": "CMS 1500",
+      "active": true
+    },
+    {
+      "value": "Payments",
+      "label": "Payments",
+      "active": true
+    },
+    {
+      "value": "Client Packages",
+      "label": "Client Packages",
+      "active": true
+    },
+    {
+      "value": "Products",
+      "label": "Products",
+      "active": true
+    },
+    {
+      "value": "Faxing",
+      "label": "Faxing",
+      "active": true
+    },
+    {
+      "value": "Labs",
+      "label": "Labs",
+      "active": true
+    },
+    {
+      "value": "Marketing Banner",
+      "label": "Marketing Banner",
+      "active": true
+    },
+    {
+      "value": "Reports",
+      "label": "Reports",
+      "active": true
+    },
+    {
+      "value": "Telehealth",
+      "label": "Telehealth",
+      "active": true
+    },
+    {
+      "value": "Charting",
+      "label": "Charting",
+      "active": true
+    },
+    {
+      "value": "Forms",
+      "label": "Forms",
+      "active": true
+    },
+    {
+      "value": "Intake Flows",
+      "label": "Intake Flows",
+      "active": true
+    },
+    {
+      "value": "Location",
+      "label": "Location",
+      "active": true
+    },
+    {
+      "value": "Sub-orgs",
+      "label": "Sub-orgs",
+      "active": true
+    }
+  ],
+  "Vitally_Key_Add_ons_Integrations__c": [
+    {
+      "value": "Shopify",
+      "label": "Shopify",
+      "active": true
+    },
+    {
+      "value": "ZocDoc",
+      "label": "ZocDoc",
+      "active": true
+    },
+    {
+      "value": "EPCS",
+      "label": "EPCS",
+      "active": true
+    },
+    {
+      "value": "Scribe",
+      "label": "Scribe",
+      "active": true
+    },
+    {
+      "value": "Bridge",
+      "label": "Bridge",
+      "active": true
+    },
+    {
+      "value": "Candid",
+      "label": "Candid",
+      "active": true
+    },
+    {
+      "value": "ClaimMD",
+      "label": "ClaimMD",
+      "active": true
+    },
+    {
+      "value": "Telescope",
+      "label": "Telescope",
+      "active": true
+    },
+    {
+      "value": "Office Ally",
+      "label": "Office Ally",
+      "active": true
+    },
+    {
+      "value": "Junction",
+      "label": "Junction",
+      "active": true
+    },
+    {
+      "value": "Quest",
+      "label": "Quest",
+      "active": true
+    }
+  ],
+  "Health_Score__c": [
+    {
+      "value": "Healthy \u2705",
+      "label": "Healthy \u2705",
+      "active": true
+    },
+    {
+      "value": "Concerning \u26a0\ufe0f",
+      "label": "Concerning \u26a0\ufe0f",
+      "active": true
+    },
+    {
+      "value": "Poor \ud83d\udd34",
+      "label": "Poor \ud83d\udd34",
+      "active": true
+    }
+  ],
+  "CM_Pulse_Score__c": [
+    {
+      "value": "Healthy",
+      "label": "Healthy \u2705",
+      "active": true
+    },
+    {
+      "value": "Concerning",
+      "label": "Concerning \u26a0\ufe0f",
+      "active": true
+    },
+    {
+      "value": "Poor",
+      "label": "Poor \ud83d\udd34",
+      "active": true
+    }
+  ],
+  "Anticipated_of_Providers__c": [
+    {
+      "value": "Only me",
+      "label": "Only me",
+      "active": true
+    },
+    {
+      "value": "2-5",
+      "label": "2-5",
+      "active": true
+    },
+    {
+      "value": "6-10",
+      "label": "6-10",
+      "active": true
+    },
+    {
+      "value": "11-50",
+      "label": "11-50",
+      "active": true
+    },
+    {
+      "value": "50+",
+      "label": "50+",
+      "active": true
+    }
+  ],
+  "Exec_Sponsor_Pulse__c": [
+    {
+      "value": "Healthy \u2705",
+      "label": "Healthy \u2705",
+      "active": true
+    },
+    {
+      "value": "Concerning \u26a0\ufe0f",
+      "label": "Concerning \u26a0\ufe0f",
+      "active": true
+    },
+    {
+      "value": "Poor \ud83d\udd34",
+      "label": "Poor \ud83d\udd34",
+      "active": true
+    }
+  ],
+  "CIM_Pulse_Score__c": [
+    {
+      "value": "Healthy \u2705",
+      "label": "Healthy \u2705",
+      "active": true
+    },
+    {
+      "value": "Concerning \u26a0\ufe0f",
+      "label": "Concerning \u26a0\ufe0f",
+      "active": true
+    },
+    {
+      "value": "Poor \ud83d\udd34",
+      "label": "Poor \ud83d\udd34",
+      "active": true
+    }
+  ],
+  "Vitally_Custom_Use_Case__c": [
+    {
+      "value": "Provider Headless",
+      "label": "Provider Headless",
+      "active": true
+    },
+    {
+      "value": "Own Mobile",
+      "label": "Own Mobile",
+      "active": true
+    },
+    {
+      "value": "Headless",
+      "label": "Headless",
+      "active": true
+    },
+    {
+      "value": "Shard Account",
+      "label": "Shard Account",
+      "active": true
+    },
+    {
+      "value": "Patient Headless",
+      "label": "Patient Headless",
+      "active": true
+    },
+    {
+      "value": "Namespace",
+      "label": "Namespace",
+      "active": true
+    },
+    {
+      "value": "Chat SDK",
+      "label": "Chat SDK",
+      "active": true
+    },
+    {
+      "value": "Forms SDK",
+      "label": "Forms SDK",
+      "active": true
+    },
+    {
+      "value": "Uses another EHR",
+      "label": "Uses another EHR",
+      "active": true
+    },
+    {
+      "value": "Scheduling Only",
+      "label": "Scheduling Only",
+      "active": true
+    }
+  ],
+  "Reason_for_Pulse__c": [
+    {
+      "value": "Other",
+      "label": "Other",
+      "active": true
+    },
+    {
+      "value": "Product Defect or System Bug",
+      "label": "Product Defect or System Bug",
+      "active": true
+    },
+    {
+      "value": "Platform Stability / Reliability Incident",
+      "label": "Platform Stability / Reliability Incident",
+      "active": true
+    },
+    {
+      "value": "Customer Disengagement",
+      "label": "Customer Disengagement",
+      "active": true
+    },
+    {
+      "value": "Customer Organizational Change",
+      "label": "Customer Organizational Change",
+      "active": true
+    },
+    {
+      "value": "Implementation / Onboarding Failure",
+      "label": "Implementation / Onboarding Failure",
+      "active": true
+    },
+    {
+      "value": "Support Experience Breakdown",
+      "label": "Support Experience Breakdown",
+      "active": true
+    },
+    {
+      "value": "Low Product Adoption / Workflow Misalignment",
+      "label": "Low Product Adoption / Workflow Misalignment",
+      "active": true
+    },
+    {
+      "value": "External Business Risk",
+      "label": "External Business Risk",
+      "active": true
+    },
+    {
+      "value": "Third-Party Integration Issue (ie. Lab Enrollment)",
+      "label": "Third-Party Integration Issue (ie. Lab Enrollment)",
+      "active": true
+    }
+  ],
+  "Customer_Category__c": [
+    {
+      "value": "Private Practice (Dietitian, Coach, Therapist)",
+      "label": "Private Practice (Dietitian, Coach, Therapist)",
+      "active": true
+    },
+    {
+      "value": "Group Practice",
+      "label": "Group Practice",
+      "active": true
+    },
+    {
+      "value": "Clinic",
+      "label": "Clinic",
+      "active": true
+    },
+    {
+      "value": "Health System",
+      "label": "Health System",
+      "active": true
+    },
+    {
+      "value": "Retail",
+      "label": "Retail",
+      "active": true
+    },
+    {
+      "value": "Grocery",
+      "label": "Grocery",
+      "active": true
+    },
+    {
+      "value": "Gym/Athletic Facility",
+      "label": "Gym/Athletic Facility",
+      "active": true
+    },
+    {
+      "value": "University",
+      "label": "University",
+      "active": true
+    },
+    {
+      "value": "Non-profit",
+      "label": "Non-profit",
+      "active": true
+    },
+    {
+      "value": "Digital Health Company",
+      "label": "Digital Health Company",
+      "active": true
+    },
+    {
+      "value": "Other",
+      "label": "Other",
+      "active": true
+    }
+  ],
+  "Current_Plan__c": [
+    {
+      "value": "Enterprise",
+      "label": "Enterprise",
+      "active": true
+    },
+    {
+      "value": "Group",
+      "label": "Group",
+      "active": true
+    },
+    {
+      "value": "Starter",
+      "label": "Starter",
+      "active": true
+    },
+    {
+      "value": "Essentials",
+      "label": "Essentials",
+      "active": true
+    },
+    {
+      "value": "Plus",
+      "label": "Plus",
+      "active": true
+    },
+    {
+      "value": "Plus Trial",
+      "label": "Plus Trial",
+      "active": true
+    },
+    {
+      "value": "DHS Plus Trial",
+      "label": "DHS Plus Trial",
+      "active": true
+    },
+    {
+      "value": "Add-On",
+      "label": "Add-On",
+      "active": true
+    },
+    {
+      "value": "Small Practices",
+      "label": "Small Practices",
+      "active": true
+    },
+    {
+      "value": "Beginnings",
+      "label": "Beginnings",
+      "active": true
+    },
+    {
+      "value": "Student",
+      "label": "Student",
+      "active": true
+    },
+    {
+      "value": "Canceled Trial",
+      "label": "Canceled Trial",
+      "active": true
+    },
+    {
+      "value": "Canceled Plan",
+      "label": "Canceled Plan",
+      "active": true
+    },
+    {
+      "value": "No Plan",
+      "label": "No Plan",
+      "active": true
+    },
+    {
+      "value": "Practice Plus",
+      "label": "Practice Plus",
+      "active": true
+    },
+    {
+      "value": "Core",
+      "label": "Core",
+      "active": true
+    },
+    {
+      "value": "Integration",
+      "label": "Integration",
+      "active": true
+    }
+  ],
+  "CSM_picklist__c": [
+    {
+      "value": "Alexis Matz",
+      "label": "Alexis Matz",
+      "active": true
+    },
+    {
+      "value": "Ashley Joseph",
+      "label": "Ashley Joseph",
+      "active": true
+    },
+    {
+      "value": "Danny Rivara",
+      "label": "Danny Rivara",
+      "active": true
+    },
+    {
+      "value": "Dustin Harris",
+      "label": "Dustin Harris",
+      "active": true
+    },
+    {
+      "value": "Emma Bixler",
+      "label": "Emma Bixler",
+      "active": true
+    },
+    {
+      "value": "Emma Pirri",
+      "label": "Emma Pirri",
+      "active": true
+    },
+    {
+      "value": "Jen Ogle-Fuller",
+      "label": "Jen Ogle-Fuller",
+      "active": true
+    },
+    {
+      "value": "Kiernan Henderson",
+      "label": "Kiernan Henderson",
+      "active": true
+    },
+    {
+      "value": "Krissy Carbo",
+      "label": "Krissy Carbo",
+      "active": true
+    },
+    {
+      "value": "Neha Nayyar",
+      "label": "Neha Nayyar",
+      "active": true
+    },
+    {
+      "value": "Nicky Littlefield",
+      "label": "Nicky Littlefield",
+      "active": true
+    },
+    {
+      "value": "Sasha Julien",
+      "label": "Sasha Julien",
+      "active": true
+    },
+    {
+      "value": "Talita Barnaby",
+      "label": "Talita Barnaby",
+      "active": true
+    },
+    {
+      "value": "Tim Cooney",
+      "label": "Tim Cooney",
+      "active": true
+    },
+    {
+      "value": "Max Mangs",
+      "label": "Max Mangs",
+      "active": true
+    }
+  ],
+  "Customer_Status__c": [
+    {
+      "value": "Prospect",
+      "label": "Prospect",
+      "active": true
+    },
+    {
+      "value": "Active Trial",
+      "label": "Active Trial",
+      "active": true
+    },
+    {
+      "value": "Trial Ended",
+      "label": "Trial Ended",
+      "active": true
+    },
+    {
+      "value": "Returned Prospect",
+      "label": "Returned Prospect",
+      "active": true
+    },
+    {
+      "value": "Qualified Prospect",
+      "label": "Qualified Prospect",
+      "active": true
+    },
+    {
+      "value": "Customer",
+      "label": "Customer",
+      "active": true
+    },
+    {
+      "value": "Churned",
+      "label": "Churned",
+      "active": true
+    }
+  ],
+  "Backup_CSM__c": [
+    {
+      "value": "Alexis Matz",
+      "label": "Alexis Matz",
+      "active": true
+    },
+    {
+      "value": "Ashley Joseph",
+      "label": "Ashley Joseph",
+      "active": true
+    },
+    {
+      "value": "Danny Rivara",
+      "label": "Danny Rivara",
+      "active": true
+    },
+    {
+      "value": "Dustin Harris",
+      "label": "Dustin Harris",
+      "active": true
+    },
+    {
+      "value": "Emma Bixler",
+      "label": "Emma Bixler",
+      "active": true
+    },
+    {
+      "value": "Emma Pirri",
+      "label": "Emma Pirri",
+      "active": true
+    },
+    {
+      "value": "Jen Ogle-Fuller",
+      "label": "Jen Ogle-Fuller",
+      "active": true
+    },
+    {
+      "value": "Kiernan Henderson",
+      "label": "Kiernan Henderson",
+      "active": true
+    },
+    {
+      "value": "Krissy Carbo",
+      "label": "Krissy Carbo",
+      "active": true
+    },
+    {
+      "value": "Neha Nayyar",
+      "label": "Neha Nayyar",
+      "active": true
+    },
+    {
+      "value": "Nicky Littlefield",
+      "label": "Nicky Littlefield",
+      "active": true
+    },
+    {
+      "value": "Sasha Julien",
+      "label": "Sasha Julien",
+      "active": true
+    },
+    {
+      "value": "Talita Barnaby",
+      "label": "Talita Barnaby",
+      "active": true
+    },
+    {
+      "value": "Tim Cooney",
+      "label": "Tim Cooney",
+      "active": true
+    },
+    {
+      "value": "Max Mangs",
+      "label": "Max Mangs",
+      "active": true
+    }
+  ],
+  "Solutions_Engineer__c": [
+    {
+      "value": "Ahmed Dajani",
+      "label": "Ahmed Dajani",
+      "active": true
+    },
+    {
+      "value": "Ani Chan",
+      "label": "Ani Chan",
+      "active": true
+    },
+    {
+      "value": "Cavan Klinsky",
+      "label": "Cavan Klinsky",
+      "active": true
+    },
+    {
+      "value": "Chris Mendoza",
+      "label": "Chris Mendoza",
+      "active": true
+    },
+    {
+      "value": "Dwight Scott",
+      "label": "Dwight Scott",
+      "active": true
+    },
+    {
+      "value": "Eddie Cohen",
+      "label": "Eddie Cohen",
+      "active": true
+    },
+    {
+      "value": "Ezekiel Pfeifer",
+      "label": "Ezekiel Pfeifer",
+      "active": true
+    },
+    {
+      "value": "Gary Michaud",
+      "label": "Gary Michaud",
+      "active": true
+    },
+    {
+      "value": "Jamie Poole",
+      "label": "Jamie Poole",
+      "active": true
+    },
+    {
+      "value": "John Duong",
+      "label": "John Duong",
+      "active": true
+    },
+    {
+      "value": "Kyle Smith",
+      "label": "Kyle Smith",
+      "active": true
+    },
+    {
+      "value": "Zeke Pfeifer",
+      "label": "Zeke Pfeifer",
+      "active": true
+    }
+  ],
+  "Implementation_Status__c": [
+    {
+      "value": "Pending Kickoff",
+      "label": "Pending Kickoff",
+      "active": true
+    },
+    {
+      "value": "Onboarding",
+      "label": "Onboarding",
+      "active": true
+    },
+    {
+      "value": "Soft Launch",
+      "label": "Soft Launch",
+      "active": true
+    },
+    {
+      "value": "Live",
+      "label": "Live",
+      "active": true
+    },
+    {
+      "value": "Paused",
+      "label": "Paused",
+      "active": true
+    },
+    {
+      "value": "Canceled",
+      "label": "Canceled",
+      "active": true
+    }
+  ],
+  "Specialty__c": [
+    {
+      "value": "Addiction / Substance Use Counselor",
+      "label": "Addiction / Substance Use Counselor",
+      "active": true
+    },
+    {
+      "value": "Chronic Illness Nutrition",
+      "label": "Chronic Illness Nutrition",
+      "active": true
+    },
+    {
+      "value": "Culinary Nutrition",
+      "label": "Culinary Nutrition",
+      "active": true
+    },
+    {
+      "value": "Diabetes Prevention and Management",
+      "label": "Diabetes Prevention and Management",
+      "active": true
+    },
+    {
+      "value": "Dietitian",
+      "label": "Dietitian",
+      "active": true
+    },
+    {
+      "value": "Eating Disorders",
+      "label": "Eating Disorders",
+      "active": true
+    },
+    {
+      "value": "Food Sensitivities or LEAP",
+      "label": "Food Sensitivities",
+      "active": true
+    },
+    {
+      "value": "Functional Nutrition",
+      "label": "Functional Nutrition",
+      "active": true
+    },
+    {
+      "value": "Gastrointestinal Disorders",
+      "label": "Gastrointestinal Disorders",
+      "active": true
+    },
+    {
+      "value": "Gerontological Nutrition",
+      "label": "Gerontological Nutrition",
+      "active": true
+    },
+    {
+      "value": "Intuitive Eating",
+      "label": "Intuitive Eating",
+      "active": true
+    },
+    {
+      "value": "Longevity",
+      "label": "Longevity",
+      "active": true
+    },
+    {
+      "value": "Medical Nutrition Therapy",
+      "label": "Medical Nutrition Therapy",
+      "active": true
+    },
+    {
+      "value": "Nutritionist",
+      "label": "Nutritionist",
+      "active": true
+    },
+    {
+      "value": "Oncology Nutrition",
+      "label": "Oncology Nutrition",
+      "active": true
+    },
+    {
+      "value": "Other",
+      "label": "Other",
+      "active": true
+    },
+    {
+      "value": "Pediatric Nutrition",
+      "label": "Pediatric Nutrition",
+      "active": true
+    },
+    {
+      "value": "Personal Trainer",
+      "label": "Personal Trainer",
+      "active": true
+    },
+    {
+      "value": "Physical Therapist",
+      "label": "Physical Therapist",
+      "active": true
+    },
+    {
+      "value": "Plant-based nutrition",
+      "label": "Plant-based nutrition",
+      "active": true
+    },
+    {
+      "value": "Renal Nutrition",
+      "label": "Renal Nutrition",
+      "active": true
+    },
+    {
+      "value": "Sports Nutrition",
+      "label": "Sports Nutrition",
+      "active": true
+    },
+    {
+      "value": "Unknown",
+      "label": "Unknown",
+      "active": true
+    },
+    {
+      "value": "Weight Management",
+      "label": "Weight Management",
+      "active": true
+    }
+  ],
+  "Logo_Use_Permitted__c": [
+    {
+      "value": "Unknown",
+      "label": "Unknown",
+      "active": true
+    },
+    {
+      "value": "Contacted",
+      "label": "Contacted",
+      "active": true
+    },
+    {
+      "value": "Yes",
+      "label": "Yes",
+      "active": true
+    },
+    {
+      "value": "Yes, prior consent Req'd",
+      "label": "Yes, prior consent Req'd",
+      "active": true
+    },
+    {
+      "value": "No",
+      "label": "No",
+      "active": true
+    }
+  ],
+  "Web_Whitelabel__c": [
+    {
+      "value": "Full",
+      "label": "Full",
+      "active": true
+    },
+    {
+      "value": "Semi",
+      "label": "Semi",
+      "active": true
+    },
+    {
+      "value": "N/A",
+      "label": "N/A",
+      "active": true
+    }
+  ],
+  "Mobile_Whitelabel__c": [
+    {
+      "value": "No",
+      "label": "No",
+      "active": true
+    },
+    {
+      "value": "Yes",
+      "label": "Yes",
+      "active": true
+    }
+  ],
+  "API__c": [
+    {
+      "value": "Yes",
+      "label": "Yes",
+      "active": true
+    },
+    {
+      "value": "No",
+      "label": "No",
+      "active": true
+    }
+  ],
+  "Partner_Type__c": [
+    {
+      "value": "Built-in",
+      "label": "Built-in",
+      "active": true
+    },
+    {
+      "value": "Partner",
+      "label": "Partner",
+      "active": true
+    }
+  ],
+  "Partner_Status__c": [
+    {
+      "value": "Prospect",
+      "label": "Prospect",
+      "active": true
+    },
+    {
+      "value": "Engaged",
+      "label": "Engaged",
+      "active": true
+    },
+    {
+      "value": "Active Sandbox Trial",
+      "label": "Active Sandbox Trial",
+      "active": true
+    },
+    {
+      "value": "Active",
+      "label": "Active Partner",
+      "active": true
+    },
+    {
+      "value": "Churned",
+      "label": "Churned",
+      "active": true
+    }
+  ],
+  "Partner_Category__c": [
+    {
+      "value": "Revenue Collection",
+      "label": "Revenue Collection",
+      "active": true
+    },
+    {
+      "value": "Pricing and Financial Solutions",
+      "label": "Pricing and Financial Solutions",
+      "active": true
+    },
+    {
+      "value": "Provider Data and Scheduling Solutions",
+      "label": "Provider Data and Scheduling Solutions",
+      "active": true
+    },
+    {
+      "value": "Front Desk Efficiency",
+      "label": "Front Desk Efficiency",
+      "active": true
+    },
+    {
+      "value": "Patient Record / Data solutions",
+      "label": "Patient Record / Data solutions",
+      "active": true
+    },
+    {
+      "value": "Labs and Diagnostic Testing",
+      "label": "Labs and Diagnostic Testing",
+      "active": true
+    },
+    {
+      "value": "Care Support Tools",
+      "label": "Care Support Tools",
+      "active": true
+    },
+    {
+      "value": "Experts",
+      "label": "Experts",
+      "active": true
+    },
+    {
+      "value": "Interoperability",
+      "label": "Interoperability",
+      "active": true
+    },
+    {
+      "value": "Clin Ops & Staffing",
+      "label": "Clin Ops & Staffing",
+      "active": true
+    },
+    {
+      "value": "Call Support",
+      "label": "Call Support",
+      "active": true
+    },
+    {
+      "value": "Medical Coding",
+      "label": "Medical Coding",
+      "active": true
+    },
+    {
+      "value": "Data",
+      "label": "Data",
+      "active": true
+    },
+    {
+      "value": "Clinical Pathways",
+      "label": "Clinical Pathways",
+      "active": true
+    },
+    {
+      "value": "Diagnostics and Imaging",
+      "label": "Diagnostics and Imaging",
+      "active": true
+    },
+    {
+      "value": "RCM",
+      "label": "RCM",
+      "active": true
+    },
+    {
+      "value": "Scribing",
+      "label": "Scribing",
+      "active": true
+    },
+    {
+      "value": "Patient Intake & Access",
+      "label": "Patient Intake & Access",
+      "active": true
+    },
+    {
+      "value": "Communication & Engagement",
+      "label": "Communication & Engagement",
+      "active": true
+    },
+    {
+      "value": "Clinical Documentation & Decision Support",
+      "label": "Clinical Documentation & Decision Support",
+      "active": true
+    },
+    {
+      "value": "Billing & Payments",
+      "label": "Billing & Payments",
+      "active": true
+    },
+    {
+      "value": "Devices & Remote Monitoring",
+      "label": "Devices & Remote Monitoring",
+      "active": true
+    },
+    {
+      "value": "Data, Integrations & Workflow Automation",
+      "label": "Data, Integrations & Workflow Automation",
+      "active": true
+    },
+    {
+      "value": "Virtual Care & Telehealth",
+      "label": "Virtual Care & Telehealth",
+      "active": true
+    },
+    {
+      "value": "Compliance, Security & Administration",
+      "label": "Compliance, Security & Administration",
+      "active": true
+    },
+    {
+      "value": "Care Delivery & Diagnostics",
+      "label": "Care Delivery & Diagnostics",
+      "active": true
+    },
+    {
+      "value": "Patient Communication & Engagement",
+      "label": "Patient Communication & Engagement",
+      "active": true
+    },
+    {
+      "value": "Service Partner",
+      "label": "Service Partner",
+      "active": true
+    }
+  ],
+  "Plans_Available__c": [
+    {
+      "value": "All Plans",
+      "label": "All Plans",
+      "active": true
+    },
+    {
+      "value": "Paid Plans Only",
+      "label": "Paid Plans Only",
+      "active": true
+    },
+    {
+      "value": "Plus & up",
+      "label": "Plus & up",
+      "active": true
+    },
+    {
+      "value": "Group & up",
+      "label": "Group & up",
+      "active": true
+    },
+    {
+      "value": "Enterprise Only",
+      "label": "Enterprise Only",
+      "active": true
+    }
+  ],
+  "Fee_Type__c": [
+    {
+      "value": "Add on",
+      "label": "Add on",
+      "active": true
+    },
+    {
+      "value": "Included",
+      "label": "Included",
+      "active": true
+    }
+  ],
+  "Integration_Type__c": [
+    {
+      "value": "Bi-directional",
+      "label": "Bi-directional",
+      "active": true
+    },
+    {
+      "value": "One-way from Healthie",
+      "label": "One-way from Healthie",
+      "active": true
+    },
+    {
+      "value": "One-way to Healthie",
+      "label": "One-way to Healthie",
+      "active": true
+    },
+    {
+      "value": "Service Partner (No Integration)",
+      "label": "Service Partner (No Integration)",
+      "active": true
+    }
+  ],
+  "Call_Cadence__c": [
+    {
+      "value": "Ad-hoc",
+      "label": "Ad-hoc",
+      "active": true
+    },
+    {
+      "value": "Weekly",
+      "label": "Weekly",
+      "active": true
+    },
+    {
+      "value": "Bi-weekly",
+      "label": "Bi-weekly",
+      "active": true
+    },
+    {
+      "value": "Monthly",
+      "label": "Monthly",
+      "active": true
+    }
+  ],
+  "Renewal_Status__c": [
+    {
+      "value": "Renewal Secured",
+      "label": "Renewal Secured",
+      "active": true
+    },
+    {
+      "value": "Renewal at Risk",
+      "label": "Renewal at Risk",
+      "active": true
+    },
+    {
+      "value": "Will not Renew",
+      "label": "Will not Renew",
+      "active": true
+    },
+    {
+      "value": "Renewal Status Unknown",
+      "label": "Renewal Status Unknown",
+      "active": true
+    }
+  ],
+  "Unqualified_Reason__c": [
+    {
+      "value": "Bad Contact Info",
+      "label": "Bad Contact Info",
+      "active": true
+    },
+    {
+      "value": "Hospital",
+      "label": "Hospital",
+      "active": true
+    },
+    {
+      "value": "No Response",
+      "label": "No Response",
+      "active": true
+    },
+    {
+      "value": "Not A Fit",
+      "label": "Not A Fit",
+      "active": true
+    },
+    {
+      "value": "Not A Relevant Provider",
+      "label": "Not A Relevant Provider",
+      "active": true
+    },
+    {
+      "value": "Not Enterprise Prospect",
+      "label": "Not Enterprise Prospect",
+      "active": true
+    },
+    {
+      "value": "Not Interested - In Contract with Competitor",
+      "label": "Not Interested - In Contract with Competitor",
+      "active": true
+    },
+    {
+      "value": "Not Interested - Built in House",
+      "label": "Not Interested - Built in House",
+      "active": true
+    },
+    {
+      "value": "Not Interested - No Budget",
+      "label": "Not Interested - No Budget",
+      "active": true
+    },
+    {
+      "value": "Not Interested - Timing",
+      "label": "Not Interested - Timing",
+      "active": true
+    },
+    {
+      "value": "Using Epic MyChart",
+      "label": "Using Epic MyChart",
+      "active": true
+    },
+    {
+      "value": "Spam",
+      "label": "Spam",
+      "active": true
+    },
+    {
+      "value": "Other",
+      "label": "Other",
+      "active": true
+    }
+  ],
+  "Partner_Subcategory__c": [
+    {
+      "value": "Insurance Billing",
+      "label": "Insurance Billing",
+      "active": true
+    },
+    {
+      "value": "Patient Financial Engagement",
+      "label": "Patient Financial Engagement",
+      "active": true
+    },
+    {
+      "value": "Eligibility and Cost Estimations",
+      "label": "Eligibility and Cost Estimations",
+      "active": true
+    },
+    {
+      "value": "Price transparency",
+      "label": "Price transparency",
+      "active": true
+    },
+    {
+      "value": "Provider Directory",
+      "label": "Provider Directory",
+      "active": true
+    },
+    {
+      "value": "Patient Self Scheduling",
+      "label": "Patient Self Scheduling",
+      "active": true
+    },
+    {
+      "value": "Staff/Call Center Scheduling",
+      "label": "Staff/Call Center Scheduling",
+      "active": true
+    },
+    {
+      "value": "Credentialing Solutions",
+      "label": "Credentialing Solutions",
+      "active": true
+    },
+    {
+      "value": "Provider Workforce Mgmt",
+      "label": "Provider Workforce Mgmt",
+      "active": true
+    },
+    {
+      "value": "Referral Management",
+      "label": "Referral Management",
+      "active": true
+    },
+    {
+      "value": "Waitlist Management",
+      "label": "Waitlist Management",
+      "active": true
+    },
+    {
+      "value": "Patient Education",
+      "label": "Patient Education",
+      "active": true
+    },
+    {
+      "value": "Appointment Reminders, Recalls, and Notifications",
+      "label": "Appointment Reminders, Recalls, and Notifications",
+      "active": true
+    },
+    {
+      "value": "Digital Check-In",
+      "label": "Digital Check-In",
+      "active": true
+    },
+    {
+      "value": "Digital Forms and Patient Intake",
+      "label": "Digital Forms and Patient Intake",
+      "active": true
+    },
+    {
+      "value": "Marketing and Patient Acquisition",
+      "label": "Marketing and Patient Acquisition",
+      "active": true
+    },
+    {
+      "value": "Patient Surveys",
+      "label": "Patient Surveys",
+      "active": true
+    },
+    {
+      "value": "AI Copilots",
+      "label": "AI Copilots",
+      "active": true
+    },
+    {
+      "value": "Chart Search",
+      "label": "Chart Search",
+      "active": true
+    },
+    {
+      "value": "Documentation Management",
+      "label": "Documentation Management",
+      "active": true
+    },
+    {
+      "value": "Patient Portals",
+      "label": "Patient Portals",
+      "active": true
+    },
+    {
+      "value": "Clinical Assessments",
+      "label": "Clinical Assessments",
+      "active": true
+    },
+    {
+      "value": "Wearables/ Remote Patient Monitoring",
+      "label": "Wearables/ Remote Patient Monitoring",
+      "active": true
+    },
+    {
+      "value": "Lab Infra",
+      "label": "Lab Infra",
+      "active": true
+    },
+    {
+      "value": "Lab Companies",
+      "label": "Lab Companies",
+      "active": true
+    },
+    {
+      "value": "Testing Companies",
+      "label": "Testing Companies",
+      "active": true
+    },
+    {
+      "value": "Imaging and Diagnostics",
+      "label": "Imaging and Diagnostics",
+      "active": true
+    },
+    {
+      "value": "Supplements and Health Products",
+      "label": "Supplements and Health Products",
+      "active": true
+    },
+    {
+      "value": "Clinical Decision Support",
+      "label": "Clinical Decision Support",
+      "active": true
+    },
+    {
+      "value": "E-Prescribe",
+      "label": "E-Prescribe",
+      "active": true
+    },
+    {
+      "value": "Digital Therapeutics",
+      "label": "Digital Therapeutics",
+      "active": true
+    },
+    {
+      "value": "Care Coordination",
+      "label": "Care Coordination",
+      "active": true
+    },
+    {
+      "value": "Chronic Care Management",
+      "label": "Chronic Care Management",
+      "active": true
+    },
+    {
+      "value": "Third Party Development",
+      "label": "Third Party Development",
+      "active": true
+    },
+    {
+      "value": "Managed Services",
+      "label": "Managed Services",
+      "active": true
+    },
+    {
+      "value": "Medical Record Requests",
+      "label": "Medical Record Requests",
+      "active": true
+    },
+    {
+      "value": "Patient Data Aggregators",
+      "label": "Patient Data Aggregators",
+      "active": true
+    },
+    {
+      "value": "Integration Engines",
+      "label": "Integration Engines",
+      "active": true
+    },
+    {
+      "value": "Workflow Automation",
+      "label": "Workflow Automation",
+      "active": true
+    },
+    {
+      "value": "Check-In & Registration",
+      "label": "Check-In & Registration",
+      "active": true
+    },
+    {
+      "value": "ID & Document Capture",
+      "label": "ID & Document Capture",
+      "active": true
+    },
+    {
+      "value": "Clinical Screeners & Intake Forms",
+      "label": "Clinical Screeners & Intake Forms",
+      "active": true
+    },
+    {
+      "value": "Scheduling & Optimization",
+      "label": "Scheduling & Optimization",
+      "active": true
+    },
+    {
+      "value": "Care Networks",
+      "label": "Care Networks",
+      "active": true
+    },
+    {
+      "value": "Patient Education Resources",
+      "label": "Patient Education Resources",
+      "active": true
+    },
+    {
+      "value": "Referral Management & Routing",
+      "label": "Referral Management & Routing",
+      "active": true
+    },
+    {
+      "value": "Patient Messaging",
+      "label": "Patient Messaging",
+      "active": true
+    },
+    {
+      "value": "Patient Acquisition / CRM",
+      "label": "Patient Acquisition / CRM",
+      "active": true
+    },
+    {
+      "value": "Patient Surveys & Feedback",
+      "label": "Patient Surveys & Feedback",
+      "active": true
+    },
+    {
+      "value": "Marketing / Outreach",
+      "label": "Marketing / Outreach",
+      "active": true
+    },
+    {
+      "value": "Contact Center / Phone / SMS",
+      "label": "Contact Center / Phone / SMS",
+      "active": true
+    },
+    {
+      "value": "After-Hours Triage",
+      "label": "After-Hours Triage",
+      "active": true
+    },
+    {
+      "value": "E-Fax & Document Exchange",
+      "label": "E-Fax & Document Exchange",
+      "active": true
+    },
+    {
+      "value": "Ambient Documentation / Note Generation",
+      "label": "Ambient Documentation / Note Generation",
+      "active": true
+    },
+    {
+      "value": "Speech-to-Text & Transcription",
+      "label": "Speech-to-Text & Transcription",
+      "active": true
+    },
+    {
+      "value": "Summaries & Record Abstraction",
+      "label": "Summaries & Record Abstraction",
+      "active": true
+    },
+    {
+      "value": "Clinical Decision Support / Risk Scoring",
+      "label": "Clinical Decision Support / Risk Scoring",
+      "active": true
+    },
+    {
+      "value": "Guideline-Based Treatment Support",
+      "label": "Guideline-Based Treatment Support",
+      "active": true
+    },
+    {
+      "value": "SDOH Assessment & Care Coordination",
+      "label": "SDOH Assessment & Care Coordination",
+      "active": true
+    },
+    {
+      "value": "Charge Capture",
+      "label": "Charge Capture",
+      "active": true
+    },
+    {
+      "value": "Coding & Audit",
+      "label": "Coding & Audit",
+      "active": true
+    },
+    {
+      "value": "Claims & RCM",
+      "label": "Claims & RCM",
+      "active": true
+    },
+    {
+      "value": "Eligibility & Coverage",
+      "label": "Eligibility & Coverage",
+      "active": true
+    },
+    {
+      "value": "Patient Pay / Estimation",
+      "label": "Patient Pay / Estimation",
+      "active": true
+    },
+    {
+      "value": "Collections & Payments",
+      "label": "Collections & Payments",
+      "active": true
+    },
+    {
+      "value": "Financing & Refunds",
+      "label": "Financing & Refunds",
+      "active": true
+    },
+    {
+      "value": "Wearables & Biosensors",
+      "label": "Wearables & Biosensors",
+      "active": true
+    },
+    {
+      "value": "Home Medical Devices",
+      "label": "Home Medical Devices",
+      "active": true
+    },
+    {
+      "value": "Remote Patient Monitoring (RPM) Platforms",
+      "label": "Remote Patient Monitoring (RPM) Platforms",
+      "active": true
+    },
+    {
+      "value": "Device Data Integration / APIs",
+      "label": "Device Data Integration / APIs",
+      "active": true
+    },
+    {
+      "value": "Vitals Tracking Dashboards",
+      "label": "Vitals Tracking Dashboards",
+      "active": true
+    },
+    {
+      "value": "Alerting & Care Team Workflows",
+      "label": "Alerting & Care Team Workflows",
+      "active": true
+    },
+    {
+      "value": "Reimbursement / Billing Support for RPM",
+      "label": "Reimbursement / Billing Support for RPM",
+      "active": true
+    },
+    {
+      "value": "Clinical Escalation & Triage Tools",
+      "label": "Clinical Escalation & Triage Tools",
+      "active": true
+    },
+    {
+      "value": "Integration Platforms / APIs",
+      "label": "Integration Platforms / APIs",
+      "active": true
+    },
+    {
+      "value": "Workflow Automation & AI Agents",
+      "label": "Workflow Automation & AI Agents",
+      "active": true
+    },
+    {
+      "value": "Data Warehousing / Interoperability",
+      "label": "Data Warehousing / Interoperability",
+      "active": true
+    },
+    {
+      "value": "Analytics & Reporting",
+      "label": "Analytics & Reporting",
+      "active": true
+    },
+    {
+      "value": "FHIR / HL7 Interfaces",
+      "label": "FHIR / HL7 Interfaces",
+      "active": true
+    },
+    {
+      "value": "Identity, Permissions & Access Control",
+      "label": "Identity, Permissions & Access Control",
+      "active": true
+    },
+    {
+      "value": "Telehealth Video",
+      "label": "Telehealth Video",
+      "active": true
+    },
+    {
+      "value": "Virtual Visit Platforms",
+      "label": "Virtual Visit Platforms",
+      "active": true
+    },
+    {
+      "value": "Remote Care Navigation",
+      "label": "Remote Care Navigation",
+      "active": true
+    },
+    {
+      "value": "Compliance & Data Security",
+      "label": "Compliance & Data Security",
+      "active": true
+    },
+    {
+      "value": "Access / IAM",
+      "label": "Access / IAM",
+      "active": true
+    },
+    {
+      "value": "Credentialing & Privileging",
+      "label": "Credentialing & Privileging",
+      "active": true
+    },
+    {
+      "value": "Document Storage & Retention",
+      "label": "Document Storage & Retention",
+      "active": true
+    },
+    {
+      "value": "Audit Logging & Monitoring",
+      "label": "Audit Logging & Monitoring",
+      "active": true
+    },
+    {
+      "value": "Policy / Risk Management",
+      "label": "Policy / Risk Management",
+      "active": true
+    },
+    {
+      "value": "E-Prescribing",
+      "label": "E-Prescribing",
+      "active": true
+    },
+    {
+      "value": "Medication / Pharmacy Fulfillment",
+      "label": "Medication / Pharmacy Fulfillment",
+      "active": true
+    },
+    {
+      "value": "Labs & Diagnostics Ordering",
+      "label": "Labs & Diagnostics Ordering",
+      "active": true
+    },
+    {
+      "value": "Medical Imaging & Radiology",
+      "label": "Medical Imaging & Radiology",
+      "active": true
+    },
+    {
+      "value": "Nutrition & Supplement Protocols",
+      "label": "Nutrition & Supplement Protocols",
+      "active": true
+    },
+    {
+      "value": "Care Pathway / Treatment Planning",
+      "label": "Care Pathway / Treatment Planning",
+      "active": true
+    },
+    {
+      "value": "Financial Services",
+      "label": "Financial Services",
+      "active": true
+    },
+    {
+      "value": "Workforce Management",
+      "label": "Workforce Management",
+      "active": true
+    }
+  ],
+  "Latest_Source__c": [
+    {
+      "value": "Organic Search",
+      "label": "Organic Search",
+      "active": true
+    },
+    {
+      "value": "Paid Search",
+      "label": "Paid Search",
+      "active": true
+    },
+    {
+      "value": "Email Marketing",
+      "label": "Email Marketing",
+      "active": true
+    },
+    {
+      "value": "Organic Social",
+      "label": "Organic Social",
+      "active": true
+    },
+    {
+      "value": "Referrals",
+      "label": "Referrals",
+      "active": true
+    },
+    {
+      "value": "Other Campaigns",
+      "label": "Other Campaigns",
+      "active": true
+    },
+    {
+      "value": "Direct Traffic",
+      "label": "Direct Traffic",
+      "active": true
+    },
+    {
+      "value": "Offline Sources",
+      "label": "Offline Sources",
+      "active": true
+    },
+    {
+      "value": "Paid Social",
+      "label": "Paid Social",
+      "active": true
+    }
+  ],
+  "Original_Source__c": [
+    {
+      "value": "Organic Search",
+      "label": "Organic Search",
+      "active": true
+    },
+    {
+      "value": "Paid Search",
+      "label": "Paid Search",
+      "active": true
+    },
+    {
+      "value": "Email Marketing",
+      "label": "Email Marketing",
+      "active": true
+    },
+    {
+      "value": "Organic Social",
+      "label": "Organic Social",
+      "active": true
+    },
+    {
+      "value": "Referrals",
+      "label": "Referrals",
+      "active": true
+    },
+    {
+      "value": "Other Campaigns",
+      "label": "Other Campaigns",
+      "active": true
+    },
+    {
+      "value": "Direct Traffic",
+      "label": "Direct Traffic",
+      "active": true
+    },
+    {
+      "value": "Offline Sources",
+      "label": "Offline Sources",
+      "active": true
+    },
+    {
+      "value": "Paid Social",
+      "label": "Paid Social",
+      "active": true
+    }
+  ],
+  "Churn_Reason__c": [
+    {
+      "value": "Went Out of Business",
+      "label": "Went Out of Business",
+      "active": true
+    },
+    {
+      "value": "Lack of Funding",
+      "label": "Lack of Funding",
+      "active": true
+    }
+  ],
+  "Account_Status__c": [
+    {
+      "value": "Prospect",
+      "label": "Prospect",
+      "active": true
+    },
+    {
+      "value": "Returned Prospect",
+      "label": "Returned Prospect",
+      "active": true
+    },
+    {
+      "value": "Qualified Prospect",
+      "label": "Qualified Prospect",
+      "active": true
+    },
+    {
+      "value": "Customer",
+      "label": "Customer",
+      "active": true
+    },
+    {
+      "value": "Churned",
+      "label": "Churned",
+      "active": true
+    },
+    {
+      "value": "Partner/Affiliate",
+      "label": "Partner/Affiliate",
+      "active": true
+    }
+  ]
+}

@@ -1,0 +1,181 @@
+[
+  {
+    "name": "contacts",
+    "label": "Contacts",
+    "status": 200,
+    "property_count": 727
+  },
+  {
+    "name": "companies",
+    "label": "Companies",
+    "status": 200,
+    "property_count": 350
+  },
+  {
+    "name": "deals",
+    "label": "Deals",
+    "status": 200,
+    "property_count": 494
+  },
+  {
+    "name": "tickets",
+    "label": "Tickets",
+    "status": 403,
+    "property_count": 0,
+    "error": "You do not have permissions to view object type ObjectTypeId{legacyObjectType=TICKET} in portal 43826161 (requires one of [tickets-read, tickets-access])"
+  },
+  {
+    "name": "feedback_submissions",
+    "label": "Feedback Submissions",
+    "status": 403,
+    "property_count": 0,
+    "error": "You do not have permissions to view object type ObjectTypeId{legacyObjectType=FEEDBACK_SUBMISSION} in portal 43826161 (requires one of [service-feedback-access])"
+  },
+  {
+    "name": "leads",
+    "label": "Leads",
+    "status": 403,
+    "property_count": 0,
+    "error": "You do not have permissions to view object type ObjectTypeId{legacyObjectType=LEAD} in portal 43826161 (requires one of [leads-read])"
+  },
+  {
+    "name": "products",
+    "label": "Products",
+    "status": 403,
+    "property_count": 0,
+    "error": "You do not have permissions to view object type ObjectTypeId{legacyObjectType=PRODUCT} in portal 43826161 (requires one of [inbounddb-product-library-read])"
+  },
+  {
+    "name": "line_items",
+    "label": "Line Items",
+    "status": 403,
+    "property_count": 0,
+    "error": "You do not have permissions to view object type ObjectTypeId{legacyObjectType=LINE_ITEM} in portal 43826161 (requires one of [deal-line-item-read])"
+  },
+  {
+    "name": "quotes",
+    "label": "Quotes",
+    "status": 403,
+    "property_count": 0,
+    "error": "You do not have permissions to view object type ObjectTypeId{legacyObjectType=QUOTE} in portal 43826161 (requires one of [quote-read, quote-access])"
+  },
+  {
+    "name": "invoices",
+    "label": "Invoices",
+    "status": 403,
+    "property_count": 0,
+    "error": "You do not have permissions to view object type ObjectTypeId{legacyObjectType=INVOICE} in portal 43826161 (requires one of [invoices-read, invoices-access])"
+  },
+  {
+    "name": "subscriptions",
+    "label": "Subscriptions",
+    "status": 403,
+    "property_count": 0,
+    "error": "You do not have permissions to view object type ObjectTypeId{legacyObjectType=SUBSCRIPTION} in portal 43826161 (requires one of [subscriptions-read, subscriptions-access])"
+  },
+  {
+    "name": "payments",
+    "label": "Payments",
+    "status": 403,
+    "property_count": 0,
+    "error": "You do not have permissions to view object type ObjectTypeId{legacyObjectType=COMMERCE_PAYMENT} in portal 43826161 (requires one of [commerce-payments-read, commerce-payments-enrolled])"
+  },
+  {
+    "name": "orders",
+    "label": "Orders",
+    "status": 403,
+    "property_count": 0,
+    "error": "You do not have permissions to view object type ObjectTypeId{legacyObjectType=ORDER} in portal 43826161 (requires one of [orders-read])"
+  },
+  {
+    "name": "carts",
+    "label": "Carts",
+    "status": 403,
+    "property_count": 0,
+    "error": "You do not have permissions to view object type ObjectTypeId{legacyObjectType=CART} in portal 43826161 (requires one of [carts-read])"
+  },
+  {
+    "name": "discounts",
+    "label": "Discounts",
+    "status": 403,
+    "property_count": 0,
+    "error": "You do not have permissions to view object type ObjectTypeId{legacyObjectType=DISCOUNT} in portal 43826161 (requires one of [deal-line-item-read])"
+  },
+  {
+    "name": "fees",
+    "label": "Fees",
+    "status": 403,
+    "property_count": 0,
+    "error": "You do not have permissions to view object type ObjectTypeId{legacyObjectType=FEE} in portal 43826161 (requires one of [deal-line-item-read])"
+  },
+  {
+    "name": "taxes",
+    "label": "Taxes",
+    "status": 403,
+    "property_count": 0,
+    "error": "You do not have permissions to view object type ObjectTypeId{legacyObjectType=TAX} in portal 43826161 (requires one of [deal-line-item-read])"
+  },
+  {
+    "name": "commerce_payments",
+    "label": "Commerce Payments",
+    "status": 403,
+    "property_count": 0,
+    "error": "You do not have permissions to view object type ObjectTypeId{legacyObjectType=COMMERCE_PAYMENT} in portal 43826161 (requires one of [commerce-payments-read, commerce-payments-enrolled])"
+  },
+  {
+    "name": "calls",
+    "label": "Calls",
+    "status": 200,
+    "property_count": 107
+  },
+  {
+    "name": "emails",
+    "label": "Emails",
+    "status": 403,
+    "property_count": 0,
+    "error": "You do not have permissions to view object type ObjectTypeId{legacyObjectType=EMAIL} in portal 43826161 (requires one of [connected-email-data-access])"
+  },
+  {
+    "name": "meetings",
+    "label": "Meetings",
+    "status": 200,
+    "property_count": 102
+  },
+  {
+    "name": "notes",
+    "label": "Notes",
+    "status": 200,
+    "property_count": 51
+  },
+  {
+    "name": "tasks",
+    "label": "Tasks",
+    "status": 200,
+    "property_count": 135
+  },
+  {
+    "name": "communications",
+    "label": "Communications",
+    "status": 200,
+    "property_count": 54
+  },
+  {
+    "name": "postal_mail",
+    "label": "Postal Mail",
+    "status": 200,
+    "property_count": 48
+  },
+  {
+    "name": "marketing_events",
+    "label": "Marketing Events",
+    "status": 403,
+    "property_count": 0,
+    "error": "You do not have permissions to view object type ObjectTypeId{legacyObjectType=MARKETING_EVENT} in portal 43826161 (requires one of [marketing-events-read])"
+  },
+  {
+    "name": "_schemas_endpoint",
+    "status": 403,
+    "note": "Custom object discovery requires crm.schemas.custom.read scope.",
+    "error": "This app hasn't been granted all required scopes to make this call. Read more about required scopes here: https://developers.hubspot.com/scopes."
+  }
+]

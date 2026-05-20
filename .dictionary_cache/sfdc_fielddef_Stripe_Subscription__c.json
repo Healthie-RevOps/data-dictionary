@@ -1,0 +1,1172 @@
+[
+  {
+    "attributes": {
+      "type": "FieldDefinition",
+      "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/01I3s000001U5qe.Id"
+    },
+    "QualifiedApiName": "Id",
+    "DurableId": "01I3s000001U5qe.Id",
+    "Label": "Record ID",
+    "DataType": "Lookup()",
+    "Description": null,
+    "IsCalculated": false,
+    "LastModifiedDate": null
+  },
+  {
+    "attributes": {
+      "type": "FieldDefinition",
+      "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/01I3s000001U5qe.Owner"
+    },
+    "QualifiedApiName": "OwnerId",
+    "DurableId": "01I3s000001U5qe.Owner",
+    "Label": "Owner",
+    "DataType": "Lookup(User,Group)",
+    "Description": null,
+    "IsCalculated": false,
+    "LastModifiedDate": null
+  },
+  {
+    "attributes": {
+      "type": "FieldDefinition",
+      "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/01I3s000001U5qe.IsDeleted"
+    },
+    "QualifiedApiName": "IsDeleted",
+    "DurableId": "01I3s000001U5qe.IsDeleted",
+    "Label": "Deleted",
+    "DataType": "Checkbox",
+    "Description": null,
+    "IsCalculated": false,
+    "LastModifiedDate": null
+  },
+  {
+    "attributes": {
+      "type": "FieldDefinition",
+      "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/01I3s000001U5qe.Name"
+    },
+    "QualifiedApiName": "Name",
+    "DurableId": "01I3s000001U5qe.Name",
+    "Label": "Stripe Subscription Number",
+    "DataType": "Auto Number",
+    "Description": null,
+    "IsCalculated": false,
+    "LastModifiedDate": null
+  },
+  {
+    "attributes": {
+      "type": "FieldDefinition",
+      "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/01I3s000001U5qe.CreatedDate"
+    },
+    "QualifiedApiName": "CreatedDate",
+    "DurableId": "01I3s000001U5qe.CreatedDate",
+    "Label": "Created Date",
+    "DataType": "Date/Time",
+    "Description": null,
+    "IsCalculated": false,
+    "LastModifiedDate": null
+  },
+  {
+    "attributes": {
+      "type": "FieldDefinition",
+      "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/01I3s000001U5qe.CreatedBy"
+    },
+    "QualifiedApiName": "CreatedById",
+    "DurableId": "01I3s000001U5qe.CreatedBy",
+    "Label": "Created By",
+    "DataType": "Lookup(User)",
+    "Description": null,
+    "IsCalculated": false,
+    "LastModifiedDate": null
+  },
+  {
+    "attributes": {
+      "type": "FieldDefinition",
+      "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/01I3s000001U5qe.LastModifiedDate"
+    },
+    "QualifiedApiName": "LastModifiedDate",
+    "DurableId": "01I3s000001U5qe.LastModifiedDate",
+    "Label": "Last Modified Date",
+    "DataType": "Date/Time",
+    "Description": null,
+    "IsCalculated": false,
+    "LastModifiedDate": null
+  },
+  {
+    "attributes": {
+      "type": "FieldDefinition",
+      "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/01I3s000001U5qe.LastModifiedBy"
+    },
+    "QualifiedApiName": "LastModifiedById",
+    "DurableId": "01I3s000001U5qe.LastModifiedBy",
+    "Label": "Last Modified By",
+    "DataType": "Lookup(User)",
+    "Description": null,
+    "IsCalculated": false,
+    "LastModifiedDate": null
+  },
+  {
+    "attributes": {
+      "type": "FieldDefinition",
+      "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/01I3s000001U5qe.SystemModstamp"
+    },
+    "QualifiedApiName": "SystemModstamp",
+    "DurableId": "01I3s000001U5qe.SystemModstamp",
+    "Label": "System Modstamp",
+    "DataType": "Date/Time",
+    "Description": null,
+    "IsCalculated": false,
+    "LastModifiedDate": null
+  },
+  {
+    "attributes": {
+      "type": "FieldDefinition",
+      "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/01I3s000001U5qe.LastViewedDate"
+    },
+    "QualifiedApiName": "LastViewedDate",
+    "DurableId": "01I3s000001U5qe.LastViewedDate",
+    "Label": "Last Viewed Date",
+    "DataType": "Date/Time",
+    "Description": null,
+    "IsCalculated": false,
+    "LastModifiedDate": null
+  },
+  {
+    "attributes": {
+      "type": "FieldDefinition",
+      "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/01I3s000001U5qe.LastReferencedDate"
+    },
+    "QualifiedApiName": "LastReferencedDate",
+    "DurableId": "01I3s000001U5qe.LastReferencedDate",
+    "Label": "Last Referenced Date",
+    "DataType": "Date/Time",
+    "Description": null,
+    "IsCalculated": false,
+    "LastModifiedDate": null
+  },
+  {
+    "attributes": {
+      "type": "FieldDefinition",
+      "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/01I3s000001U5qe.UserRecordAccess"
+    },
+    "QualifiedApiName": "UserRecordAccessId",
+    "DurableId": "01I3s000001U5qe.UserRecordAccess",
+    "Label": "Object Access Level",
+    "DataType": "Lookup(User Record Access)",
+    "Description": null,
+    "IsCalculated": false,
+    "LastModifiedDate": null
+  },
+  {
+    "attributes": {
+      "type": "FieldDefinition",
+      "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/01I3s000001U5qe.RecordVisibility"
+    },
+    "QualifiedApiName": "RecordVisibilityId",
+    "DurableId": "01I3s000001U5qe.RecordVisibility",
+    "Label": "Record Visibility",
+    "DataType": "Lookup(Record Visibility)",
+    "Description": null,
+    "IsCalculated": false,
+    "LastModifiedDate": null
+  },
+  {
+    "attributes": {
+      "type": "FieldDefinition",
+      "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/01I3s000001U5qe.00N3s00000PvjCC"
+    },
+    "QualifiedApiName": "Stripe_ID__c",
+    "DurableId": "01I3s000001U5qe.00N3s00000PvjCC",
+    "Label": "Stripe ID",
+    "DataType": "Text(50)  (External ID) (Unique Case Sensitive)",
+    "Description": null,
+    "IsCalculated": false,
+    "LastModifiedDate": "2023-03-06T14:43:05.000+0000"
+  },
+  {
+    "attributes": {
+      "type": "FieldDefinition",
+      "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/01I3s000001U5qe.00N3s00000Pvl3k"
+    },
+    "QualifiedApiName": "Account__c",
+    "DurableId": "01I3s000001U5qe.00N3s00000Pvl3k",
+    "Label": "Account",
+    "DataType": "Lookup(Account)",
+    "Description": null,
+    "IsCalculated": false,
+    "LastModifiedDate": "2023-03-03T17:43:49.000+0000"
+  },
+  {
+    "attributes": {
+      "type": "FieldDefinition",
+      "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/01I3s000001U5qe.00N3s00000Pvl3l"
+    },
+    "QualifiedApiName": "Contact__c",
+    "DurableId": "01I3s000001U5qe.00N3s00000Pvl3l",
+    "Label": "Contact",
+    "DataType": "Lookup(Contact)",
+    "Description": null,
+    "IsCalculated": false,
+    "LastModifiedDate": "2023-03-03T17:43:49.000+0000"
+  },
+  {
+    "attributes": {
+      "type": "FieldDefinition",
+      "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/01I3s000001U5qe.00N3s00000Pvl3m"
+    },
+    "QualifiedApiName": "Lead__c",
+    "DurableId": "01I3s000001U5qe.00N3s00000Pvl3m",
+    "Label": "Lead",
+    "DataType": "Lookup(Lead)",
+    "Description": null,
+    "IsCalculated": false,
+    "LastModifiedDate": "2023-03-03T17:43:49.000+0000"
+  },
+  {
+    "attributes": {
+      "type": "FieldDefinition",
+      "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/01I3s000001U5qe.00N3s00000Pvl3n"
+    },
+    "QualifiedApiName": "Opportunity__c",
+    "DurableId": "01I3s000001U5qe.00N3s00000Pvl3n",
+    "Label": "Most Recent Opportunity",
+    "DataType": "Lookup(Opportunity)",
+    "Description": null,
+    "IsCalculated": false,
+    "LastModifiedDate": "2023-03-03T17:43:49.000+0000"
+  },
+  {
+    "attributes": {
+      "type": "FieldDefinition",
+      "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/01I3s000001U5qe.00N3s00000Pvl3o"
+    },
+    "QualifiedApiName": "Plan_Group__c",
+    "DurableId": "01I3s000001U5qe.00N3s00000Pvl3o",
+    "Label": "Plan Group",
+    "DataType": "Picklist",
+    "Description": null,
+    "IsCalculated": false,
+    "LastModifiedDate": "2023-03-03T17:43:49.000+0000"
+  },
+  {
+    "attributes": {
+      "type": "FieldDefinition",
+      "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/01I3s000001U5qe.00N3s00000Pvl3p"
+    },
+    "QualifiedApiName": "Stripe_Amount__c",
+    "DurableId": "01I3s000001U5qe.00N3s00000Pvl3p",
+    "Label": "Stripe Amount",
+    "DataType": "Currency(16, 2)",
+    "Description": null,
+    "IsCalculated": false,
+    "LastModifiedDate": "2023-03-03T17:43:49.000+0000"
+  },
+  {
+    "attributes": {
+      "type": "FieldDefinition",
+      "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/01I3s000001U5qe.00N3s00000Pvl3q"
+    },
+    "QualifiedApiName": "Stripe_Application_Fee_Percent__c",
+    "DurableId": "01I3s000001U5qe.00N3s00000Pvl3q",
+    "Label": "Stripe Application Fee Percent",
+    "DataType": "Number(16, 2)",
+    "Description": null,
+    "IsCalculated": false,
+    "LastModifiedDate": "2023-03-03T17:43:49.000+0000"
+  },
+  {
+    "attributes": {
+      "type": "FieldDefinition",
+      "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/01I3s000001U5qe.00N3s00000Pvl3r"
+    },
+    "QualifiedApiName": "Stripe_Application_ID__c",
+    "DurableId": "01I3s000001U5qe.00N3s00000Pvl3r",
+    "Label": "Stripe Application ID",
+    "DataType": "Text(255)  (External ID)",
+    "Description": null,
+    "IsCalculated": false,
+    "LastModifiedDate": "2023-03-03T17:43:49.000+0000"
+  },
+  {
+    "attributes": {
+      "type": "FieldDefinition",
+      "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/01I3s000001U5qe.00N3s00000Pvl3s"
+    },
+    "QualifiedApiName": "Stripe_Automatic_Tax_Enabled__c",
+    "DurableId": "01I3s000001U5qe.00N3s00000Pvl3s",
+    "Label": "Stripe Automatic Tax Enabled",
+    "DataType": "Checkbox",
+    "Description": null,
+    "IsCalculated": false,
+    "LastModifiedDate": "2023-03-03T17:43:49.000+0000"
+  },
+  {
+    "attributes": {
+      "type": "FieldDefinition",
+      "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/01I3s000001U5qe.00N3s00000Pvl3t"
+    },
+    "QualifiedApiName": "Stripe_Billing_Cycle_Anchor__c",
+    "DurableId": "01I3s000001U5qe.00N3s00000Pvl3t",
+    "Label": "Stripe Billing Cycle Anchor",
+    "DataType": "Date/Time",
+    "Description": null,
+    "IsCalculated": false,
+    "LastModifiedDate": "2023-03-03T17:43:49.000+0000"
+  },
+  {
+    "attributes": {
+      "type": "FieldDefinition",
+      "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/01I3s000001U5qe.00N3s00000Pvl3u"
+    },
+    "QualifiedApiName": "Stripe_Billing_Thresholds__c",
+    "DurableId": "01I3s000001U5qe.00N3s00000Pvl3u",
+    "Label": "Stripe Billing Thresholds",
+    "DataType": "Text(50)",
+    "Description": null,
+    "IsCalculated": false,
+    "LastModifiedDate": "2023-03-03T17:43:49.000+0000"
+  },
+  {
+    "attributes": {
+      "type": "FieldDefinition",
+      "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/01I3s000001U5qe.00N3s00000Pvl3v"
+    },
+    "QualifiedApiName": "Stripe_Cancel_At_Period_End__c",
+    "DurableId": "01I3s000001U5qe.00N3s00000Pvl3v",
+    "Label": "Stripe Cancel At Period End",
+    "DataType": "Checkbox",
+    "Description": null,
+    "IsCalculated": false,
+    "LastModifiedDate": "2023-03-03T17:43:49.000+0000"
+  },
+  {
+    "attributes": {
+      "type": "FieldDefinition",
+      "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/01I3s000001U5qe.00N3s00000Pvl3w"
+    },
+    "QualifiedApiName": "Stripe_Cancel_At__c",
+    "DurableId": "01I3s000001U5qe.00N3s00000Pvl3w",
+    "Label": "Stripe Cancel At",
+    "DataType": "Date/Time",
+    "Description": null,
+    "IsCalculated": false,
+    "LastModifiedDate": "2023-03-03T17:43:49.000+0000"
+  },
+  {
+    "attributes": {
+      "type": "FieldDefinition",
+      "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/01I3s000001U5qe.00N3s00000Pvl3x"
+    },
+    "QualifiedApiName": "Stripe_Canceled_At__c",
+    "DurableId": "01I3s000001U5qe.00N3s00000Pvl3x",
+    "Label": "Stripe Canceled At",
+    "DataType": "Date/Time",
+    "Description": null,
+    "IsCalculated": false,
+    "LastModifiedDate": "2023-03-03T17:43:49.000+0000"
+  },
+  {
+    "attributes": {
+      "type": "FieldDefinition",
+      "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/01I3s000001U5qe.00N3s00000Pvl3y"
+    },
+    "QualifiedApiName": "Stripe_Collection_Method__c",
+    "DurableId": "01I3s000001U5qe.00N3s00000Pvl3y",
+    "Label": "Stripe Collection Method",
+    "DataType": "Text(50)",
+    "Description": null,
+    "IsCalculated": false,
+    "LastModifiedDate": "2023-03-03T17:43:49.000+0000"
+  },
+  {
+    "attributes": {
+      "type": "FieldDefinition",
+      "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/01I3s000001U5qe.00N3s00000Pvl3z"
+    },
+    "QualifiedApiName": "Stripe_Created__c",
+    "DurableId": "01I3s000001U5qe.00N3s00000Pvl3z",
+    "Label": "Stripe Created",
+    "DataType": "Date/Time",
+    "Description": null,
+    "IsCalculated": false,
+    "LastModifiedDate": "2023-03-03T17:43:49.000+0000"
+  },
+  {
+    "attributes": {
+      "type": "FieldDefinition",
+      "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/01I3s000001U5qe.00N3s00000Pvl40"
+    },
+    "QualifiedApiName": "Stripe_Currency__c",
+    "DurableId": "01I3s000001U5qe.00N3s00000Pvl40",
+    "Label": "Stripe Currency",
+    "DataType": "Text(255)",
+    "Description": null,
+    "IsCalculated": false,
+    "LastModifiedDate": "2023-03-03T17:43:49.000+0000"
+  },
+  {
+    "attributes": {
+      "type": "FieldDefinition",
+      "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/01I3s000001U5qe.00N3s00000Pvl41"
+    },
+    "QualifiedApiName": "Stripe_Current_Period_End__c",
+    "DurableId": "01I3s000001U5qe.00N3s00000Pvl41",
+    "Label": "Stripe Current Period End",
+    "DataType": "Date/Time",
+    "Description": null,
+    "IsCalculated": false,
+    "LastModifiedDate": "2023-03-03T17:43:49.000+0000"
+  },
+  {
+    "attributes": {
+      "type": "FieldDefinition",
+      "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/01I3s000001U5qe.00N3s00000Pvl42"
+    },
+    "QualifiedApiName": "Stripe_Current_Period_Start__c",
+    "DurableId": "01I3s000001U5qe.00N3s00000Pvl42",
+    "Label": "Stripe Current Period Start",
+    "DataType": "Date/Time",
+    "Description": null,
+    "IsCalculated": false,
+    "LastModifiedDate": "2023-03-03T17:43:49.000+0000"
+  },
+  {
+    "attributes": {
+      "type": "FieldDefinition",
+      "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/01I3s000001U5qe.00N3s00000Pvl43"
+    },
+    "QualifiedApiName": "Stripe_Customer_ID__c",
+    "DurableId": "01I3s000001U5qe.00N3s00000Pvl43",
+    "Label": "Stripe Customer ID",
+    "DataType": "Text(50)  (External ID)",
+    "Description": null,
+    "IsCalculated": false,
+    "LastModifiedDate": "2023-03-03T17:43:49.000+0000"
+  },
+  {
+    "attributes": {
+      "type": "FieldDefinition",
+      "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/01I3s000001U5qe.00N3s00000Pvl44"
+    },
+    "QualifiedApiName": "Stripe_Customer__c",
+    "DurableId": "01I3s000001U5qe.00N3s00000Pvl44",
+    "Label": "Stripe Customer",
+    "DataType": "Lookup(Stripe Customer)",
+    "Description": null,
+    "IsCalculated": false,
+    "LastModifiedDate": "2023-03-03T17:43:49.000+0000"
+  },
+  {
+    "attributes": {
+      "type": "FieldDefinition",
+      "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/01I3s000001U5qe.00N3s00000Pvl45"
+    },
+    "QualifiedApiName": "Stripe_Days_Until_Due__c",
+    "DurableId": "01I3s000001U5qe.00N3s00000Pvl45",
+    "Label": "Stripe Days Until Due",
+    "DataType": "Number(18, 0)",
+    "Description": null,
+    "IsCalculated": false,
+    "LastModifiedDate": "2023-03-03T17:43:49.000+0000"
+  },
+  {
+    "attributes": {
+      "type": "FieldDefinition",
+      "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/01I3s000001U5qe.00N3s00000Pvl46"
+    },
+    "QualifiedApiName": "Stripe_Default_Payment_Method__c",
+    "DurableId": "01I3s000001U5qe.00N3s00000Pvl46",
+    "Label": "Stripe Default Payment Method",
+    "DataType": "Text(50)",
+    "Description": null,
+    "IsCalculated": false,
+    "LastModifiedDate": "2023-03-03T17:43:49.000+0000"
+  },
+  {
+    "attributes": {
+      "type": "FieldDefinition",
+      "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/01I3s000001U5qe.00N3s00000Pvl47"
+    },
+    "QualifiedApiName": "Stripe_Default_Source__c",
+    "DurableId": "01I3s000001U5qe.00N3s00000Pvl47",
+    "Label": "Stripe Default Source",
+    "DataType": "Text(50)",
+    "Description": null,
+    "IsCalculated": false,
+    "LastModifiedDate": "2023-03-03T17:43:49.000+0000"
+  },
+  {
+    "attributes": {
+      "type": "FieldDefinition",
+      "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/01I3s000001U5qe.00N3s00000Pvl48"
+    },
+    "QualifiedApiName": "Stripe_Description__c",
+    "DurableId": "01I3s000001U5qe.00N3s00000Pvl48",
+    "Label": "Stripe Description",
+    "DataType": "Text(255)",
+    "Description": null,
+    "IsCalculated": false,
+    "LastModifiedDate": "2023-03-03T17:43:49.000+0000"
+  },
+  {
+    "attributes": {
+      "type": "FieldDefinition",
+      "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/01I3s000001U5qe.00N3s00000Pvl49"
+    },
+    "QualifiedApiName": "Stripe_Ended_At__c",
+    "DurableId": "01I3s000001U5qe.00N3s00000Pvl49",
+    "Label": "Stripe Ended At",
+    "DataType": "Date/Time",
+    "Description": null,
+    "IsCalculated": false,
+    "LastModifiedDate": "2023-03-03T17:43:49.000+0000"
+  },
+  {
+    "attributes": {
+      "type": "FieldDefinition",
+      "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/01I3s000001U5qe.00N3s00000Pvl4A"
+    },
+    "QualifiedApiName": "Stripe_Latest_Invoice__c",
+    "DurableId": "01I3s000001U5qe.00N3s00000Pvl4A",
+    "Label": "Stripe Latest Invoice",
+    "DataType": "Text(50)",
+    "Description": null,
+    "IsCalculated": false,
+    "LastModifiedDate": "2023-03-03T17:43:49.000+0000"
+  },
+  {
+    "attributes": {
+      "type": "FieldDefinition",
+      "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/01I3s000001U5qe.00N3s00000Pvl4B"
+    },
+    "QualifiedApiName": "Stripe_Livemode__c",
+    "DurableId": "01I3s000001U5qe.00N3s00000Pvl4B",
+    "Label": "Stripe Livemode",
+    "DataType": "Checkbox",
+    "Description": null,
+    "IsCalculated": false,
+    "LastModifiedDate": "2023-03-03T17:43:49.000+0000"
+  },
+  {
+    "attributes": {
+      "type": "FieldDefinition",
+      "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/01I3s000001U5qe.00N3s00000Pvl4C"
+    },
+    "QualifiedApiName": "Stripe_Next_Pending_Invoice_Item_Invoice__c",
+    "DurableId": "01I3s000001U5qe.00N3s00000Pvl4C",
+    "Label": "Stripe Next Pending Invoice Item Invoice",
+    "DataType": "Date/Time",
+    "Description": null,
+    "IsCalculated": false,
+    "LastModifiedDate": "2023-03-03T17:43:49.000+0000"
+  },
+  {
+    "attributes": {
+      "type": "FieldDefinition",
+      "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/01I3s000001U5qe.00N3s00000Pvl4D"
+    },
+    "QualifiedApiName": "Stripe_Plan_ID__c",
+    "DurableId": "01I3s000001U5qe.00N3s00000Pvl4D",
+    "Label": "Stripe Plan ID",
+    "DataType": "Text(100)  (External ID)",
+    "Description": null,
+    "IsCalculated": false,
+    "LastModifiedDate": "2023-03-03T17:43:49.000+0000"
+  },
+  {
+    "attributes": {
+      "type": "FieldDefinition",
+      "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/01I3s000001U5qe.00N3s00000Pvl4E"
+    },
+    "QualifiedApiName": "Stripe_Quantity__c",
+    "DurableId": "01I3s000001U5qe.00N3s00000Pvl4E",
+    "Label": "Stripe Quantity",
+    "DataType": "Number(18, 0)",
+    "Description": null,
+    "IsCalculated": false,
+    "LastModifiedDate": "2023-03-03T17:43:49.000+0000"
+  },
+  {
+    "attributes": {
+      "type": "FieldDefinition",
+      "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/01I3s000001U5qe.00N3s00000Pvl4F"
+    },
+    "QualifiedApiName": "Stripe_Schedule__c",
+    "DurableId": "01I3s000001U5qe.00N3s00000Pvl4F",
+    "Label": "Stripe Schedule",
+    "DataType": "Text(50)",
+    "Description": null,
+    "IsCalculated": false,
+    "LastModifiedDate": "2023-03-03T17:43:49.000+0000"
+  },
+  {
+    "attributes": {
+      "type": "FieldDefinition",
+      "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/01I3s000001U5qe.00N3s00000Pvl4G"
+    },
+    "QualifiedApiName": "Stripe_Start_Date__c",
+    "DurableId": "01I3s000001U5qe.00N3s00000Pvl4G",
+    "Label": "Stripe Start Date",
+    "DataType": "Date/Time",
+    "Description": null,
+    "IsCalculated": false,
+    "LastModifiedDate": "2023-03-03T17:43:49.000+0000"
+  },
+  {
+    "attributes": {
+      "type": "FieldDefinition",
+      "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/01I3s000001U5qe.00N3s00000Pvl4H"
+    },
+    "QualifiedApiName": "Stripe_Status__c",
+    "DurableId": "01I3s000001U5qe.00N3s00000Pvl4H",
+    "Label": "Stripe Status",
+    "DataType": "Picklist",
+    "Description": null,
+    "IsCalculated": false,
+    "LastModifiedDate": "2023-03-03T17:43:49.000+0000"
+  },
+  {
+    "attributes": {
+      "type": "FieldDefinition",
+      "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/01I3s000001U5qe.00N3s00000Pvl4I"
+    },
+    "QualifiedApiName": "Stripe_Test_Clock__c",
+    "DurableId": "01I3s000001U5qe.00N3s00000Pvl4I",
+    "Label": "Stripe Test Clock",
+    "DataType": "Text(50)",
+    "Description": null,
+    "IsCalculated": false,
+    "LastModifiedDate": "2023-03-03T17:43:49.000+0000"
+  },
+  {
+    "attributes": {
+      "type": "FieldDefinition",
+      "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/01I3s000001U5qe.00N3s00000Pvl4J"
+    },
+    "QualifiedApiName": "Stripe_Trial_End__c",
+    "DurableId": "01I3s000001U5qe.00N3s00000Pvl4J",
+    "Label": "Stripe Trial End",
+    "DataType": "Date/Time",
+    "Description": null,
+    "IsCalculated": false,
+    "LastModifiedDate": "2023-03-03T17:43:49.000+0000"
+  },
+  {
+    "attributes": {
+      "type": "FieldDefinition",
+      "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/01I3s000001U5qe.00N3s00000Pvl4K"
+    },
+    "QualifiedApiName": "Stripe_Trial_Start__c",
+    "DurableId": "01I3s000001U5qe.00N3s00000Pvl4K",
+    "Label": "Stripe Trial Start",
+    "DataType": "Date/Time",
+    "Description": null,
+    "IsCalculated": false,
+    "LastModifiedDate": "2023-03-03T17:43:49.000+0000"
+  },
+  {
+    "attributes": {
+      "type": "FieldDefinition",
+      "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/01I3s000001U5qe.00N3s00000Pvl4L"
+    },
+    "QualifiedApiName": "Total_MRR__c",
+    "DurableId": "01I3s000001U5qe.00N3s00000Pvl4L",
+    "Label": "MRR without Discount",
+    "DataType": "Number(16, 2)",
+    "Description": null,
+    "IsCalculated": false,
+    "LastModifiedDate": "2023-10-10T16:24:06.000+0000"
+  },
+  {
+    "attributes": {
+      "type": "FieldDefinition",
+      "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/01I3s000001U5qe.00N3s00000Pvnnz"
+    },
+    "QualifiedApiName": "Backfill_2023__c",
+    "DurableId": "01I3s000001U5qe.00N3s00000Pvnnz",
+    "Label": "Backfill 2023",
+    "DataType": "Checkbox",
+    "Description": null,
+    "IsCalculated": false,
+    "LastModifiedDate": "2023-03-07T04:50:10.000+0000"
+  },
+  {
+    "attributes": {
+      "type": "FieldDefinition",
+      "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/01I3s000001U5qe.00N3s00000Pvo7u"
+    },
+    "QualifiedApiName": "Stripe_Subscription_ID_18__c",
+    "DurableId": "01I3s000001U5qe.00N3s00000Pvo7u",
+    "Label": "Stripe Subscription Idx18",
+    "DataType": "Formula (Text)",
+    "Description": null,
+    "IsCalculated": true,
+    "LastModifiedDate": "2024-10-17T17:58:45.000+0000"
+  },
+  {
+    "attributes": {
+      "type": "FieldDefinition",
+      "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/01I3s000001U5qe.00N3s00000PvoBr"
+    },
+    "QualifiedApiName": "Stripe_Customer_Account_ID_18__c",
+    "DurableId": "01I3s000001U5qe.00N3s00000PvoBr",
+    "Label": "Stripe Customer: Account Idx18",
+    "DataType": "Formula (Text)",
+    "Description": null,
+    "IsCalculated": true,
+    "LastModifiedDate": "2024-10-17T17:58:20.000+0000"
+  },
+  {
+    "attributes": {
+      "type": "FieldDefinition",
+      "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/01I3s000001U5qe.00N3s00000PvoBw"
+    },
+    "QualifiedApiName": "Stripe_Customer_Contact_ID_18__c",
+    "DurableId": "01I3s000001U5qe.00N3s00000PvoBw",
+    "Label": "Stripe Customer: Contact Idx18",
+    "DataType": "Formula (Text)",
+    "Description": null,
+    "IsCalculated": true,
+    "LastModifiedDate": "2024-10-17T17:58:31.000+0000"
+  },
+  {
+    "attributes": {
+      "type": "FieldDefinition",
+      "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/01I3s000001U5qe.00N3s00000PvoOM"
+    },
+    "QualifiedApiName": "DHS__c",
+    "DurableId": "01I3s000001U5qe.00N3s00000PvoOM",
+    "Label": "DHS",
+    "DataType": "Checkbox",
+    "Description": null,
+    "IsCalculated": false,
+    "LastModifiedDate": "2023-03-17T15:21:38.000+0000"
+  },
+  {
+    "attributes": {
+      "type": "FieldDefinition",
+      "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/01I3s000001U5qe.00NHu00000KJEhh"
+    },
+    "QualifiedApiName": "Stripe_Coupon_ID__c",
+    "DurableId": "01I3s000001U5qe.00NHu00000KJEhh",
+    "Label": "Stripe Coupon ID",
+    "DataType": "Text(50)  (External ID)",
+    "Description": null,
+    "IsCalculated": false,
+    "LastModifiedDate": "2023-08-15T18:21:10.000+0000"
+  },
+  {
+    "attributes": {
+      "type": "FieldDefinition",
+      "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/01I3s000001U5qe.00N3s00000PvoP0"
+    },
+    "QualifiedApiName": "DHS_Trial_Start__c",
+    "DurableId": "01I3s000001U5qe.00N3s00000PvoP0",
+    "Label": "DHS Trial Start",
+    "DataType": "Formula (Date/Time)",
+    "Description": "Populating the Stripe Start Date as the Trial start since DHS don't go through standard trial period.",
+    "IsCalculated": true,
+    "LastModifiedDate": "2023-03-17T19:19:06.000+0000"
+  },
+  {
+    "attributes": {
+      "type": "FieldDefinition",
+      "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/01I3s000001U5qe.00N3s00000PvodW"
+    },
+    "QualifiedApiName": "Account_ID_18__c",
+    "DurableId": "01I3s000001U5qe.00N3s00000PvodW",
+    "Label": "Account Idx18",
+    "DataType": "Formula (Text)",
+    "Description": null,
+    "IsCalculated": true,
+    "LastModifiedDate": "2024-10-17T17:57:22.000+0000"
+  },
+  {
+    "attributes": {
+      "type": "FieldDefinition",
+      "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/01I3s000001U5qe.00N3s00000Pvodb"
+    },
+    "QualifiedApiName": "Contact_ID_18__c",
+    "DurableId": "01I3s000001U5qe.00N3s00000Pvodb",
+    "Label": "Contact Idx18",
+    "DataType": "Formula (Text)",
+    "Description": null,
+    "IsCalculated": true,
+    "LastModifiedDate": "2024-10-17T17:57:49.000+0000"
+  },
+  {
+    "attributes": {
+      "type": "FieldDefinition",
+      "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/01I3s000001U5qe.00N3s00000Pvodg"
+    },
+    "QualifiedApiName": "Opportunity_ID_18__c",
+    "DurableId": "01I3s000001U5qe.00N3s00000Pvodg",
+    "Label": "Opportunity Idx18",
+    "DataType": "Formula (Text)",
+    "Description": null,
+    "IsCalculated": true,
+    "LastModifiedDate": "2024-10-17T17:58:00.000+0000"
+  },
+  {
+    "attributes": {
+      "type": "FieldDefinition",
+      "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/01I3s000001U5qe.00NHu00000KJEhi"
+    },
+    "QualifiedApiName": "Stripe_Discount_Amount_Off__c",
+    "DurableId": "01I3s000001U5qe.00NHu00000KJEhi",
+    "Label": "Stripe Discount Amount Off",
+    "DataType": "Number(16, 2)",
+    "Description": null,
+    "IsCalculated": false,
+    "LastModifiedDate": "2023-08-15T18:21:10.000+0000"
+  },
+  {
+    "attributes": {
+      "type": "FieldDefinition",
+      "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/01I3s000001U5qe.00NHu00000KJEho"
+    },
+    "QualifiedApiName": "Stripe_Discount_Duration_Months__c",
+    "DurableId": "01I3s000001U5qe.00NHu00000KJEho",
+    "Label": "Stripe Discount Duration (Months)",
+    "DataType": "Number(18, 0)",
+    "Description": null,
+    "IsCalculated": false,
+    "LastModifiedDate": "2023-08-15T18:21:10.000+0000"
+  },
+  {
+    "attributes": {
+      "type": "FieldDefinition",
+      "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/01I3s000001U5qe.00NHu00000KJEhp"
+    },
+    "QualifiedApiName": "Stripe_Discount_Duration__c",
+    "DurableId": "01I3s000001U5qe.00NHu00000KJEhp",
+    "Label": "Stripe Discount Duration",
+    "DataType": "Text(255)",
+    "Description": null,
+    "IsCalculated": false,
+    "LastModifiedDate": "2023-08-15T18:21:10.000+0000"
+  },
+  {
+    "attributes": {
+      "type": "FieldDefinition",
+      "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/01I3s000001U5qe.00NHu00000KJEhq"
+    },
+    "QualifiedApiName": "Stripe_Discount_End_Date_Time__c",
+    "DurableId": "01I3s000001U5qe.00NHu00000KJEhq",
+    "Label": "Stripe Discount End Date/Time",
+    "DataType": "Date/Time",
+    "Description": null,
+    "IsCalculated": false,
+    "LastModifiedDate": "2023-08-15T18:21:10.000+0000"
+  },
+  {
+    "attributes": {
+      "type": "FieldDefinition",
+      "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/01I3s000001U5qe.00NHu00000KJEhr"
+    },
+    "QualifiedApiName": "Stripe_Discount_ID__c",
+    "DurableId": "01I3s000001U5qe.00NHu00000KJEhr",
+    "Label": "Stripe Discount ID",
+    "DataType": "Text(50)  (External ID)",
+    "Description": null,
+    "IsCalculated": false,
+    "LastModifiedDate": "2023-08-15T18:21:10.000+0000"
+  },
+  {
+    "attributes": {
+      "type": "FieldDefinition",
+      "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/01I3s000001U5qe.00NHu00000KJEhs"
+    },
+    "QualifiedApiName": "Stripe_Discount_Percent_Off__c",
+    "DurableId": "01I3s000001U5qe.00NHu00000KJEhs",
+    "Label": "Stripe Discount Percent Off",
+    "DataType": "Number(16, 2)",
+    "Description": null,
+    "IsCalculated": false,
+    "LastModifiedDate": "2023-08-15T18:21:10.000+0000"
+  },
+  {
+    "attributes": {
+      "type": "FieldDefinition",
+      "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/01I3s000001U5qe.00NHu00000KJEht"
+    },
+    "QualifiedApiName": "Stripe_Discount_Start_Date_Time__c",
+    "DurableId": "01I3s000001U5qe.00NHu00000KJEht",
+    "Label": "Stripe Discount Start Date/Time",
+    "DataType": "Date/Time",
+    "Description": null,
+    "IsCalculated": false,
+    "LastModifiedDate": "2023-08-15T18:21:10.000+0000"
+  },
+  {
+    "attributes": {
+      "type": "FieldDefinition",
+      "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/01I3s000001U5qe.00NHu00000KLzHG"
+    },
+    "QualifiedApiName": "Calculated_Discount_End_Date__c",
+    "DurableId": "01I3s000001U5qe.00NHu00000KLzHG",
+    "Label": "Calculated Discount End Date",
+    "DataType": "Date/Time",
+    "Description": null,
+    "IsCalculated": false,
+    "LastModifiedDate": "2023-10-10T16:24:06.000+0000"
+  },
+  {
+    "attributes": {
+      "type": "FieldDefinition",
+      "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/01I3s000001U5qe.00NHu00000KLzHH"
+    },
+    "QualifiedApiName": "Has_Discount__c",
+    "DurableId": "01I3s000001U5qe.00NHu00000KLzHH",
+    "Label": "Has Discount",
+    "DataType": "Checkbox",
+    "Description": null,
+    "IsCalculated": false,
+    "LastModifiedDate": "2023-10-10T16:24:06.000+0000"
+  },
+  {
+    "attributes": {
+      "type": "FieldDefinition",
+      "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/01I3s000001U5qe.00NHu00000KLzHI"
+    },
+    "QualifiedApiName": "MRR__c",
+    "DurableId": "01I3s000001U5qe.00NHu00000KLzHI",
+    "Label": "MRR",
+    "DataType": "Number(16, 2)",
+    "Description": null,
+    "IsCalculated": false,
+    "LastModifiedDate": "2023-10-10T16:24:06.000+0000"
+  },
+  {
+    "attributes": {
+      "type": "FieldDefinition",
+      "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/01I3s000001U5qe.00NHu00000KLzHJ"
+    },
+    "QualifiedApiName": "MRR_with_Discount__c",
+    "DurableId": "01I3s000001U5qe.00NHu00000KLzHJ",
+    "Label": "MRR with Discount",
+    "DataType": "Number(16, 2)",
+    "Description": null,
+    "IsCalculated": false,
+    "LastModifiedDate": "2023-10-10T16:24:07.000+0000"
+  },
+  {
+    "attributes": {
+      "type": "FieldDefinition",
+      "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/01I3s000001U5qe.00NHu00000KLzHK"
+    },
+    "QualifiedApiName": "Monthly_Discount_Amount__c",
+    "DurableId": "01I3s000001U5qe.00NHu00000KLzHK",
+    "Label": "Monthly Discount Amount",
+    "DataType": "Number(16, 2)",
+    "Description": null,
+    "IsCalculated": false,
+    "LastModifiedDate": "2023-10-10T16:24:07.000+0000"
+  },
+  {
+    "attributes": {
+      "type": "FieldDefinition",
+      "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/01I3s000001U5qe.00NHu00000KLzHL"
+    },
+    "QualifiedApiName": "Subscription_Term__c",
+    "DurableId": "01I3s000001U5qe.00NHu00000KLzHL",
+    "Label": "Subscription Term",
+    "DataType": "Number(3, 0)",
+    "Description": null,
+    "IsCalculated": false,
+    "LastModifiedDate": "2023-10-10T16:24:07.000+0000"
+  },
+  {
+    "attributes": {
+      "type": "FieldDefinition",
+      "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/01I3s000001U5qe.00NHu00000KLzHM"
+    },
+    "QualifiedApiName": "Active_Discount__c",
+    "DurableId": "01I3s000001U5qe.00NHu00000KLzHM",
+    "Label": "Active Discount",
+    "DataType": "Formula (Checkbox)",
+    "Description": null,
+    "IsCalculated": true,
+    "LastModifiedDate": "2023-10-10T16:24:07.000+0000"
+  },
+  {
+    "attributes": {
+      "type": "FieldDefinition",
+      "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/01I3s000001U5qe.00NRc000004A1VB"
+    },
+    "QualifiedApiName": "Stripe_Customer_ID_18__c",
+    "DurableId": "01I3s000001U5qe.00NRc000004A1VB",
+    "Label": "Stripe Customer Idx18",
+    "DataType": "Formula (Text)",
+    "Description": null,
+    "IsCalculated": true,
+    "LastModifiedDate": "2024-10-17T17:58:10.000+0000"
+  },
+  {
+    "attributes": {
+      "type": "FieldDefinition",
+      "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/01I3s000001U5qe.00NRc00000FibZV"
+    },
+    "QualifiedApiName": "CustomerCurrentPlan__c",
+    "DurableId": "01I3s000001U5qe.00NRc00000FibZV",
+    "Label": "Customer Current Plan",
+    "DataType": "Formula (Text)",
+    "Description": null,
+    "IsCalculated": true,
+    "LastModifiedDate": "2024-05-21T16:27:28.000+0000"
+  },
+  {
+    "attributes": {
+      "type": "FieldDefinition",
+      "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/01I3s000001U5qe.00NRc00000SIqfx"
+    },
+    "QualifiedApiName": "Stripe_Trial_Nickname_Subscription__c",
+    "DurableId": "01I3s000001U5qe.00NRc00000SIqfx",
+    "Label": "Stripe Trial Nickname (Subscription)",
+    "DataType": "Text(255)",
+    "Description": "Stripe Plan Nickname information from Subscription Item",
+    "IsCalculated": false,
+    "LastModifiedDate": "2024-11-13T15:21:19.000+0000"
+  },
+  {
+    "attributes": {
+      "type": "FieldDefinition",
+      "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/01I3s000001U5qe.00NRc00000TKvuH"
+    },
+    "QualifiedApiName": "Flag_Practice_Plus_Trial_Sub__c",
+    "DurableId": "01I3s000001U5qe.00NRc00000TKvuH",
+    "Label": "Flag - Practice Plus Trial (Sub)",
+    "DataType": "Checkbox",
+    "Description": null,
+    "IsCalculated": false,
+    "LastModifiedDate": "2024-11-27T20:06:05.000+0000"
+  },
+  {
+    "attributes": {
+      "type": "FieldDefinition",
+      "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/01I3s000001U5qe.00NRc00000TeBqT"
+    },
+    "QualifiedApiName": "Plus_Trial_Start_Date__c",
+    "DurableId": "01I3s000001U5qe.00NRc00000TeBqT",
+    "Label": "Plus Trial Start Date",
+    "DataType": "Date/Time",
+    "Description": null,
+    "IsCalculated": false,
+    "LastModifiedDate": "2024-12-02T18:17:07.000+0000"
+  },
+  {
+    "attributes": {
+      "type": "FieldDefinition",
+      "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/01I3s000001U5qe.00NRc00000Te6nf"
+    },
+    "QualifiedApiName": "Enterprise_Plan_Start_Date__c",
+    "DurableId": "01I3s000001U5qe.00NRc00000Te6nf",
+    "Label": "Enterprise Plan Start Date",
+    "DataType": "Date/Time",
+    "Description": null,
+    "IsCalculated": false,
+    "LastModifiedDate": "2024-12-02T18:17:26.000+0000"
+  },
+  {
+    "attributes": {
+      "type": "FieldDefinition",
+      "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/01I3s000001U5qe.00NRc00000TeC1l"
+    },
+    "QualifiedApiName": "Starter_Plan_Start_Date__c",
+    "DurableId": "01I3s000001U5qe.00NRc00000TeC1l",
+    "Label": "Starter Plan Start Date",
+    "DataType": "Date/Time",
+    "Description": null,
+    "IsCalculated": false,
+    "LastModifiedDate": "2024-12-02T18:17:53.000+0000"
+  },
+  {
+    "attributes": {
+      "type": "FieldDefinition",
+      "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/01I3s000001U5qe.00NRc00000TeALg"
+    },
+    "QualifiedApiName": "Group_Plan_Start_Date__c",
+    "DurableId": "01I3s000001U5qe.00NRc00000TeALg",
+    "Label": "Group Plan Start Date",
+    "DataType": "Date/Time",
+    "Description": null,
+    "IsCalculated": false,
+    "LastModifiedDate": "2024-12-02T18:18:27.000+0000"
+  },
+  {
+    "attributes": {
+      "type": "FieldDefinition",
+      "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/01I3s000001U5qe.00NRc00000TeCEf"
+    },
+    "QualifiedApiName": "Essentials_Plan_Start_Date__c",
+    "DurableId": "01I3s000001U5qe.00NRc00000TeCEf",
+    "Label": "Essentials Plan Start Date",
+    "DataType": "Date/Time",
+    "Description": null,
+    "IsCalculated": false,
+    "LastModifiedDate": "2024-12-02T18:18:58.000+0000"
+  },
+  {
+    "attributes": {
+      "type": "FieldDefinition",
+      "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/01I3s000001U5qe.00NRc00000TeCOL"
+    },
+    "QualifiedApiName": "Plus_Plan_Start_Date__c",
+    "DurableId": "01I3s000001U5qe.00NRc00000TeCOL",
+    "Label": "Plus Plan Start Date",
+    "DataType": "Date/Time",
+    "Description": null,
+    "IsCalculated": false,
+    "LastModifiedDate": "2024-12-02T18:19:17.000+0000"
+  },
+  {
+    "attributes": {
+      "type": "FieldDefinition",
+      "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/01I3s000001U5qe.00NRc00000UfWx7"
+    },
+    "QualifiedApiName": "Customer_Account_ID_18__c",
+    "DurableId": "01I3s000001U5qe.00NRc00000UfWx7",
+    "Label": "Customer Account ID (18)",
+    "DataType": "Formula (Text)",
+    "Description": null,
+    "IsCalculated": true,
+    "LastModifiedDate": "2024-12-16T21:58:40.000+0000"
+  },
+  {
+    "attributes": {
+      "type": "FieldDefinition",
+      "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/01I3s000001U5qe.00NRc00000csc5d"
+    },
+    "QualifiedApiName": "ARR__c",
+    "DurableId": "01I3s000001U5qe.00NRc00000csc5d",
+    "Label": "ARR",
+    "DataType": "Formula (Currency)",
+    "Description": null,
+    "IsCalculated": true,
+    "LastModifiedDate": "2025-04-22T18:31:20.000+0000"
+  },
+  {
+    "attributes": {
+      "type": "FieldDefinition",
+      "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/01I3s000001U5qe.00NRc00000hlORM"
+    },
+    "QualifiedApiName": "Created_in_Last_24_Hours__c",
+    "DurableId": "01I3s000001U5qe.00NRc00000hlORM",
+    "Label": "Created in Last 24 Hours",
+    "DataType": "Formula (Checkbox)",
+    "Description": null,
+    "IsCalculated": true,
+    "LastModifiedDate": "2025-08-20T20:28:26.000+0000"
+  },
+  {
+    "attributes": {
+      "type": "FieldDefinition",
+      "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/01I3s000001U5qe.00NRc00000l8JDh"
+    },
+    "QualifiedApiName": "Monthly_Discount_Percentage__c",
+    "DurableId": "01I3s000001U5qe.00NRc00000l8JDh",
+    "Label": "Monthly Discount (Percentage)",
+    "DataType": "Formula (Percent)",
+    "Description": null,
+    "IsCalculated": true,
+    "LastModifiedDate": "2025-11-07T21:51:02.000+0000"
+  }
+]

@@ -1,0 +1,3337 @@
+[
+  {
+    "attributes": {
+      "type": "Flow",
+      "url": "/services/data/v66.0/tooling/sobjects/Flow/301Rc00000giAZpIAM"
+    },
+    "Id": "301Rc00000giAZpIAM",
+    "MasterLabel": "Account - RT - Active Client Threshold Notification",
+    "Definition": {
+      "attributes": {
+        "type": "FlowDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FlowDefinition/300Rc00000ftEM8IAM"
+      },
+      "Id": "300Rc00000ftEM8IAM",
+      "DeveloperName": "Account_RT_Active_Client_Threshold_Notification"
+    },
+    "ProcessType": "AutoLaunchedFlow",
+    "Status": "Active",
+    "ApiVersion": 66,
+    "VersionNumber": 2,
+    "Description": null,
+    "CreatedDate": "2026-05-05T20:42:43.000+0000",
+    "LastModifiedDate": "2026-05-05T20:43:01.000+0000"
+  },
+  {
+    "attributes": {
+      "type": "Flow",
+      "url": "/services/data/v66.0/tooling/sobjects/Flow/301Rc00000h8RohIAE"
+    },
+    "Id": "301Rc00000h8RohIAE",
+    "MasterLabel": "Account - RT - Anticipated Providers Cascade To Contacts",
+    "Definition": {
+      "attributes": {
+        "type": "FlowDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FlowDefinition/300Rc00000hIiRfIAK"
+      },
+      "Id": "300Rc00000hIiRfIAK",
+      "DeveloperName": "Account_RT_Anticipated_Providers_Cascade_To_Contacts"
+    },
+    "ProcessType": "AutoLaunchedFlow",
+    "Status": "Active",
+    "ApiVersion": 62,
+    "VersionNumber": 1,
+    "Description": "Propagates Account.Anticipated_of_Providers__c to all related Contacts when the value changes on the Account. Account inherits from Healthie Organization via Update_Healthie_Organization_Data_On_Related_Account.",
+    "CreatedDate": "2026-05-14T18:26:25.000+0000",
+    "LastModifiedDate": "2026-05-14T19:01:37.000+0000"
+  },
+  {
+    "attributes": {
+      "type": "Flow",
+      "url": "/services/data/v66.0/tooling/sobjects/Flow/301Rc00000TGMGnIAP"
+    },
+    "Id": "301Rc00000TGMGnIAP",
+    "MasterLabel": "Account - RT - Clay News Last Updated Date",
+    "Definition": {
+      "attributes": {
+        "type": "FlowDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FlowDefinition/300Rc00000TKt65IAD"
+      },
+      "Id": "300Rc00000TKt65IAD",
+      "DeveloperName": "Account_RT_Clay_News_Last_Updated_Date"
+    },
+    "ProcessType": "AutoLaunchedFlow",
+    "Status": "Active",
+    "ApiVersion": 64,
+    "VersionNumber": 1,
+    "Description": null,
+    "CreatedDate": "2025-07-30T13:59:39.000+0000",
+    "LastModifiedDate": "2025-07-30T13:59:43.000+0000"
+  },
+  {
+    "attributes": {
+      "type": "Flow",
+      "url": "/services/data/v66.0/tooling/sobjects/Flow/301Rc00000h9GGGIA2"
+    },
+    "Id": "301Rc00000h9GGGIA2",
+    "MasterLabel": "Account - RT - CM Pulse Changes Slack Notification",
+    "Definition": {
+      "attributes": {
+        "type": "FlowDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FlowDefinition/300Rc00000hFSo7IAG"
+      },
+      "Id": "300Rc00000hFSo7IAG",
+      "DeveloperName": "Account_RT_CM_Pulse_Changes_Slack_Notification"
+    },
+    "ProcessType": "AutoLaunchedFlow",
+    "Status": "Active",
+    "ApiVersion": 66,
+    "VersionNumber": 5,
+    "Description": null,
+    "CreatedDate": "2026-05-15T01:54:23.000+0000",
+    "LastModifiedDate": "2026-05-15T01:54:27.000+0000"
+  },
+  {
+    "attributes": {
+      "type": "Flow",
+      "url": "/services/data/v66.0/tooling/sobjects/Flow/301Rc00000KpzPLIAZ"
+    },
+    "Id": "301Rc00000KpzPLIAZ",
+    "MasterLabel": "Account - RT - Current Plan Change Notification",
+    "Definition": {
+      "attributes": {
+        "type": "FlowDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FlowDefinition/300Rc00000KsKkbIAF"
+      },
+      "Id": "300Rc00000KsKkbIAF",
+      "DeveloperName": "Account_RT_Current_Plan_Change_Notification"
+    },
+    "ProcessType": "AutoLaunchedFlow",
+    "Status": "Active",
+    "ApiVersion": 62,
+    "VersionNumber": 1,
+    "Description": null,
+    "CreatedDate": "2025-01-22T19:31:17.000+0000",
+    "LastModifiedDate": "2025-01-22T19:31:23.000+0000"
+  },
+  {
+    "attributes": {
+      "type": "Flow",
+      "url": "/services/data/v66.0/tooling/sobjects/Flow/301Rc00000QoC8mIAF"
+    },
+    "Id": "301Rc00000QoC8mIAF",
+    "MasterLabel": "Account - RT - Implementation Phase",
+    "Definition": {
+      "attributes": {
+        "type": "FlowDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FlowDefinition/300Rc00000QqMGpIAN"
+      },
+      "Id": "300Rc00000QqMGpIAN",
+      "DeveloperName": "Account_RT_Implementation_Phase"
+    },
+    "ProcessType": "AutoLaunchedFlow",
+    "Status": "Active",
+    "ApiVersion": 63,
+    "VersionNumber": 1,
+    "Description": null,
+    "CreatedDate": "2025-06-06T12:29:50.000+0000",
+    "LastModifiedDate": "2025-06-06T12:29:54.000+0000"
+  },
+  {
+    "attributes": {
+      "type": "Flow",
+      "url": "/services/data/v66.0/tooling/sobjects/Flow/301Rc00000h8P27IAE"
+    },
+    "Id": "301Rc00000h8P27IAE",
+    "MasterLabel": "Account - RT - Inherit Anticipated Providers On Link",
+    "Definition": {
+      "attributes": {
+        "type": "FlowDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FlowDefinition/300Rc00000hIiRgIAK"
+      },
+      "Id": "300Rc00000hIiRgIAK",
+      "DeveloperName": "Account_RT_Inherit_Anticipated_Providers_On_Link"
+    },
+    "ProcessType": "AutoLaunchedFlow",
+    "Status": "Active",
+    "ApiVersion": 62,
+    "VersionNumber": 1,
+    "Description": "When an Account is linked to a Healthie Organization (or re-linked to a different one), copy the Org's Anticipated_of_Providers__c onto the Account. The Account-write then triggers Account_RT_Anticipated_Providers_Cascade_To_Contacts to fan out to Contacts.",
+    "CreatedDate": "2026-05-14T19:01:44.000+0000",
+    "LastModifiedDate": "2026-05-14T19:01:50.000+0000"
+  },
+  {
+    "attributes": {
+      "type": "Flow",
+      "url": "/services/data/v66.0/tooling/sobjects/Flow/301Rc00000QoMuPIAV"
+    },
+    "Id": "301Rc00000QoMuPIAV",
+    "MasterLabel": "Account - RT - Last Apollo Intent Update",
+    "Definition": {
+      "attributes": {
+        "type": "FlowDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FlowDefinition/300Rc00000QqNWEIA3"
+      },
+      "Id": "300Rc00000QqNWEIA3",
+      "DeveloperName": "Account_RT_Last_Apollo_Intent_Update"
+    },
+    "ProcessType": "AutoLaunchedFlow",
+    "Status": "Active",
+    "ApiVersion": 63,
+    "VersionNumber": 1,
+    "Description": null,
+    "CreatedDate": "2025-06-06T12:25:53.000+0000",
+    "LastModifiedDate": "2025-06-06T12:25:57.000+0000"
+  },
+  {
+    "attributes": {
+      "type": "Flow",
+      "url": "/services/data/v66.0/tooling/sobjects/Flow/301Rc00000H122nIAB"
+    },
+    "Id": "301Rc00000H122nIAB",
+    "MasterLabel": "Account - RT - Mass Update Accounts List View Button",
+    "Definition": {
+      "attributes": {
+        "type": "FlowDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FlowDefinition/300Rc00000HAqtCIAT"
+      },
+      "Id": "300Rc00000HAqtCIAT",
+      "DeveloperName": "Account_RT_Mass_Update_Accounts"
+    },
+    "ProcessType": "Flow",
+    "Status": "Active",
+    "ApiVersion": 62,
+    "VersionNumber": 2,
+    "Description": null,
+    "CreatedDate": "2024-10-22T14:04:30.000+0000",
+    "LastModifiedDate": "2024-10-22T14:04:34.000+0000"
+  },
+  {
+    "attributes": {
+      "type": "Flow",
+      "url": "/services/data/v66.0/tooling/sobjects/Flow/301Rc00000gyus0IAA"
+    },
+    "Id": "301Rc00000gyus0IAA",
+    "MasterLabel": "Account - RT - MRR Change Slack Notification",
+    "Definition": {
+      "attributes": {
+        "type": "FlowDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FlowDefinition/300Rc00000gKUMkIAO"
+      },
+      "Id": "300Rc00000gKUMkIAO",
+      "DeveloperName": "Account_RT_MRR_Change_Slack_Notification"
+    },
+    "ProcessType": "AutoLaunchedFlow",
+    "Status": "Active",
+    "ApiVersion": 66,
+    "VersionNumber": 9,
+    "Description": "If MRR increases/decreases by $1000 - notify CSM\nIf MRR increases/decreases by $200 - notify CSM and Caseley/Emma",
+    "CreatedDate": "2026-05-11T22:09:07.000+0000",
+    "LastModifiedDate": "2026-05-11T22:09:14.000+0000"
+  },
+  {
+    "attributes": {
+      "type": "Flow",
+      "url": "/services/data/v66.0/tooling/sobjects/Flow/301Rc00000YLKudIAH"
+    },
+    "Id": "301Rc00000YLKudIAH",
+    "MasterLabel": "Account - RT - Overall Health Score Warning Customer Slack Message",
+    "Definition": {
+      "attributes": {
+        "type": "FlowDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FlowDefinition/300Rc00000F2HtnIAF"
+      },
+      "Id": "300Rc00000F2HtnIAF",
+      "DeveloperName": "Account_RT_Warning_Customer_Slack_Message"
+    },
+    "ProcessType": "AutoLaunchedFlow",
+    "Status": "Active",
+    "ApiVersion": 61,
+    "VersionNumber": 8,
+    "Description": null,
+    "CreatedDate": "2025-11-06T16:51:49.000+0000",
+    "LastModifiedDate": "2025-11-06T20:34:18.000+0000"
+  },
+  {
+    "attributes": {
+      "type": "Flow",
+      "url": "/services/data/v66.0/tooling/sobjects/Flow/301Rc00000fIQVvIAO"
+    },
+    "Id": "301Rc00000fIQVvIAO",
+    "MasterLabel": "Account - RT - Record Updates",
+    "Definition": {
+      "attributes": {
+        "type": "FlowDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FlowDefinition/300Rc00000QWdAaIAL"
+      },
+      "Id": "300Rc00000QWdAaIAL",
+      "DeveloperName": "Account_RT_Record_Updates"
+    },
+    "ProcessType": "AutoLaunchedFlow",
+    "Status": "Active",
+    "ApiVersion": 63,
+    "VersionNumber": 8,
+    "Description": "Flow that handles automating Account fields before the record is saved.",
+    "CreatedDate": "2026-04-07T15:07:17.000+0000",
+    "LastModifiedDate": "2026-04-07T15:07:21.000+0000"
+  },
+  {
+    "attributes": {
+      "type": "Flow",
+      "url": "/services/data/v66.0/tooling/sobjects/Flow/301Rc00000dADqWIAW"
+    },
+    "Id": "301Rc00000dADqWIAW",
+    "MasterLabel": "Account - RT - Related Record Updates",
+    "Definition": {
+      "attributes": {
+        "type": "FlowDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FlowDefinition/300Rc00000QWdAbIAL"
+      },
+      "Id": "300Rc00000QWdAbIAL",
+      "DeveloperName": "Account_RT_Related_Record_Updates"
+    },
+    "ProcessType": "AutoLaunchedFlow",
+    "Status": "Active",
+    "ApiVersion": 63,
+    "VersionNumber": 2,
+    "Description": "Consolidated flow to handle related record updates for the Account object",
+    "CreatedDate": "2026-02-19T20:33:25.000+0000",
+    "LastModifiedDate": "2026-04-24T22:02:21.000+0000"
+  },
+  {
+    "attributes": {
+      "type": "Flow",
+      "url": "/services/data/v66.0/tooling/sobjects/Flow/301Rc00000bmT8tIAE"
+    },
+    "Id": "301Rc00000bmT8tIAE",
+    "MasterLabel": "Account - RT - SE Assigned Update Assigned Date",
+    "Definition": {
+      "attributes": {
+        "type": "FlowDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FlowDefinition/300Rc00000cB9NBIA0"
+      },
+      "Id": "300Rc00000cB9NBIA0",
+      "DeveloperName": "Account_RT_SE_Assigned_Update_Assigned_Date"
+    },
+    "ProcessType": "AutoLaunchedFlow",
+    "Status": "Active",
+    "ApiVersion": 65,
+    "VersionNumber": 1,
+    "Description": null,
+    "CreatedDate": "2026-01-20T23:38:47.000+0000",
+    "LastModifiedDate": "2026-01-20T23:38:51.000+0000"
+  },
+  {
+    "attributes": {
+      "type": "Flow",
+      "url": "/services/data/v66.0/tooling/sobjects/Flow/301Rc00000fa96nIAA"
+    },
+    "Id": "301Rc00000fa96nIAA",
+    "MasterLabel": "Account - RT - Update CSMv2 based on Vitally Info",
+    "Definition": {
+      "attributes": {
+        "type": "FlowDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FlowDefinition/300Rc00000fCnn3IAC"
+      },
+      "Id": "300Rc00000fCnn3IAC",
+      "DeveloperName": "Account_RT_Update_CSMv2_based_on_Vitally_Info"
+    },
+    "ProcessType": "AutoLaunchedFlow",
+    "Status": "Active",
+    "ApiVersion": 66,
+    "VersionNumber": 16,
+    "Description": null,
+    "CreatedDate": "2026-04-13T14:37:27.000+0000",
+    "LastModifiedDate": "2026-04-13T14:37:30.000+0000"
+  },
+  {
+    "attributes": {
+      "type": "Flow",
+      "url": "/services/data/v66.0/tooling/sobjects/Flow/301Rc00000fnEbiIAE"
+    },
+    "Id": "301Rc00000fnEbiIAE",
+    "MasterLabel": "Account - RT - Update Opportunity Owner on CSM Change",
+    "Definition": {
+      "attributes": {
+        "type": "FlowDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FlowDefinition/300Rc00000fovRiIAI"
+      },
+      "Id": "300Rc00000fovRiIAI",
+      "DeveloperName": "Account_RT_Update_Opportunity_Owner_on_CSM_Change"
+    },
+    "ProcessType": "AutoLaunchedFlow",
+    "Status": "Active",
+    "ApiVersion": 66,
+    "VersionNumber": 4,
+    "Description": null,
+    "CreatedDate": "2026-04-16T12:21:45.000+0000",
+    "LastModifiedDate": "2026-04-16T12:21:49.000+0000"
+  },
+  {
+    "attributes": {
+      "type": "Flow",
+      "url": "/services/data/v66.0/tooling/sobjects/Flow/301Rc00000cZKIwIAO"
+    },
+    "Id": "301Rc00000cZKIwIAO",
+    "MasterLabel": "Account - RT - Vitally CIM Auto Populate",
+    "Definition": {
+      "attributes": {
+        "type": "FlowDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FlowDefinition/300Rc00000cxcEhIAI"
+      },
+      "Id": "300Rc00000cxcEhIAI",
+      "DeveloperName": "Account_RT_Vitally_CIM_Auto_Populate"
+    },
+    "ProcessType": "AutoLaunchedFlow",
+    "Status": "Active",
+    "ApiVersion": 65,
+    "VersionNumber": 1,
+    "Description": "Temporary Flow while we await Vitally Migration to SF. Automatically assigns CIM from the Vitally CIM field",
+    "CreatedDate": "2026-02-06T16:54:59.000+0000",
+    "LastModifiedDate": "2026-02-06T16:56:27.000+0000"
+  },
+  {
+    "attributes": {
+      "type": "Flow",
+      "url": "/services/data/v66.0/tooling/sobjects/Flow/301Rc00000bsg1lIAA"
+    },
+    "Id": "301Rc00000bsg1lIAA",
+    "MasterLabel": "Account - RT - Zapier Revenue Leakage",
+    "Definition": {
+      "attributes": {
+        "type": "FlowDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FlowDefinition/300Rc00000cHQUrIAO"
+      },
+      "Id": "300Rc00000cHQUrIAO",
+      "DeveloperName": "Account_RT_Zapier_Revenue_Leakage"
+    },
+    "ProcessType": "AutoLaunchedFlow",
+    "Status": "Active",
+    "ApiVersion": 65,
+    "VersionNumber": 2,
+    "Description": null,
+    "CreatedDate": "2026-01-22T20:41:34.000+0000",
+    "LastModifiedDate": "2026-01-22T20:41:38.000+0000"
+  },
+  {
+    "attributes": {
+      "type": "Flow",
+      "url": "/services/data/v66.0/tooling/sobjects/Flow/301Rc00000h2G1VIAU"
+    },
+    "Id": "301Rc00000h2G1VIAU",
+    "MasterLabel": "Account - SF - Create New Account Note",
+    "Definition": {
+      "attributes": {
+        "type": "FlowDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FlowDefinition/300Rc00000c9CotIAE"
+      },
+      "Id": "300Rc00000c9CotIAE",
+      "DeveloperName": "Account_SF_Create_New_Note"
+    },
+    "ProcessType": "Flow",
+    "Status": "Active",
+    "ApiVersion": 65,
+    "VersionNumber": 21,
+    "Description": "Similar to Vitally Functionality",
+    "CreatedDate": "2026-05-12T19:47:31.000+0000",
+    "LastModifiedDate": "2026-05-12T19:47:40.000+0000"
+  },
+  {
+    "attributes": {
+      "type": "Flow",
+      "url": "/services/data/v66.0/tooling/sobjects/Flow/301Rc00000g6j2NIAQ"
+    },
+    "Id": "301Rc00000g6j2NIAQ",
+    "MasterLabel": "Account - SF - Create New Opportunity",
+    "Definition": {
+      "attributes": {
+        "type": "FlowDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FlowDefinition/300Rc00000cDhfcIAC"
+      },
+      "Id": "300Rc00000cDhfcIAC",
+      "DeveloperName": "Account_SF_Create_New_Opportunity"
+    },
+    "ProcessType": "Flow",
+    "Status": "Active",
+    "ApiVersion": 65,
+    "VersionNumber": 15,
+    "Description": "Only to be used for New Biz or Expansion Opps",
+    "CreatedDate": "2026-04-22T18:38:27.000+0000",
+    "LastModifiedDate": "2026-04-22T18:38:53.000+0000"
+  },
+  {
+    "attributes": {
+      "type": "Flow",
+      "url": "/services/data/v66.0/tooling/sobjects/Flow/301Rc00000O36FyIAJ"
+    },
+    "Id": "301Rc00000O36FyIAJ",
+    "MasterLabel": "Account - SF - Related Record Counts",
+    "Definition": {
+      "attributes": {
+        "type": "FlowDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FlowDefinition/300Rc00000Nz9xBIAR"
+      },
+      "Id": "300Rc00000Nz9xBIAR",
+      "DeveloperName": "Account_SF_Related_Record_Counts"
+    },
+    "ProcessType": "AutoLaunchedFlow",
+    "Status": "Active",
+    "ApiVersion": 63,
+    "VersionNumber": 3,
+    "Description": "Scheduled flow to handle counting related records of Stripe Customers and Healthie Orgs",
+    "CreatedDate": "2025-04-03T18:21:58.000+0000",
+    "LastModifiedDate": "2025-04-03T18:50:19.000+0000"
+  },
+  {
+    "attributes": {
+      "type": "Flow",
+      "url": "/services/data/v66.0/tooling/sobjects/Flow/301Rc00000JkqQTIAZ"
+    },
+    "Id": "301Rc00000JkqQTIAZ",
+    "MasterLabel": "Account- RT - Specialty Update",
+    "Definition": {
+      "attributes": {
+        "type": "FlowDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FlowDefinition/300Rc00000JnxiLIAR"
+      },
+      "Id": "300Rc00000JnxiLIAR",
+      "DeveloperName": "Account_RT_Specialty_Update"
+    },
+    "ProcessType": "AutoLaunchedFlow",
+    "Status": "Active",
+    "ApiVersion": 62,
+    "VersionNumber": 1,
+    "Description": "When Primary Specialty is updated on Healthie Org, Update on Associated Account",
+    "CreatedDate": "2024-12-26T20:36:59.000+0000",
+    "LastModifiedDate": "2024-12-26T20:37:29.000+0000"
+  },
+  {
+    "attributes": {
+      "type": "Flow",
+      "url": "/services/data/v66.0/tooling/sobjects/Flow/301Rc00000exyIsIAI"
+    },
+    "Id": "301Rc00000exyIsIAI",
+    "MasterLabel": "Add-On Closed Lost Capture",
+    "Definition": {
+      "attributes": {
+        "type": "FlowDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FlowDefinition/300Rc00000ewUDFIA2"
+      },
+      "Id": "300Rc00000ewUDFIA2",
+      "DeveloperName": "Add_On_Closed_Lost_Capture"
+    },
+    "ProcessType": "Flow",
+    "Status": "Active",
+    "ApiVersion": 66,
+    "VersionNumber": 4,
+    "Description": "Captures structured closed-lost data for Expansion Deal (Add-on type) opportunities such as Bridge and Scribe. Launched from the Opportunity record page. Deployed as Draft/Inactive \u2014 activate when ready to go live.",
+    "CreatedDate": "2026-03-31T20:03:12.000+0000",
+    "LastModifiedDate": "2026-03-31T20:15:21.000+0000"
+  },
+  {
+    "attributes": {
+      "type": "Flow",
+      "url": "/services/data/v66.0/tooling/sobjects/Flow/3013s000000X4qCAAS"
+    },
+    "Id": "3013s000000X4qCAAS",
+    "MasterLabel": "Assign to Inbound Queue",
+    "Definition": {
+      "attributes": {
+        "type": "FlowDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FlowDefinition/3003s000000UcfFAAS"
+      },
+      "Id": "3003s000000UcfFAAS",
+      "DeveloperName": "Assign_to_Inbound_Queue"
+    },
+    "ProcessType": "AutoLaunchedFlow",
+    "Status": "Active",
+    "ApiVersion": 57,
+    "VersionNumber": 3,
+    "Description": null,
+    "CreatedDate": "2023-04-14T18:53:52.000+0000",
+    "LastModifiedDate": "2023-04-14T18:53:54.000+0000"
+  },
+  {
+    "attributes": {
+      "type": "Flow",
+      "url": "/services/data/v66.0/tooling/sobjects/Flow/301Rc00000ZgnwtIAB"
+    },
+    "Id": "301Rc00000ZgnwtIAB",
+    "MasterLabel": "Calculate MRR on Stripe Subscription Item",
+    "Definition": {
+      "attributes": {
+        "type": "FlowDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FlowDefinition/3003s0000000UR0AAM"
+      },
+      "Id": "3003s0000000UR0AAM",
+      "DeveloperName": "Calculate_MRR_on_Stripe_Subscription_Item"
+    },
+    "ProcessType": "AutoLaunchedFlow",
+    "Status": "Active",
+    "ApiVersion": 57,
+    "VersionNumber": 3,
+    "Description": null,
+    "CreatedDate": "2025-12-02T21:25:58.000+0000",
+    "LastModifiedDate": "2025-12-02T21:26:46.000+0000"
+  },
+  {
+    "attributes": {
+      "type": "Flow",
+      "url": "/services/data/v66.0/tooling/sobjects/Flow/3013s000000NNGdAAO"
+    },
+    "Id": "3013s000000NNGdAAO",
+    "MasterLabel": "Calculate Total MRR on Stripe Subscription",
+    "Definition": {
+      "attributes": {
+        "type": "FlowDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FlowDefinition/3003s0000000UR1AAM"
+      },
+      "Id": "3003s0000000UR1AAM",
+      "DeveloperName": "Calculate_Total_MRR_on_Stripe_Subscription"
+    },
+    "ProcessType": "AutoLaunchedFlow",
+    "Status": "Active",
+    "ApiVersion": 57,
+    "VersionNumber": 1,
+    "Description": null,
+    "CreatedDate": "2023-03-10T20:01:24.000+0000",
+    "LastModifiedDate": "2023-03-10T20:23:40.000+0000"
+  },
+  {
+    "attributes": {
+      "type": "Flow",
+      "url": "/services/data/v66.0/tooling/sobjects/Flow/301Rc00000HCJDHIA5"
+    },
+    "Id": "301Rc00000HCJDHIA5",
+    "MasterLabel": "Calendly Event - RT - Update Recent Conversion on Contact",
+    "Definition": {
+      "attributes": {
+        "type": "FlowDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FlowDefinition/300Rc00000GvHxOIAV"
+      },
+      "Id": "300Rc00000GvHxOIAV",
+      "DeveloperName": "Calendly_Event_RT_Update_Recent_Conversion_on_Contact"
+    },
+    "ProcessType": "AutoLaunchedFlow",
+    "Status": "Active",
+    "ApiVersion": 62,
+    "VersionNumber": 4,
+    "Description": null,
+    "CreatedDate": "2024-10-25T19:44:44.000+0000",
+    "LastModifiedDate": "2024-10-25T19:44:48.000+0000"
+  },
+  {
+    "attributes": {
+      "type": "Flow",
+      "url": "/services/data/v66.0/tooling/sobjects/Flow/301Rc00000GZnkfIAD"
+    },
+    "Id": "301Rc00000GZnkfIAD",
+    "MasterLabel": "Campaign - RT - New Campaign Member Statuses",
+    "Definition": {
+      "attributes": {
+        "type": "FlowDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FlowDefinition/300Rc00000EBqHmIAL"
+      },
+      "Id": "300Rc00000EBqHmIAL",
+      "DeveloperName": "Campaign_RT_New_Campaign_Member_Statuses"
+    },
+    "ProcessType": "AutoLaunchedFlow",
+    "Status": "Active",
+    "ApiVersion": 61,
+    "VersionNumber": 3,
+    "Description": null,
+    "CreatedDate": "2024-10-10T18:42:34.000+0000",
+    "LastModifiedDate": "2024-10-10T18:42:37.000+0000"
+  },
+  {
+    "attributes": {
+      "type": "Flow",
+      "url": "/services/data/v66.0/tooling/sobjects/Flow/301Rc00000dhDq0IAE"
+    },
+    "Id": "301Rc00000dhDq0IAE",
+    "MasterLabel": "Case - RT - Slack Notification Upon Creation",
+    "Definition": {
+      "attributes": {
+        "type": "FlowDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FlowDefinition/300Rc00000dkB25IAE"
+      },
+      "Id": "300Rc00000dkB25IAE",
+      "DeveloperName": "Case_RT_Slack_Notification_Upon_Creation"
+    },
+    "ProcessType": "AutoLaunchedFlow",
+    "Status": "Active",
+    "ApiVersion": 66,
+    "VersionNumber": 5,
+    "Description": null,
+    "CreatedDate": "2026-03-03T20:10:29.000+0000",
+    "LastModifiedDate": "2026-03-03T20:10:34.000+0000"
+  },
+  {
+    "attributes": {
+      "type": "Flow",
+      "url": "/services/data/v66.0/tooling/sobjects/Flow/301Rc00000g6atVIAQ"
+    },
+    "Id": "301Rc00000g6atVIAQ",
+    "MasterLabel": "Case - RT - Status Update Slack Notification",
+    "Definition": {
+      "attributes": {
+        "type": "FlowDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FlowDefinition/300Rc00000dkSkRIAU"
+      },
+      "Id": "300Rc00000dkSkRIAU",
+      "DeveloperName": "Case_RT_Status_Update_Slack_Notification"
+    },
+    "ProcessType": "AutoLaunchedFlow",
+    "Status": "Active",
+    "ApiVersion": 66,
+    "VersionNumber": 2,
+    "Description": null,
+    "CreatedDate": "2026-04-22T18:11:09.000+0000",
+    "LastModifiedDate": "2026-04-22T18:11:14.000+0000"
+  },
+  {
+    "attributes": {
+      "type": "Flow",
+      "url": "/services/data/v66.0/tooling/sobjects/Flow/301Rc00000flChMIAU"
+    },
+    "Id": "301Rc00000flChMIAU",
+    "MasterLabel": "CM Pulse Date Stamp",
+    "Definition": {
+      "attributes": {
+        "type": "FlowDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FlowDefinition/300Rc00000fzSuJIAU"
+      },
+      "Id": "300Rc00000fzSuJIAU",
+      "DeveloperName": "CM_Pulse_Date_Stamp"
+    },
+    "ProcessType": "AutoLaunchedFlow",
+    "Status": "Active",
+    "ApiVersion": 63,
+    "VersionNumber": 1,
+    "Description": "Before Save flow that auto-stamps CM_Pulse_Last_Updated__c when the CM Pulse Score changes. No DML \u2014 writes directly to the in-memory record before commit.",
+    "CreatedDate": "2026-04-16T03:46:03.000+0000",
+    "LastModifiedDate": "2026-04-16T03:47:30.000+0000"
+  },
+  {
+    "attributes": {
+      "type": "Flow",
+      "url": "/services/data/v66.0/tooling/sobjects/Flow/301Rc00000EQX8NIAX"
+    },
+    "Id": "301Rc00000EQX8NIAX",
+    "MasterLabel": "Contact - RT - Add Apollo Sourced Prospects to Campaign",
+    "Definition": {
+      "attributes": {
+        "type": "FlowDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FlowDefinition/300Rc00000EWQc2IAH"
+      },
+      "Id": "300Rc00000EWQc2IAH",
+      "DeveloperName": "Contact_RT_Add_Apollo_Sourced_Prospects_to_Campaign"
+    },
+    "ProcessType": "AutoLaunchedFlow",
+    "Status": "Active",
+    "ApiVersion": 61,
+    "VersionNumber": 1,
+    "Description": null,
+    "CreatedDate": "2024-08-12T17:51:37.000+0000",
+    "LastModifiedDate": "2024-08-12T17:51:41.000+0000"
+  },
+  {
+    "attributes": {
+      "type": "Flow",
+      "url": "/services/data/v66.0/tooling/sobjects/Flow/301Rc00000exjesIAA"
+    },
+    "Id": "301Rc00000exjesIAA",
+    "MasterLabel": "Contact - RT - Inbound Leads Slack Ping",
+    "Definition": {
+      "attributes": {
+        "type": "FlowDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FlowDefinition/300Rc00000MFNipIAH"
+      },
+      "Id": "300Rc00000MFNipIAH",
+      "DeveloperName": "Contact_RT_Ping_Slack_with_Contact_Info"
+    },
+    "ProcessType": "AutoLaunchedFlow",
+    "Status": "Active",
+    "ApiVersion": 63,
+    "VersionNumber": 51,
+    "Description": null,
+    "CreatedDate": "2026-03-31T19:59:29.000+0000",
+    "LastModifiedDate": "2026-03-31T19:59:36.000+0000"
+  },
+  {
+    "attributes": {
+      "type": "Flow",
+      "url": "/services/data/v66.0/tooling/sobjects/Flow/301Rc00000h8uKRIAY"
+    },
+    "Id": "301Rc00000h8uKRIAY",
+    "MasterLabel": "Contact - RT - Inherit Anticipated Providers From Account",
+    "Definition": {
+      "attributes": {
+        "type": "FlowDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FlowDefinition/300Rc00000hJ8FeIAK"
+      },
+      "Id": "300Rc00000hJ8FeIAK",
+      "DeveloperName": "Contact_RT_Inherit_Anticipated_Providers_From_Account"
+    },
+    "ProcessType": "AutoLaunchedFlow",
+    "Status": "Active",
+    "ApiVersion": 62,
+    "VersionNumber": 2,
+    "Description": "When a Contact is created with an AccountId, or moves to a different Account, inherit Anticipated_of_Providers__c from the new Account. Closes the gap where the Account_RT cascade misses Contacts that didn't exist (or weren't on this Account) at the time the Account's value was set.",
+    "CreatedDate": "2026-05-14T21:27:12.000+0000",
+    "LastModifiedDate": "2026-05-15T03:45:27.000+0000"
+  },
+  {
+    "attributes": {
+      "type": "Flow",
+      "url": "/services/data/v66.0/tooling/sobjects/Flow/301Rc00000RSiL7IAL"
+    },
+    "Id": "301Rc00000RSiL7IAL",
+    "MasterLabel": "Contact - RT - Stripe Customer/Sub Contact Update",
+    "Definition": {
+      "attributes": {
+        "type": "FlowDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FlowDefinition/300Rc00000R0QUUIA3"
+      },
+      "Id": "300Rc00000R0QUUIA3",
+      "DeveloperName": "Contact_RT_Stripe_Customer_Sub_Contact_Update"
+    },
+    "ProcessType": "AutoLaunchedFlow",
+    "Status": "Active",
+    "ApiVersion": 64,
+    "VersionNumber": 4,
+    "Description": "Automatically updates the Contact on the Stripe Customer and Stripe Subscription if the Stripe Customer ID is updated and the Contact does not match.",
+    "CreatedDate": "2025-06-20T17:05:09.000+0000",
+    "LastModifiedDate": "2025-06-20T17:05:13.000+0000"
+  },
+  {
+    "attributes": {
+      "type": "Flow",
+      "url": "/services/data/v66.0/tooling/sobjects/Flow/301Rc00000fegfGIAQ"
+    },
+    "Id": "301Rc00000fegfGIAQ",
+    "MasterLabel": "Contact - RT - Trial Ended = Current Plan: Trial Ended",
+    "Definition": {
+      "attributes": {
+        "type": "FlowDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FlowDefinition/300Rc00000ft5cGIAQ"
+      },
+      "Id": "300Rc00000ft5cGIAQ",
+      "DeveloperName": "Contact_RT_Trial_Ended_Current_Plan_Trial_Ended"
+    },
+    "ProcessType": "AutoLaunchedFlow",
+    "Status": "Active",
+    "ApiVersion": 66,
+    "VersionNumber": 1,
+    "Description": null,
+    "CreatedDate": "2026-04-14T15:29:58.000+0000",
+    "LastModifiedDate": "2026-04-14T15:30:03.000+0000"
+  },
+  {
+    "attributes": {
+      "type": "Flow",
+      "url": "/services/data/v66.0/tooling/sobjects/Flow/301Rc00000RMCKjIAP"
+    },
+    "Id": "301Rc00000RMCKjIAP",
+    "MasterLabel": "Contact - RT - Update Contact Status",
+    "Definition": {
+      "attributes": {
+        "type": "FlowDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FlowDefinition/300Rc00000EMY7sIAH"
+      },
+      "Id": "300Rc00000EMY7sIAH",
+      "DeveloperName": "Contact_RT_Update_Status_to_Sales_Rejected"
+    },
+    "ProcessType": "AutoLaunchedFlow",
+    "Status": "Active",
+    "ApiVersion": 61,
+    "VersionNumber": 3,
+    "Description": "Updates Contact Status Based on Multiple Factors",
+    "CreatedDate": "2025-06-18T16:04:18.000+0000",
+    "LastModifiedDate": "2025-06-18T16:04:26.000+0000"
+  },
+  {
+    "attributes": {
+      "type": "Flow",
+      "url": "/services/data/v66.0/tooling/sobjects/Flow/301Rc00000Hjt09IAB"
+    },
+    "Id": "301Rc00000Hjt09IAB",
+    "MasterLabel": "Contact - RT - Update Latest Source Campaign",
+    "Definition": {
+      "attributes": {
+        "type": "FlowDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FlowDefinition/3003s0000000UPrAAM"
+      },
+      "Id": "3003s0000000UPrAAM",
+      "DeveloperName": "Set_Most_Recent_Campaign"
+    },
+    "ProcessType": "AutoLaunchedFlow",
+    "Status": "Active",
+    "ApiVersion": 57,
+    "VersionNumber": 8,
+    "Description": "Sets the most recent campaign name for the lead/contact on a new campaign member.",
+    "CreatedDate": "2024-11-07T21:17:06.000+0000",
+    "LastModifiedDate": "2024-11-07T21:17:09.000+0000"
+  },
+  {
+    "attributes": {
+      "type": "Flow",
+      "url": "/services/data/v66.0/tooling/sobjects/Flow/301Rc00000HjN8LIAV"
+    },
+    "Id": "301Rc00000HjN8LIAV",
+    "MasterLabel": "Contact - RT - Update Original Campaign Source",
+    "Definition": {
+      "attributes": {
+        "type": "FlowDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FlowDefinition/300Rc00000EWJYzIAP"
+      },
+      "Id": "300Rc00000EWJYzIAP",
+      "DeveloperName": "Contact_RT_Update_Original_Campaign_Source"
+    },
+    "ProcessType": "AutoLaunchedFlow",
+    "Status": "Active",
+    "ApiVersion": 61,
+    "VersionNumber": 2,
+    "Description": null,
+    "CreatedDate": "2024-11-07T18:41:04.000+0000",
+    "LastModifiedDate": "2024-11-07T18:41:06.000+0000"
+  },
+  {
+    "attributes": {
+      "type": "Flow",
+      "url": "/services/data/v66.0/tooling/sobjects/Flow/301Rc00000L1xehIAB"
+    },
+    "Id": "301Rc00000L1xehIAB",
+    "MasterLabel": "Contact - RT - Update Partnerstack Key Id from Healthie User",
+    "Definition": {
+      "attributes": {
+        "type": "FlowDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FlowDefinition/300Rc00000L4OdzIAF"
+      },
+      "Id": "300Rc00000L4OdzIAF",
+      "DeveloperName": "Contact_RT_Update_Partnerstack_Key_Id_from_Healthie_User"
+    },
+    "ProcessType": "AutoLaunchedFlow",
+    "Status": "Active",
+    "ApiVersion": 62,
+    "VersionNumber": 1,
+    "Description": null,
+    "CreatedDate": "2025-01-27T16:52:26.000+0000",
+    "LastModifiedDate": "2025-01-27T16:52:29.000+0000"
+  },
+  {
+    "attributes": {
+      "type": "Flow",
+      "url": "/services/data/v66.0/tooling/sobjects/Flow/301Rc00000RNBUfIAP"
+    },
+    "Id": "301Rc00000RNBUfIAP",
+    "MasterLabel": "Contact - RT - Update Rating Dates",
+    "Definition": {
+      "attributes": {
+        "type": "FlowDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FlowDefinition/300Rc00000RPevZIAT"
+      },
+      "Id": "300Rc00000RPevZIAT",
+      "DeveloperName": "Contact_RT_Update_Rating_Dates"
+    },
+    "ProcessType": "AutoLaunchedFlow",
+    "Status": "Active",
+    "ApiVersion": 64,
+    "VersionNumber": 1,
+    "Description": null,
+    "CreatedDate": "2025-06-18T20:16:09.000+0000",
+    "LastModifiedDate": "2025-06-18T20:16:14.000+0000"
+  },
+  {
+    "attributes": {
+      "type": "Flow",
+      "url": "/services/data/v66.0/tooling/sobjects/Flow/301Rc00000b5DFWIA2"
+    },
+    "Id": "301Rc00000b5DFWIA2",
+    "MasterLabel": "Contact - RT - Update Recent Conv Date & Time",
+    "Definition": {
+      "attributes": {
+        "type": "FlowDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FlowDefinition/300Rc00000bQfn3IAC"
+      },
+      "Id": "300Rc00000bQfn3IAC",
+      "DeveloperName": "Contact_RT_Update_Recent_Conv_Date_Time"
+    },
+    "ProcessType": "AutoLaunchedFlow",
+    "Status": "Active",
+    "ApiVersion": 65,
+    "VersionNumber": 1,
+    "Description": null,
+    "CreatedDate": "2026-01-05T20:47:41.000+0000",
+    "LastModifiedDate": "2026-01-05T20:47:45.000+0000"
+  },
+  {
+    "attributes": {
+      "type": "Flow",
+      "url": "/services/data/v66.0/tooling/sobjects/Flow/301Rc00000EgfMrIAJ"
+    },
+    "Id": "301Rc00000EgfMrIAJ",
+    "MasterLabel": "Contact - SF - Create Opportunity",
+    "Definition": {
+      "attributes": {
+        "type": "FlowDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FlowDefinition/300Rc00000EVU53IAH"
+      },
+      "Id": "300Rc00000EVU53IAH",
+      "DeveloperName": "Contact_SF_Create_Opportunity"
+    },
+    "ProcessType": "Flow",
+    "Status": "Active",
+    "ApiVersion": 61,
+    "VersionNumber": 12,
+    "Description": null,
+    "CreatedDate": "2024-08-19T20:31:01.000+0000",
+    "LastModifiedDate": "2024-08-19T20:31:05.000+0000"
+  },
+  {
+    "attributes": {
+      "type": "Flow",
+      "url": "/services/data/v66.0/tooling/sobjects/Flow/301Rc00000JjxVdIAJ"
+    },
+    "Id": "301Rc00000JjxVdIAJ",
+    "MasterLabel": "Create Account From New Healthie Org",
+    "Definition": {
+      "attributes": {
+        "type": "FlowDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FlowDefinition/300Rc00000J6enqIAB"
+      },
+      "Id": "300Rc00000J6enqIAB",
+      "DeveloperName": "Create_Account_From_New_Healthie_Org"
+    },
+    "ProcessType": "AutoLaunchedFlow",
+    "Status": "Active",
+    "ApiVersion": 62,
+    "VersionNumber": 6,
+    "Description": null,
+    "CreatedDate": "2024-12-26T14:09:46.000+0000",
+    "LastModifiedDate": "2024-12-26T14:09:48.000+0000"
+  },
+  {
+    "attributes": {
+      "type": "Flow",
+      "url": "/services/data/v66.0/tooling/sobjects/Flow/301Rc00000RS0tcIAD"
+    },
+    "Id": "301Rc00000RS0tcIAD",
+    "MasterLabel": "Create Contact From Healthie User",
+    "Definition": {
+      "attributes": {
+        "type": "FlowDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FlowDefinition/300Rc00000J6enrIAB"
+      },
+      "Id": "300Rc00000J6enrIAB",
+      "DeveloperName": "Create_Contact_From_Healthie_User"
+    },
+    "ProcessType": "AutoLaunchedFlow",
+    "Status": "Active",
+    "ApiVersion": 62,
+    "VersionNumber": 3,
+    "Description": null,
+    "CreatedDate": "2025-06-20T14:02:59.000+0000",
+    "LastModifiedDate": "2025-06-20T14:15:29.000+0000"
+  },
+  {
+    "attributes": {
+      "type": "Flow",
+      "url": "/services/data/v66.0/tooling/sobjects/Flow/301Rc00000Gk1XsIAJ"
+    },
+    "Id": "301Rc00000Gk1XsIAJ",
+    "MasterLabel": "Create Event Attendee Template",
+    "Definition": {
+      "attributes": {
+        "type": "FlowDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FlowDefinition/300Rc00000Gv830IAB"
+      },
+      "Id": "300Rc00000Gv830IAB",
+      "DeveloperName": "Create_Event_Attendee_Template"
+    },
+    "ProcessType": "AutoLaunchedFlow",
+    "Status": "Active",
+    "ApiVersion": 54,
+    "VersionNumber": 1,
+    "Description": "Link Additional Guests and Additional Hosts to an Event based on the email lists",
+    "CreatedDate": "2024-10-15T19:43:39.000+0000",
+    "LastModifiedDate": "2024-10-15T19:43:43.000+0000"
+  },
+  {
+    "attributes": {
+      "type": "Flow",
+      "url": "/services/data/v66.0/tooling/sobjects/Flow/301Rc00000DO8ubIAD"
+    },
+    "Id": "301Rc00000DO8ubIAD",
+    "MasterLabel": "Create Google Folder",
+    "Definition": {
+      "attributes": {
+        "type": "FlowDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FlowDefinition/3003s000000UcdsAAC"
+      },
+      "Id": "3003s000000UcdsAAC",
+      "DeveloperName": "Create_Google_Folder"
+    },
+    "ProcessType": "AutoLaunchedFlow",
+    "Status": "Active",
+    "ApiVersion": 57,
+    "VersionNumber": 5,
+    "Description": null,
+    "CreatedDate": "2024-07-16T19:02:16.000+0000",
+    "LastModifiedDate": "2024-07-16T19:04:54.000+0000"
+  },
+  {
+    "attributes": {
+      "type": "Flow",
+      "url": "/services/data/v66.0/tooling/sobjects/Flow/301Rc00000QLjjAIAT"
+    },
+    "Id": "301Rc00000QLjjAIAT",
+    "MasterLabel": "Event - RT - Update Event Type (Calendly)",
+    "Definition": {
+      "attributes": {
+        "type": "FlowDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FlowDefinition/300Rc00000QNWD8IAP"
+      },
+      "Id": "300Rc00000QNWD8IAP",
+      "DeveloperName": "Event_RT_Update_Event_Type_Calendly"
+    },
+    "ProcessType": "AutoLaunchedFlow",
+    "Status": "Active",
+    "ApiVersion": 63,
+    "VersionNumber": 1,
+    "Description": null,
+    "CreatedDate": "2025-05-27T19:49:27.000+0000",
+    "LastModifiedDate": "2025-05-27T19:49:30.000+0000"
+  },
+  {
+    "attributes": {
+      "type": "Flow",
+      "url": "/services/data/v66.0/tooling/sobjects/Flow/301Rc00000EyH7bIAF"
+    },
+    "Id": "301Rc00000EyH7bIAF",
+    "MasterLabel": "Find Missing Stripe Customers - Nightly",
+    "Definition": {
+      "attributes": {
+        "type": "FlowDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FlowDefinition/300Rc00000F4pEfIAJ"
+      },
+      "Id": "300Rc00000F4pEfIAJ",
+      "DeveloperName": "Find_Missing_Stripe_Customers_Nightly"
+    },
+    "ProcessType": "AutoLaunchedFlow",
+    "Status": "Active",
+    "ApiVersion": 61,
+    "VersionNumber": 1,
+    "Description": null,
+    "CreatedDate": "2024-08-27T17:30:16.000+0000",
+    "LastModifiedDate": "2024-08-27T17:31:45.000+0000"
+  },
+  {
+    "attributes": {
+      "type": "Flow",
+      "url": "/services/data/v66.0/tooling/sobjects/Flow/301Rc00000egv4WIAQ"
+    },
+    "Id": "301Rc00000egv4WIAQ",
+    "MasterLabel": "Find Products - Updated Flow",
+    "Definition": {
+      "attributes": {
+        "type": "FlowDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FlowDefinition/300Rc00000ezLACIA2"
+      },
+      "Id": "300Rc00000ezLACIA2",
+      "DeveloperName": "Find_Products_Updated_Flow"
+    },
+    "ProcessType": "AutoLaunchedFlow",
+    "Status": "Active",
+    "ApiVersion": 66,
+    "VersionNumber": 1,
+    "Description": null,
+    "CreatedDate": "2026-03-25T21:16:03.000+0000",
+    "LastModifiedDate": "2026-03-25T21:16:58.000+0000"
+  },
+  {
+    "attributes": {
+      "type": "Flow",
+      "url": "/services/data/v66.0/tooling/sobjects/Flow/301Rc00000Gk1XoIAJ"
+    },
+    "Id": "301Rc00000Gk1XoIAJ",
+    "MasterLabel": "Get Event Attendee Template",
+    "Definition": {
+      "attributes": {
+        "type": "FlowDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FlowDefinition/300Rc00000Gv82wIAB"
+      },
+      "Id": "300Rc00000Gv82wIAB",
+      "DeveloperName": "Get_Event_Attendee_Template"
+    },
+    "ProcessType": "AutoLaunchedFlow",
+    "Status": "Active",
+    "ApiVersion": 54,
+    "VersionNumber": 1,
+    "Description": "Using an e-mail, try to find an event attendee (i.e., a Contact or a Lead)",
+    "CreatedDate": "2024-10-15T19:43:37.000+0000",
+    "LastModifiedDate": "2024-10-15T19:43:38.000+0000"
+  },
+  {
+    "attributes": {
+      "type": "Flow",
+      "url": "/services/data/v66.0/tooling/sobjects/Flow/301Rc00000BN7NRIA1"
+    },
+    "Id": "301Rc00000BN7NRIA1",
+    "MasterLabel": "Google Drive Screen Flow v2",
+    "Definition": {
+      "attributes": {
+        "type": "FlowDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FlowDefinition/3003s000000UceCAAS"
+      },
+      "Id": "3003s000000UceCAAS",
+      "DeveloperName": "Google_Drive_Screen_Flow_v2"
+    },
+    "ProcessType": "Flow",
+    "Status": "Active",
+    "ApiVersion": 57,
+    "VersionNumber": 4,
+    "Description": null,
+    "CreatedDate": "2024-05-24T18:18:35.000+0000",
+    "LastModifiedDate": "2025-04-11T17:11:33.000+0000"
+  },
+  {
+    "attributes": {
+      "type": "Flow",
+      "url": "/services/data/v66.0/tooling/sobjects/Flow/301Rc00000f2C3tIAE"
+    },
+    "Id": "301Rc00000f2C3tIAE",
+    "MasterLabel": "Hand-Off Document - Screen Flow",
+    "Definition": {
+      "attributes": {
+        "type": "FlowDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FlowDefinition/300Rc00000UWhJxIAL"
+      },
+      "Id": "300Rc00000UWhJxIAL",
+      "DeveloperName": "Hand_Off_Document_Screen_Flow"
+    },
+    "ProcessType": "Flow",
+    "Status": "Active",
+    "ApiVersion": 64,
+    "VersionNumber": 7,
+    "Description": null,
+    "CreatedDate": "2026-04-01T18:39:35.000+0000",
+    "LastModifiedDate": "2026-04-01T18:39:45.000+0000"
+  },
+  {
+    "attributes": {
+      "type": "Flow",
+      "url": "/services/data/v66.0/tooling/sobjects/Flow/301Rc00000FRoorIAD"
+    },
+    "Id": "301Rc00000FRoorIAD",
+    "MasterLabel": "Health Note - RT - Update Account Field with Related Account",
+    "Definition": {
+      "attributes": {
+        "type": "FlowDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FlowDefinition/300Rc00000FYo1pIAD"
+      },
+      "Id": "300Rc00000FYo1pIAD",
+      "DeveloperName": "Health_Note_RT_Update_Account_Field_with_Related_Account"
+    },
+    "ProcessType": "AutoLaunchedFlow",
+    "Status": "Active",
+    "ApiVersion": 61,
+    "VersionNumber": 1,
+    "Description": null,
+    "CreatedDate": "2024-09-10T15:33:59.000+0000",
+    "LastModifiedDate": "2024-09-10T15:34:02.000+0000"
+  },
+  {
+    "attributes": {
+      "type": "Flow",
+      "url": "/services/data/v66.0/tooling/sobjects/Flow/301Hu0000010yapIAA"
+    },
+    "Id": "301Hu0000010yapIAA",
+    "MasterLabel": "HTN Lead Notification",
+    "Definition": {
+      "attributes": {
+        "type": "FlowDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FlowDefinition/300Hu000000wnRvIAI"
+      },
+      "Id": "300Hu000000wnRvIAI",
+      "DeveloperName": "HTN_Lead_Notification"
+    },
+    "ProcessType": "AutoLaunchedFlow",
+    "Status": "Active",
+    "ApiVersion": 58,
+    "VersionNumber": 6,
+    "Description": null,
+    "CreatedDate": "2023-08-17T18:37:15.000+0000",
+    "LastModifiedDate": "2023-08-17T18:37:16.000+0000"
+  },
+  {
+    "attributes": {
+      "type": "Flow",
+      "url": "/services/data/v66.0/tooling/sobjects/Flow/301Rc00000XStwDIAT"
+    },
+    "Id": "301Rc00000XStwDIAT",
+    "MasterLabel": "Implementation Track - RT - Update Phase Dates",
+    "Definition": {
+      "attributes": {
+        "type": "FlowDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FlowDefinition/300Rc00000Xl6rlIAB"
+      },
+      "Id": "300Rc00000Xl6rlIAB",
+      "DeveloperName": "Implementation_Track_RT_Update_Phase_Dates"
+    },
+    "ProcessType": "AutoLaunchedFlow",
+    "Status": "Active",
+    "ApiVersion": 65,
+    "VersionNumber": 2,
+    "Description": null,
+    "CreatedDate": "2025-10-22T18:52:56.000+0000",
+    "LastModifiedDate": "2025-10-22T18:53:01.000+0000"
+  },
+  {
+    "attributes": {
+      "type": "Flow",
+      "url": "/services/data/v66.0/tooling/sobjects/Flow/301Rc00000a0sBmIAI"
+    },
+    "Id": "301Rc00000a0sBmIAI",
+    "MasterLabel": "Implementation Tracker - RT - Update Name",
+    "Definition": {
+      "attributes": {
+        "type": "FlowDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FlowDefinition/300Rc00000XglYzIAJ"
+      },
+      "Id": "300Rc00000XglYzIAJ",
+      "DeveloperName": "Implementation_Tracker_RT_Update_Name"
+    },
+    "ProcessType": "AutoLaunchedFlow",
+    "Status": "Active",
+    "ApiVersion": 65,
+    "VersionNumber": 2,
+    "Description": null,
+    "CreatedDate": "2025-12-09T19:43:09.000+0000",
+    "LastModifiedDate": "2025-12-09T19:43:12.000+0000"
+  },
+  {
+    "attributes": {
+      "type": "Flow",
+      "url": "/services/data/v66.0/tooling/sobjects/Flow/301Rc00000g82m1IAA"
+    },
+    "Id": "301Rc00000g82m1IAA",
+    "MasterLabel": "Last CSM Activity Date Rollup",
+    "Definition": {
+      "attributes": {
+        "type": "FlowDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FlowDefinition/300Rc00000gLnQXIA0"
+      },
+      "Id": "300Rc00000gLnQXIA0",
+      "DeveloperName": "Last_CSM_Activity_Date_Rollup"
+    },
+    "ProcessType": "AutoLaunchedFlow",
+    "Status": "Active",
+    "ApiVersion": 63,
+    "VersionNumber": 1,
+    "Description": "Updates Account.Last_CSM_Activity_Date__c when a Task is created or updated with a WhatId pointing to an Account. Only updates if the Task ActivityDate is more recent than the current value. Handles the polymorphic WhatId by attempting a Get Records on Account \u2014 if no match, WhatId points to a non-Account and the flow exits.",
+    "CreatedDate": "2026-04-23T01:01:32.000+0000",
+    "LastModifiedDate": "2026-05-08T01:22:42.000+0000"
+  },
+  {
+    "attributes": {
+      "type": "Flow",
+      "url": "/services/data/v66.0/tooling/sobjects/Flow/301Rc00000hBgzLIAS"
+    },
+    "Id": "301Rc00000hBgzLIAS",
+    "MasterLabel": "Lead | RT | Qualified.com Lead Conversion",
+    "Definition": {
+      "attributes": {
+        "type": "FlowDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FlowDefinition/300Rc00000hINiFIAW"
+      },
+      "Id": "300Rc00000hINiFIAW",
+      "DeveloperName": "Lead_RT_Qualified_com_Lead_Conversion"
+    },
+    "ProcessType": "AutoLaunchedFlow",
+    "Status": "Active",
+    "ApiVersion": 66,
+    "VersionNumber": 4,
+    "Description": null,
+    "CreatedDate": "2026-05-15T19:36:18.000+0000",
+    "LastModifiedDate": "2026-05-15T20:13:29.000+0000"
+  },
+  {
+    "attributes": {
+      "type": "Flow",
+      "url": "/services/data/v66.0/tooling/sobjects/Flow/3013s000000NNAgAAO"
+    },
+    "Id": "3013s000000NNAgAAO",
+    "MasterLabel": "Lead Conversion Actions",
+    "Definition": {
+      "attributes": {
+        "type": "FlowDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FlowDefinition/3003s0000000UPkAAM"
+      },
+      "Id": "3003s0000000UPkAAM",
+      "DeveloperName": "Lead_Conversion_Actions"
+    },
+    "ProcessType": "AutoLaunchedFlow",
+    "Status": "Active",
+    "ApiVersion": 56,
+    "VersionNumber": 1,
+    "Description": null,
+    "CreatedDate": "2023-03-09T21:10:51.000+0000",
+    "LastModifiedDate": "2023-03-09T21:14:33.000+0000"
+  },
+  {
+    "attributes": {
+      "type": "Flow",
+      "url": "/services/data/v66.0/tooling/sobjects/Flow/301Hu00000113FwIAI"
+    },
+    "Id": "301Hu00000113FwIAI",
+    "MasterLabel": "Link Opportunity To Subscription",
+    "Definition": {
+      "attributes": {
+        "type": "FlowDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FlowDefinition/300Hu000000wpN5IAI"
+      },
+      "Id": "300Hu000000wpN5IAI",
+      "DeveloperName": "Link_Opportunity_To_Subscription"
+    },
+    "ProcessType": "Flow",
+    "Status": "Active",
+    "ApiVersion": 59,
+    "VersionNumber": 1,
+    "Description": null,
+    "CreatedDate": "2023-10-10T17:28:33.000+0000",
+    "LastModifiedDate": "2023-10-10T17:30:26.000+0000"
+  },
+  {
+    "attributes": {
+      "type": "Flow",
+      "url": "/services/data/v66.0/tooling/sobjects/Flow/301Hu00000113FxIAI"
+    },
+    "Id": "301Hu00000113FxIAI",
+    "MasterLabel": "Link Opportunity To Subscription From Account",
+    "Definition": {
+      "attributes": {
+        "type": "FlowDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FlowDefinition/300Hu000000wpN6IAI"
+      },
+      "Id": "300Hu000000wpN6IAI",
+      "DeveloperName": "Link_Opportunity_To_Subscription_From_Account"
+    },
+    "ProcessType": "Flow",
+    "Status": "Active",
+    "ApiVersion": 59,
+    "VersionNumber": 1,
+    "Description": null,
+    "CreatedDate": "2023-10-10T17:28:33.000+0000",
+    "LastModifiedDate": "2023-10-10T17:30:34.000+0000"
+  },
+  {
+    "attributes": {
+      "type": "Flow",
+      "url": "/services/data/v66.0/tooling/sobjects/Flow/301Hu00000113FyIAI"
+    },
+    "Id": "301Hu00000113FyIAI",
+    "MasterLabel": "Link Or Create Opportunity From Stripe Subscription",
+    "Definition": {
+      "attributes": {
+        "type": "FlowDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FlowDefinition/300Hu000000wpN7IAI"
+      },
+      "Id": "300Hu000000wpN7IAI",
+      "DeveloperName": "Link_Or_Create_Opportunity_From_Stripe_Subscription"
+    },
+    "ProcessType": "Flow",
+    "Status": "Active",
+    "ApiVersion": 58,
+    "VersionNumber": 1,
+    "Description": null,
+    "CreatedDate": "2023-10-10T17:28:33.000+0000",
+    "LastModifiedDate": "2023-10-10T17:30:44.000+0000"
+  },
+  {
+    "attributes": {
+      "type": "Flow",
+      "url": "/services/data/v66.0/tooling/sobjects/Flow/301Hu000000hKAOIA2"
+    },
+    "Id": "301Hu000000hKAOIA2",
+    "MasterLabel": "Manually Sync Survey Response to Vitally",
+    "Definition": {
+      "attributes": {
+        "type": "FlowDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FlowDefinition/3003s000000HGB8AAO"
+      },
+      "Id": "3003s000000HGB8AAO",
+      "DeveloperName": "Manually_Sync_Survey_Response_to_Vitally"
+    },
+    "ProcessType": "Flow",
+    "Status": "Active",
+    "ApiVersion": 58,
+    "VersionNumber": 2,
+    "Description": null,
+    "CreatedDate": "2023-07-24T17:01:04.000+0000",
+    "LastModifiedDate": "2023-07-24T17:02:09.000+0000"
+  },
+  {
+    "attributes": {
+      "type": "Flow",
+      "url": "/services/data/v66.0/tooling/sobjects/Flow/301Rc00000Se02sIAB"
+    },
+    "Id": "301Rc00000Se02sIAB",
+    "MasterLabel": "Momentum: Opportunity Update workflow 15988 : DR - Update Dealroom Header on Fie",
+    "Definition": {
+      "attributes": {
+        "type": "FlowDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FlowDefinition/300Rc00000ShXK4IAN"
+      },
+      "Id": "300Rc00000ShXK4IAN",
+      "DeveloperName": "momentum_workflow_15988"
+    },
+    "ProcessType": "AutoLaunchedFlow",
+    "Status": "Active",
+    "ApiVersion": 56,
+    "VersionNumber": 1,
+    "Description": "Momentum: Opportunity Update workflow 15988 : DR - Update Dealroom Header on Fie",
+    "CreatedDate": "2025-07-16T21:37:12.000+0000",
+    "LastModifiedDate": "2025-07-16T21:37:14.000+0000"
+  },
+  {
+    "attributes": {
+      "type": "Flow",
+      "url": "/services/data/v66.0/tooling/sobjects/Flow/301Rc000009qvUtIAI"
+    },
+    "Id": "301Rc000009qvUtIAI",
+    "MasterLabel": "New Contact Us Request",
+    "Definition": {
+      "attributes": {
+        "type": "FlowDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FlowDefinition/300Rc000006OCpNIAW"
+      },
+      "Id": "300Rc000006OCpNIAW",
+      "DeveloperName": "New_Contact_Us_Request"
+    },
+    "ProcessType": "AutoLaunchedFlow",
+    "Status": "Active",
+    "ApiVersion": 59,
+    "VersionNumber": 7,
+    "Description": null,
+    "CreatedDate": "2024-04-16T18:28:06.000+0000",
+    "LastModifiedDate": "2024-04-16T18:28:10.000+0000"
+  },
+  {
+    "attributes": {
+      "type": "Flow",
+      "url": "/services/data/v66.0/tooling/sobjects/Flow/301Hu000001136kIAA"
+    },
+    "Id": "301Hu000001136kIAA",
+    "MasterLabel": "New Inbound Lead Notification",
+    "Definition": {
+      "attributes": {
+        "type": "FlowDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FlowDefinition/300Hu000000wpLiIAI"
+      },
+      "Id": "300Hu000000wpLiIAI",
+      "DeveloperName": "New_Inbound_Lead_Notification"
+    },
+    "ProcessType": "AutoLaunchedFlow",
+    "Status": "Active",
+    "ApiVersion": 58,
+    "VersionNumber": 1,
+    "Description": null,
+    "CreatedDate": "2023-10-09T18:47:41.000+0000",
+    "LastModifiedDate": "2023-10-09T18:47:43.000+0000"
+  },
+  {
+    "attributes": {
+      "type": "Flow",
+      "url": "/services/data/v66.0/tooling/sobjects/Flow/301Rc00000ffpRzIAI"
+    },
+    "Id": "301Rc00000ffpRzIAI",
+    "MasterLabel": "Opp Contact Role - RT - Update Opp Id on Contact",
+    "Definition": {
+      "attributes": {
+        "type": "FlowDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FlowDefinition/300Rc00000FvoFfIAJ"
+      },
+      "Id": "300Rc00000FvoFfIAJ",
+      "DeveloperName": "Opp_Contact_Role_RT_Update_Opp_Id_on_Contact"
+    },
+    "ProcessType": "AutoLaunchedFlow",
+    "Status": "Active",
+    "ApiVersion": 61,
+    "VersionNumber": 33,
+    "Description": null,
+    "CreatedDate": "2026-04-14T20:52:31.000+0000",
+    "LastModifiedDate": "2026-04-14T20:52:37.000+0000"
+  },
+  {
+    "attributes": {
+      "type": "Flow",
+      "url": "/services/data/v66.0/tooling/sobjects/Flow/301Rc00000dvh8DIAQ"
+    },
+    "Id": "301Rc00000dvh8DIAQ",
+    "MasterLabel": "Opportunity - Churn Analysis Grounding Data",
+    "Definition": {
+      "attributes": {
+        "type": "FlowDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FlowDefinition/300Rc00000eBBNoIAO"
+      },
+      "Id": "300Rc00000eBBNoIAO",
+      "DeveloperName": "Opportunity_Churn_Analysis_Grounding_Data"
+    },
+    "ProcessType": "PromptFlow",
+    "Status": "Active",
+    "ApiVersion": 66,
+    "VersionNumber": 2,
+    "Description": null,
+    "CreatedDate": "2026-03-09T16:18:27.000+0000",
+    "LastModifiedDate": "2026-03-09T16:37:21.000+0000"
+  },
+  {
+    "attributes": {
+      "type": "Flow",
+      "url": "/services/data/v66.0/tooling/sobjects/Flow/301Rc00000Y9eaYIAR"
+    },
+    "Id": "301Rc00000Y9eaYIAR",
+    "MasterLabel": "Opportunity - RT - All Opportunity Processes",
+    "Definition": {
+      "attributes": {
+        "type": "FlowDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FlowDefinition/300Rc00000EmiEoIAJ"
+      },
+      "Id": "300Rc00000EmiEoIAJ",
+      "DeveloperName": "Opportunity_RT_All_Opportunity_Processes"
+    },
+    "ProcessType": "AutoLaunchedFlow",
+    "Status": "Active",
+    "ApiVersion": 61,
+    "VersionNumber": 12,
+    "Description": null,
+    "CreatedDate": "2025-11-03T22:03:00.000+0000",
+    "LastModifiedDate": "2025-11-03T22:03:04.000+0000"
+  },
+  {
+    "attributes": {
+      "type": "Flow",
+      "url": "/services/data/v66.0/tooling/sobjects/Flow/301Rc00000e2CUKIA2"
+    },
+    "Id": "301Rc00000e2CUKIA2",
+    "MasterLabel": "Opportunity - RT - Expansion Opp Notifications",
+    "Definition": {
+      "attributes": {
+        "type": "FlowDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FlowDefinition/300Rc00000eK7PhIAK"
+      },
+      "Id": "300Rc00000eK7PhIAK",
+      "DeveloperName": "Opportunity_RT_Expansion_Opp_Notifications"
+    },
+    "ProcessType": "AutoLaunchedFlow",
+    "Status": "Active",
+    "ApiVersion": 66,
+    "VersionNumber": 2,
+    "Description": null,
+    "CreatedDate": "2026-03-11T18:13:21.000+0000",
+    "LastModifiedDate": "2026-03-11T18:13:27.000+0000"
+  },
+  {
+    "attributes": {
+      "type": "Flow",
+      "url": "/services/data/v66.0/tooling/sobjects/Flow/301Rc00000Jg2wyIAB"
+    },
+    "Id": "301Rc00000Jg2wyIAB",
+    "MasterLabel": "Opportunity - RT - From Stage Update",
+    "Definition": {
+      "attributes": {
+        "type": "FlowDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FlowDefinition/300Rc00000JjpBZIAZ"
+      },
+      "Id": "300Rc00000JjpBZIAZ",
+      "DeveloperName": "Opportunity_RT_From_Stage_Update"
+    },
+    "ProcessType": "AutoLaunchedFlow",
+    "Status": "Active",
+    "ApiVersion": 62,
+    "VersionNumber": 1,
+    "Description": null,
+    "CreatedDate": "2024-12-24T14:02:59.000+0000",
+    "LastModifiedDate": "2024-12-24T14:03:37.000+0000"
+  },
+  {
+    "attributes": {
+      "type": "Flow",
+      "url": "/services/data/v66.0/tooling/sobjects/Flow/301Rc00000ejugXIAQ"
+    },
+    "Id": "301Rc00000ejugXIAQ",
+    "MasterLabel": "Opportunity - RT - Group+ Plan Closed Won Opp Slack Notification",
+    "Definition": {
+      "attributes": {
+        "type": "FlowDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FlowDefinition/300Rc00000UaJXZIA3"
+      },
+      "Id": "300Rc00000UaJXZIA3",
+      "DeveloperName": "Opportunity_RT_Group_Plan_Closed_Won_Opp_Slack_Notification"
+    },
+    "ProcessType": "AutoLaunchedFlow",
+    "Status": "Active",
+    "ApiVersion": 64,
+    "VersionNumber": 10,
+    "Description": null,
+    "CreatedDate": "2026-03-26T16:14:33.000+0000",
+    "LastModifiedDate": "2026-03-26T16:14:38.000+0000"
+  },
+  {
+    "attributes": {
+      "type": "Flow",
+      "url": "/services/data/v66.0/tooling/sobjects/Flow/301Rc00000hHvlwIAC"
+    },
+    "Id": "301Rc00000hHvlwIAC",
+    "MasterLabel": "Opportunity - RT - Initial ARR & Any Opp Change Slack Notification",
+    "Definition": {
+      "attributes": {
+        "type": "FlowDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FlowDefinition/300Rc00000gHjIHIA0"
+      },
+      "Id": "300Rc00000gHjIHIA0",
+      "DeveloperName": "Opportunity_RT_Initial_ARR_Any_Opp_Change_Slack_Notification"
+    },
+    "ProcessType": "AutoLaunchedFlow",
+    "Status": "Active",
+    "ApiVersion": 66,
+    "VersionNumber": 11,
+    "Description": null,
+    "CreatedDate": "2026-05-18T17:28:11.000+0000",
+    "LastModifiedDate": "2026-05-18T17:28:16.000+0000"
+  },
+  {
+    "attributes": {
+      "type": "Flow",
+      "url": "/services/data/v66.0/tooling/sobjects/Flow/301Rc00000g6nCMIAY"
+    },
+    "Id": "301Rc00000g6nCMIAY",
+    "MasterLabel": "Opportunity - RT - New Renewal Opportunity",
+    "Definition": {
+      "attributes": {
+        "type": "FlowDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FlowDefinition/300Rc00000P8DMfIAN"
+      },
+      "Id": "300Rc00000P8DMfIAN",
+      "DeveloperName": "Opportunity_RT_New_Renewal_Opportunity"
+    },
+    "ProcessType": "AutoLaunchedFlow",
+    "Status": "Active",
+    "ApiVersion": 63,
+    "VersionNumber": 34,
+    "Description": "Automatically creates a Renewal Opportunity with products upon an Opportunity being moved to Closed Won\n\nMay 2025 - Added Contract Start/End Date logic, Updated Account Fields",
+    "CreatedDate": "2026-04-22T18:26:01.000+0000",
+    "LastModifiedDate": "2026-04-22T18:26:08.000+0000"
+  },
+  {
+    "attributes": {
+      "type": "Flow",
+      "url": "/services/data/v66.0/tooling/sobjects/Flow/301Rc00000JSIQUIA5"
+    },
+    "Id": "301Rc00000JSIQUIA5",
+    "MasterLabel": "Opportunity - RT - Next Step History",
+    "Definition": {
+      "attributes": {
+        "type": "FlowDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FlowDefinition/300Rc00000Dk3LBIAZ"
+      },
+      "Id": "300Rc00000Dk3LBIAZ",
+      "DeveloperName": "Opportunity_RT_Next_Step_History"
+    },
+    "ProcessType": "AutoLaunchedFlow",
+    "Status": "Active",
+    "ApiVersion": 61,
+    "VersionNumber": 7,
+    "Description": "When 'Next Step' field is updated 'Next Step History' field is populated by prior updates to track all changes for a deal",
+    "CreatedDate": "2024-12-18T15:47:27.000+0000",
+    "LastModifiedDate": "2024-12-18T15:47:30.000+0000"
+  },
+  {
+    "attributes": {
+      "type": "Flow",
+      "url": "/services/data/v66.0/tooling/sobjects/Flow/301Rc00000dzVoRIAU"
+    },
+    "Id": "301Rc00000dzVoRIAU",
+    "MasterLabel": "Opportunity - RT - No Show Automation",
+    "Definition": {
+      "attributes": {
+        "type": "FlowDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FlowDefinition/300Rc00000N0YKdIAN"
+      },
+      "Id": "300Rc00000N0YKdIAN",
+      "DeveloperName": "Opportunity_RT_No_Show_Automation"
+    },
+    "ProcessType": "AutoLaunchedFlow",
+    "Status": "Active",
+    "ApiVersion": 63,
+    "VersionNumber": 2,
+    "Description": "If No Show checkbox is checked, the stage is moved to Closed Lost and the Loss Reason is 'No Show'",
+    "CreatedDate": "2026-03-10T20:05:51.000+0000",
+    "LastModifiedDate": "2026-03-10T20:05:54.000+0000"
+  },
+  {
+    "attributes": {
+      "type": "Flow",
+      "url": "/services/data/v66.0/tooling/sobjects/Flow/301Rc00000g6UHrIAM"
+    },
+    "Id": "301Rc00000g6UHrIAM",
+    "MasterLabel": "Opportunity - RT - Recurring Renewal",
+    "Definition": {
+      "attributes": {
+        "type": "FlowDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FlowDefinition/300Rc00000PBS5xIAH"
+      },
+      "Id": "300Rc00000PBS5xIAH",
+      "DeveloperName": "Opportunity_RT_Recurring_Renewal"
+    },
+    "ProcessType": "AutoLaunchedFlow",
+    "Status": "Active",
+    "ApiVersion": 63,
+    "VersionNumber": 13,
+    "Description": "Automatically Closed Won an Opportunity a day after the listed Close Date and creates a new Renewal Opportunity for the following year.\n\nMay 2025: Updated Contract Date Field Logic",
+    "CreatedDate": "2026-04-22T18:26:23.000+0000",
+    "LastModifiedDate": "2026-04-22T18:26:28.000+0000"
+  },
+  {
+    "attributes": {
+      "type": "Flow",
+      "url": "/services/data/v66.0/tooling/sobjects/Flow/301Rc00000hAq9RIAS"
+    },
+    "Id": "301Rc00000hAq9RIAS",
+    "MasterLabel": "Opportunity - RT - Renewal Closed Won Notification",
+    "Definition": {
+      "attributes": {
+        "type": "FlowDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FlowDefinition/300Rc00000aUVxjIAG"
+      },
+      "Id": "300Rc00000aUVxjIAG",
+      "DeveloperName": "Opportunity_RT_Renewal_Closed_Won_Notification"
+    },
+    "ProcessType": "AutoLaunchedFlow",
+    "Status": "Active",
+    "ApiVersion": 65,
+    "VersionNumber": 16,
+    "Description": null,
+    "CreatedDate": "2026-05-15T14:40:41.000+0000",
+    "LastModifiedDate": "2026-05-15T14:40:45.000+0000"
+  },
+  {
+    "attributes": {
+      "type": "Flow",
+      "url": "/services/data/v66.0/tooling/sobjects/Flow/301Rc00000bo1muIAA"
+    },
+    "Id": "301Rc00000bo1muIAA",
+    "MasterLabel": "Opportunity - RT - Renewal Opps ONLY - Update Probability Based on Team Forecast",
+    "Definition": {
+      "attributes": {
+        "type": "FlowDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FlowDefinition/300Rc00000c8sbfIAA"
+      },
+      "Id": "300Rc00000c8sbfIAA",
+      "DeveloperName": "Opportunity_RT_Update_Probability_Based_on_Team_Forecast"
+    },
+    "ProcessType": "AutoLaunchedFlow",
+    "Status": "Active",
+    "ApiVersion": 65,
+    "VersionNumber": 1,
+    "Description": null,
+    "CreatedDate": "2026-01-21T15:53:57.000+0000",
+    "LastModifiedDate": "2026-01-21T15:59:21.000+0000"
+  },
+  {
+    "attributes": {
+      "type": "Flow",
+      "url": "/services/data/v66.0/tooling/sobjects/Flow/301Rc00000SPTRkIAP"
+    },
+    "Id": "301Rc00000SPTRkIAP",
+    "MasterLabel": "Opportunity - RT - Slack: Enterprise Closed Lost Notification",
+    "Definition": {
+      "attributes": {
+        "type": "FlowDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FlowDefinition/300Rc00000PHwMCIA1"
+      },
+      "Id": "300Rc00000PHwMCIA1",
+      "DeveloperName": "Opportunity_RT_Slack_Enterprise_Closed_Lost_Notification"
+    },
+    "ProcessType": "AutoLaunchedFlow",
+    "Status": "Active",
+    "ApiVersion": 63,
+    "VersionNumber": 11,
+    "Description": "Send a slack message to the Closed-Lost & Churn Leanings Slack Channel when an Opportunity is Closed Lost outside of Discovery stage\n\nMay 2025 - Updated to Plain Text, Updated Loss Reason",
+    "CreatedDate": "2025-07-11T15:14:14.000+0000",
+    "LastModifiedDate": "2025-07-11T16:18:00.000+0000"
+  },
+  {
+    "attributes": {
+      "type": "Flow",
+      "url": "/services/data/v66.0/tooling/sobjects/Flow/301Rc00000ghddtIAA"
+    },
+    "Id": "301Rc00000ghddtIAA",
+    "MasterLabel": "Opportunity - RT - Update Initial ARR to be Renewed",
+    "Definition": {
+      "attributes": {
+        "type": "FlowDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FlowDefinition/300Rc00000eelijIAA"
+      },
+      "Id": "300Rc00000eelijIAA",
+      "DeveloperName": "Opportunity_RT_Update_Initial_ARR_to_be_Renewed"
+    },
+    "ProcessType": "AutoLaunchedFlow",
+    "Status": "Active",
+    "ApiVersion": 66,
+    "VersionNumber": 5,
+    "Description": null,
+    "CreatedDate": "2026-05-05T17:24:14.000+0000",
+    "LastModifiedDate": "2026-05-05T17:24:19.000+0000"
+  },
+  {
+    "attributes": {
+      "type": "Flow",
+      "url": "/services/data/v66.0/tooling/sobjects/Flow/301Rc00000ThnzFIAR"
+    },
+    "Id": "301Rc00000ThnzFIAR",
+    "MasterLabel": "Opportunity - RT - Update Name based on Proposed Plan",
+    "Definition": {
+      "attributes": {
+        "type": "FlowDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FlowDefinition/300Rc00000ST6oHIAT"
+      },
+      "Id": "300Rc00000ST6oHIAT",
+      "DeveloperName": "Opportunity_RT_Update_Name_based_on_Proposed_Plan"
+    },
+    "ProcessType": "AutoLaunchedFlow",
+    "Status": "Active",
+    "ApiVersion": 64,
+    "VersionNumber": 3,
+    "Description": null,
+    "CreatedDate": "2025-08-08T14:53:04.000+0000",
+    "LastModifiedDate": "2025-08-08T14:53:08.000+0000"
+  },
+  {
+    "attributes": {
+      "type": "Flow",
+      "url": "/services/data/v66.0/tooling/sobjects/Flow/301Rc00000VBjXqIAL"
+    },
+    "Id": "301Rc00000VBjXqIAL",
+    "MasterLabel": "Opportunity - RT - Update Related Contact Stage",
+    "Definition": {
+      "attributes": {
+        "type": "FlowDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FlowDefinition/300Rc00000VYAskIAH"
+      },
+      "Id": "300Rc00000VYAskIAH",
+      "DeveloperName": "Opportunity_RT_Update_Related_Contact_Stage"
+    },
+    "ProcessType": "AutoLaunchedFlow",
+    "Status": "Active",
+    "ApiVersion": 64,
+    "VersionNumber": 1,
+    "Description": null,
+    "CreatedDate": "2025-09-09T17:23:29.000+0000",
+    "LastModifiedDate": "2025-09-09T17:23:50.000+0000"
+  },
+  {
+    "attributes": {
+      "type": "Flow",
+      "url": "/services/data/v66.0/tooling/sobjects/Flow/301Rc00000fnYfHIAU"
+    },
+    "Id": "301Rc00000fnYfHIAU",
+    "MasterLabel": "Opportunity - RT - Update Stripe Paid Date on Opportunity",
+    "Definition": {
+      "attributes": {
+        "type": "FlowDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FlowDefinition/300Rc00000ffJ3uIAE"
+      },
+      "Id": "300Rc00000ffJ3uIAE",
+      "DeveloperName": "Opportunity_RT_Update_Stripe_Paid_Date_on_Opportunity"
+    },
+    "ProcessType": "AutoLaunchedFlow",
+    "Status": "Active",
+    "ApiVersion": 66,
+    "VersionNumber": 5,
+    "Description": null,
+    "CreatedDate": "2026-04-16T14:11:40.000+0000",
+    "LastModifiedDate": "2026-05-15T16:29:31.000+0000"
+  },
+  {
+    "attributes": {
+      "type": "Flow",
+      "url": "/services/data/v66.0/tooling/sobjects/Flow/301Rc00000ZfMV7IAN"
+    },
+    "Id": "301Rc00000ZfMV7IAN",
+    "MasterLabel": "Opportunity - RT - Updater Expansion Opp Name",
+    "Definition": {
+      "attributes": {
+        "type": "FlowDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FlowDefinition/300Rc00000a6FB0IAM"
+      },
+      "Id": "300Rc00000a6FB0IAM",
+      "DeveloperName": "Opportunity_RT_Updater_Expansion_Opp_Name"
+    },
+    "ProcessType": "AutoLaunchedFlow",
+    "Status": "Active",
+    "ApiVersion": 65,
+    "VersionNumber": 3,
+    "Description": null,
+    "CreatedDate": "2025-12-02T15:55:15.000+0000",
+    "LastModifiedDate": "2025-12-02T15:55:18.000+0000"
+  },
+  {
+    "attributes": {
+      "type": "Flow",
+      "url": "/services/data/v66.0/tooling/sobjects/Flow/301Rc00000hAeoHIAS"
+    },
+    "Id": "301Rc00000hAeoHIAS",
+    "MasterLabel": "Opportunity - RT - Using Scribe Update Account Field",
+    "Definition": {
+      "attributes": {
+        "type": "FlowDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FlowDefinition/300Rc00000hKiljIAC"
+      },
+      "Id": "300Rc00000hKiljIAC",
+      "DeveloperName": "Opportunity_RT_Using_Scribe_Update_Account_Field"
+    },
+    "ProcessType": "AutoLaunchedFlow",
+    "Status": "Active",
+    "ApiVersion": 66,
+    "VersionNumber": 1,
+    "Description": null,
+    "CreatedDate": "2026-05-15T14:35:56.000+0000",
+    "LastModifiedDate": "2026-05-15T14:36:03.000+0000"
+  },
+  {
+    "attributes": {
+      "type": "Flow",
+      "url": "/services/data/v66.0/tooling/sobjects/Flow/301Rc00000XCGafIAH"
+    },
+    "Id": "301Rc00000XCGafIAH",
+    "MasterLabel": "Opportunity - Screen Flow - Add Products to Renewals",
+    "Definition": {
+      "attributes": {
+        "type": "FlowDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FlowDefinition/300Rc00000XYqPOIA1"
+      },
+      "Id": "300Rc00000XYqPOIA1",
+      "DeveloperName": "Opportunity_Screen_Flow_Add_Products_to_Renewals"
+    },
+    "ProcessType": "Flow",
+    "Status": "Active",
+    "ApiVersion": 65,
+    "VersionNumber": 1,
+    "Description": "Guided flow to add missing products to Renewals that were created before products were added.",
+    "CreatedDate": "2025-10-17T20:54:40.000+0000",
+    "LastModifiedDate": "2025-10-22T13:48:06.000+0000"
+  },
+  {
+    "attributes": {
+      "type": "Flow",
+      "url": "/services/data/v66.0/tooling/sobjects/Flow/301Rc00000b8yT8IAI"
+    },
+    "Id": "301Rc00000b8yT8IAI",
+    "MasterLabel": "Opportunity - ST - Close Date is in Past",
+    "Definition": {
+      "attributes": {
+        "type": "FlowDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FlowDefinition/300Rc00000bUg9OIAS"
+      },
+      "Id": "300Rc00000bUg9OIAS",
+      "DeveloperName": "Opportunity_ST_Close_Date_is_in_Past"
+    },
+    "ProcessType": "AutoLaunchedFlow",
+    "Status": "Active",
+    "ApiVersion": 65,
+    "VersionNumber": 3,
+    "Description": "Sends slack message to rep when opportunity close date is in the past",
+    "CreatedDate": "2026-01-06T22:39:30.000+0000",
+    "LastModifiedDate": "2026-01-07T17:27:01.000+0000"
+  },
+  {
+    "attributes": {
+      "type": "Flow",
+      "url": "/services/data/v66.0/tooling/sobjects/Flow/301Rc00000X1U5tIAF"
+    },
+    "Id": "301Rc00000X1U5tIAF",
+    "MasterLabel": "Opportunity Product - RT - Contract Term Assignment",
+    "Definition": {
+      "attributes": {
+        "type": "FlowDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FlowDefinition/300Rc00000UPck0IAD"
+      },
+      "Id": "300Rc00000UPck0IAD",
+      "DeveloperName": "Opportunity_Product_RT_Contract_Term_Assignment"
+    },
+    "ProcessType": "AutoLaunchedFlow",
+    "Status": "Active",
+    "ApiVersion": 64,
+    "VersionNumber": 3,
+    "Description": "Updates the Contract Term to reflect the value from the Opportunity",
+    "CreatedDate": "2025-10-15T19:15:54.000+0000",
+    "LastModifiedDate": "2025-10-15T19:16:06.000+0000"
+  },
+  {
+    "attributes": {
+      "type": "Flow",
+      "url": "/services/data/v66.0/tooling/sobjects/Flow/301Rc00000NjnaPIAR"
+    },
+    "Id": "301Rc00000NjnaPIAR",
+    "MasterLabel": "Opportunity Product - RT - Update Account Field",
+    "Definition": {
+      "attributes": {
+        "type": "FlowDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FlowDefinition/300Rc00000Njy7dIAB"
+      },
+      "Id": "300Rc00000Njy7dIAB",
+      "DeveloperName": "Opportunity_Product_RT_Update_Account_Field"
+    },
+    "ProcessType": "AutoLaunchedFlow",
+    "Status": "Active",
+    "ApiVersion": 63,
+    "VersionNumber": 1,
+    "Description": null,
+    "CreatedDate": "2025-03-27T16:30:36.000+0000",
+    "LastModifiedDate": "2025-03-27T16:30:41.000+0000"
+  },
+  {
+    "attributes": {
+      "type": "Flow",
+      "url": "/services/data/v66.0/tooling/sobjects/Flow/301Rc00000Oov5OIAR"
+    },
+    "Id": "301Rc00000Oov5OIAR",
+    "MasterLabel": "Opportunity Product - RT - Update Description",
+    "Definition": {
+      "attributes": {
+        "type": "FlowDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FlowDefinition/300Rc00000Op1ApIAJ"
+      },
+      "Id": "300Rc00000Op1ApIAJ",
+      "DeveloperName": "Opportunity_Product_RT_Update_Description"
+    },
+    "ProcessType": "AutoLaunchedFlow",
+    "Status": "Active",
+    "ApiVersion": 63,
+    "VersionNumber": 1,
+    "Description": null,
+    "CreatedDate": "2025-04-22T17:04:40.000+0000",
+    "LastModifiedDate": "2025-04-22T17:04:45.000+0000"
+  },
+  {
+    "attributes": {
+      "type": "Flow",
+      "url": "/services/data/v66.0/tooling/sobjects/Flow/301Rc00000gVIWtIAO"
+    },
+    "Id": "301Rc00000gVIWtIAO",
+    "MasterLabel": "OpportunityProduct - RT - Update Process",
+    "Definition": {
+      "attributes": {
+        "type": "FlowDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FlowDefinition/300Rc00000PlXmxIAF"
+      },
+      "Id": "300Rc00000PlXmxIAF",
+      "DeveloperName": "OpportunityProduct_RT_Update_Process"
+    },
+    "ProcessType": "AutoLaunchedFlow",
+    "Status": "Active",
+    "ApiVersion": 63,
+    "VersionNumber": 20,
+    "Description": null,
+    "CreatedDate": "2026-04-30T18:50:34.000+0000",
+    "LastModifiedDate": "2026-04-30T19:01:28.000+0000"
+  },
+  {
+    "attributes": {
+      "type": "Flow",
+      "url": "/services/data/v66.0/tooling/sobjects/Flow/301Rc00000edLolIAE"
+    },
+    "Id": "301Rc00000edLolIAE",
+    "MasterLabel": "Quote | RT | Populate Opportunity Data",
+    "Definition": {
+      "attributes": {
+        "type": "FlowDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FlowDefinition/300Rc00000evfXJIAY"
+      },
+      "Id": "300Rc00000evfXJIAY",
+      "DeveloperName": "Quote_RT_Populate_Opportunity_Data"
+    },
+    "ProcessType": "AutoLaunchedFlow",
+    "Status": "Active",
+    "ApiVersion": 66,
+    "VersionNumber": 1,
+    "Description": null,
+    "CreatedDate": "2026-03-24T20:11:34.000+0000",
+    "LastModifiedDate": "2026-03-25T20:04:41.000+0000"
+  },
+  {
+    "attributes": {
+      "type": "Flow",
+      "url": "/services/data/v66.0/tooling/sobjects/Flow/301Hu00000111WqIAI"
+    },
+    "Id": "301Hu00000111WqIAI",
+    "MasterLabel": "Related Opportunity Note To Account",
+    "Definition": {
+      "attributes": {
+        "type": "FlowDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FlowDefinition/300Hu000000wohsIAA"
+      },
+      "Id": "300Hu000000wohsIAA",
+      "DeveloperName": "Related_Opportunity_Note_To_Account"
+    },
+    "ProcessType": "AutoLaunchedFlow",
+    "Status": "Active",
+    "ApiVersion": 58,
+    "VersionNumber": 1,
+    "Description": null,
+    "CreatedDate": "2023-09-25T14:44:08.000+0000",
+    "LastModifiedDate": "2023-09-25T14:44:10.000+0000"
+  },
+  {
+    "attributes": {
+      "type": "Flow",
+      "url": "/services/data/v66.0/tooling/sobjects/Flow/301Hu00000113FHIAY"
+    },
+    "Id": "301Hu00000113FHIAY",
+    "MasterLabel": "Remove Discount After End Date",
+    "Definition": {
+      "attributes": {
+        "type": "FlowDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FlowDefinition/300Hu000000wpMoIAI"
+      },
+      "Id": "300Hu000000wpMoIAI",
+      "DeveloperName": "Remove_Discount_After_End_Date"
+    },
+    "ProcessType": "AutoLaunchedFlow",
+    "Status": "Active",
+    "ApiVersion": 58,
+    "VersionNumber": 1,
+    "Description": null,
+    "CreatedDate": "2023-10-10T16:24:10.000+0000",
+    "LastModifiedDate": "2023-10-10T16:30:05.000+0000"
+  },
+  {
+    "attributes": {
+      "type": "Flow",
+      "url": "/services/data/v66.0/tooling/sobjects/Flow/301Rc00000cu6oBIAQ"
+    },
+    "Id": "301Rc00000cu6oBIAQ",
+    "MasterLabel": "Revenue Ops Case Submission Form",
+    "Definition": {
+      "attributes": {
+        "type": "FlowDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FlowDefinition/300Rc00000cQIuiIAG"
+      },
+      "Id": "300Rc00000cQIuiIAG",
+      "DeveloperName": "Revenue_Ops_Case_Submission_Form"
+    },
+    "ProcessType": "Flow",
+    "Status": "Active",
+    "ApiVersion": 65,
+    "VersionNumber": 8,
+    "Description": null,
+    "CreatedDate": "2026-02-13T16:31:59.000+0000",
+    "LastModifiedDate": "2026-02-13T16:33:24.000+0000"
+  },
+  {
+    "attributes": {
+      "type": "Flow",
+      "url": "/services/data/v66.0/tooling/sobjects/Flow/301Rc00000flIRnIAM"
+    },
+    "Id": "301Rc00000flIRnIAM",
+    "MasterLabel": "Score Divergence Alert",
+    "Definition": {
+      "attributes": {
+        "type": "FlowDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FlowDefinition/300Rc00000fzaa6IAA"
+      },
+      "Id": "300Rc00000fzaa6IAA",
+      "DeveloperName": "Score_Divergence_Alert"
+    },
+    "ProcessType": "AutoLaunchedFlow",
+    "Status": "Active",
+    "ApiVersion": 63,
+    "VersionNumber": 1,
+    "Description": "Creates a High-priority Task for the Account Owner when CM Pulse and Product Health Score enter major divergence. Fires when Score_Alignment__c changes to \"Major Divergence\".",
+    "CreatedDate": "2026-04-16T05:04:14.000+0000",
+    "LastModifiedDate": "2026-04-16T05:04:35.000+0000"
+  },
+  {
+    "attributes": {
+      "type": "Flow",
+      "url": "/services/data/v66.0/tooling/sobjects/Flow/3013s000000EtA3AAK"
+    },
+    "Id": "3013s000000EtA3AAK",
+    "MasterLabel": "Send Integration Email Alert",
+    "Definition": {
+      "attributes": {
+        "type": "FlowDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FlowDefinition/3003s000000HGB9AAO"
+      },
+      "Id": "3003s000000HGB9AAO",
+      "DeveloperName": "Send_Integration_Email_Alert"
+    },
+    "ProcessType": "AutoLaunchedFlow",
+    "Status": "Active",
+    "ApiVersion": 58,
+    "VersionNumber": 1,
+    "Description": null,
+    "CreatedDate": "2023-07-06T18:00:31.000+0000",
+    "LastModifiedDate": "2023-07-24T18:57:58.000+0000"
+  },
+  {
+    "attributes": {
+      "type": "Flow",
+      "url": "/services/data/v66.0/tooling/sobjects/Flow/301Rc00000auk0DIAQ"
+    },
+    "Id": "301Rc00000auk0DIAQ",
+    "MasterLabel": "Send Slack Notification for Deals Won - V2",
+    "Definition": {
+      "attributes": {
+        "type": "FlowDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FlowDefinition/300Rc00000bHZDnIAO"
+      },
+      "Id": "300Rc00000bHZDnIAO",
+      "DeveloperName": "Send_Slack_Notification_for_Deals_Won_V2"
+    },
+    "ProcessType": "AutoLaunchedFlow",
+    "Status": "Active",
+    "ApiVersion": 65,
+    "VersionNumber": 3,
+    "Description": null,
+    "CreatedDate": "2025-12-31T16:19:34.000+0000",
+    "LastModifiedDate": "2025-12-31T16:19:37.000+0000"
+  },
+  {
+    "attributes": {
+      "type": "Flow",
+      "url": "/services/data/v66.0/tooling/sobjects/Flow/3013s000000EsxwAAC"
+    },
+    "Id": "3013s000000EsxwAAC",
+    "MasterLabel": "Set Contact on NPS Record",
+    "Definition": {
+      "attributes": {
+        "type": "FlowDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FlowDefinition/3003s0000000UN2AAM"
+      },
+      "Id": "3003s0000000UN2AAM",
+      "DeveloperName": "Set_Contact_on_NPS_Record"
+    },
+    "ProcessType": "AutoLaunchedFlow",
+    "Status": "Active",
+    "ApiVersion": 57,
+    "VersionNumber": 3,
+    "Description": null,
+    "CreatedDate": "2023-06-21T17:04:25.000+0000",
+    "LastModifiedDate": "2023-06-21T17:04:27.000+0000"
+  },
+  {
+    "attributes": {
+      "type": "Flow",
+      "url": "/services/data/v66.0/tooling/sobjects/Flow/3013s000000NNAiAAO"
+    },
+    "Id": "3013s000000NNAiAAO",
+    "MasterLabel": "Set Healthie Organization on Healthie User",
+    "Definition": {
+      "attributes": {
+        "type": "FlowDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FlowDefinition/3003s0000000UPmAAM"
+      },
+      "Id": "3003s0000000UPmAAM",
+      "DeveloperName": "Set_Healthie_Organization_on_Healthie_User"
+    },
+    "ProcessType": "AutoLaunchedFlow",
+    "Status": "Active",
+    "ApiVersion": 56,
+    "VersionNumber": 1,
+    "Description": null,
+    "CreatedDate": "2023-03-09T21:10:52.000+0000",
+    "LastModifiedDate": "2023-03-09T21:14:30.000+0000"
+  },
+  {
+    "attributes": {
+      "type": "Flow",
+      "url": "/services/data/v66.0/tooling/sobjects/Flow/3013s000000NNAhAAO"
+    },
+    "Id": "3013s000000NNAhAAO",
+    "MasterLabel": "Set Healthie Organization Owner On Healthie Organization",
+    "Definition": {
+      "attributes": {
+        "type": "FlowDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FlowDefinition/3003s0000000UPlAAM"
+      },
+      "Id": "3003s0000000UPlAAM",
+      "DeveloperName": "Set_Healthie_Organization_Owner_On_Healthie_Organization"
+    },
+    "ProcessType": "AutoLaunchedFlow",
+    "Status": "Active",
+    "ApiVersion": 56,
+    "VersionNumber": 1,
+    "Description": null,
+    "CreatedDate": "2023-03-09T21:10:52.000+0000",
+    "LastModifiedDate": "2023-03-09T21:14:31.000+0000"
+  },
+  {
+    "attributes": {
+      "type": "Flow",
+      "url": "/services/data/v66.0/tooling/sobjects/Flow/3013s000000NNAjAAO"
+    },
+    "Id": "3013s000000NNAjAAO",
+    "MasterLabel": "Set Healthie Parent Organization On Healthie Organization",
+    "Definition": {
+      "attributes": {
+        "type": "FlowDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FlowDefinition/3003s0000000UPnAAM"
+      },
+      "Id": "3003s0000000UPnAAM",
+      "DeveloperName": "Set_Healthie_Parent_Organization_On_Healthie_Organization"
+    },
+    "ProcessType": "AutoLaunchedFlow",
+    "Status": "Active",
+    "ApiVersion": 56,
+    "VersionNumber": 1,
+    "Description": null,
+    "CreatedDate": "2023-03-09T21:10:52.000+0000",
+    "LastModifiedDate": "2024-12-13T20:28:11.000+0000"
+  },
+  {
+    "attributes": {
+      "type": "Flow",
+      "url": "/services/data/v66.0/tooling/sobjects/Flow/3013s000000NNAkAAO"
+    },
+    "Id": "3013s000000NNAkAAO",
+    "MasterLabel": "Set Healthie Provider on Healthie User",
+    "Definition": {
+      "attributes": {
+        "type": "FlowDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FlowDefinition/3003s0000000UPoAAM"
+      },
+      "Id": "3003s0000000UPoAAM",
+      "DeveloperName": "Set_Healthie_Provider_on_Healthie_User"
+    },
+    "ProcessType": "AutoLaunchedFlow",
+    "Status": "Active",
+    "ApiVersion": 56,
+    "VersionNumber": 1,
+    "Description": null,
+    "CreatedDate": "2023-03-09T21:10:52.000+0000",
+    "LastModifiedDate": "2023-03-09T21:14:26.000+0000"
+  },
+  {
+    "attributes": {
+      "type": "Flow",
+      "url": "/services/data/v66.0/tooling/sobjects/Flow/3013s000000NNAlAAO"
+    },
+    "Id": "3013s000000NNAlAAO",
+    "MasterLabel": "Set Healthie User On Healthie Organization",
+    "Definition": {
+      "attributes": {
+        "type": "FlowDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FlowDefinition/3003s0000000UPpAAM"
+      },
+      "Id": "3003s0000000UPpAAM",
+      "DeveloperName": "Set_Healthie_User_On_Healthie_Organization"
+    },
+    "ProcessType": "AutoLaunchedFlow",
+    "Status": "Active",
+    "ApiVersion": 56,
+    "VersionNumber": 1,
+    "Description": null,
+    "CreatedDate": "2023-03-09T21:10:52.000+0000",
+    "LastModifiedDate": "2023-03-09T21:14:42.000+0000"
+  },
+  {
+    "attributes": {
+      "type": "Flow",
+      "url": "/services/data/v66.0/tooling/sobjects/Flow/3013s000000NNAmAAO"
+    },
+    "Id": "3013s000000NNAmAAO",
+    "MasterLabel": "Set Healthie User On Healthie Subscription",
+    "Definition": {
+      "attributes": {
+        "type": "FlowDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FlowDefinition/3003s0000000UPqAAM"
+      },
+      "Id": "3003s0000000UPqAAM",
+      "DeveloperName": "Set_Healthie_User_On_Healthie_Subscription"
+    },
+    "ProcessType": "AutoLaunchedFlow",
+    "Status": "Active",
+    "ApiVersion": 56,
+    "VersionNumber": 1,
+    "Description": null,
+    "CreatedDate": "2023-03-09T21:10:53.000+0000",
+    "LastModifiedDate": "2023-03-09T21:14:40.000+0000"
+  },
+  {
+    "attributes": {
+      "type": "Flow",
+      "url": "/services/data/v66.0/tooling/sobjects/Flow/301Rc00000XO8vvIAD"
+    },
+    "Id": "301Rc00000XO8vvIAD",
+    "MasterLabel": "Set Plan Group on Stripe Subscription",
+    "Definition": {
+      "attributes": {
+        "type": "FlowDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FlowDefinition/3003s0000000UR9AAM"
+      },
+      "Id": "3003s0000000UR9AAM",
+      "DeveloperName": "Set_Plan_Group_on_Stripe_Subscription"
+    },
+    "ProcessType": "AutoLaunchedFlow",
+    "Status": "Active",
+    "ApiVersion": 57,
+    "VersionNumber": 7,
+    "Description": null,
+    "CreatedDate": "2025-10-21T19:46:36.000+0000",
+    "LastModifiedDate": "2025-10-21T19:49:48.000+0000"
+  },
+  {
+    "attributes": {
+      "type": "Flow",
+      "url": "/services/data/v66.0/tooling/sobjects/Flow/3013s000000EsxrAAC"
+    },
+    "Id": "3013s000000EsxrAAC",
+    "MasterLabel": "Set Plan When Submitted On Survey Response",
+    "Definition": {
+      "attributes": {
+        "type": "FlowDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FlowDefinition/3003s000000HG8TAAW"
+      },
+      "Id": "3003s000000HG8TAAW",
+      "DeveloperName": "Set_Plan_When_Submitted_On_Survey_Response"
+    },
+    "ProcessType": "AutoLaunchedFlow",
+    "Status": "Active",
+    "ApiVersion": 58,
+    "VersionNumber": 1,
+    "Description": null,
+    "CreatedDate": "2023-06-21T17:01:57.000+0000",
+    "LastModifiedDate": "2023-06-21T17:03:22.000+0000"
+  },
+  {
+    "attributes": {
+      "type": "Flow",
+      "url": "/services/data/v66.0/tooling/sobjects/Flow/301Rc00000J2EvBIAV"
+    },
+    "Id": "301Rc00000J2EvBIAV",
+    "MasterLabel": "Set Salesforce Records On New Stripe Invoice",
+    "Definition": {
+      "attributes": {
+        "type": "FlowDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FlowDefinition/3003s0000000URAAA2"
+      },
+      "Id": "3003s0000000URAAA2",
+      "DeveloperName": "Set_Salesforce_Records_On_New_Stripe_Invoice"
+    },
+    "ProcessType": "AutoLaunchedFlow",
+    "Status": "Active",
+    "ApiVersion": 57,
+    "VersionNumber": 2,
+    "Description": null,
+    "CreatedDate": "2024-12-09T14:09:53.000+0000",
+    "LastModifiedDate": "2024-12-09T14:36:41.000+0000"
+  },
+  {
+    "attributes": {
+      "type": "Flow",
+      "url": "/services/data/v66.0/tooling/sobjects/Flow/301Rc00000J2EvHIAV"
+    },
+    "Id": "301Rc00000J2EvHIAV",
+    "MasterLabel": "Set Stripe Customer On Healthie Organization And Account",
+    "Definition": {
+      "attributes": {
+        "type": "FlowDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FlowDefinition/300Rc00000J6ensIAB"
+      },
+      "Id": "300Rc00000J6ensIAB",
+      "DeveloperName": "Set_Stripe_Customer_On_Healthie_Organization_And_Account"
+    },
+    "ProcessType": "AutoLaunchedFlow",
+    "Status": "Active",
+    "ApiVersion": 62,
+    "VersionNumber": 1,
+    "Description": null,
+    "CreatedDate": "2024-12-09T14:09:59.000+0000",
+    "LastModifiedDate": "2024-12-16T20:32:12.000+0000"
+  },
+  {
+    "attributes": {
+      "type": "Flow",
+      "url": "/services/data/v66.0/tooling/sobjects/Flow/3013s000000NNAoAAO"
+    },
+    "Id": "3013s000000NNAoAAO",
+    "MasterLabel": "Set Stripe Customer on Healthie Subscription",
+    "Definition": {
+      "attributes": {
+        "type": "FlowDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FlowDefinition/3003s0000000UPsAAM"
+      },
+      "Id": "3003s0000000UPsAAM",
+      "DeveloperName": "Set_Stripe_Customer_on_Healthie_Subscription"
+    },
+    "ProcessType": "AutoLaunchedFlow",
+    "Status": "Active",
+    "ApiVersion": 56,
+    "VersionNumber": 1,
+    "Description": null,
+    "CreatedDate": "2023-03-09T21:10:53.000+0000",
+    "LastModifiedDate": "2023-03-09T21:14:36.000+0000"
+  },
+  {
+    "attributes": {
+      "type": "Flow",
+      "url": "/services/data/v66.0/tooling/sobjects/Flow/3013s000000NNApAAO"
+    },
+    "Id": "3013s000000NNApAAO",
+    "MasterLabel": "Set Stripe Customer on Healthie User",
+    "Definition": {
+      "attributes": {
+        "type": "FlowDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FlowDefinition/3003s0000000UPtAAM"
+      },
+      "Id": "3003s0000000UPtAAM",
+      "DeveloperName": "Set_Stripe_Customer_on_Healthie_User"
+    },
+    "ProcessType": "AutoLaunchedFlow",
+    "Status": "Active",
+    "ApiVersion": 56,
+    "VersionNumber": 1,
+    "Description": null,
+    "CreatedDate": "2023-03-09T21:10:53.000+0000",
+    "LastModifiedDate": "2024-12-16T15:59:01.000+0000"
+  },
+  {
+    "attributes": {
+      "type": "Flow",
+      "url": "/services/data/v66.0/tooling/sobjects/Flow/3013s000000NNAqAAO"
+    },
+    "Id": "3013s000000NNAqAAO",
+    "MasterLabel": "Set Stripe Subscription on Healthie Subscription",
+    "Definition": {
+      "attributes": {
+        "type": "FlowDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FlowDefinition/3003s0000000UPuAAM"
+      },
+      "Id": "3003s0000000UPuAAM",
+      "DeveloperName": "Set_Stripe_Subscription_on_Healthie_Subscription"
+    },
+    "ProcessType": "AutoLaunchedFlow",
+    "Status": "Active",
+    "ApiVersion": 56,
+    "VersionNumber": 1,
+    "Description": null,
+    "CreatedDate": "2023-03-09T21:10:53.000+0000",
+    "LastModifiedDate": "2023-03-09T21:14:44.000+0000"
+  },
+  {
+    "attributes": {
+      "type": "Flow",
+      "url": "/services/data/v66.0/tooling/sobjects/Flow/301Hu00000113FSIAY"
+    },
+    "Id": "301Hu00000113FSIAY",
+    "MasterLabel": "Set Stripe Subscription Term",
+    "Definition": {
+      "attributes": {
+        "type": "FlowDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FlowDefinition/300Hu000000wpMrIAI"
+      },
+      "Id": "300Hu000000wpMrIAI",
+      "DeveloperName": "Set_Stripe_Subscription_Term"
+    },
+    "ProcessType": "AutoLaunchedFlow",
+    "Status": "Active",
+    "ApiVersion": 58,
+    "VersionNumber": 3,
+    "Description": null,
+    "CreatedDate": "2023-10-10T16:33:30.000+0000",
+    "LastModifiedDate": "2023-10-10T16:33:32.000+0000"
+  },
+  {
+    "attributes": {
+      "type": "Flow",
+      "url": "/services/data/v66.0/tooling/sobjects/Flow/3013s000000NNTBAA4"
+    },
+    "Id": "3013s000000NNTBAA4",
+    "MasterLabel": "Set Subscription as Digital Health",
+    "Definition": {
+      "attributes": {
+        "type": "FlowDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FlowDefinition/3003s0000000USMAA2"
+      },
+      "Id": "3003s0000000USMAA2",
+      "DeveloperName": "Set_Subscription_as_Digital_Health"
+    },
+    "ProcessType": "AutoLaunchedFlow",
+    "Status": "Active",
+    "ApiVersion": 57,
+    "VersionNumber": 1,
+    "Description": "if sub item = DHS, sub = DHS",
+    "CreatedDate": "2023-03-17T18:08:16.000+0000",
+    "LastModifiedDate": "2023-03-17T18:22:24.000+0000"
+  },
+  {
+    "attributes": {
+      "type": "Flow",
+      "url": "/services/data/v66.0/tooling/sobjects/Flow/301Rc00000av2jWIAQ"
+    },
+    "Id": "301Rc00000av2jWIAQ",
+    "MasterLabel": "Slack Notification - Closed Won",
+    "Definition": {
+      "attributes": {
+        "type": "FlowDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FlowDefinition/300Rc000004myKaIAI"
+      },
+      "Id": "300Rc000004myKaIAI",
+      "DeveloperName": "Slack_Notification_Closed_Won"
+    },
+    "ProcessType": "AutoLaunchedFlow",
+    "Status": "Active",
+    "ApiVersion": 59,
+    "VersionNumber": 3,
+    "Description": null,
+    "CreatedDate": "2025-12-31T19:24:20.000+0000",
+    "LastModifiedDate": "2025-12-31T19:24:24.000+0000"
+  },
+  {
+    "attributes": {
+      "type": "Flow",
+      "url": "/services/data/v66.0/tooling/sobjects/Flow/301Rc00000XOjU2IAL"
+    },
+    "Id": "301Rc00000XOjU2IAL",
+    "MasterLabel": "Stripe Customer - RT - Account/Contact Sync",
+    "Definition": {
+      "attributes": {
+        "type": "FlowDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FlowDefinition/300Rc00000XlG82IAF"
+      },
+      "Id": "300Rc00000XlG82IAF",
+      "DeveloperName": "Stripe_Customer_RT_Account_Contact_Sync"
+    },
+    "ProcessType": "AutoLaunchedFlow",
+    "Status": "Active",
+    "ApiVersion": 65,
+    "VersionNumber": 1,
+    "Description": "Checks to see if the Stripe Customer is missing either the Account or Contact records. If one (not both) is missing it will fill in the blank.",
+    "CreatedDate": "2025-10-21T20:29:53.000+0000",
+    "LastModifiedDate": "2025-10-21T20:31:44.000+0000"
+  },
+  {
+    "attributes": {
+      "type": "Flow",
+      "url": "/services/data/v66.0/tooling/sobjects/Flow/301Rc00000XmvLyIAJ"
+    },
+    "Id": "301Rc00000XmvLyIAJ",
+    "MasterLabel": "Stripe Customer - RT - Group Plan Upgrade Slack Notification",
+    "Definition": {
+      "attributes": {
+        "type": "FlowDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FlowDefinition/300Rc00000TwXvnIAF"
+      },
+      "Id": "300Rc00000TwXvnIAF",
+      "DeveloperName": "Stripe_Customer_RT_Group_Plan_Upgrade_Slack_Notification"
+    },
+    "ProcessType": "AutoLaunchedFlow",
+    "Status": "Active",
+    "ApiVersion": 64,
+    "VersionNumber": 24,
+    "Description": "Specific to Support team to see when a customer upgrades to Group Plan",
+    "CreatedDate": "2025-10-28T17:12:54.000+0000",
+    "LastModifiedDate": "2025-11-06T20:34:20.000+0000"
+  },
+  {
+    "attributes": {
+      "type": "Flow",
+      "url": "/services/data/v66.0/tooling/sobjects/Flow/301Rc00000bAYWHIA4"
+    },
+    "Id": "301Rc00000bAYWHIA4",
+    "MasterLabel": "Stripe Customer - RT - Record Updates",
+    "Definition": {
+      "attributes": {
+        "type": "FlowDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FlowDefinition/300Rc00000QWdAcIAL"
+      },
+      "Id": "300Rc00000QWdAcIAL",
+      "DeveloperName": "Stripe_Customer_RT_Record_Updates"
+    },
+    "ProcessType": "AutoLaunchedFlow",
+    "Status": "Active",
+    "ApiVersion": 63,
+    "VersionNumber": 3,
+    "Description": "Flow that handles immediate record updates for the Stripe Customer",
+    "CreatedDate": "2026-01-07T15:14:36.000+0000",
+    "LastModifiedDate": "2026-01-07T15:14:41.000+0000"
+  },
+  {
+    "attributes": {
+      "type": "Flow",
+      "url": "/services/data/v66.0/tooling/sobjects/Flow/301Rc00000bs0p0IAA"
+    },
+    "Id": "301Rc00000bs0p0IAA",
+    "MasterLabel": "Stripe Customer - RT - Related Record Updates",
+    "Definition": {
+      "attributes": {
+        "type": "FlowDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FlowDefinition/300Rc00000QWdAdIAL"
+      },
+      "Id": "300Rc00000QWdAdIAL",
+      "DeveloperName": "Stripe_Customer_RT_Related_Record_Updates"
+    },
+    "ProcessType": "AutoLaunchedFlow",
+    "Status": "Active",
+    "ApiVersion": 63,
+    "VersionNumber": 14,
+    "Description": "Flow that handles related record updates when a Stripe Customer is created or updated",
+    "CreatedDate": "2026-01-22T19:08:41.000+0000",
+    "LastModifiedDate": "2026-01-22T19:08:45.000+0000"
+  },
+  {
+    "attributes": {
+      "type": "Flow",
+      "url": "/services/data/v66.0/tooling/sobjects/Flow/301Rc00000auYjsIAE"
+    },
+    "Id": "301Rc00000auYjsIAE",
+    "MasterLabel": "Stripe Customer - RT - Stripe Timing Override",
+    "Definition": {
+      "attributes": {
+        "type": "FlowDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FlowDefinition/300Rc00000Wt6qMIAR"
+      },
+      "Id": "300Rc00000Wt6qMIAR",
+      "DeveloperName": "Stripe_Customer_RT_Stripe_Timing_Override"
+    },
+    "ProcessType": "AutoLaunchedFlow",
+    "Status": "Active",
+    "ApiVersion": 65,
+    "VersionNumber": 2,
+    "Description": "Flow to counter Stripe issues stemming from DHS Trials being cancelled and replaced with active subscriptions, but being sent to Salesforce out of order.",
+    "CreatedDate": "2025-12-31T15:30:18.000+0000",
+    "LastModifiedDate": "2025-12-31T15:30:23.000+0000"
+  },
+  {
+    "attributes": {
+      "type": "Flow",
+      "url": "/services/data/v66.0/tooling/sobjects/Flow/301Rc00000SEWUYIA5"
+    },
+    "Id": "301Rc00000SEWUYIA5",
+    "MasterLabel": "Stripe Customer - Scheduled RT - Stripe ID Sync",
+    "Definition": {
+      "attributes": {
+        "type": "FlowDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FlowDefinition/300Rc00000S6DCGIA3"
+      },
+      "Id": "300Rc00000S6DCGIA3",
+      "DeveloperName": "Stripe_Customer_Scheduled_RT_Stripe_ID_Sync"
+    },
+    "ProcessType": "AutoLaunchedFlow",
+    "Status": "Active",
+    "ApiVersion": 64,
+    "VersionNumber": 2,
+    "Description": "Scheduled Flow to allow Stripe ID to pass over to Contact on creation. Reduces DHS Trial sync errors.",
+    "CreatedDate": "2025-07-08T14:51:27.000+0000",
+    "LastModifiedDate": "2025-07-08T14:51:31.000+0000"
+  },
+  {
+    "attributes": {
+      "type": "Flow",
+      "url": "/services/data/v66.0/tooling/sobjects/Flow/301Rc00000a05eAIAQ"
+    },
+    "Id": "301Rc00000a05eAIAQ",
+    "MasterLabel": "Stripe Invoice Item - RT - Assign AI Scribe Plan",
+    "Definition": {
+      "attributes": {
+        "type": "FlowDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FlowDefinition/300Rc00000aOj8vIAC"
+      },
+      "Id": "300Rc00000aOj8vIAC",
+      "DeveloperName": "Stripe_Invoice_Item_RT_Assign_AI_Scribe_Plan"
+    },
+    "ProcessType": "AutoLaunchedFlow",
+    "Status": "Active",
+    "ApiVersion": 65,
+    "VersionNumber": 2,
+    "Description": null,
+    "CreatedDate": "2025-12-09T15:43:36.000+0000",
+    "LastModifiedDate": "2025-12-09T15:43:47.000+0000"
+  },
+  {
+    "attributes": {
+      "type": "Flow",
+      "url": "/services/data/v66.0/tooling/sobjects/Flow/301Rc00000gpqvlIAA"
+    },
+    "Id": "301Rc00000gpqvlIAA",
+    "MasterLabel": "Stripe Payment Past Due Rollup",
+    "Definition": {
+      "attributes": {
+        "type": "FlowDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FlowDefinition/300Rc00000gIaRRIA0"
+      },
+      "Id": "300Rc00000gIaRRIA0",
+      "DeveloperName": "Stripe_Payment_Past_Due_Rollup"
+    },
+    "ProcessType": "AutoLaunchedFlow",
+    "Status": "Active",
+    "ApiVersion": 63,
+    "VersionNumber": 3,
+    "Description": "Rollup: Updates Account.Stripe_Payment_Past_Due__c = true if the account has any Stripe customers with Stripe_Delinquent__c = true; false otherwise. Triggers on Stripe_Customer__c create or update.",
+    "CreatedDate": "2026-05-08T01:23:07.000+0000",
+    "LastModifiedDate": "2026-05-08T01:23:11.000+0000"
+  },
+  {
+    "attributes": {
+      "type": "Flow",
+      "url": "/services/data/v66.0/tooling/sobjects/Flow/301Rc00000g4WijIAE"
+    },
+    "Id": "301Rc00000g4WijIAE",
+    "MasterLabel": "Stripe Sub Canceling Rollup",
+    "Definition": {
+      "attributes": {
+        "type": "FlowDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FlowDefinition/300Rc00000gIaRSIA0"
+      },
+      "Id": "300Rc00000gIaRSIA0",
+      "DeveloperName": "Stripe_Sub_Canceling_Rollup"
+    },
+    "ProcessType": "AutoLaunchedFlow",
+    "Status": "Active",
+    "ApiVersion": 63,
+    "VersionNumber": 1,
+    "Description": "Rollup: Updates Account.Stripe_Sub_Canceling__c = true if the account has any active Stripe subscriptions with Stripe_Cancel_At_Period_End__c = true; false otherwise. Triggers on Stripe_Subscription__c create or update.",
+    "CreatedDate": "2026-04-22T02:31:50.000+0000",
+    "LastModifiedDate": "2026-04-22T02:38:33.000+0000"
+  },
+  {
+    "attributes": {
+      "type": "Flow",
+      "url": "/services/data/v66.0/tooling/sobjects/Flow/301Rc00000b9oFCIAY"
+    },
+    "Id": "301Rc00000b9oFCIAY",
+    "MasterLabel": "Stripe Subscription - RT - Field Updates",
+    "Definition": {
+      "attributes": {
+        "type": "FlowDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FlowDefinition/300Rc00000QWdAeIAL"
+      },
+      "Id": "300Rc00000QWdAeIAL",
+      "DeveloperName": "Stripe_Subscription_RT_Field_Updates"
+    },
+    "ProcessType": "AutoLaunchedFlow",
+    "Status": "Active",
+    "ApiVersion": 63,
+    "VersionNumber": 8,
+    "Description": ".Consolidated flow to handle fast field updates whenever a Stripe Subscription is updated.",
+    "CreatedDate": "2026-01-07T16:21:00.000+0000",
+    "LastModifiedDate": "2026-01-07T16:21:05.000+0000"
+  },
+  {
+    "attributes": {
+      "type": "Flow",
+      "url": "/services/data/v66.0/tooling/sobjects/Flow/301Rc00000YIqpTIAT"
+    },
+    "Id": "301Rc00000YIqpTIAT",
+    "MasterLabel": "Stripe Subscription - RT - Plan Group Automation",
+    "Definition": {
+      "attributes": {
+        "type": "FlowDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FlowDefinition/300Rc00000YhlsvIAB"
+      },
+      "Id": "300Rc00000YhlsvIAB",
+      "DeveloperName": "Stripe_Subscription_RT_Plan_Group_Automation"
+    },
+    "ProcessType": "AutoLaunchedFlow",
+    "Status": "Active",
+    "ApiVersion": 65,
+    "VersionNumber": 1,
+    "Description": null,
+    "CreatedDate": "2025-11-05T22:03:10.000+0000",
+    "LastModifiedDate": "2025-11-06T14:05:57.000+0000"
+  },
+  {
+    "attributes": {
+      "type": "Flow",
+      "url": "/services/data/v66.0/tooling/sobjects/Flow/301Rc00000aAW0LIAW"
+    },
+    "Id": "301Rc00000aAW0LIAW",
+    "MasterLabel": "Stripe Subscription - RT - Related Record Updates",
+    "Definition": {
+      "attributes": {
+        "type": "FlowDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FlowDefinition/300Rc00000QWdAfIAL"
+      },
+      "Id": "300Rc00000QWdAfIAL",
+      "DeveloperName": "Stripe_Subscription_RT_Related_Record_Updates"
+    },
+    "ProcessType": "AutoLaunchedFlow",
+    "Status": "Active",
+    "ApiVersion": 63,
+    "VersionNumber": 25,
+    "Description": "Manages flow decisions for updates that trigger actions or related record updates",
+    "CreatedDate": "2025-12-12T15:47:59.000+0000",
+    "LastModifiedDate": "2025-12-12T15:49:05.000+0000"
+  },
+  {
+    "attributes": {
+      "type": "Flow",
+      "url": "/services/data/v66.0/tooling/sobjects/Flow/301Rc00000PI32gIAD"
+    },
+    "Id": "301Rc00000PI32gIAD",
+    "MasterLabel": "Stripe Subscription - RT - Slack: Enterprise Churn Notification",
+    "Definition": {
+      "attributes": {
+        "type": "FlowDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FlowDefinition/300Rc00000PHHe3IAH"
+      },
+      "Id": "300Rc00000PHHe3IAH",
+      "DeveloperName": "Stripe_Subscription_RT_Slack_Enterprise_Churn_Notification"
+    },
+    "ProcessType": "AutoLaunchedFlow",
+    "Status": "Active",
+    "ApiVersion": 63,
+    "VersionNumber": 4,
+    "Description": "Automatically sends a slack message to the Closed-Lost & Churn Leanings Channel\n\nMay 2025: Changed template to Plain Text",
+    "CreatedDate": "2025-05-02T19:56:44.000+0000",
+    "LastModifiedDate": "2025-06-10T19:08:12.000+0000"
+  },
+  {
+    "attributes": {
+      "type": "Flow",
+      "url": "/services/data/v66.0/tooling/sobjects/Flow/301Rc00000UH7JcIAL"
+    },
+    "Id": "301Rc00000UH7JcIAL",
+    "MasterLabel": "Stripe Subscription - Scheduled - DHS Trials",
+    "Definition": {
+      "attributes": {
+        "type": "FlowDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FlowDefinition/300Rc00000UJthAIAT"
+      },
+      "Id": "300Rc00000UJthAIAT",
+      "DeveloperName": "Stripe_Subscription_Scheduled_DHS_Trials"
+    },
+    "ProcessType": "AutoLaunchedFlow",
+    "Status": "Active",
+    "ApiVersion": 64,
+    "VersionNumber": 2,
+    "Description": null,
+    "CreatedDate": "2025-08-20T21:05:58.000+0000",
+    "LastModifiedDate": "2025-08-20T21:06:32.000+0000"
+  },
+  {
+    "attributes": {
+      "type": "Flow",
+      "url": "/services/data/v66.0/tooling/sobjects/Flow/301Rc00000fPrzEIAS"
+    },
+    "Id": "301Rc00000fPrzEIAS",
+    "MasterLabel": "Stripe Subscription Item - Active Client Overage",
+    "Definition": {
+      "attributes": {
+        "type": "FlowDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FlowDefinition/300Rc00000fbrc1IAA"
+      },
+      "Id": "300Rc00000fbrc1IAA",
+      "DeveloperName": "Stripe_Subscription_Item_Active_Client_Overage"
+    },
+    "ProcessType": "AutoLaunchedFlow",
+    "Status": "Active",
+    "ApiVersion": 66,
+    "VersionNumber": 1,
+    "Description": null,
+    "CreatedDate": "2026-04-09T15:32:59.000+0000",
+    "LastModifiedDate": "2026-04-15T21:05:27.000+0000"
+  },
+  {
+    "attributes": {
+      "type": "Flow",
+      "url": "/services/data/v66.0/tooling/sobjects/Flow/301Rc00000fM5O7IAK"
+    },
+    "Id": "301Rc00000fM5O7IAK",
+    "MasterLabel": "Stripe Subscription Item - RT - Update Flag - Practice Plus Trial",
+    "Definition": {
+      "attributes": {
+        "type": "FlowDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FlowDefinition/300Rc00000IgyjmIAB"
+      },
+      "Id": "300Rc00000IgyjmIAB",
+      "DeveloperName": "Stripe_Subscription_Item_RT_Update_Flag_Practice_Plus_Trial"
+    },
+    "ProcessType": "AutoLaunchedFlow",
+    "Status": "Active",
+    "ApiVersion": 62,
+    "VersionNumber": 4,
+    "Description": null,
+    "CreatedDate": "2026-04-08T16:25:40.000+0000",
+    "LastModifiedDate": "2026-04-08T16:25:43.000+0000"
+  },
+  {
+    "attributes": {
+      "type": "Flow",
+      "url": "/services/data/v66.0/tooling/sobjects/Flow/301Rc00000Iged4IAB"
+    },
+    "Id": "301Rc00000Iged4IAB",
+    "MasterLabel": "Subscription Item - RT - Update Start Date Fields",
+    "Definition": {
+      "attributes": {
+        "type": "FlowDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FlowDefinition/300Rc00000IpFKYIA3"
+      },
+      "Id": "300Rc00000IpFKYIA3",
+      "DeveloperName": "Subscription_Item_RT_Update_Start_Date_Fields"
+    },
+    "ProcessType": "AutoLaunchedFlow",
+    "Status": "Active",
+    "ApiVersion": 57,
+    "VersionNumber": 1,
+    "Description": null,
+    "CreatedDate": "2024-12-02T19:09:54.000+0000",
+    "LastModifiedDate": "2024-12-02T19:09:57.000+0000"
+  },
+  {
+    "attributes": {
+      "type": "Flow",
+      "url": "/services/data/v66.0/tooling/sobjects/Flow/301Rc000009r0uMIAQ"
+    },
+    "Id": "301Rc000009r0uMIAQ",
+    "MasterLabel": "Support Contact Us",
+    "Definition": {
+      "attributes": {
+        "type": "FlowDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FlowDefinition/300Rc000006P1wjIAC"
+      },
+      "Id": "300Rc000006P1wjIAC",
+      "DeveloperName": "Support_Contact_Us"
+    },
+    "ProcessType": "AutoLaunchedFlow",
+    "Status": "Active",
+    "ApiVersion": 59,
+    "VersionNumber": 5,
+    "Description": null,
+    "CreatedDate": "2024-04-16T18:28:44.000+0000",
+    "LastModifiedDate": "2024-04-16T18:28:48.000+0000"
+  },
+  {
+    "attributes": {
+      "type": "Flow",
+      "url": "/services/data/v66.0/tooling/sobjects/Flow/301Rc00000gKnaMIAS"
+    },
+    "Id": "301Rc00000gKnaMIAS",
+    "MasterLabel": "TaskRay Collaboration Connect Flow",
+    "Definition": {
+      "attributes": {
+        "type": "FlowDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FlowDefinition/300Rc00000gXVBSIA4"
+      },
+      "Id": "300Rc00000gXVBSIA4",
+      "DeveloperName": "TaskRay_External_Owner_Completion_Flow"
+    },
+    "ProcessType": "Flow",
+    "Status": "Active",
+    "ApiVersion": 64,
+    "VersionNumber": 13,
+    "Description": null,
+    "CreatedDate": "2026-04-28T02:18:23.000+0000",
+    "LastModifiedDate": "2026-04-28T02:20:15.000+0000"
+  },
+  {
+    "attributes": {
+      "type": "Flow",
+      "url": "/services/data/v66.0/tooling/sobjects/Flow/301Rc00000gKnaIIAS"
+    },
+    "Id": "301Rc00000gKnaIIAS",
+    "MasterLabel": "TaskRay Create Project from Template",
+    "Definition": {
+      "attributes": {
+        "type": "FlowDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FlowDefinition/300Rc00000gXVBOIA4"
+      },
+      "Id": "300Rc00000gXVBOIA4",
+      "DeveloperName": "TaskRay_Create_Project_from_Template"
+    },
+    "ProcessType": "AutoLaunchedFlow",
+    "Status": "Active",
+    "ApiVersion": 64,
+    "VersionNumber": 6,
+    "Description": "This flow can be called from an Opportunity, will check for Opportunity Line Items, and collect Template Addressable Ids, and then use that data, in addition to the Opportunity's data to create a TaskRay Project.",
+    "CreatedDate": "2026-04-28T02:18:23.000+0000",
+    "LastModifiedDate": "2026-04-28T02:19:59.000+0000"
+  },
+  {
+    "attributes": {
+      "type": "Flow",
+      "url": "/services/data/v66.0/tooling/sobjects/Flow/301Rc00000gKnaJIAS"
+    },
+    "Id": "301Rc00000gKnaJIAS",
+    "MasterLabel": "TaskRay Customer Onboarding Completion Flow",
+    "Definition": {
+      "attributes": {
+        "type": "FlowDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FlowDefinition/300Rc00000gXVBPIA4"
+      },
+      "Id": "300Rc00000gXVBPIA4",
+      "DeveloperName": "TaskRay_Customer_Onboarding_Completion_Flow"
+    },
+    "ProcessType": "Flow",
+    "Status": "Active",
+    "ApiVersion": 49,
+    "VersionNumber": 4,
+    "Description": "This template Flow helps complete customer onboarding projects in TaskRay.",
+    "CreatedDate": "2026-04-28T02:18:23.000+0000",
+    "LastModifiedDate": "2026-04-28T02:20:01.000+0000"
+  },
+  {
+    "attributes": {
+      "type": "Flow",
+      "url": "/services/data/v66.0/tooling/sobjects/Flow/301Rc00000gKnaKIAS"
+    },
+    "Id": "301Rc00000gKnaKIAS",
+    "MasterLabel": "TaskRay Customer Onboarding Feedback Flow",
+    "Definition": {
+      "attributes": {
+        "type": "FlowDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FlowDefinition/300Rc00000gXVBQIA4"
+      },
+      "Id": "300Rc00000gXVBQIA4",
+      "DeveloperName": "TaskRay_Customer_Onboarding_Feedback_Flow_2"
+    },
+    "ProcessType": "Flow",
+    "Status": "Active",
+    "ApiVersion": 64,
+    "VersionNumber": 13,
+    "Description": "This overrideable Flow works with the TaskRay Onboarding Feedback Form to gather customer feedback and sentiment about their onboarding experience.",
+    "CreatedDate": "2026-04-28T02:18:23.000+0000",
+    "LastModifiedDate": "2026-04-28T02:20:08.000+0000"
+  },
+  {
+    "attributes": {
+      "type": "Flow",
+      "url": "/services/data/v66.0/tooling/sobjects/Flow/301Rc00000gKnaLIAS"
+    },
+    "Id": "301Rc00000gKnaLIAS",
+    "MasterLabel": "TaskRay Customer Onboarding Kickoff Flow",
+    "Definition": {
+      "attributes": {
+        "type": "FlowDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FlowDefinition/300Rc00000gXVBRIA4"
+      },
+      "Id": "300Rc00000gXVBRIA4",
+      "DeveloperName": "TaskRay_Customer_Onboarding_Kickoff_Flow"
+    },
+    "ProcessType": "Flow",
+    "Status": "Active",
+    "ApiVersion": 49,
+    "VersionNumber": 3,
+    "Description": "This template Flow helps kick off TaskRay customer onboarding projects from Opportunities.",
+    "CreatedDate": "2026-04-28T02:18:23.000+0000",
+    "LastModifiedDate": "2026-04-28T02:20:09.000+0000"
+  },
+  {
+    "attributes": {
+      "type": "Flow",
+      "url": "/services/data/v66.0/tooling/sobjects/Flow/301Rc00000gKnaNIAS"
+    },
+    "Id": "301Rc00000gKnaNIAS",
+    "MasterLabel": "TaskRay Project External Access Flow",
+    "Definition": {
+      "attributes": {
+        "type": "FlowDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FlowDefinition/300Rc00000gXVBTIA4"
+      },
+      "Id": "300Rc00000gXVBTIA4",
+      "DeveloperName": "TaskRay_Project_External_Access_Flow"
+    },
+    "ProcessType": "Flow",
+    "Status": "Active",
+    "ApiVersion": 64,
+    "VersionNumber": 7,
+    "Description": "Flow responsible for giving access to external users to a given project",
+    "CreatedDate": "2026-04-28T02:18:24.000+0000",
+    "LastModifiedDate": "2026-04-28T02:20:16.000+0000"
+  },
+  {
+    "attributes": {
+      "type": "Flow",
+      "url": "/services/data/v66.0/tooling/sobjects/Flow/301Rc00000h8rWEIAY"
+    },
+    "Id": "301Rc00000h8rWEIAY",
+    "MasterLabel": "Update Healthie Organization Data On Related Account",
+    "Definition": {
+      "attributes": {
+        "type": "FlowDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FlowDefinition/300Rc00000J6entIAB"
+      },
+      "Id": "300Rc00000J6entIAB",
+      "DeveloperName": "Update_Healthie_Organization_Data_On_Related_Account"
+    },
+    "ProcessType": "AutoLaunchedFlow",
+    "Status": "Active",
+    "ApiVersion": 62,
+    "VersionNumber": 5,
+    "Description": null,
+    "CreatedDate": "2026-05-14T20:28:19.000+0000",
+    "LastModifiedDate": "2026-05-14T20:30:28.000+0000"
+  },
+  {
+    "attributes": {
+      "type": "Flow",
+      "url": "/services/data/v66.0/tooling/sobjects/Flow/301Rc00000J2EvJIAV"
+    },
+    "Id": "301Rc00000J2EvJIAV",
+    "MasterLabel": "Update Healthie User Data On Related Contact",
+    "Definition": {
+      "attributes": {
+        "type": "FlowDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FlowDefinition/300Rc00000J6enuIAB"
+      },
+      "Id": "300Rc00000J6enuIAB",
+      "DeveloperName": "Update_Healthie_User_Data_On_Related_Contact"
+    },
+    "ProcessType": "AutoLaunchedFlow",
+    "Status": "Active",
+    "ApiVersion": 62,
+    "VersionNumber": 1,
+    "Description": null,
+    "CreatedDate": "2024-12-09T14:10:00.000+0000",
+    "LastModifiedDate": "2024-12-09T17:03:13.000+0000"
+  },
+  {
+    "attributes": {
+      "type": "Flow",
+      "url": "/services/data/v66.0/tooling/sobjects/Flow/301Rc00000T49AcIAJ"
+    },
+    "Id": "301Rc00000T49AcIAJ",
+    "MasterLabel": "Video Call - RT - Create Healthie Note from Summary",
+    "Definition": {
+      "attributes": {
+        "type": "FlowDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FlowDefinition/300Rc00000T0qHIIAZ"
+      },
+      "Id": "300Rc00000T0qHIIAZ",
+      "DeveloperName": "Video_Call_RT_Create_Healthie_Note_from_Summary"
+    },
+    "ProcessType": "AutoLaunchedFlow",
+    "Status": "Active",
+    "ApiVersion": 58,
+    "VersionNumber": 2,
+    "Description": null,
+    "CreatedDate": "2025-07-25T19:12:07.000+0000",
+    "LastModifiedDate": "2025-07-25T19:18:33.000+0000"
+  },
+  {
+    "attributes": {
+      "type": "Flow",
+      "url": "/services/data/v66.0/tooling/sobjects/Flow/301Rc00000fmcjLIAQ"
+    },
+    "Id": "301Rc00000fmcjLIAQ",
+    "MasterLabel": "Weekly Health Score Snapshot",
+    "Definition": {
+      "attributes": {
+        "type": "FlowDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FlowDefinition/300Rc00000g0xnuIAA"
+      },
+      "Id": "300Rc00000g0xnuIAA",
+      "DeveloperName": "Weekly_Health_Score_Snapshot"
+    },
+    "ProcessType": "AutoLaunchedFlow",
+    "Status": "Active",
+    "ApiVersion": 63,
+    "VersionNumber": 1,
+    "Description": "Runs every Monday at 6 AM. Queries all active accounts (Product_Health_Score__c not null, Active_Stripe_Subscriptions__c > 0), builds a Health_Score_History__c record for each, and inserts them in bulk.",
+    "CreatedDate": "2026-04-16T11:45:35.000+0000",
+    "LastModifiedDate": "2026-04-16T11:46:00.000+0000"
+  }
+]

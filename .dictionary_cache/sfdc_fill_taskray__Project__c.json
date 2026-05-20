@@ -1,0 +1,16 @@
+{
+  "CreatedDate": null,
+  "LastModifiedDate": null,
+  "Name": null,
+  "TASKRAY__Status__c": null,
+  "TASKRAY__trCompleted__c": null,
+  "TASKRAY__trDraft__c": null,
+  "TASKRAY__trForecast__c": null,
+  "TASKRAY__trGenerateOnboardingFeedbackForm__c": null,
+  "TASKRAY__trIsOpenProject__c": null,
+  "TASKRAY__trOnHoldCount__c": null,
+  "TASKRAY__trOnHold__c": null,
+  "TASKRAY__trStatus__c": null,
+  "TASKRAY__trTemplate__c": null,
+  "TASKRAY__trTotalOnHoldDuration__c": null
+}

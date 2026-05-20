@@ -1,0 +1,574 @@
+[
+  {
+    "attributes": {
+      "type": "FieldDefinition",
+      "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/01I3s000001U5qP.Id"
+    },
+    "QualifiedApiName": "Id",
+    "DurableId": "01I3s000001U5qP.Id",
+    "Label": "Record ID",
+    "DataType": "Lookup()",
+    "Description": null,
+    "IsCalculated": false,
+    "LastModifiedDate": null
+  },
+  {
+    "attributes": {
+      "type": "FieldDefinition",
+      "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/01I3s000001U5qP.Owner"
+    },
+    "QualifiedApiName": "OwnerId",
+    "DurableId": "01I3s000001U5qP.Owner",
+    "Label": "Owner",
+    "DataType": "Lookup(User,Group)",
+    "Description": null,
+    "IsCalculated": false,
+    "LastModifiedDate": null
+  },
+  {
+    "attributes": {
+      "type": "FieldDefinition",
+      "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/01I3s000001U5qP.IsDeleted"
+    },
+    "QualifiedApiName": "IsDeleted",
+    "DurableId": "01I3s000001U5qP.IsDeleted",
+    "Label": "Deleted",
+    "DataType": "Checkbox",
+    "Description": null,
+    "IsCalculated": false,
+    "LastModifiedDate": null
+  },
+  {
+    "attributes": {
+      "type": "FieldDefinition",
+      "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/01I3s000001U5qP.Name"
+    },
+    "QualifiedApiName": "Name",
+    "DurableId": "01I3s000001U5qP.Name",
+    "Label": "Healthie Organization Number",
+    "DataType": "Auto Number",
+    "Description": null,
+    "IsCalculated": false,
+    "LastModifiedDate": null
+  },
+  {
+    "attributes": {
+      "type": "FieldDefinition",
+      "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/01I3s000001U5qP.CreatedDate"
+    },
+    "QualifiedApiName": "CreatedDate",
+    "DurableId": "01I3s000001U5qP.CreatedDate",
+    "Label": "Created Date",
+    "DataType": "Date/Time",
+    "Description": null,
+    "IsCalculated": false,
+    "LastModifiedDate": null
+  },
+  {
+    "attributes": {
+      "type": "FieldDefinition",
+      "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/01I3s000001U5qP.CreatedBy"
+    },
+    "QualifiedApiName": "CreatedById",
+    "DurableId": "01I3s000001U5qP.CreatedBy",
+    "Label": "Created By",
+    "DataType": "Lookup(User)",
+    "Description": null,
+    "IsCalculated": false,
+    "LastModifiedDate": null
+  },
+  {
+    "attributes": {
+      "type": "FieldDefinition",
+      "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/01I3s000001U5qP.LastModifiedDate"
+    },
+    "QualifiedApiName": "LastModifiedDate",
+    "DurableId": "01I3s000001U5qP.LastModifiedDate",
+    "Label": "Last Modified Date",
+    "DataType": "Date/Time",
+    "Description": null,
+    "IsCalculated": false,
+    "LastModifiedDate": null
+  },
+  {
+    "attributes": {
+      "type": "FieldDefinition",
+      "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/01I3s000001U5qP.LastModifiedBy"
+    },
+    "QualifiedApiName": "LastModifiedById",
+    "DurableId": "01I3s000001U5qP.LastModifiedBy",
+    "Label": "Last Modified By",
+    "DataType": "Lookup(User)",
+    "Description": null,
+    "IsCalculated": false,
+    "LastModifiedDate": null
+  },
+  {
+    "attributes": {
+      "type": "FieldDefinition",
+      "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/01I3s000001U5qP.SystemModstamp"
+    },
+    "QualifiedApiName": "SystemModstamp",
+    "DurableId": "01I3s000001U5qP.SystemModstamp",
+    "Label": "System Modstamp",
+    "DataType": "Date/Time",
+    "Description": null,
+    "IsCalculated": false,
+    "LastModifiedDate": null
+  },
+  {
+    "attributes": {
+      "type": "FieldDefinition",
+      "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/01I3s000001U5qP.LastViewedDate"
+    },
+    "QualifiedApiName": "LastViewedDate",
+    "DurableId": "01I3s000001U5qP.LastViewedDate",
+    "Label": "Last Viewed Date",
+    "DataType": "Date/Time",
+    "Description": null,
+    "IsCalculated": false,
+    "LastModifiedDate": null
+  },
+  {
+    "attributes": {
+      "type": "FieldDefinition",
+      "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/01I3s000001U5qP.LastReferencedDate"
+    },
+    "QualifiedApiName": "LastReferencedDate",
+    "DurableId": "01I3s000001U5qP.LastReferencedDate",
+    "Label": "Last Referenced Date",
+    "DataType": "Date/Time",
+    "Description": null,
+    "IsCalculated": false,
+    "LastModifiedDate": null
+  },
+  {
+    "attributes": {
+      "type": "FieldDefinition",
+      "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/01I3s000001U5qP.UserRecordAccess"
+    },
+    "QualifiedApiName": "UserRecordAccessId",
+    "DurableId": "01I3s000001U5qP.UserRecordAccess",
+    "Label": "Object Access Level",
+    "DataType": "Lookup(User Record Access)",
+    "Description": null,
+    "IsCalculated": false,
+    "LastModifiedDate": null
+  },
+  {
+    "attributes": {
+      "type": "FieldDefinition",
+      "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/01I3s000001U5qP.RecordVisibility"
+    },
+    "QualifiedApiName": "RecordVisibilityId",
+    "DurableId": "01I3s000001U5qP.RecordVisibility",
+    "Label": "Record Visibility",
+    "DataType": "Lookup(Record Visibility)",
+    "Description": null,
+    "IsCalculated": false,
+    "LastModifiedDate": null
+  },
+  {
+    "attributes": {
+      "type": "FieldDefinition",
+      "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/01I3s000001U5qP.00N3s00000PvjBI"
+    },
+    "QualifiedApiName": "Account__c",
+    "DurableId": "01I3s000001U5qP.00N3s00000PvjBI",
+    "Label": "Account",
+    "DataType": "Lookup(Account)",
+    "Description": null,
+    "IsCalculated": false,
+    "LastModifiedDate": "2023-02-02T15:42:03.000+0000"
+  },
+  {
+    "attributes": {
+      "type": "FieldDefinition",
+      "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/01I3s000001U5qP.00N3s00000PvjBJ"
+    },
+    "QualifiedApiName": "Contact__c",
+    "DurableId": "01I3s000001U5qP.00N3s00000PvjBJ",
+    "Label": "Contact",
+    "DataType": "Lookup(Contact)",
+    "Description": null,
+    "IsCalculated": false,
+    "LastModifiedDate": "2023-02-02T15:42:03.000+0000"
+  },
+  {
+    "attributes": {
+      "type": "FieldDefinition",
+      "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/01I3s000001U5qP.00N3s00000PvjBK"
+    },
+    "QualifiedApiName": "Healthie_Created_Date__c",
+    "DurableId": "01I3s000001U5qP.00N3s00000PvjBK",
+    "Label": "Healthie Created Date",
+    "DataType": "Date/Time",
+    "Description": null,
+    "IsCalculated": false,
+    "LastModifiedDate": "2023-02-02T15:42:04.000+0000"
+  },
+  {
+    "attributes": {
+      "type": "FieldDefinition",
+      "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/01I3s000001U5qP.00N3s00000PvjBL"
+    },
+    "QualifiedApiName": "Healthie_ID__c",
+    "DurableId": "01I3s000001U5qP.00N3s00000PvjBL",
+    "Label": "Healthie ID",
+    "DataType": "Text(50)  (External ID) (Unique Case Sensitive)",
+    "Description": null,
+    "IsCalculated": false,
+    "LastModifiedDate": "2023-02-02T15:42:04.000+0000"
+  },
+  {
+    "attributes": {
+      "type": "FieldDefinition",
+      "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/01I3s000001U5qP.00N3s00000PvjBM"
+    },
+    "QualifiedApiName": "Healthie_Organization_Owner_ID__c",
+    "DurableId": "01I3s000001U5qP.00N3s00000PvjBM",
+    "Label": "Healthie Organization Owner ID",
+    "DataType": "Text(50)  (External ID)",
+    "Description": null,
+    "IsCalculated": false,
+    "LastModifiedDate": "2023-02-02T15:42:04.000+0000"
+  },
+  {
+    "attributes": {
+      "type": "FieldDefinition",
+      "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/01I3s000001U5qP.00N3s00000PvjBN"
+    },
+    "QualifiedApiName": "Healthie_Organization_Owner__c",
+    "DurableId": "01I3s000001U5qP.00N3s00000PvjBN",
+    "Label": "Healthie Organization Owner",
+    "DataType": "Lookup(Healthie User)",
+    "Description": null,
+    "IsCalculated": false,
+    "LastModifiedDate": "2023-02-02T15:42:04.000+0000"
+  },
+  {
+    "attributes": {
+      "type": "FieldDefinition",
+      "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/01I3s000001U5qP.00N3s00000PvjBO"
+    },
+    "QualifiedApiName": "Healthie_Organization__c",
+    "DurableId": "01I3s000001U5qP.00N3s00000PvjBO",
+    "Label": "Healthie Parent Organization",
+    "DataType": "Lookup(Healthie Organization)",
+    "Description": null,
+    "IsCalculated": false,
+    "LastModifiedDate": "2023-02-02T15:42:04.000+0000"
+  },
+  {
+    "attributes": {
+      "type": "FieldDefinition",
+      "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/01I3s000001U5qP.00N3s00000PvjBP"
+    },
+    "QualifiedApiName": "Healthie_Parent_Organization_ID__c",
+    "DurableId": "01I3s000001U5qP.00N3s00000PvjBP",
+    "Label": "Healthie Parent Organization ID",
+    "DataType": "Text(50)  (External ID)",
+    "Description": null,
+    "IsCalculated": false,
+    "LastModifiedDate": "2023-02-02T15:42:04.000+0000"
+  },
+  {
+    "attributes": {
+      "type": "FieldDefinition",
+      "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/01I3s000001U5qP.00N3s00000PvjBQ"
+    },
+    "QualifiedApiName": "Healthie_User_ID__c",
+    "DurableId": "01I3s000001U5qP.00N3s00000PvjBQ",
+    "Label": "Healthie User ID",
+    "DataType": "Text(50)  (External ID)",
+    "Description": null,
+    "IsCalculated": false,
+    "LastModifiedDate": "2023-02-02T15:42:04.000+0000"
+  },
+  {
+    "attributes": {
+      "type": "FieldDefinition",
+      "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/01I3s000001U5qP.00N3s00000PvjBR"
+    },
+    "QualifiedApiName": "Healthie_User__c",
+    "DurableId": "01I3s000001U5qP.00N3s00000PvjBR",
+    "Label": "Healthie User",
+    "DataType": "Lookup(Healthie User)",
+    "Description": null,
+    "IsCalculated": false,
+    "LastModifiedDate": "2023-02-02T15:42:04.000+0000"
+  },
+  {
+    "attributes": {
+      "type": "FieldDefinition",
+      "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/01I3s000001U5qP.00N3s00000PvjBS"
+    },
+    "QualifiedApiName": "Lead__c",
+    "DurableId": "01I3s000001U5qP.00N3s00000PvjBS",
+    "Label": "Lead",
+    "DataType": "Lookup(Lead)",
+    "Description": null,
+    "IsCalculated": false,
+    "LastModifiedDate": "2023-02-02T15:42:04.000+0000"
+  },
+  {
+    "attributes": {
+      "type": "FieldDefinition",
+      "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/01I3s000001U5qP.00N3s00000PvjBT"
+    },
+    "QualifiedApiName": "Name__c",
+    "DurableId": "01I3s000001U5qP.00N3s00000PvjBT",
+    "Label": "Name",
+    "DataType": "Text(100)",
+    "Description": null,
+    "IsCalculated": false,
+    "LastModifiedDate": "2023-03-08T17:32:50.000+0000"
+  },
+  {
+    "attributes": {
+      "type": "FieldDefinition",
+      "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/01I3s000001U5qP.00N3s00000PvoDn"
+    },
+    "QualifiedApiName": "Account_Idx18__c",
+    "DurableId": "01I3s000001U5qP.00N3s00000PvoDn",
+    "Label": "Account Idx18",
+    "DataType": "Formula (Text)",
+    "Description": null,
+    "IsCalculated": true,
+    "LastModifiedDate": "2024-08-15T17:52:43.000+0000"
+  },
+  {
+    "attributes": {
+      "type": "FieldDefinition",
+      "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/01I3s000001U5qP.00NHu00000KKwFb"
+    },
+    "QualifiedApiName": "Active_Support_Users__c",
+    "DurableId": "01I3s000001U5qP.00NHu00000KKwFb",
+    "Label": "Active Support Users",
+    "DataType": "Number(18, 0)",
+    "Description": null,
+    "IsCalculated": false,
+    "LastModifiedDate": "2023-09-25T15:33:49.000+0000"
+  },
+  {
+    "attributes": {
+      "type": "FieldDefinition",
+      "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/01I3s000001U5qP.00NHu00000KKwGs"
+    },
+    "QualifiedApiName": "Active_Standard_Users__c",
+    "DurableId": "01I3s000001U5qP.00NHu00000KKwGs",
+    "Label": "Active Standard Users",
+    "DataType": "Number(18, 0)",
+    "Description": "Number of Providers",
+    "IsCalculated": false,
+    "LastModifiedDate": "2024-09-27T13:07:42.000+0000"
+  },
+  {
+    "attributes": {
+      "type": "FieldDefinition",
+      "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/01I3s000001U5qP.00NRc00000LTi9m"
+    },
+    "QualifiedApiName": "Active_Clients__c",
+    "DurableId": "01I3s000001U5qP.00NRc00000LTi9m",
+    "Label": "Healthie Active Clients",
+    "DataType": "Number(18, 0)",
+    "Description": "Number of Clients of Provider",
+    "IsCalculated": false,
+    "LastModifiedDate": "2024-09-27T13:08:08.000+0000"
+  },
+  {
+    "attributes": {
+      "type": "FieldDefinition",
+      "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/01I3s000001U5qP.00NRc00000LTztw"
+    },
+    "QualifiedApiName": "Speciality__c",
+    "DurableId": "01I3s000001U5qP.00NRc00000LTztw",
+    "Label": "Healthie Speciality",
+    "DataType": "Text(255)",
+    "Description": null,
+    "IsCalculated": false,
+    "LastModifiedDate": "2024-08-08T18:49:43.000+0000"
+  },
+  {
+    "attributes": {
+      "type": "FieldDefinition",
+      "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/01I3s000001U5qP.00NRc00000LU1Dt"
+    },
+    "QualifiedApiName": "Churn_Reason__c",
+    "DurableId": "01I3s000001U5qP.00NRc00000LU1Dt",
+    "Label": "Healthie Churn Reason",
+    "DataType": "Text(255)",
+    "Description": null,
+    "IsCalculated": false,
+    "LastModifiedDate": "2024-08-08T18:50:20.000+0000"
+  },
+  {
+    "attributes": {
+      "type": "FieldDefinition",
+      "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/01I3s000001U5qP.00NRc00000LU3Z3"
+    },
+    "QualifiedApiName": "Churn_Reason_Detail__c",
+    "DurableId": "01I3s000001U5qP.00NRc00000LU3Z3",
+    "Label": "Healthie Churn Reason Detail",
+    "DataType": "Long Text Area(32768)",
+    "Description": null,
+    "IsCalculated": false,
+    "LastModifiedDate": "2024-08-08T18:52:13.000+0000"
+  },
+  {
+    "attributes": {
+      "type": "FieldDefinition",
+      "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/01I3s000001U5qP.00NRc00000LTyjd"
+    },
+    "QualifiedApiName": "Exploring_Healthie_Reason__c",
+    "DurableId": "01I3s000001U5qP.00NRc00000LTyjd",
+    "Label": "Exploring Healthie Reason",
+    "DataType": "Text(255)",
+    "Description": null,
+    "IsCalculated": false,
+    "LastModifiedDate": "2024-08-08T19:10:52.000+0000"
+  },
+  {
+    "attributes": {
+      "type": "FieldDefinition",
+      "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/01I3s000001U5qP.00NRc00000LyZTR"
+    },
+    "QualifiedApiName": "Healthie_Parent_Org_Account_ID__c",
+    "DurableId": "01I3s000001U5qP.00NRc00000LyZTR",
+    "Label": "Healthie Parent Org Account ID",
+    "DataType": "Formula (Text)",
+    "Description": null,
+    "IsCalculated": true,
+    "LastModifiedDate": "2024-08-15T17:47:04.000+0000"
+  },
+  {
+    "attributes": {
+      "type": "FieldDefinition",
+      "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/01I3s000001U5qP.00NRc00000OrLWj"
+    },
+    "QualifiedApiName": "Number_of_Providers__c",
+    "DurableId": "01I3s000001U5qP.00NRc00000OrLWj",
+    "Label": "Number of Providers",
+    "DataType": "Number(18, 0)",
+    "Description": null,
+    "IsCalculated": false,
+    "LastModifiedDate": "2024-09-25T19:07:03.000+0000"
+  },
+  {
+    "attributes": {
+      "type": "FieldDefinition",
+      "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/01I3s000001U5qP.00NRc00000gIuyG"
+    },
+    "QualifiedApiName": "Account_Plan__c",
+    "DurableId": "01I3s000001U5qP.00NRc00000gIuyG",
+    "Label": "Account Plan",
+    "DataType": "Formula (Text)",
+    "Description": null,
+    "IsCalculated": true,
+    "LastModifiedDate": "2025-07-15T17:57:39.000+0000"
+  },
+  {
+    "attributes": {
+      "type": "FieldDefinition",
+      "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/01I3s000001U5qP.00NRc00000TLBEH"
+    },
+    "QualifiedApiName": "Healthie_Primary_Specialty__c",
+    "DurableId": "01I3s000001U5qP.00NRc00000TLBEH",
+    "Label": "Healthie Primary Specialty",
+    "DataType": "Text(255)",
+    "Description": null,
+    "IsCalculated": false,
+    "LastModifiedDate": "2024-11-27T21:13:47.000+0000"
+  },
+  {
+    "attributes": {
+      "type": "FieldDefinition",
+      "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/01I3s000001U5qP.00NRc00000TeqnV"
+    },
+    "QualifiedApiName": "Subscriber_Since__c",
+    "DurableId": "01I3s000001U5qP.00NRc00000TeqnV",
+    "Label": "Subscriber Since",
+    "DataType": "Date",
+    "Description": null,
+    "IsCalculated": false,
+    "LastModifiedDate": "2024-12-02T21:26:47.000+0000"
+  },
+  {
+    "attributes": {
+      "type": "FieldDefinition",
+      "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/01I3s000001U5qP.00NRc00000nkpGD"
+    },
+    "QualifiedApiName": "Shard__c",
+    "DurableId": "01I3s000001U5qP.00NRc00000nkpGD",
+    "Label": "Shard",
+    "DataType": "Text(255)",
+    "Description": null,
+    "IsCalculated": false,
+    "LastModifiedDate": "2026-01-12T15:32:29.000+0000"
+  },
+  {
+    "attributes": {
+      "type": "FieldDefinition",
+      "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/01I3s000001U5qP.00NRc00000U8T8k"
+    },
+    "QualifiedApiName": "Stripe_Customer_ID__c",
+    "DurableId": "01I3s000001U5qP.00NRc00000U8T8k",
+    "Label": "Stripe Customer ID",
+    "DataType": "Text(50)  (External ID)",
+    "Description": null,
+    "IsCalculated": false,
+    "LastModifiedDate": "2024-12-09T13:58:31.000+0000"
+  },
+  {
+    "attributes": {
+      "type": "FieldDefinition",
+      "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/01I3s000001U5qP.00NRc00000U8T8l"
+    },
+    "QualifiedApiName": "Stripe_Customer__c",
+    "DurableId": "01I3s000001U5qP.00NRc00000U8T8l",
+    "Label": "Stripe Customer",
+    "DataType": "Lookup(Stripe Customer)",
+    "Description": null,
+    "IsCalculated": false,
+    "LastModifiedDate": "2024-12-09T13:51:38.000+0000"
+  },
+  {
+    "attributes": {
+      "type": "FieldDefinition",
+      "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/01I3s000001U5qP.00NRc00000U8Jiv"
+    },
+    "QualifiedApiName": "NPI_Code__c",
+    "DurableId": "01I3s000001U5qP.00NRc00000U8Jiv",
+    "Label": "NPI Code",
+    "DataType": "Text(255)",
+    "Description": null,
+    "IsCalculated": false,
+    "LastModifiedDate": "2024-12-09T14:19:14.000+0000"
+  },
+  {
+    "attributes": {
+      "type": "FieldDefinition",
+      "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/01I3s000001U5qP.00NRc00000odOKY"
+    },
+    "QualifiedApiName": "Onboarding_Number_of_Providers__c",
+    "DurableId": "01I3s000001U5qP.00NRc00000odOKY",
+    "Label": "Onboarding - Number of Providers",
+    "DataType": "Text(255)",
+    "Description": null,
+    "IsCalculated": false,
+    "LastModifiedDate": "2026-02-02T22:19:45.000+0000"
+  },
+  {
+    "attributes": {
+      "type": "FieldDefinition",
+      "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/01I3s000001U5qP.00NRc00000qMmdb"
+    },
+    "QualifiedApiName": "Anticipated_of_Providers__c",
+    "DurableId": "01I3s000001U5qP.00NRc00000qMmdb",
+    "Label": "Anticipated # of Providers",
+    "DataType": "Picklist",
+    "Description": null,
+    "IsCalculated": false,
+    "LastModifiedDate": "2026-03-18T16:09:33.000+0000"
+  }
+]

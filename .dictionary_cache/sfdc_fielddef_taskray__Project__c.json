@@ -1,0 +1,1133 @@
+[
+  {
+    "attributes": {
+      "type": "FieldDefinition",
+      "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/01IRc00000AlU1j.Id"
+    },
+    "QualifiedApiName": "Id",
+    "DurableId": "01IRc00000AlU1j.Id",
+    "Label": "Record ID",
+    "DataType": "Lookup()",
+    "Description": null,
+    "IsCalculated": false,
+    "LastModifiedDate": null
+  },
+  {
+    "attributes": {
+      "type": "FieldDefinition",
+      "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/01IRc00000AlU1j.Owner"
+    },
+    "QualifiedApiName": "OwnerId",
+    "DurableId": "01IRc00000AlU1j.Owner",
+    "Label": "Owner",
+    "DataType": "Lookup(User,Group)",
+    "Description": null,
+    "IsCalculated": false,
+    "LastModifiedDate": null
+  },
+  {
+    "attributes": {
+      "type": "FieldDefinition",
+      "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/01IRc00000AlU1j.IsDeleted"
+    },
+    "QualifiedApiName": "IsDeleted",
+    "DurableId": "01IRc00000AlU1j.IsDeleted",
+    "Label": "Deleted",
+    "DataType": "Checkbox",
+    "Description": null,
+    "IsCalculated": false,
+    "LastModifiedDate": null
+  },
+  {
+    "attributes": {
+      "type": "FieldDefinition",
+      "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/01IRc00000AlU1j.Name"
+    },
+    "QualifiedApiName": "Name",
+    "DurableId": "01IRc00000AlU1j.Name",
+    "Label": "Project Name",
+    "DataType": "Text(80)",
+    "Description": null,
+    "IsCalculated": false,
+    "LastModifiedDate": null
+  },
+  {
+    "attributes": {
+      "type": "FieldDefinition",
+      "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/01IRc00000AlU1j.CreatedDate"
+    },
+    "QualifiedApiName": "CreatedDate",
+    "DurableId": "01IRc00000AlU1j.CreatedDate",
+    "Label": "Created Date",
+    "DataType": "Date/Time",
+    "Description": null,
+    "IsCalculated": false,
+    "LastModifiedDate": null
+  },
+  {
+    "attributes": {
+      "type": "FieldDefinition",
+      "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/01IRc00000AlU1j.CreatedBy"
+    },
+    "QualifiedApiName": "CreatedById",
+    "DurableId": "01IRc00000AlU1j.CreatedBy",
+    "Label": "Created By",
+    "DataType": "Lookup(User)",
+    "Description": null,
+    "IsCalculated": false,
+    "LastModifiedDate": null
+  },
+  {
+    "attributes": {
+      "type": "FieldDefinition",
+      "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/01IRc00000AlU1j.LastModifiedDate"
+    },
+    "QualifiedApiName": "LastModifiedDate",
+    "DurableId": "01IRc00000AlU1j.LastModifiedDate",
+    "Label": "Last Modified Date",
+    "DataType": "Date/Time",
+    "Description": null,
+    "IsCalculated": false,
+    "LastModifiedDate": null
+  },
+  {
+    "attributes": {
+      "type": "FieldDefinition",
+      "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/01IRc00000AlU1j.LastModifiedBy"
+    },
+    "QualifiedApiName": "LastModifiedById",
+    "DurableId": "01IRc00000AlU1j.LastModifiedBy",
+    "Label": "Last Modified By",
+    "DataType": "Lookup(User)",
+    "Description": null,
+    "IsCalculated": false,
+    "LastModifiedDate": null
+  },
+  {
+    "attributes": {
+      "type": "FieldDefinition",
+      "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/01IRc00000AlU1j.SystemModstamp"
+    },
+    "QualifiedApiName": "SystemModstamp",
+    "DurableId": "01IRc00000AlU1j.SystemModstamp",
+    "Label": "System Modstamp",
+    "DataType": "Date/Time",
+    "Description": null,
+    "IsCalculated": false,
+    "LastModifiedDate": null
+  },
+  {
+    "attributes": {
+      "type": "FieldDefinition",
+      "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/01IRc00000AlU1j.LastViewedDate"
+    },
+    "QualifiedApiName": "LastViewedDate",
+    "DurableId": "01IRc00000AlU1j.LastViewedDate",
+    "Label": "Last Viewed Date",
+    "DataType": "Date/Time",
+    "Description": null,
+    "IsCalculated": false,
+    "LastModifiedDate": null
+  },
+  {
+    "attributes": {
+      "type": "FieldDefinition",
+      "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/01IRc00000AlU1j.LastReferencedDate"
+    },
+    "QualifiedApiName": "LastReferencedDate",
+    "DurableId": "01IRc00000AlU1j.LastReferencedDate",
+    "Label": "Last Referenced Date",
+    "DataType": "Date/Time",
+    "Description": null,
+    "IsCalculated": false,
+    "LastModifiedDate": null
+  },
+  {
+    "attributes": {
+      "type": "FieldDefinition",
+      "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/01IRc00000AlU1j.UserRecordAccess"
+    },
+    "QualifiedApiName": "UserRecordAccessId",
+    "DurableId": "01IRc00000AlU1j.UserRecordAccess",
+    "Label": "Object Access Level",
+    "DataType": "Lookup(User Record Access)",
+    "Description": null,
+    "IsCalculated": false,
+    "LastModifiedDate": null
+  },
+  {
+    "attributes": {
+      "type": "FieldDefinition",
+      "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/01IRc00000AlU1j.RecordVisibility"
+    },
+    "QualifiedApiName": "RecordVisibilityId",
+    "DurableId": "01IRc00000AlU1j.RecordVisibility",
+    "Label": "Record Visibility",
+    "DataType": "Lookup(Record Visibility)",
+    "Description": null,
+    "IsCalculated": false,
+    "LastModifiedDate": null
+  },
+  {
+    "attributes": {
+      "type": "FieldDefinition",
+      "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/01IRc00000AlU1j.00NRc00000s3txL"
+    },
+    "QualifiedApiName": "TASKRAY__ChatterGroupSharingIds__c",
+    "DurableId": "01IRc00000AlU1j.00NRc00000s3txL",
+    "Label": "Share to Chatter Groups (ID)",
+    "DataType": "Text Area(255)",
+    "Description": null,
+    "IsCalculated": false,
+    "LastModifiedDate": "2026-04-28T02:17:05.000+0000"
+  },
+  {
+    "attributes": {
+      "type": "FieldDefinition",
+      "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/01IRc00000AlU1j.00NRc00000s3txM"
+    },
+    "QualifiedApiName": "TASKRAY__ChatterGroupSharingNames__c",
+    "DurableId": "01IRc00000AlU1j.00NRc00000s3txM",
+    "Label": "Share to Chatter Groups (Name)",
+    "DataType": "Long Text Area(15000)",
+    "Description": null,
+    "IsCalculated": false,
+    "LastModifiedDate": "2026-04-28T02:17:05.000+0000"
+  },
+  {
+    "attributes": {
+      "type": "FieldDefinition",
+      "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/01IRc00000AlU1j.00NRc00000s3txN"
+    },
+    "QualifiedApiName": "TASKRAY__Dependent_Update_Pending__c",
+    "DurableId": "01IRc00000AlU1j.00NRc00000s3txN",
+    "Label": "Dependent Update Pending",
+    "DataType": "Checkbox",
+    "Description": "This field is used for dependency calculations. It marks a TaskRay task as potentially requiring an update based upon its predecessor receiving an update.",
+    "IsCalculated": false,
+    "LastModifiedDate": "2026-04-28T02:17:05.000+0000"
+  },
+  {
+    "attributes": {
+      "type": "FieldDefinition",
+      "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/01IRc00000AlU1j.00NRc00000s3txO"
+    },
+    "QualifiedApiName": "TASKRAY__ProjectColor__c",
+    "DurableId": "01IRc00000AlU1j.00NRc00000s3txO",
+    "Label": "Color",
+    "DataType": "Text(7)",
+    "Description": null,
+    "IsCalculated": false,
+    "LastModifiedDate": "2026-04-28T02:17:05.000+0000"
+  },
+  {
+    "attributes": {
+      "type": "FieldDefinition",
+      "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/01IRc00000AlU1j.00NRc00000s3txP"
+    },
+    "QualifiedApiName": "TASKRAY__Project_End__c",
+    "DurableId": "01IRc00000AlU1j.00NRc00000s3txP",
+    "Label": "Estimated End Date",
+    "DataType": "Date",
+    "Description": "Used to track the date of when the project is estimated (scheduled) to be completed. This date will update accordingly to accommodate any scheduling changes.",
+    "IsCalculated": false,
+    "LastModifiedDate": "2026-04-28T02:17:05.000+0000"
+  },
+  {
+    "attributes": {
+      "type": "FieldDefinition",
+      "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/01IRc00000AlU1j.00NRc00000s3txQ"
+    },
+    "QualifiedApiName": "TASKRAY__Project_Parent__c",
+    "DurableId": "01IRc00000AlU1j.00NRc00000s3txQ",
+    "Label": "Parent Project",
+    "DataType": "Lookup(TaskRay Project)",
+    "Description": null,
+    "IsCalculated": false,
+    "LastModifiedDate": "2026-04-28T02:17:05.000+0000"
+  },
+  {
+    "attributes": {
+      "type": "FieldDefinition",
+      "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/01IRc00000AlU1j.00NRc00000s3txR"
+    },
+    "QualifiedApiName": "TASKRAY__Project_Start__c",
+    "DurableId": "01IRc00000AlU1j.00NRc00000s3txR",
+    "Label": "Start Date",
+    "DataType": "Date",
+    "Description": "Used to track the date of when the project is scheduled to start.",
+    "IsCalculated": false,
+    "LastModifiedDate": "2026-04-28T02:17:05.000+0000"
+  },
+  {
+    "attributes": {
+      "type": "FieldDefinition",
+      "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/01IRc00000AlU1j.00NRc00000s3txS"
+    },
+    "QualifiedApiName": "TASKRAY__Status__c",
+    "DurableId": "01IRc00000AlU1j.00NRc00000s3txS",
+    "Label": "Archived",
+    "DataType": "Checkbox",
+    "Description": null,
+    "IsCalculated": false,
+    "LastModifiedDate": "2026-04-28T02:17:05.000+0000"
+  },
+  {
+    "attributes": {
+      "type": "FieldDefinition",
+      "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/01IRc00000AlU1j.00NRc00000s3txT"
+    },
+    "QualifiedApiName": "TASKRAY__TextColor__c",
+    "DurableId": "01IRc00000AlU1j.00NRc00000s3txT",
+    "Label": "Deprecated (Do Not Use)",
+    "DataType": "Text(7)",
+    "Description": null,
+    "IsCalculated": false,
+    "LastModifiedDate": "2026-04-28T02:17:05.000+0000"
+  },
+  {
+    "attributes": {
+      "type": "FieldDefinition",
+      "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/01IRc00000AlU1j.00NRc00000s3txU"
+    },
+    "QualifiedApiName": "TASKRAY__trAccount__c",
+    "DurableId": "01IRc00000AlU1j.00NRc00000s3txU",
+    "Label": "Account",
+    "DataType": "Lookup(Account)",
+    "Description": null,
+    "IsCalculated": false,
+    "LastModifiedDate": "2026-04-28T02:17:05.000+0000"
+  },
+  {
+    "attributes": {
+      "type": "FieldDefinition",
+      "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/01IRc00000AlU1j.00NRc00000s3txV"
+    },
+    "QualifiedApiName": "TASKRAY__trActualBillableHours__c",
+    "DurableId": "01IRc00000AlU1j.00NRc00000s3txV",
+    "Label": "Actual Billable Time (hrs)",
+    "DataType": "Number(16, 2)",
+    "Description": null,
+    "IsCalculated": false,
+    "LastModifiedDate": "2026-04-28T02:17:05.000+0000"
+  },
+  {
+    "attributes": {
+      "type": "FieldDefinition",
+      "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/01IRc00000AlU1j.00NRc00000s3txW"
+    },
+    "QualifiedApiName": "TASKRAY__trActualCompletionDate__c",
+    "DurableId": "01IRc00000AlU1j.00NRc00000s3txW",
+    "Label": "Actual Completion Date",
+    "DataType": "Date",
+    "Description": "Date of when the project is completed. Works in conjunction with the Completed checkbox field.",
+    "IsCalculated": false,
+    "LastModifiedDate": "2026-04-28T02:17:05.000+0000"
+  },
+  {
+    "attributes": {
+      "type": "FieldDefinition",
+      "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/01IRc00000AlU1j.00NRc00000s3txX"
+    },
+    "QualifiedApiName": "TASKRAY__trActualHours__c",
+    "DurableId": "01IRc00000AlU1j.00NRc00000s3txX",
+    "Label": "Actual Time (hrs)",
+    "DataType": "Number(16, 2)",
+    "Description": null,
+    "IsCalculated": false,
+    "LastModifiedDate": "2026-04-28T02:17:05.000+0000"
+  },
+  {
+    "attributes": {
+      "type": "FieldDefinition",
+      "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/01IRc00000AlU1j.00NRc00000s3txY"
+    },
+    "QualifiedApiName": "TASKRAY__trAddFormsGuestUserToProjectTeam__c",
+    "DurableId": "01IRc00000AlU1j.00NRc00000s3txY",
+    "Label": "Add Forms Guest User to Project Team",
+    "DataType": "Checkbox",
+    "Description": "A behind-the-scenes field that controls the addition/removal of the TaskRay Forms Public Site Guest User to the Project Team.",
+    "IsCalculated": false,
+    "LastModifiedDate": "2026-04-28T02:17:05.000+0000"
+  },
+  {
+    "attributes": {
+      "type": "FieldDefinition",
+      "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/01IRc00000AlU1j.00NRc00000s3txZ"
+    },
+    "QualifiedApiName": "TASKRAY__trAvailableExternal__c",
+    "DurableId": "01IRc00000AlU1j.00NRc00000s3txZ",
+    "Label": "Enable in Collaboration View",
+    "DataType": "Checkbox",
+    "Description": "Allows Sites guest users access to the project",
+    "IsCalculated": false,
+    "LastModifiedDate": "2026-04-28T02:17:05.000+0000"
+  },
+  {
+    "attributes": {
+      "type": "FieldDefinition",
+      "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/01IRc00000AlU1j.00NRc00000s3txa"
+    },
+    "QualifiedApiName": "TASKRAY__trBusinessHours__c",
+    "DurableId": "01IRc00000AlU1j.00NRc00000s3txa",
+    "Label": "Project Schedule",
+    "DataType": "Lookup(Business Hours)",
+    "Description": "Defines project\u2019s default business hour availability. Tasks will not be scheduled for any days designated as non-working days.",
+    "IsCalculated": false,
+    "LastModifiedDate": "2026-04-28T02:17:05.000+0000"
+  },
+  {
+    "attributes": {
+      "type": "FieldDefinition",
+      "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/01IRc00000AlU1j.00NRc00000s3txb"
+    },
+    "QualifiedApiName": "TASKRAY__trCloneOperationComplete__c",
+    "DurableId": "01IRc00000AlU1j.00NRc00000s3txb",
+    "Label": "Clone Operation Complete",
+    "DataType": "Checkbox",
+    "Description": "Indicates a Project has been successfully cloned from a template. This field is automatically set to true when the clone operation is complete.",
+    "IsCalculated": false,
+    "LastModifiedDate": "2026-04-28T02:17:05.000+0000"
+  },
+  {
+    "attributes": {
+      "type": "FieldDefinition",
+      "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/01IRc00000AlU1j.00NRc00000s3txc"
+    },
+    "QualifiedApiName": "TASKRAY__trCompleted__c",
+    "DurableId": "01IRc00000AlU1j.00NRc00000s3txc",
+    "Label": "Completed",
+    "DataType": "Checkbox",
+    "Description": "Indicates whether a project is complete. Works in conjunction with the Actual Completion Date field to determine the duration of the project.",
+    "IsCalculated": false,
+    "LastModifiedDate": "2026-04-28T02:17:05.000+0000"
+  },
+  {
+    "attributes": {
+      "type": "FieldDefinition",
+      "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/01IRc00000AlU1j.00NRc00000s3txd"
+    },
+    "QualifiedApiName": "TASKRAY__trCompletionPercentage__c",
+    "DurableId": "01IRc00000AlU1j.00NRc00000s3txd",
+    "Label": "Progress",
+    "DataType": "Percent(3, 2)",
+    "Description": null,
+    "IsCalculated": false,
+    "LastModifiedDate": "2026-04-28T02:17:05.000+0000"
+  },
+  {
+    "attributes": {
+      "type": "FieldDefinition",
+      "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/01IRc00000AlU1j.00NRc00000s3txe"
+    },
+    "QualifiedApiName": "TASKRAY__trCustomerOnboardingScore__c",
+    "DurableId": "01IRc00000AlU1j.00NRc00000s3txe",
+    "Label": "Customer Onboarding Score",
+    "DataType": "Number(2, 1)",
+    "Description": "A calculated customer onboarding score based on a project's Initial Projected Duration vs. Actual Duration and the average of Internal & External Sentiment.",
+    "IsCalculated": false,
+    "LastModifiedDate": "2026-04-28T02:17:05.000+0000"
+  },
+  {
+    "attributes": {
+      "type": "FieldDefinition",
+      "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/01IRc00000AlU1j.00NRc00000s3txf"
+    },
+    "QualifiedApiName": "TASKRAY__trDesiredOutcomes__c",
+    "DurableId": "01IRc00000AlU1j.00NRc00000s3txf",
+    "Label": "Desired Outcomes",
+    "DataType": "Long Text Area(32768)",
+    "Description": "A customer's desired outcome(s) for their onboarding process. Can be populated from the Desired Outcomes field on Opportunity.",
+    "IsCalculated": false,
+    "LastModifiedDate": "2026-04-28T02:17:05.000+0000"
+  },
+  {
+    "attributes": {
+      "type": "FieldDefinition",
+      "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/01IRc00000AlU1j.00NRc00000s3txg"
+    },
+    "QualifiedApiName": "TASKRAY__trDraft__c",
+    "DurableId": "01IRc00000AlU1j.00NRc00000s3txg",
+    "Label": "Draft",
+    "DataType": "Checkbox",
+    "Description": "Indicates that a Project is a draft template.",
+    "IsCalculated": false,
+    "LastModifiedDate": "2026-04-28T02:17:05.000+0000"
+  },
+  {
+    "attributes": {
+      "type": "FieldDefinition",
+      "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/01IRc00000AlU1j.00NRc00000s3txh"
+    },
+    "QualifiedApiName": "TASKRAY__trEstimatedBillableHours__c",
+    "DurableId": "01IRc00000AlU1j.00NRc00000s3txh",
+    "Label": "Estimated Billable Time (hrs)",
+    "DataType": "Number(16, 2)",
+    "Description": null,
+    "IsCalculated": false,
+    "LastModifiedDate": "2026-04-28T02:17:05.000+0000"
+  },
+  {
+    "attributes": {
+      "type": "FieldDefinition",
+      "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/01IRc00000AlU1j.00NRc00000s3txi"
+    },
+    "QualifiedApiName": "TASKRAY__trEstimatedHours__c",
+    "DurableId": "01IRc00000AlU1j.00NRc00000s3txi",
+    "Label": "Estimated Time (hrs)",
+    "DataType": "Number(16, 2)",
+    "Description": null,
+    "IsCalculated": false,
+    "LastModifiedDate": "2026-04-28T02:17:05.000+0000"
+  },
+  {
+    "attributes": {
+      "type": "FieldDefinition",
+      "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/01IRc00000AlU1j.00NRc00000s3txj"
+    },
+    "QualifiedApiName": "TASKRAY__trExtSharingNotes__c",
+    "DurableId": "01IRc00000AlU1j.00NRc00000s3txj",
+    "Label": "Collaboration View Notes",
+    "DataType": "Rich Text Area(32768)",
+    "Description": "Standard and Premium editions only. Used in conjunction with the Collaboration View feature.",
+    "IsCalculated": false,
+    "LastModifiedDate": "2026-04-28T02:17:05.000+0000"
+  },
+  {
+    "attributes": {
+      "type": "FieldDefinition",
+      "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/01IRc00000AlU1j.00NRc00000s3txk"
+    },
+    "QualifiedApiName": "TASKRAY__trExternalFeedback__c",
+    "DurableId": "01IRc00000AlU1j.00NRc00000s3txk",
+    "Label": "External Feedback",
+    "DataType": "Long Text Area(32768)",
+    "Description": "External feedback about a customer's onboarding experience.",
+    "IsCalculated": false,
+    "LastModifiedDate": "2026-04-28T02:17:05.000+0000"
+  },
+  {
+    "attributes": {
+      "type": "FieldDefinition",
+      "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/01IRc00000AlU1j.00NRc00000s3txl"
+    },
+    "QualifiedApiName": "TASKRAY__trExternalSentiment__c",
+    "DurableId": "01IRc00000AlU1j.00NRc00000s3txl",
+    "Label": "External Sentiment",
+    "DataType": "Picklist",
+    "Description": "The external sentiment of a customer onboarding project based on a satisfaction score.",
+    "IsCalculated": false,
+    "LastModifiedDate": "2026-04-28T02:17:06.000+0000"
+  },
+  {
+    "attributes": {
+      "type": "FieldDefinition",
+      "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/01IRc00000AlU1j.00NRc00000s3txm"
+    },
+    "QualifiedApiName": "TASKRAY__trForecast__c",
+    "DurableId": "01IRc00000AlU1j.00NRc00000s3txm",
+    "Label": "Forecast",
+    "DataType": "Checkbox",
+    "Description": null,
+    "IsCalculated": false,
+    "LastModifiedDate": "2026-04-28T02:17:06.000+0000"
+  },
+  {
+    "attributes": {
+      "type": "FieldDefinition",
+      "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/01IRc00000AlU1j.00NRc00000s3txn"
+    },
+    "QualifiedApiName": "TASKRAY__trGenerateOnboardingFeedbackForm__c",
+    "DurableId": "01IRc00000AlU1j.00NRc00000s3txn",
+    "Label": "Generate Onboarding Feedback Form",
+    "DataType": "Checkbox",
+    "Description": "Generates a link to the TaskRay Onboarding Feedback Form which can be shared with a customer to capture their external feedback and sentiment.",
+    "IsCalculated": false,
+    "LastModifiedDate": "2026-04-28T02:17:06.000+0000"
+  },
+  {
+    "attributes": {
+      "type": "FieldDefinition",
+      "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/01IRc00000AlU1j.00NRc00000s3txo"
+    },
+    "QualifiedApiName": "TASKRAY__trInitialProjectedCompletionDate__c",
+    "DurableId": "01IRc00000AlU1j.00NRc00000s3txo",
+    "Label": "Initial Projected Completion Date",
+    "DataType": "Date",
+    "Description": "This is a \u201cbehind the scenes\u201d field that is used to track the date of when the project is initially projected to be completed. This date will update accordingly to accommodate any scheduling changes up until the project start date.",
+    "IsCalculated": false,
+    "LastModifiedDate": "2026-04-28T02:17:06.000+0000"
+  },
+  {
+    "attributes": {
+      "type": "FieldDefinition",
+      "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/01IRc00000AlU1j.00NRc00000s3txp"
+    },
+    "QualifiedApiName": "TASKRAY__trInternalSentiment__c",
+    "DurableId": "01IRc00000AlU1j.00NRc00000s3txp",
+    "Label": "Internal Sentiment",
+    "DataType": "Picklist",
+    "Description": "The internal sentiment of a customer onboarding project based on a satisfaction score.",
+    "IsCalculated": false,
+    "LastModifiedDate": "2026-04-28T02:17:06.000+0000"
+  },
+  {
+    "attributes": {
+      "type": "FieldDefinition",
+      "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/01IRc00000AlU1j.00NRc00000s3txq"
+    },
+    "QualifiedApiName": "TASKRAY__trLastSyncedVersionNumber__c",
+    "DurableId": "01IRc00000AlU1j.00NRc00000s3txq",
+    "Label": "Last Synced Version Number",
+    "DataType": "Number(18, 0)",
+    "Description": "Last Synced Principal Version of this object's clone source",
+    "IsCalculated": false,
+    "LastModifiedDate": "2026-04-28T02:17:06.000+0000"
+  },
+  {
+    "attributes": {
+      "type": "FieldDefinition",
+      "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/01IRc00000AlU1j.00NRc00000s3txr"
+    },
+    "QualifiedApiName": "TASKRAY__trNickname__c",
+    "DurableId": "01IRc00000AlU1j.00NRc00000s3txr",
+    "Label": "Nickname",
+    "DataType": "Text(80)  (Unique Case Insensitive)",
+    "Description": null,
+    "IsCalculated": false,
+    "LastModifiedDate": "2026-04-28T02:17:06.000+0000"
+  },
+  {
+    "attributes": {
+      "type": "FieldDefinition",
+      "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/01IRc00000AlU1j.00NRc00000s3txs"
+    },
+    "QualifiedApiName": "TASKRAY__trOnHoldDate__c",
+    "DurableId": "01IRc00000AlU1j.00NRc00000s3txs",
+    "Label": "On-Hold Date",
+    "DataType": "Date",
+    "Description": "The most recent date that a project has been marked as on hold.",
+    "IsCalculated": false,
+    "LastModifiedDate": "2026-04-28T02:17:06.000+0000"
+  },
+  {
+    "attributes": {
+      "type": "FieldDefinition",
+      "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/01IRc00000AlU1j.00NRc00000s3txt"
+    },
+    "QualifiedApiName": "TASKRAY__trOnHold__c",
+    "DurableId": "01IRc00000AlU1j.00NRc00000s3txt",
+    "Label": "On-Hold",
+    "DataType": "Checkbox",
+    "Description": "Indicates that a project has been marked as on hold.",
+    "IsCalculated": false,
+    "LastModifiedDate": "2026-04-28T02:17:06.000+0000"
+  },
+  {
+    "attributes": {
+      "type": "FieldDefinition",
+      "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/01IRc00000AlU1j.00NRc00000s3txu"
+    },
+    "QualifiedApiName": "TASKRAY__trOnboardingSummaryNotes__c",
+    "DurableId": "01IRc00000AlU1j.00NRc00000s3txu",
+    "Label": "Onboarding Summary Notes",
+    "DataType": "Long Text Area(32768)",
+    "Description": "Key information about a customer's onboarding that can be referenced throughout the customer's lifecycle.",
+    "IsCalculated": false,
+    "LastModifiedDate": "2026-04-28T02:17:06.000+0000"
+  },
+  {
+    "attributes": {
+      "type": "FieldDefinition",
+      "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/01IRc00000AlU1j.00NRc00000s3txv"
+    },
+    "QualifiedApiName": "TASKRAY__trOpportunity__c",
+    "DurableId": "01IRc00000AlU1j.00NRc00000s3txv",
+    "Label": "Opportunity",
+    "DataType": "Lookup(Opportunity)",
+    "Description": null,
+    "IsCalculated": false,
+    "LastModifiedDate": "2026-04-28T02:17:06.000+0000"
+  },
+  {
+    "attributes": {
+      "type": "FieldDefinition",
+      "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/01IRc00000AlU1j.00NRc00000s3txw"
+    },
+    "QualifiedApiName": "TASKRAY__trPendingInterviewCount__c",
+    "DurableId": "01IRc00000AlU1j.00NRc00000s3txw",
+    "Label": "Pending Interview Count",
+    "DataType": "Number(18, 0)",
+    "Description": null,
+    "IsCalculated": false,
+    "LastModifiedDate": "2026-04-28T02:17:06.000+0000"
+  },
+  {
+    "attributes": {
+      "type": "FieldDefinition",
+      "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/01IRc00000AlU1j.00NRc00000s3txx"
+    },
+    "QualifiedApiName": "TASKRAY__trPermanentID__c",
+    "DurableId": "01IRc00000AlU1j.00NRc00000s3txx",
+    "Label": "Permanent ID",
+    "DataType": "Text(12)",
+    "Description": "An external identifier that is autogenerated by TaskRay to uniquely identify a project. This is consistent across principal versions.",
+    "IsCalculated": false,
+    "LastModifiedDate": "2026-04-28T02:17:06.000+0000"
+  },
+  {
+    "attributes": {
+      "type": "FieldDefinition",
+      "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/01IRc00000AlU1j.00NRc00000s3txy"
+    },
+    "QualifiedApiName": "TASKRAY__trPrimaryOnboardingContact__c",
+    "DurableId": "01IRc00000AlU1j.00NRc00000s3txy",
+    "Label": "Primary Onboarding Contact",
+    "DataType": "Lookup(Contact)",
+    "Description": "Identifies the primary customer contact for onboarding.",
+    "IsCalculated": false,
+    "LastModifiedDate": "2026-04-28T02:17:06.000+0000"
+  },
+  {
+    "attributes": {
+      "type": "FieldDefinition",
+      "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/01IRc00000AlU1j.00NRc00000s3txz"
+    },
+    "QualifiedApiName": "TASKRAY__trPrincipalTemplate_PermanentID__c",
+    "DurableId": "01IRc00000AlU1j.00NRc00000s3txz",
+    "Label": "Principal Template Permanent ID",
+    "DataType": "Text(12)",
+    "Description": "The Permanent ID of the Principal Template related to this Template Project.",
+    "IsCalculated": false,
+    "LastModifiedDate": "2026-04-28T02:17:06.000+0000"
+  },
+  {
+    "attributes": {
+      "type": "FieldDefinition",
+      "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/01IRc00000AlU1j.00NRc00000s3ty0"
+    },
+    "QualifiedApiName": "TASKRAY__trPrincipalVersion_Number__c",
+    "DurableId": "01IRc00000AlU1j.00NRc00000s3ty0",
+    "Label": "Principal Version Number",
+    "DataType": "Number(18, 0)",
+    "Description": null,
+    "IsCalculated": false,
+    "LastModifiedDate": "2026-04-28T02:17:06.000+0000"
+  },
+  {
+    "attributes": {
+      "type": "FieldDefinition",
+      "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/01IRc00000AlU1j.00NRc00000s3ty1"
+    },
+    "QualifiedApiName": "TASKRAY__trPrincipalVersion__c",
+    "DurableId": "01IRc00000AlU1j.00NRc00000s3ty1",
+    "Label": "TaskRay Principal Version",
+    "DataType": "Lookup(TaskRay Principal Version)",
+    "Description": "This is the Principal Version this Project template is related to.",
+    "IsCalculated": false,
+    "LastModifiedDate": "2026-04-28T02:17:06.000+0000"
+  },
+  {
+    "attributes": {
+      "type": "FieldDefinition",
+      "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/01IRc00000AlU1j.00NRc00000s3ty2"
+    },
+    "QualifiedApiName": "TASKRAY__trSourceAddressableID__c",
+    "DurableId": "01IRc00000AlU1j.00NRc00000s3ty2",
+    "Label": "Source Addressable ID",
+    "DataType": "Text(25)",
+    "Description": "Addressable ID of this object's clone source",
+    "IsCalculated": false,
+    "LastModifiedDate": "2026-04-28T02:17:06.000+0000"
+  },
+  {
+    "attributes": {
+      "type": "FieldDefinition",
+      "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/01IRc00000AlU1j.00NRc00000s3ty3"
+    },
+    "QualifiedApiName": "TASKRAY__trSourceVersionNumber__c",
+    "DurableId": "01IRc00000AlU1j.00NRc00000s3ty3",
+    "Label": "Source Version Number",
+    "DataType": "Number(18, 0)",
+    "Description": "Principal Version of this object's clone source",
+    "IsCalculated": false,
+    "LastModifiedDate": "2026-04-28T02:17:06.000+0000"
+  },
+  {
+    "attributes": {
+      "type": "FieldDefinition",
+      "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/01IRc00000AlU1j.00NRc00000s3ty4"
+    },
+    "QualifiedApiName": "TASKRAY__trStatus__c",
+    "DurableId": "01IRc00000AlU1j.00NRc00000s3ty4",
+    "Label": "Status",
+    "DataType": "Picklist",
+    "Description": "Used to set the status of a project.",
+    "IsCalculated": false,
+    "LastModifiedDate": "2026-04-28T02:17:06.000+0000"
+  },
+  {
+    "attributes": {
+      "type": "FieldDefinition",
+      "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/01IRc00000AlU1j.00NRc00000s3ty5"
+    },
+    "QualifiedApiName": "TASKRAY__trTaskWeightingType__c",
+    "DurableId": "01IRc00000AlU1j.00NRc00000s3ty5",
+    "Label": "Task Weighting Type",
+    "DataType": "Picklist",
+    "Description": "Premium-Only feature.",
+    "IsCalculated": false,
+    "LastModifiedDate": "2026-04-28T02:17:06.000+0000"
+  },
+  {
+    "attributes": {
+      "type": "FieldDefinition",
+      "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/01IRc00000AlU1j.00NRc00000s3ty6"
+    },
+    "QualifiedApiName": "TASKRAY__trTemplateLibrarySource__c",
+    "DurableId": "01IRc00000AlU1j.00NRc00000s3ty6",
+    "Label": "Deprecated (Do Not Use)",
+    "DataType": "Text(128)",
+    "Description": null,
+    "IsCalculated": false,
+    "LastModifiedDate": "2026-04-28T02:17:06.000+0000"
+  },
+  {
+    "attributes": {
+      "type": "FieldDefinition",
+      "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/01IRc00000AlU1j.00NRc00000s3ty7"
+    },
+    "QualifiedApiName": "TASKRAY__trTemplateSource__c",
+    "DurableId": "01IRc00000AlU1j.00NRc00000s3ty7",
+    "Label": "Template Source",
+    "DataType": "Lookup(TaskRay Project)",
+    "Description": null,
+    "IsCalculated": false,
+    "LastModifiedDate": "2026-04-28T02:17:06.000+0000"
+  },
+  {
+    "attributes": {
+      "type": "FieldDefinition",
+      "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/01IRc00000AlU1j.00NRc00000s3ty8"
+    },
+    "QualifiedApiName": "TASKRAY__trTemplateSyncOptOut__c",
+    "DurableId": "01IRc00000AlU1j.00NRc00000s3ty8",
+    "Label": "Template Sync Opt Out",
+    "DataType": "Checkbox",
+    "Description": null,
+    "IsCalculated": false,
+    "LastModifiedDate": "2026-04-28T02:17:06.000+0000"
+  },
+  {
+    "attributes": {
+      "type": "FieldDefinition",
+      "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/01IRc00000AlU1j.00NRc00000s3ty9"
+    },
+    "QualifiedApiName": "TASKRAY__trTemplate__c",
+    "DurableId": "01IRc00000AlU1j.00NRc00000s3ty9",
+    "Label": "Template",
+    "DataType": "Checkbox",
+    "Description": null,
+    "IsCalculated": false,
+    "LastModifiedDate": "2026-04-28T02:17:06.000+0000"
+  },
+  {
+    "attributes": {
+      "type": "FieldDefinition",
+      "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/01IRc00000AlU1j.00NRc00000s3uGJ"
+    },
+    "QualifiedApiName": "TASKRAY__trOnHoldCount__c",
+    "DurableId": "01IRc00000AlU1j.00NRc00000s3uGJ",
+    "Label": "Number of Times On-Hold",
+    "DataType": "Roll-Up Summary (COUNT TaskRay On-Hold History)",
+    "Description": null,
+    "IsCalculated": true,
+    "LastModifiedDate": "2026-04-28T02:17:39.000+0000"
+  },
+  {
+    "attributes": {
+      "type": "FieldDefinition",
+      "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/01IRc00000AlU1j.00NRc00000s3uGY"
+    },
+    "QualifiedApiName": "TASKRAY__trActualDuration__c",
+    "DurableId": "01IRc00000AlU1j.00NRc00000s3uGY",
+    "Label": "Actual Duration",
+    "DataType": "Formula (Number)",
+    "Description": "Used to track the number of days that it actually took to complete the project. Calculated as the difference between the project Start Date and the project Actual Completion Date.",
+    "IsCalculated": true,
+    "LastModifiedDate": "2026-04-28T02:17:48.000+0000"
+  },
+  {
+    "attributes": {
+      "type": "FieldDefinition",
+      "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/01IRc00000AlU1j.00NRc00000s3uGZ"
+    },
+    "QualifiedApiName": "TASKRAY__trAddressableID__c",
+    "DurableId": "01IRc00000AlU1j.00NRc00000s3uGZ",
+    "Label": "Addressable ID",
+    "DataType": "Formula (Text)",
+    "Description": null,
+    "IsCalculated": true,
+    "LastModifiedDate": "2026-04-28T02:17:48.000+0000"
+  },
+  {
+    "attributes": {
+      "type": "FieldDefinition",
+      "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/01IRc00000AlU1j.00NRc00000s3uGa"
+    },
+    "QualifiedApiName": "TASKRAY__trCurrentOnHoldDuration__c",
+    "DurableId": "01IRc00000AlU1j.00NRc00000s3uGa",
+    "Label": "Current On-Hold Duration (days)",
+    "DataType": "Formula (Number)",
+    "Description": null,
+    "IsCalculated": true,
+    "LastModifiedDate": "2026-04-28T02:17:48.000+0000"
+  },
+  {
+    "attributes": {
+      "type": "FieldDefinition",
+      "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/01IRc00000AlU1j.00NRc00000s3uGb"
+    },
+    "QualifiedApiName": "TASKRAY__trEstimatedDuration__c",
+    "DurableId": "01IRc00000AlU1j.00NRc00000s3uGb",
+    "Label": "Estimated Duration",
+    "DataType": "Formula (Number)",
+    "Description": "Used to track the estimated number of days that it should take to complete the project as scheduled. Calculated as the difference between the project Start Date and the project Estimated End Date.",
+    "IsCalculated": true,
+    "LastModifiedDate": "2026-04-28T02:17:48.000+0000"
+  },
+  {
+    "attributes": {
+      "type": "FieldDefinition",
+      "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/01IRc00000AlU1j.00NRc00000s3uGc"
+    },
+    "QualifiedApiName": "TASKRAY__trExternalLink__c",
+    "DurableId": "01IRc00000AlU1j.00NRc00000s3uGc",
+    "Label": "Collaboration View Link",
+    "DataType": "Formula (Text)",
+    "Description": "This field will be populated with a link to a public site when the \"Enable in Collaboration View\" checkbox is checked.",
+    "IsCalculated": true,
+    "LastModifiedDate": "2026-04-28T02:17:48.000+0000"
+  },
+  {
+    "attributes": {
+      "type": "FieldDefinition",
+      "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/01IRc00000AlU1j.00NRc00000s3uGd"
+    },
+    "QualifiedApiName": "TASKRAY__trInitialProjectedDuration__c",
+    "DurableId": "01IRc00000AlU1j.00NRc00000s3uGd",
+    "Label": "Initial Projected Duration",
+    "DataType": "Formula (Number)",
+    "Description": "This is a \u201cbehind the scenes\u201d field that is used to track the number of days between the project Start Date and the project Initial Projected Completion Date.",
+    "IsCalculated": true,
+    "LastModifiedDate": "2026-04-28T02:17:48.000+0000"
+  },
+  {
+    "attributes": {
+      "type": "FieldDefinition",
+      "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/01IRc00000AlU1j.00NRc00000s3uGe"
+    },
+    "QualifiedApiName": "TASKRAY__trIsOpenProject__c",
+    "DurableId": "01IRc00000AlU1j.00NRc00000s3uGe",
+    "Label": "Open Project",
+    "DataType": "Formula (Checkbox)",
+    "Description": "Checked if the project is active and ongoing. Unchecked if the project is archived, completed, a template or in draft or on-hold status.",
+    "IsCalculated": true,
+    "LastModifiedDate": "2026-04-28T02:17:48.000+0000"
+  },
+  {
+    "attributes": {
+      "type": "FieldDefinition",
+      "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/01IRc00000AlU1j.00NRc00000s3uGf"
+    },
+    "QualifiedApiName": "TASKRAY__trOnboardingFeedbackFormLink__c",
+    "DurableId": "01IRc00000AlU1j.00NRc00000s3uGf",
+    "Label": "Onboarding Feedback Form Link",
+    "DataType": "Formula (Text)",
+    "Description": "A link to the TaskRay Onboarding Feedback Form which can be shared with a customer to capture their external feedback and sentiment.",
+    "IsCalculated": true,
+    "LastModifiedDate": "2026-04-28T02:17:48.000+0000"
+  },
+  {
+    "attributes": {
+      "type": "FieldDefinition",
+      "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/01IRc00000AlU1j.00NRc00000s3uGg"
+    },
+    "QualifiedApiName": "TASKRAY__trTotalOnHoldDuration__c",
+    "DurableId": "01IRc00000AlU1j.00NRc00000s3uGg",
+    "Label": "Total On-Hold Duration (days)",
+    "DataType": "Formula (Number)",
+    "Description": null,
+    "IsCalculated": true,
+    "LastModifiedDate": "2026-04-28T02:17:48.000+0000"
+  },
+  {
+    "attributes": {
+      "type": "FieldDefinition",
+      "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/01IRc00000AlU1j.00NRc00000s3uHD"
+    },
+    "QualifiedApiName": "TASKRAY__trPreviousOnHoldDuration__c",
+    "DurableId": "01IRc00000AlU1j.00NRc00000s3uHD",
+    "Label": "Previous On-Hold Duration (days)",
+    "DataType": "Roll-Up Summary (SUM TaskRay On-Hold History)",
+    "Description": null,
+    "IsCalculated": true,
+    "LastModifiedDate": "2026-04-28T02:17:50.000+0000"
+  },
+  {
+    "attributes": {
+      "type": "FieldDefinition",
+      "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/01IRc00000AlU1j.00NRc00000s5WRe"
+    },
+    "QualifiedApiName": "Implementation_Phase__c",
+    "DurableId": "01IRc00000AlU1j.00NRc00000s5WRe",
+    "Label": "Implementation Phase",
+    "DataType": "Picklist",
+    "Description": "Current Phase of Implementation Process",
+    "IsCalculated": false,
+    "LastModifiedDate": "2026-04-28T17:21:58.000+0000"
+  },
+  {
+    "attributes": {
+      "type": "FieldDefinition",
+      "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/01IRc00000AlU1j.00NRc00000s5iR7"
+    },
+    "QualifiedApiName": "Implementation_Status__c",
+    "DurableId": "01IRc00000AlU1j.00NRc00000s5iR7",
+    "Label": "Implementation Status",
+    "DataType": "Picklist",
+    "Description": null,
+    "IsCalculated": false,
+    "LastModifiedDate": "2026-04-28T17:22:37.000+0000"
+  },
+  {
+    "attributes": {
+      "type": "FieldDefinition",
+      "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/01IRc00000AlU1j.00NRc00000s5h93"
+    },
+    "QualifiedApiName": "Implementation_Tier__c",
+    "DurableId": "01IRc00000AlU1j.00NRc00000s5h93",
+    "Label": "Implementation Tier",
+    "DataType": "Picklist",
+    "Description": null,
+    "IsCalculated": false,
+    "LastModifiedDate": "2026-04-28T17:23:12.000+0000"
+  },
+  {
+    "attributes": {
+      "type": "FieldDefinition",
+      "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/01IRc00000AlU1j.00NRc00000sUjXA"
+    },
+    "QualifiedApiName": "X1_Kickoff_Discovery_Date__c",
+    "DurableId": "01IRc00000AlU1j.00NRc00000sUjXA",
+    "Label": "1. Kickoff & Discovery Date",
+    "DataType": "Date",
+    "Description": null,
+    "IsCalculated": false,
+    "LastModifiedDate": "2026-05-08T02:44:44.000+0000"
+  },
+  {
+    "attributes": {
+      "type": "FieldDefinition",
+      "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/01IRc00000AlU1j.00NRc00000sUm6X"
+    },
+    "QualifiedApiName": "X2_Assessment_Data_Gathering_Date__c",
+    "DurableId": "01IRc00000AlU1j.00NRc00000sUm6X",
+    "Label": "2: Assessment & Data Gathering Date",
+    "DataType": "Date",
+    "Description": null,
+    "IsCalculated": false,
+    "LastModifiedDate": "2026-05-08T02:45:06.000+0000"
+  },
+  {
+    "attributes": {
+      "type": "FieldDefinition",
+      "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/01IRc00000AlU1j.00NRc00000sUfpB"
+    },
+    "QualifiedApiName": "X3_Workflow_Design_Configuration_Date__c",
+    "DurableId": "01IRc00000AlU1j.00NRc00000sUfpB",
+    "Label": "3. Workflow Design & Configuration Date",
+    "DataType": "Date",
+    "Description": null,
+    "IsCalculated": false,
+    "LastModifiedDate": "2026-05-08T02:45:25.000+0000"
+  },
+  {
+    "attributes": {
+      "type": "FieldDefinition",
+      "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/01IRc00000AlU1j.00NRc00000sUZDj"
+    },
+    "QualifiedApiName": "X4_Training_Go_Live_Date__c",
+    "DurableId": "01IRc00000AlU1j.00NRc00000sUZDj",
+    "Label": "4. Training & Go Live Date",
+    "DataType": "Date",
+    "Description": null,
+    "IsCalculated": false,
+    "LastModifiedDate": "2026-05-08T02:45:42.000+0000"
+  },
+  {
+    "attributes": {
+      "type": "FieldDefinition",
+      "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/01IRc00000AlU1j.00NRc00000sUfnH"
+    },
+    "QualifiedApiName": "X5_Post_Live_Transition_Date__c",
+    "DurableId": "01IRc00000AlU1j.00NRc00000sUfnH",
+    "Label": "5. Post Live & Transition Date",
+    "DataType": "Date",
+    "Description": null,
+    "IsCalculated": false,
+    "LastModifiedDate": "2026-05-08T02:45:59.000+0000"
+  },
+  {
+    "attributes": {
+      "type": "FieldDefinition",
+      "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/01IRc00000AlU1j.00NRc00000sUgTp"
+    },
+    "QualifiedApiName": "CIM_Assignment_Date__c",
+    "DurableId": "01IRc00000AlU1j.00NRc00000sUgTp",
+    "Label": "CIM Assignment Date",
+    "DataType": "Date",
+    "Description": null,
+    "IsCalculated": false,
+    "LastModifiedDate": "2026-05-08T02:46:23.000+0000"
+  },
+  {
+    "attributes": {
+      "type": "FieldDefinition",
+      "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/01IRc00000AlU1j.00NRc00000sUeKB"
+    },
+    "QualifiedApiName": "Go_Live_Date__c",
+    "DurableId": "01IRc00000AlU1j.00NRc00000sUeKB",
+    "Label": "Go Live Date",
+    "DataType": "Date",
+    "Description": "Date Customer is Live on Platform",
+    "IsCalculated": false,
+    "LastModifiedDate": "2026-05-08T02:47:24.000+0000"
+  },
+  {
+    "attributes": {
+      "type": "FieldDefinition",
+      "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/01IRc00000AlU1j.00NRc00000sUkMi"
+    },
+    "QualifiedApiName": "Target_Go_Live_Date__c",
+    "DurableId": "01IRc00000AlU1j.00NRc00000sUkMi",
+    "Label": "Target Go Live Date",
+    "DataType": "Formula (Date)",
+    "Description": null,
+    "IsCalculated": true,
+    "LastModifiedDate": "2026-05-08T02:47:56.000+0000"
+  },
+  {
+    "attributes": {
+      "type": "FieldDefinition",
+      "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/01IRc00000AlU1j.00NRc00000sUmMf"
+    },
+    "QualifiedApiName": "Implementation_Start_Date__c",
+    "DurableId": "01IRc00000AlU1j.00NRc00000sUmMf",
+    "Label": "Implementation Start Date",
+    "DataType": "Date",
+    "Description": null,
+    "IsCalculated": false,
+    "LastModifiedDate": "2026-05-08T02:48:32.000+0000"
+  }
+]

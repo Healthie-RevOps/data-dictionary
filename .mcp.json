@@ -1,0 +1,13 @@
+{
+  "mcpServers": {
+    "salesforce": {
+      "command": "npx",
+      "args": ["-y", "@salesforce/mcp", "--orgs", "DEFAULT_TARGET_ORG", "--toolsets", "all"]
+    },
+    "HubSpotDev": {
+      "type": "stdio",
+      "command": "/Users/bill.coffin/.nvm/versions/node/v24.15.0/bin/hs",
+      "args": ["mcp", "start", "--ai-agent", "claude"]
+    }
+  }
+}

@@ -1,0 +1,4292 @@
+[
+  {
+    "attributes": {
+      "type": "FieldDefinition",
+      "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/Contact.Id"
+    },
+    "QualifiedApiName": "Id",
+    "DurableId": "Contact.Id",
+    "Label": "Contact ID",
+    "DataType": "Lookup()",
+    "Description": null,
+    "IsCalculated": false,
+    "LastModifiedDate": null
+  },
+  {
+    "attributes": {
+      "type": "FieldDefinition",
+      "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/Contact.IsDeleted"
+    },
+    "QualifiedApiName": "IsDeleted",
+    "DurableId": "Contact.IsDeleted",
+    "Label": "Deleted",
+    "DataType": "Checkbox",
+    "Description": null,
+    "IsCalculated": false,
+    "LastModifiedDate": null
+  },
+  {
+    "attributes": {
+      "type": "FieldDefinition",
+      "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/Contact.MasterRecord"
+    },
+    "QualifiedApiName": "MasterRecordId",
+    "DurableId": "Contact.MasterRecord",
+    "Label": "Contact",
+    "DataType": "Lookup(Contact)",
+    "Description": null,
+    "IsCalculated": false,
+    "LastModifiedDate": null
+  },
+  {
+    "attributes": {
+      "type": "FieldDefinition",
+      "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/Contact.Account"
+    },
+    "QualifiedApiName": "AccountId",
+    "DurableId": "Contact.Account",
+    "Label": "Account Name",
+    "DataType": "Lookup(Account)",
+    "Description": null,
+    "IsCalculated": false,
+    "LastModifiedDate": null
+  },
+  {
+    "attributes": {
+      "type": "FieldDefinition",
+      "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/Contact.Name"
+    },
+    "QualifiedApiName": "Name",
+    "DurableId": "Contact.Name",
+    "Label": "Name",
+    "DataType": "Name",
+    "Description": null,
+    "IsCalculated": false,
+    "LastModifiedDate": null
+  },
+  {
+    "attributes": {
+      "type": "FieldDefinition",
+      "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/Contact.OtherAddress"
+    },
+    "QualifiedApiName": "OtherAddress",
+    "DurableId": "Contact.OtherAddress",
+    "Label": "Other Address",
+    "DataType": "Address",
+    "Description": null,
+    "IsCalculated": false,
+    "LastModifiedDate": null
+  },
+  {
+    "attributes": {
+      "type": "FieldDefinition",
+      "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/Contact.MailingAddress"
+    },
+    "QualifiedApiName": "MailingAddress",
+    "DurableId": "Contact.MailingAddress",
+    "Label": "Mailing Address",
+    "DataType": "Address",
+    "Description": null,
+    "IsCalculated": false,
+    "LastModifiedDate": null
+  },
+  {
+    "attributes": {
+      "type": "FieldDefinition",
+      "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/Contact.Phone"
+    },
+    "QualifiedApiName": "Phone",
+    "DurableId": "Contact.Phone",
+    "Label": "Phone",
+    "DataType": "Phone",
+    "Description": null,
+    "IsCalculated": false,
+    "LastModifiedDate": null
+  },
+  {
+    "attributes": {
+      "type": "FieldDefinition",
+      "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/Contact.Fax"
+    },
+    "QualifiedApiName": "Fax",
+    "DurableId": "Contact.Fax",
+    "Label": "Fax",
+    "DataType": "Phone",
+    "Description": null,
+    "IsCalculated": false,
+    "LastModifiedDate": null
+  },
+  {
+    "attributes": {
+      "type": "FieldDefinition",
+      "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/Contact.MobilePhone"
+    },
+    "QualifiedApiName": "MobilePhone",
+    "DurableId": "Contact.MobilePhone",
+    "Label": "Mobile",
+    "DataType": "Phone",
+    "Description": null,
+    "IsCalculated": false,
+    "LastModifiedDate": null
+  },
+  {
+    "attributes": {
+      "type": "FieldDefinition",
+      "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/Contact.HomePhone"
+    },
+    "QualifiedApiName": "HomePhone",
+    "DurableId": "Contact.HomePhone",
+    "Label": "Home Phone",
+    "DataType": "Phone",
+    "Description": null,
+    "IsCalculated": false,
+    "LastModifiedDate": null
+  },
+  {
+    "attributes": {
+      "type": "FieldDefinition",
+      "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/Contact.OtherPhone"
+    },
+    "QualifiedApiName": "OtherPhone",
+    "DurableId": "Contact.OtherPhone",
+    "Label": "Other Phone",
+    "DataType": "Phone",
+    "Description": null,
+    "IsCalculated": false,
+    "LastModifiedDate": null
+  },
+  {
+    "attributes": {
+      "type": "FieldDefinition",
+      "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/Contact.AssistantPhone"
+    },
+    "QualifiedApiName": "AssistantPhone",
+    "DurableId": "Contact.AssistantPhone",
+    "Label": "Asst. Phone",
+    "DataType": "Phone",
+    "Description": null,
+    "IsCalculated": false,
+    "LastModifiedDate": null
+  },
+  {
+    "attributes": {
+      "type": "FieldDefinition",
+      "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/Contact.ReportsTo"
+    },
+    "QualifiedApiName": "ReportsToId",
+    "DurableId": "Contact.ReportsTo",
+    "Label": "Reports To",
+    "DataType": "Lookup(Contact)",
+    "Description": null,
+    "IsCalculated": false,
+    "LastModifiedDate": null
+  },
+  {
+    "attributes": {
+      "type": "FieldDefinition",
+      "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/Contact.Email"
+    },
+    "QualifiedApiName": "Email",
+    "DurableId": "Contact.Email",
+    "Label": "Email",
+    "DataType": "Email",
+    "Description": null,
+    "IsCalculated": false,
+    "LastModifiedDate": null
+  },
+  {
+    "attributes": {
+      "type": "FieldDefinition",
+      "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/Contact.Title"
+    },
+    "QualifiedApiName": "Title",
+    "DurableId": "Contact.Title",
+    "Label": "Title",
+    "DataType": "Text(128)",
+    "Description": null,
+    "IsCalculated": false,
+    "LastModifiedDate": null
+  },
+  {
+    "attributes": {
+      "type": "FieldDefinition",
+      "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/Contact.Department"
+    },
+    "QualifiedApiName": "Department",
+    "DurableId": "Contact.Department",
+    "Label": "Department",
+    "DataType": "Text(80)",
+    "Description": null,
+    "IsCalculated": false,
+    "LastModifiedDate": null
+  },
+  {
+    "attributes": {
+      "type": "FieldDefinition",
+      "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/Contact.AssistantName"
+    },
+    "QualifiedApiName": "AssistantName",
+    "DurableId": "Contact.AssistantName",
+    "Label": "Assistant",
+    "DataType": "Text(40)",
+    "Description": null,
+    "IsCalculated": false,
+    "LastModifiedDate": null
+  },
+  {
+    "attributes": {
+      "type": "FieldDefinition",
+      "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/Contact.LeadSource"
+    },
+    "QualifiedApiName": "LeadSource",
+    "DurableId": "Contact.LeadSource",
+    "Label": "Lead Source",
+    "DataType": "Picklist",
+    "Description": null,
+    "IsCalculated": false,
+    "LastModifiedDate": null
+  },
+  {
+    "attributes": {
+      "type": "FieldDefinition",
+      "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/Contact.Birthdate"
+    },
+    "QualifiedApiName": "Birthdate",
+    "DurableId": "Contact.Birthdate",
+    "Label": "Birthdate",
+    "DataType": "Date",
+    "Description": null,
+    "IsCalculated": false,
+    "LastModifiedDate": null
+  },
+  {
+    "attributes": {
+      "type": "FieldDefinition",
+      "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/Contact.Description"
+    },
+    "QualifiedApiName": "Description",
+    "DurableId": "Contact.Description",
+    "Label": "Description",
+    "DataType": "Long Text Area(32000)",
+    "Description": null,
+    "IsCalculated": false,
+    "LastModifiedDate": null
+  },
+  {
+    "attributes": {
+      "type": "FieldDefinition",
+      "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/Contact.Owner"
+    },
+    "QualifiedApiName": "OwnerId",
+    "DurableId": "Contact.Owner",
+    "Label": "Contact Owner",
+    "DataType": "Lookup(User)",
+    "Description": null,
+    "IsCalculated": false,
+    "LastModifiedDate": null
+  },
+  {
+    "attributes": {
+      "type": "FieldDefinition",
+      "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/Contact.HasOptedOutOfEmail"
+    },
+    "QualifiedApiName": "HasOptedOutOfEmail",
+    "DurableId": "Contact.HasOptedOutOfEmail",
+    "Label": "Email Opt Out",
+    "DataType": "Checkbox",
+    "Description": null,
+    "IsCalculated": false,
+    "LastModifiedDate": null
+  },
+  {
+    "attributes": {
+      "type": "FieldDefinition",
+      "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/Contact.HasOptedOutOfFax"
+    },
+    "QualifiedApiName": "HasOptedOutOfFax",
+    "DurableId": "Contact.HasOptedOutOfFax",
+    "Label": "Fax Opt Out",
+    "DataType": "Checkbox",
+    "Description": null,
+    "IsCalculated": false,
+    "LastModifiedDate": null
+  },
+  {
+    "attributes": {
+      "type": "FieldDefinition",
+      "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/Contact.DoNotCall"
+    },
+    "QualifiedApiName": "DoNotCall",
+    "DurableId": "Contact.DoNotCall",
+    "Label": "Do Not Call",
+    "DataType": "Checkbox",
+    "Description": null,
+    "IsCalculated": false,
+    "LastModifiedDate": null
+  },
+  {
+    "attributes": {
+      "type": "FieldDefinition",
+      "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/Contact.CreatedDate"
+    },
+    "QualifiedApiName": "CreatedDate",
+    "DurableId": "Contact.CreatedDate",
+    "Label": "Created Date",
+    "DataType": "Date/Time",
+    "Description": null,
+    "IsCalculated": false,
+    "LastModifiedDate": null
+  },
+  {
+    "attributes": {
+      "type": "FieldDefinition",
+      "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/Contact.CreatedBy"
+    },
+    "QualifiedApiName": "CreatedById",
+    "DurableId": "Contact.CreatedBy",
+    "Label": "Created By",
+    "DataType": "Lookup(User)",
+    "Description": null,
+    "IsCalculated": false,
+    "LastModifiedDate": null
+  },
+  {
+    "attributes": {
+      "type": "FieldDefinition",
+      "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/Contact.LastModifiedDate"
+    },
+    "QualifiedApiName": "LastModifiedDate",
+    "DurableId": "Contact.LastModifiedDate",
+    "Label": "Last Modified Date",
+    "DataType": "Date/Time",
+    "Description": null,
+    "IsCalculated": false,
+    "LastModifiedDate": null
+  },
+  {
+    "attributes": {
+      "type": "FieldDefinition",
+      "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/Contact.LastModifiedBy"
+    },
+    "QualifiedApiName": "LastModifiedById",
+    "DurableId": "Contact.LastModifiedBy",
+    "Label": "Last Modified By",
+    "DataType": "Lookup(User)",
+    "Description": null,
+    "IsCalculated": false,
+    "LastModifiedDate": null
+  },
+  {
+    "attributes": {
+      "type": "FieldDefinition",
+      "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/Contact.SystemModstamp"
+    },
+    "QualifiedApiName": "SystemModstamp",
+    "DurableId": "Contact.SystemModstamp",
+    "Label": "System Modstamp",
+    "DataType": "Date/Time",
+    "Description": null,
+    "IsCalculated": false,
+    "LastModifiedDate": null
+  },
+  {
+    "attributes": {
+      "type": "FieldDefinition",
+      "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/Contact.LastActivityDate"
+    },
+    "QualifiedApiName": "LastActivityDate",
+    "DurableId": "Contact.LastActivityDate",
+    "Label": "Last Activity",
+    "DataType": "Date",
+    "Description": null,
+    "IsCalculated": false,
+    "LastModifiedDate": null
+  },
+  {
+    "attributes": {
+      "type": "FieldDefinition",
+      "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/Contact.LastCURequestDate"
+    },
+    "QualifiedApiName": "LastCURequestDate",
+    "DurableId": "Contact.LastCURequestDate",
+    "Label": "Last Stay-in-Touch Request Date",
+    "DataType": "Date/Time",
+    "Description": null,
+    "IsCalculated": false,
+    "LastModifiedDate": null
+  },
+  {
+    "attributes": {
+      "type": "FieldDefinition",
+      "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/Contact.LastCUUpdateDate"
+    },
+    "QualifiedApiName": "LastCUUpdateDate",
+    "DurableId": "Contact.LastCUUpdateDate",
+    "Label": "Last Stay-in-Touch Save Date",
+    "DataType": "Date/Time",
+    "Description": null,
+    "IsCalculated": false,
+    "LastModifiedDate": null
+  },
+  {
+    "attributes": {
+      "type": "FieldDefinition",
+      "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/Contact.AccountName"
+    },
+    "QualifiedApiName": "AccountName",
+    "DurableId": "Contact.AccountName",
+    "Label": "Account Name",
+    "DataType": "Text(255)",
+    "Description": null,
+    "IsCalculated": false,
+    "LastModifiedDate": null
+  },
+  {
+    "attributes": {
+      "type": "FieldDefinition",
+      "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/Contact.ReportsToName"
+    },
+    "QualifiedApiName": "ReportsToName",
+    "DurableId": "Contact.ReportsToName",
+    "Label": "Reports To Name",
+    "DataType": "Text(121)",
+    "Description": null,
+    "IsCalculated": false,
+    "LastModifiedDate": null
+  },
+  {
+    "attributes": {
+      "type": "FieldDefinition",
+      "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/Contact.LastViewedDate"
+    },
+    "QualifiedApiName": "LastViewedDate",
+    "DurableId": "Contact.LastViewedDate",
+    "Label": "Last Viewed Date",
+    "DataType": "Date/Time",
+    "Description": null,
+    "IsCalculated": false,
+    "LastModifiedDate": null
+  },
+  {
+    "attributes": {
+      "type": "FieldDefinition",
+      "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/Contact.LastReferencedDate"
+    },
+    "QualifiedApiName": "LastReferencedDate",
+    "DurableId": "Contact.LastReferencedDate",
+    "Label": "Last Referenced Date",
+    "DataType": "Date/Time",
+    "Description": null,
+    "IsCalculated": false,
+    "LastModifiedDate": null
+  },
+  {
+    "attributes": {
+      "type": "FieldDefinition",
+      "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/Contact.UserRecordAccess"
+    },
+    "QualifiedApiName": "UserRecordAccessId",
+    "DurableId": "Contact.UserRecordAccess",
+    "Label": "Object Access Level",
+    "DataType": "Lookup(User Record Access)",
+    "Description": null,
+    "IsCalculated": false,
+    "LastModifiedDate": null
+  },
+  {
+    "attributes": {
+      "type": "FieldDefinition",
+      "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/Contact.RecordVisibility"
+    },
+    "QualifiedApiName": "RecordVisibilityId",
+    "DurableId": "Contact.RecordVisibility",
+    "Label": "Record Visibility",
+    "DataType": "Lookup(Record Visibility)",
+    "Description": null,
+    "IsCalculated": false,
+    "LastModifiedDate": null
+  },
+  {
+    "attributes": {
+      "type": "FieldDefinition",
+      "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/Contact.EmailBouncedReason"
+    },
+    "QualifiedApiName": "EmailBouncedReason",
+    "DurableId": "Contact.EmailBouncedReason",
+    "Label": "Email Bounced Reason",
+    "DataType": "Text(255)",
+    "Description": null,
+    "IsCalculated": false,
+    "LastModifiedDate": null
+  },
+  {
+    "attributes": {
+      "type": "FieldDefinition",
+      "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/Contact.EmailBouncedDate"
+    },
+    "QualifiedApiName": "EmailBouncedDate",
+    "DurableId": "Contact.EmailBouncedDate",
+    "Label": "Email Bounced Date",
+    "DataType": "Date/Time",
+    "Description": null,
+    "IsCalculated": false,
+    "LastModifiedDate": null
+  },
+  {
+    "attributes": {
+      "type": "FieldDefinition",
+      "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/Contact.IsEmailBounced"
+    },
+    "QualifiedApiName": "IsEmailBounced",
+    "DurableId": "Contact.IsEmailBounced",
+    "Label": "Is Email Bounced",
+    "DataType": "Checkbox",
+    "Description": null,
+    "IsCalculated": false,
+    "LastModifiedDate": null
+  },
+  {
+    "attributes": {
+      "type": "FieldDefinition",
+      "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/Contact.PhotoUrl"
+    },
+    "QualifiedApiName": "PhotoUrl",
+    "DurableId": "Contact.PhotoUrl",
+    "Label": "Photo URL",
+    "DataType": "URL(255)",
+    "Description": null,
+    "IsCalculated": false,
+    "LastModifiedDate": null
+  },
+  {
+    "attributes": {
+      "type": "FieldDefinition",
+      "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/Contact.Jigsaw"
+    },
+    "QualifiedApiName": "Jigsaw",
+    "DurableId": "Contact.Jigsaw",
+    "Label": "Data.com Key",
+    "DataType": "Text(20)",
+    "Description": null,
+    "IsCalculated": false,
+    "LastModifiedDate": null
+  },
+  {
+    "attributes": {
+      "type": "FieldDefinition",
+      "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/Contact.JigsawContact"
+    },
+    "QualifiedApiName": "JigsawContactId",
+    "DurableId": "Contact.JigsawContact",
+    "Label": "Jigsaw Contact Id",
+    "DataType": "External Lookup",
+    "Description": null,
+    "IsCalculated": false,
+    "LastModifiedDate": null
+  },
+  {
+    "attributes": {
+      "type": "FieldDefinition",
+      "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/Contact.ConnectionReceivedDate"
+    },
+    "QualifiedApiName": "ConnectionReceivedDate",
+    "DurableId": "Contact.ConnectionReceivedDate",
+    "Label": "Received Connection Date",
+    "DataType": "Date/Time",
+    "Description": null,
+    "IsCalculated": false,
+    "LastModifiedDate": null
+  },
+  {
+    "attributes": {
+      "type": "FieldDefinition",
+      "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/Contact.ConnectionSentDate"
+    },
+    "QualifiedApiName": "ConnectionSentDate",
+    "DurableId": "Contact.ConnectionSentDate",
+    "Label": "Sent Connection Date",
+    "DataType": "Date/Time",
+    "Description": null,
+    "IsCalculated": false,
+    "LastModifiedDate": null
+  },
+  {
+    "attributes": {
+      "type": "FieldDefinition",
+      "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/Contact.Individual"
+    },
+    "QualifiedApiName": "IndividualId",
+    "DurableId": "Contact.Individual",
+    "Label": "Individual",
+    "DataType": "Lookup(Individual)",
+    "Description": null,
+    "IsCalculated": false,
+    "LastModifiedDate": null
+  },
+  {
+    "attributes": {
+      "type": "FieldDefinition",
+      "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/Contact.Pronouns"
+    },
+    "QualifiedApiName": "Pronouns",
+    "DurableId": "Contact.Pronouns",
+    "Label": "Pronouns",
+    "DataType": "Picklist",
+    "Description": null,
+    "IsCalculated": false,
+    "LastModifiedDate": null
+  },
+  {
+    "attributes": {
+      "type": "FieldDefinition",
+      "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/Contact.GenderIdentity"
+    },
+    "QualifiedApiName": "GenderIdentity",
+    "DurableId": "Contact.GenderIdentity",
+    "Label": "Gender Identity",
+    "DataType": "Picklist",
+    "Description": null,
+    "IsCalculated": false,
+    "LastModifiedDate": null
+  },
+  {
+    "attributes": {
+      "type": "FieldDefinition",
+      "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/Contact.ActivityMetric"
+    },
+    "QualifiedApiName": "ActivityMetricId",
+    "DurableId": "Contact.ActivityMetric",
+    "Label": "Activity Metric",
+    "DataType": "Lookup(Activity Metric)",
+    "Description": null,
+    "IsCalculated": false,
+    "LastModifiedDate": null
+  },
+  {
+    "attributes": {
+      "type": "FieldDefinition",
+      "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/Contact.IsPriorityRecord"
+    },
+    "QualifiedApiName": "IsPriorityRecord",
+    "DurableId": "Contact.IsPriorityRecord",
+    "Label": "Important",
+    "DataType": "Checkbox",
+    "Description": null,
+    "IsCalculated": false,
+    "LastModifiedDate": null
+  },
+  {
+    "attributes": {
+      "type": "FieldDefinition",
+      "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/Contact.ContactSource"
+    },
+    "QualifiedApiName": "ContactSource",
+    "DurableId": "Contact.ContactSource",
+    "Label": "Creation Source",
+    "DataType": "Picklist",
+    "Description": null,
+    "IsCalculated": false,
+    "LastModifiedDate": null
+  },
+  {
+    "attributes": {
+      "type": "FieldDefinition",
+      "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/Contact.TitleType"
+    },
+    "QualifiedApiName": "TitleType",
+    "DurableId": "Contact.TitleType",
+    "Label": "Seniority Level",
+    "DataType": "Picklist",
+    "Description": null,
+    "IsCalculated": false,
+    "LastModifiedDate": null
+  },
+  {
+    "attributes": {
+      "type": "FieldDefinition",
+      "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/Contact.DepartmentGroup"
+    },
+    "QualifiedApiName": "DepartmentGroup",
+    "DurableId": "Contact.DepartmentGroup",
+    "Label": "Department Group",
+    "DataType": "Picklist",
+    "Description": null,
+    "IsCalculated": false,
+    "LastModifiedDate": null
+  },
+  {
+    "attributes": {
+      "type": "FieldDefinition",
+      "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/Contact.BuyerAttributes"
+    },
+    "QualifiedApiName": "BuyerAttributes",
+    "DurableId": "Contact.BuyerAttributes",
+    "Label": "Buyer Attributes",
+    "DataType": "Picklist (Multi-Select)",
+    "Description": null,
+    "IsCalculated": false,
+    "LastModifiedDate": null
+  },
+  {
+    "attributes": {
+      "type": "FieldDefinition",
+      "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/Contact.00N1I000008hOSd"
+    },
+    "QualifiedApiName": "Additional_Information_Legacy__c",
+    "DurableId": "Contact.00N1I000008hOSd",
+    "Label": "Additional Information Legacy",
+    "DataType": "Long Text Area(100000)",
+    "Description": null,
+    "IsCalculated": false,
+    "LastModifiedDate": "2017-10-15T21:40:00.000+0000"
+  },
+  {
+    "attributes": {
+      "type": "FieldDefinition",
+      "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/Contact.00N1I000008hs8k"
+    },
+    "QualifiedApiName": "Phone_2__c",
+    "DurableId": "Contact.00N1I000008hs8k",
+    "Label": "Phone 2",
+    "DataType": "Phone",
+    "Description": "Secondary Phone Number",
+    "IsCalculated": false,
+    "LastModifiedDate": "2017-10-16T14:51:43.000+0000"
+  },
+  {
+    "attributes": {
+      "type": "FieldDefinition",
+      "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/Contact.00N1I000008htIV"
+    },
+    "QualifiedApiName": "Email_2__c",
+    "DurableId": "Contact.00N1I000008htIV",
+    "Label": "Email 2",
+    "DataType": "Email",
+    "Description": "Secondary Email",
+    "IsCalculated": false,
+    "LastModifiedDate": "2017-10-16T15:02:57.000+0000"
+  },
+  {
+    "attributes": {
+      "type": "FieldDefinition",
+      "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/Contact.00N1I000008htJd"
+    },
+    "QualifiedApiName": "Birthdate__c",
+    "DurableId": "Contact.00N1I000008htJd",
+    "Label": "Birthdate",
+    "DataType": "Date",
+    "Description": "For Birthday Outreach!",
+    "IsCalculated": false,
+    "LastModifiedDate": "2017-10-16T15:15:10.000+0000"
+  },
+  {
+    "attributes": {
+      "type": "FieldDefinition",
+      "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/Contact.00N1I00000NeIcl"
+    },
+    "QualifiedApiName": "Group_Demo_11_12__c",
+    "DurableId": "Contact.00N1I00000NeIcl",
+    "Label": "Group Demo 11/12",
+    "DataType": "Checkbox",
+    "Description": null,
+    "IsCalculated": false,
+    "LastModifiedDate": "2018-11-12T19:05:44.000+0000"
+  },
+  {
+    "attributes": {
+      "type": "FieldDefinition",
+      "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/Contact.00NRc00000cBCCr"
+    },
+    "QualifiedApiName": "Mailing_County__c",
+    "DurableId": "Contact.00NRc00000cBCCr",
+    "Label": "Mailing County",
+    "DataType": "Text(70)",
+    "Description": null,
+    "IsCalculated": false,
+    "LastModifiedDate": "2025-04-02T18:38:52.000+0000"
+  },
+  {
+    "attributes": {
+      "type": "FieldDefinition",
+      "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/Contact.00NRc00000eHtp3"
+    },
+    "QualifiedApiName": "Apollo_Person_Auto_Score__c",
+    "DurableId": "Contact.00NRc00000eHtp3",
+    "Label": "Apollo Person Auto-Score",
+    "DataType": "Text(255)",
+    "Description": null,
+    "IsCalculated": false,
+    "LastModifiedDate": "2025-05-27T19:18:19.000+0000"
+  },
+  {
+    "attributes": {
+      "type": "FieldDefinition",
+      "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/Contact.00N1I000008ihCp"
+    },
+    "QualifiedApiName": "UTM_Content__c",
+    "DurableId": "Contact.00N1I000008ihCp",
+    "Label": "UTM Content",
+    "DataType": "Text(250)",
+    "Description": null,
+    "IsCalculated": false,
+    "LastModifiedDate": "2017-10-17T20:06:10.000+0000"
+  },
+  {
+    "attributes": {
+      "type": "FieldDefinition",
+      "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/Contact.00N1I000008ihCu"
+    },
+    "QualifiedApiName": "UTM_Term__c",
+    "DurableId": "Contact.00N1I000008ihCu",
+    "Label": "UTM Term",
+    "DataType": "Text(250)",
+    "Description": null,
+    "IsCalculated": false,
+    "LastModifiedDate": "2017-10-17T20:06:42.000+0000"
+  },
+  {
+    "attributes": {
+      "type": "FieldDefinition",
+      "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/Contact.00N1I000008ihDs"
+    },
+    "QualifiedApiName": "VIP__c",
+    "DurableId": "Contact.00N1I000008ihDs",
+    "Label": "VIP",
+    "DataType": "Checkbox",
+    "Description": null,
+    "IsCalculated": false,
+    "LastModifiedDate": "2017-10-17T20:10:09.000+0000"
+  },
+  {
+    "attributes": {
+      "type": "FieldDefinition",
+      "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/Contact.00N1I00000AJgSC"
+    },
+    "QualifiedApiName": "Twitter_URL__c",
+    "DurableId": "Contact.00N1I00000AJgSC",
+    "Label": "Twitter URL",
+    "DataType": "URL(255)",
+    "Description": null,
+    "IsCalculated": false,
+    "LastModifiedDate": "2017-10-22T03:28:44.000+0000"
+  },
+  {
+    "attributes": {
+      "type": "FieldDefinition",
+      "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/Contact.00NRc00000BlJth"
+    },
+    "QualifiedApiName": "Healthie_Org_Admin__c",
+    "DurableId": "Contact.00NRc00000BlJth",
+    "Label": "Healthie Org Admin",
+    "DataType": "Checkbox",
+    "Description": "Updated via flow",
+    "IsCalculated": false,
+    "LastModifiedDate": "2024-03-22T16:11:36.000+0000"
+  },
+  {
+    "attributes": {
+      "type": "FieldDefinition",
+      "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/Contact.00N1I000008iiJE"
+    },
+    "QualifiedApiName": "Accepts_Insurance__c",
+    "DurableId": "Contact.00N1I000008iiJE",
+    "Label": "Accepts Insurance?",
+    "DataType": "Checkbox",
+    "Description": null,
+    "IsCalculated": false,
+    "LastModifiedDate": "2017-10-17T20:27:03.000+0000"
+  },
+  {
+    "attributes": {
+      "type": "FieldDefinition",
+      "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/Contact.00NRc00000C39JB"
+    },
+    "QualifiedApiName": "Finance_POC__c",
+    "DurableId": "Contact.00NRc00000C39JB",
+    "Label": "Finance POC",
+    "DataType": "Checkbox",
+    "Description": null,
+    "IsCalculated": false,
+    "LastModifiedDate": "2024-03-26T19:39:33.000+0000"
+  },
+  {
+    "attributes": {
+      "type": "FieldDefinition",
+      "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/Contact.00N1I00000DJHCv"
+    },
+    "QualifiedApiName": "Enterprise_Category__c",
+    "DurableId": "Contact.00N1I00000DJHCv",
+    "Label": "Enterprise Category",
+    "DataType": "Picklist (Multi-Select)",
+    "Description": null,
+    "IsCalculated": false,
+    "LastModifiedDate": "2017-11-06T16:07:10.000+0000"
+  },
+  {
+    "attributes": {
+      "type": "FieldDefinition",
+      "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/Contact.00N1I000008iitR"
+    },
+    "QualifiedApiName": "Landing_Page__c",
+    "DurableId": "Contact.00N1I000008iitR",
+    "Label": "Landing Page",
+    "DataType": "URL(255)",
+    "Description": null,
+    "IsCalculated": false,
+    "LastModifiedDate": "2017-10-17T20:41:19.000+0000"
+  },
+  {
+    "attributes": {
+      "type": "FieldDefinition",
+      "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/Contact.00NRc00000GhQfy"
+    },
+    "QualifiedApiName": "Healthie_User_Last_Active__c",
+    "DurableId": "Contact.00NRc00000GhQfy",
+    "Label": "Healthie User Last Active",
+    "DataType": "Date/Time",
+    "Description": null,
+    "IsCalculated": false,
+    "LastModifiedDate": "2024-06-04T13:24:59.000+0000"
+  },
+  {
+    "attributes": {
+      "type": "FieldDefinition",
+      "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/Contact.00N1I000008iiu0"
+    },
+    "QualifiedApiName": "IP_Address__c",
+    "DurableId": "Contact.00N1I000008iiu0",
+    "Label": "IP Address",
+    "DataType": "Text(25)",
+    "Description": null,
+    "IsCalculated": false,
+    "LastModifiedDate": "2017-10-23T16:45:33.000+0000"
+  },
+  {
+    "attributes": {
+      "type": "FieldDefinition",
+      "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/Contact.00NRc000006anI5"
+    },
+    "QualifiedApiName": "Investor_AC_Tag__c",
+    "DurableId": "Contact.00NRc000006anI5",
+    "Label": "Investor (AC Tag)",
+    "DataType": "Checkbox",
+    "Description": null,
+    "IsCalculated": false,
+    "LastModifiedDate": "2024-01-11T19:39:15.000+0000"
+  },
+  {
+    "attributes": {
+      "type": "FieldDefinition",
+      "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/Contact.00NRc00000HyehD"
+    },
+    "QualifiedApiName": "Healthie_Org_ID__c",
+    "DurableId": "Contact.00NRc00000HyehD",
+    "Label": "Healthie Org ID",
+    "DataType": "Text(50)  (External ID)",
+    "Description": null,
+    "IsCalculated": false,
+    "LastModifiedDate": "2025-01-28T15:27:28.000+0000"
+  },
+  {
+    "attributes": {
+      "type": "FieldDefinition",
+      "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/Contact.00N1I000008iqfJ"
+    },
+    "QualifiedApiName": "Current_Solution__c",
+    "DurableId": "Contact.00N1I000008iqfJ",
+    "Label": "Current Solution",
+    "DataType": "Picklist",
+    "Description": null,
+    "IsCalculated": false,
+    "LastModifiedDate": "2017-10-18T01:36:52.000+0000"
+  },
+  {
+    "attributes": {
+      "type": "FieldDefinition",
+      "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/Contact.00N1I000008j6fm"
+    },
+    "QualifiedApiName": "SDR__c",
+    "DurableId": "Contact.00N1I000008j6fm",
+    "Label": "SDR",
+    "DataType": "Lookup(User)",
+    "Description": null,
+    "IsCalculated": false,
+    "LastModifiedDate": "2017-10-18T13:26:06.000+0000"
+  },
+  {
+    "attributes": {
+      "type": "FieldDefinition",
+      "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/Contact.00N1I000008jRJ2"
+    },
+    "QualifiedApiName": "Certifications__c",
+    "DurableId": "Contact.00N1I000008jRJ2",
+    "Label": "Certifications",
+    "DataType": "Text(255)",
+    "Description": null,
+    "IsCalculated": false,
+    "LastModifiedDate": "2017-10-18T19:37:21.000+0000"
+  },
+  {
+    "attributes": {
+      "type": "FieldDefinition",
+      "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/Contact.00N1I000008judA"
+    },
+    "QualifiedApiName": "Comments_from_Contact__c",
+    "DurableId": "Contact.00N1I000008judA",
+    "Label": "Comments from Contact",
+    "DataType": "Text(255)",
+    "Description": null,
+    "IsCalculated": false,
+    "LastModifiedDate": "2017-10-19T12:49:06.000+0000"
+  },
+  {
+    "attributes": {
+      "type": "FieldDefinition",
+      "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/Contact.00N1I000008judP"
+    },
+    "QualifiedApiName": "Number_of_Providers__c",
+    "DurableId": "Contact.00N1I000008judP",
+    "Label": "Number of Providers",
+    "DataType": "Number(6, 0)",
+    "Description": null,
+    "IsCalculated": false,
+    "LastModifiedDate": "2017-10-19T12:51:15.000+0000"
+  },
+  {
+    "attributes": {
+      "type": "FieldDefinition",
+      "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/Contact.00N1I000008juqj"
+    },
+    "QualifiedApiName": "Website__c",
+    "DurableId": "Contact.00N1I000008juqj",
+    "Label": "Website",
+    "DataType": "URL(255)",
+    "Description": null,
+    "IsCalculated": false,
+    "LastModifiedDate": "2017-10-19T13:27:15.000+0000"
+  },
+  {
+    "attributes": {
+      "type": "FieldDefinition",
+      "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/Contact.00N1I000008jurD"
+    },
+    "QualifiedApiName": "Notes__c",
+    "DurableId": "Contact.00N1I000008jurD",
+    "Label": "Notes",
+    "DataType": "Long Text Area(32768)",
+    "Description": null,
+    "IsCalculated": false,
+    "LastModifiedDate": "2017-10-19T13:28:58.000+0000"
+  },
+  {
+    "attributes": {
+      "type": "FieldDefinition",
+      "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/Contact.00N1I000008k2MF"
+    },
+    "QualifiedApiName": "UTM_Position__c",
+    "DurableId": "Contact.00N1I000008k2MF",
+    "Label": "UTM Position",
+    "DataType": "Text(6)",
+    "Description": null,
+    "IsCalculated": false,
+    "LastModifiedDate": "2017-10-19T15:45:11.000+0000"
+  },
+  {
+    "attributes": {
+      "type": "FieldDefinition",
+      "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/Contact.00N1I000008k2MP"
+    },
+    "QualifiedApiName": "NPS_Score__c",
+    "DurableId": "Contact.00N1I000008k2MP",
+    "Label": "zNPS Score",
+    "DataType": "Number(3, 0)",
+    "Description": "NPS Score From AskNicely",
+    "IsCalculated": false,
+    "LastModifiedDate": "2024-03-26T19:31:37.000+0000"
+  },
+  {
+    "attributes": {
+      "type": "FieldDefinition",
+      "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/Contact.00N1I000008k2Qc"
+    },
+    "QualifiedApiName": "NPS_Comment__c",
+    "DurableId": "Contact.00N1I000008k2Qc",
+    "Label": "zNPS Comment",
+    "DataType": "Text Area(255)",
+    "Description": null,
+    "IsCalculated": false,
+    "LastModifiedDate": "2024-03-26T19:32:16.000+0000"
+  },
+  {
+    "attributes": {
+      "type": "FieldDefinition",
+      "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/Contact.00N1I000008k2R6"
+    },
+    "QualifiedApiName": "NPS_Responded_Date__c",
+    "DurableId": "Contact.00N1I000008k2R6",
+    "Label": "NPS Responded Date",
+    "DataType": "Date/Time",
+    "Description": null,
+    "IsCalculated": false,
+    "LastModifiedDate": "2017-10-19T15:51:31.000+0000"
+  },
+  {
+    "attributes": {
+      "type": "FieldDefinition",
+      "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/Contact.00N1I000008kKxo"
+    },
+    "QualifiedApiName": "Plan_Detail__c",
+    "DurableId": "Contact.00N1I000008kKxo",
+    "Label": "Plan Detail",
+    "DataType": "Text Area(255)",
+    "Description": null,
+    "IsCalculated": false,
+    "LastModifiedDate": "2017-10-19T21:12:35.000+0000"
+  },
+  {
+    "attributes": {
+      "type": "FieldDefinition",
+      "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/Contact.00N1I000008kKyI"
+    },
+    "QualifiedApiName": "Provider_Type_3__c",
+    "DurableId": "Contact.00N1I000008kKyI",
+    "Label": "Provider Type 3",
+    "DataType": "Picklist (Multi-Select)",
+    "Description": null,
+    "IsCalculated": false,
+    "LastModifiedDate": "2018-04-26T18:28:52.000+0000"
+  },
+  {
+    "attributes": {
+      "type": "FieldDefinition",
+      "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/Contact.00N1I000008kqo4"
+    },
+    "QualifiedApiName": "Type__c",
+    "DurableId": "Contact.00N1I000008kqo4",
+    "Label": "Type",
+    "DataType": "Picklist",
+    "Description": null,
+    "IsCalculated": false,
+    "LastModifiedDate": "2017-10-20T19:18:19.000+0000"
+  },
+  {
+    "attributes": {
+      "type": "FieldDefinition",
+      "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/Contact.00N1I00000AJgSH"
+    },
+    "QualifiedApiName": "LinkedIn_URL__c",
+    "DurableId": "Contact.00N1I00000AJgSH",
+    "Label": "LinkedIn URL",
+    "DataType": "URL(255)",
+    "Description": null,
+    "IsCalculated": false,
+    "LastModifiedDate": "2017-10-22T03:28:56.000+0000"
+  },
+  {
+    "attributes": {
+      "type": "FieldDefinition",
+      "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/Contact.00N1I00000AJgSM"
+    },
+    "QualifiedApiName": "Facebook_URL__c",
+    "DurableId": "Contact.00N1I00000AJgSM",
+    "Label": "Facebook URL",
+    "DataType": "URL(255)",
+    "Description": null,
+    "IsCalculated": false,
+    "LastModifiedDate": "2017-10-22T03:29:08.000+0000"
+  },
+  {
+    "attributes": {
+      "type": "FieldDefinition",
+      "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/Contact.00N1I00000AJgSR"
+    },
+    "QualifiedApiName": "AE__c",
+    "DurableId": "Contact.00N1I00000AJgSR",
+    "Label": "AE",
+    "DataType": "Lookup(User)",
+    "Description": null,
+    "IsCalculated": false,
+    "LastModifiedDate": "2017-10-22T03:35:18.000+0000"
+  },
+  {
+    "attributes": {
+      "type": "FieldDefinition",
+      "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/Contact.00N1I00000AJgU3"
+    },
+    "QualifiedApiName": "Clients_Per_Week__c",
+    "DurableId": "Contact.00N1I00000AJgU3",
+    "Label": "Clients Per Week",
+    "DataType": "Number(18, 0)",
+    "Description": "Please estimate the number of clients this provider sees per week (estimate high).",
+    "IsCalculated": false,
+    "LastModifiedDate": "2017-10-22T03:51:06.000+0000"
+  },
+  {
+    "attributes": {
+      "type": "FieldDefinition",
+      "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/Contact.00N1I00000AJiJc"
+    },
+    "QualifiedApiName": "Test__c",
+    "DurableId": "Contact.00N1I00000AJiJc",
+    "Label": "Test",
+    "DataType": "Checkbox",
+    "Description": null,
+    "IsCalculated": false,
+    "LastModifiedDate": "2017-10-22T19:22:33.000+0000"
+  },
+  {
+    "attributes": {
+      "type": "FieldDefinition",
+      "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/Contact.00N1I00000AKL1y"
+    },
+    "QualifiedApiName": "SIQ_Module__c",
+    "DurableId": "Contact.00N1I00000AKL1y",
+    "Label": "SIQ Module",
+    "DataType": "Picklist",
+    "Description": null,
+    "IsCalculated": false,
+    "LastModifiedDate": "2017-10-23T16:48:31.000+0000"
+  },
+  {
+    "attributes": {
+      "type": "FieldDefinition",
+      "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/Contact.00N1I00000BjjkJ"
+    },
+    "QualifiedApiName": "rh2__Currency_Test__c",
+    "DurableId": "Contact.00N1I00000BjjkJ",
+    "Label": "Currency Test",
+    "DataType": "Currency(18, 0)",
+    "Description": "Test Description",
+    "IsCalculated": false,
+    "LastModifiedDate": "2018-09-08T04:21:01.000+0000"
+  },
+  {
+    "attributes": {
+      "type": "FieldDefinition",
+      "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/Contact.00N1I00000BjjkK"
+    },
+    "QualifiedApiName": "rh2__Describe__c",
+    "DurableId": "Contact.00N1I00000BjjkK",
+    "Label": "Describe",
+    "DataType": "Lookup(Describe)",
+    "Description": null,
+    "IsCalculated": false,
+    "LastModifiedDate": "2017-10-27T19:03:31.000+0000"
+  },
+  {
+    "attributes": {
+      "type": "FieldDefinition",
+      "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/Contact.00N1I00000BjjkL"
+    },
+    "QualifiedApiName": "rh2__Formula_Test__c",
+    "DurableId": "Contact.00N1I00000BjjkL",
+    "Label": "Formula Test",
+    "DataType": "Formula (Currency)",
+    "Description": null,
+    "IsCalculated": true,
+    "LastModifiedDate": "2017-10-27T19:03:35.000+0000"
+  },
+  {
+    "attributes": {
+      "type": "FieldDefinition",
+      "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/Contact.00N1I00000BjjkM"
+    },
+    "QualifiedApiName": "rh2__Integer_Test__c",
+    "DurableId": "Contact.00N1I00000BjjkM",
+    "Label": "Integer Test",
+    "DataType": "Number(3, 0)",
+    "Description": null,
+    "IsCalculated": false,
+    "LastModifiedDate": "2017-10-27T19:03:31.000+0000"
+  },
+  {
+    "attributes": {
+      "type": "FieldDefinition",
+      "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/Contact.00N1I00000BmEiP"
+    },
+    "QualifiedApiName": "CSM__c",
+    "DurableId": "Contact.00N1I00000BmEiP",
+    "Label": "CSM",
+    "DataType": "Lookup(User)",
+    "Description": null,
+    "IsCalculated": false,
+    "LastModifiedDate": "2017-11-01T14:26:02.000+0000"
+  },
+  {
+    "attributes": {
+      "type": "FieldDefinition",
+      "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/Contact.00N1I00000ESWlD"
+    },
+    "QualifiedApiName": "Contact_Form_Topic__c",
+    "DurableId": "Contact.00N1I00000ESWlD",
+    "Label": "Contact Form Topic",
+    "DataType": "Picklist",
+    "Description": null,
+    "IsCalculated": false,
+    "LastModifiedDate": "2017-11-13T21:03:56.000+0000"
+  },
+  {
+    "attributes": {
+      "type": "FieldDefinition",
+      "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/Contact.00N1I00000IYCb5"
+    },
+    "QualifiedApiName": "Lead_Origin__c",
+    "DurableId": "Contact.00N1I00000IYCb5",
+    "Label": "Lead Origin",
+    "DataType": "Picklist",
+    "Description": null,
+    "IsCalculated": false,
+    "LastModifiedDate": "2017-12-06T22:24:56.000+0000"
+  },
+  {
+    "attributes": {
+      "type": "FieldDefinition",
+      "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/Contact.00N1I00000IYCbF"
+    },
+    "QualifiedApiName": "Other_Lead_Origin_Detail__c",
+    "DurableId": "Contact.00N1I00000IYCbF",
+    "Label": "Other Lead Origin Detail",
+    "DataType": "Text(250)",
+    "Description": null,
+    "IsCalculated": false,
+    "LastModifiedDate": "2017-12-06T22:25:14.000+0000"
+  },
+  {
+    "attributes": {
+      "type": "FieldDefinition",
+      "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/Contact.00N1I00000KjGFZ"
+    },
+    "QualifiedApiName": "Instagram_URL__c",
+    "DurableId": "Contact.00N1I00000KjGFZ",
+    "Label": "Instagram URL",
+    "DataType": "URL(255)",
+    "Description": null,
+    "IsCalculated": false,
+    "LastModifiedDate": "2018-01-26T15:59:52.000+0000"
+  },
+  {
+    "attributes": {
+      "type": "FieldDefinition",
+      "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/Contact.00N1I00000KjJ40"
+    },
+    "QualifiedApiName": "Registered_For_Zoom_Webinar__c",
+    "DurableId": "Contact.00N1I00000KjJ40",
+    "Label": "Registered For Zoom Webinar",
+    "DataType": "Checkbox",
+    "Description": null,
+    "IsCalculated": false,
+    "LastModifiedDate": "2018-01-26T21:49:32.000+0000"
+  },
+  {
+    "attributes": {
+      "type": "FieldDefinition",
+      "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/Contact.00N1I00000KjJ45"
+    },
+    "QualifiedApiName": "Last_Registered_Webinar__c",
+    "DurableId": "Contact.00N1I00000KjJ45",
+    "Label": "Last Registered Webinar",
+    "DataType": "Text(255)",
+    "Description": null,
+    "IsCalculated": false,
+    "LastModifiedDate": "2018-01-26T21:50:03.000+0000"
+  },
+  {
+    "attributes": {
+      "type": "FieldDefinition",
+      "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/Contact.00N1I00000KjJ4A"
+    },
+    "QualifiedApiName": "Last_Webinar_Registration_Date__c",
+    "DurableId": "Contact.00N1I00000KjJ4A",
+    "Label": "Last Webinar Registration Date",
+    "DataType": "Date",
+    "Description": null,
+    "IsCalculated": false,
+    "LastModifiedDate": "2018-01-26T21:50:35.000+0000"
+  },
+  {
+    "attributes": {
+      "type": "FieldDefinition",
+      "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/Contact.00N1I00000KjgRT"
+    },
+    "QualifiedApiName": "Provider_Specialty__c",
+    "DurableId": "Contact.00N1I00000KjgRT",
+    "Label": "Provider Specialty",
+    "DataType": "Picklist (Multi-Select)",
+    "Description": null,
+    "IsCalculated": false,
+    "LastModifiedDate": "2018-01-30T15:05:51.000+0000"
+  },
+  {
+    "attributes": {
+      "type": "FieldDefinition",
+      "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/Contact.00N1I00000LMAkb"
+    },
+    "QualifiedApiName": "Marketing_Bootcamp_June_2018__c",
+    "DurableId": "Contact.00N1I00000LMAkb",
+    "Label": "Marketing Bootcamp June 2018",
+    "DataType": "Checkbox",
+    "Description": null,
+    "IsCalculated": false,
+    "LastModifiedDate": "2018-02-07T20:29:32.000+0000"
+  },
+  {
+    "attributes": {
+      "type": "FieldDefinition",
+      "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/Contact.00N1I00000LMAkg"
+    },
+    "QualifiedApiName": "Business_Bootcamp_April_2018__c",
+    "DurableId": "Contact.00N1I00000LMAkg",
+    "Label": "Business Bootcamp April 2018",
+    "DataType": "Checkbox",
+    "Description": null,
+    "IsCalculated": false,
+    "LastModifiedDate": "2018-02-07T20:29:51.000+0000"
+  },
+  {
+    "attributes": {
+      "type": "FieldDefinition",
+      "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/Contact.00N1I00000LMAkq"
+    },
+    "QualifiedApiName": "Marketing_Bootcamp_June_2018_Reg_Date__c",
+    "DurableId": "Contact.00N1I00000LMAkq",
+    "Label": "Marketing Bootcamp June 2018 Reg Date",
+    "DataType": "Date",
+    "Description": null,
+    "IsCalculated": false,
+    "LastModifiedDate": "2018-02-07T20:33:31.000+0000"
+  },
+  {
+    "attributes": {
+      "type": "FieldDefinition",
+      "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/Contact.00N1I00000LMAl0"
+    },
+    "QualifiedApiName": "Business_Bootcamp_April_2018_Reg_Date__c",
+    "DurableId": "Contact.00N1I00000LMAl0",
+    "Label": "Business Bootcamp April 2018 Reg Date",
+    "DataType": "Date",
+    "Description": null,
+    "IsCalculated": false,
+    "LastModifiedDate": "2018-02-07T20:32:31.000+0000"
+  },
+  {
+    "attributes": {
+      "type": "FieldDefinition",
+      "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/Contact.00N1I00000LNclO"
+    },
+    "QualifiedApiName": "CSM_First_Name__c",
+    "DurableId": "Contact.00N1I00000LNclO",
+    "Label": "CSM First Name",
+    "DataType": "Formula (Text)",
+    "Description": null,
+    "IsCalculated": true,
+    "LastModifiedDate": "2018-03-01T21:14:13.000+0000"
+  },
+  {
+    "attributes": {
+      "type": "FieldDefinition",
+      "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/Contact.00N1I00000LNcld"
+    },
+    "QualifiedApiName": "integration_Call_Scheduled_Date__c",
+    "DurableId": "Contact.00N1I00000LNcld",
+    "Label": "integration Call Scheduled Date",
+    "DataType": "Date/Time",
+    "Description": null,
+    "IsCalculated": false,
+    "LastModifiedDate": "2018-03-01T21:02:35.000+0000"
+  },
+  {
+    "attributes": {
+      "type": "FieldDefinition",
+      "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/Contact.00N1I00000LNcls"
+    },
+    "QualifiedApiName": "Integration_Conf_SMS_Copy__c",
+    "DurableId": "Contact.00N1I00000LNcls",
+    "Label": "Integration Conf SMS Copy",
+    "DataType": "Formula (Text)",
+    "Description": null,
+    "IsCalculated": true,
+    "LastModifiedDate": "2018-04-04T00:06:26.000+0000"
+  },
+  {
+    "attributes": {
+      "type": "FieldDefinition",
+      "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/Contact.00N1I00000LNd0i"
+    },
+    "QualifiedApiName": "SMS_Sending_time__c",
+    "DurableId": "Contact.00N1I00000LNd0i",
+    "Label": "SMS Sending time",
+    "DataType": "Formula (Time)",
+    "Description": null,
+    "IsCalculated": true,
+    "LastModifiedDate": "2018-04-03T23:55:49.000+0000"
+  },
+  {
+    "attributes": {
+      "type": "FieldDefinition",
+      "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/Contact.00N1I00000LNdW0"
+    },
+    "QualifiedApiName": "SMS_Sending_Date__c",
+    "DurableId": "Contact.00N1I00000LNdW0",
+    "Label": "SMS Sending Date",
+    "DataType": "Formula (Date)",
+    "Description": null,
+    "IsCalculated": true,
+    "LastModifiedDate": "2018-03-01T21:49:32.000+0000"
+  },
+  {
+    "attributes": {
+      "type": "FieldDefinition",
+      "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/Contact.00N1I00000LNdaC"
+    },
+    "QualifiedApiName": "Integration_Conf_SMS__c",
+    "DurableId": "Contact.00N1I00000LNdaC",
+    "Label": "Integration Conf SMS",
+    "DataType": "Checkbox",
+    "Description": null,
+    "IsCalculated": false,
+    "LastModifiedDate": "2018-03-01T22:42:03.000+0000"
+  },
+  {
+    "attributes": {
+      "type": "FieldDefinition",
+      "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/Contact.00N1I00000M2mWJ"
+    },
+    "QualifiedApiName": "MC_Test__c",
+    "DurableId": "Contact.00N1I00000M2mWJ",
+    "Label": "MC Test",
+    "DataType": "Checkbox",
+    "Description": null,
+    "IsCalculated": false,
+    "LastModifiedDate": "2018-04-03T21:24:07.000+0000"
+  },
+  {
+    "attributes": {
+      "type": "FieldDefinition",
+      "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/Contact.00N1I00000M2n0O"
+    },
+    "QualifiedApiName": "SMS_sending_time_2__c",
+    "DurableId": "Contact.00N1I00000M2n0O",
+    "Label": "SMS sending time 2",
+    "DataType": "Formula (Text)",
+    "Description": null,
+    "IsCalculated": true,
+    "LastModifiedDate": "2018-04-04T00:07:37.000+0000"
+  },
+  {
+    "attributes": {
+      "type": "FieldDefinition",
+      "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/Contact.00N1I00000M34Xj"
+    },
+    "QualifiedApiName": "Coaching_Program__c",
+    "DurableId": "Contact.00N1I00000M34Xj",
+    "Label": "Coaching Program",
+    "DataType": "Picklist",
+    "Description": null,
+    "IsCalculated": false,
+    "LastModifiedDate": "2018-04-09T19:03:34.000+0000"
+  },
+  {
+    "attributes": {
+      "type": "FieldDefinition",
+      "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/Contact.00N1I00000M3Dd8"
+    },
+    "QualifiedApiName": "Outbound_Social__c",
+    "DurableId": "Contact.00N1I00000M3Dd8",
+    "Label": "Outbound Social",
+    "DataType": "Checkbox",
+    "Description": null,
+    "IsCalculated": false,
+    "LastModifiedDate": "2018-04-11T15:51:04.000+0000"
+  },
+  {
+    "attributes": {
+      "type": "FieldDefinition",
+      "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/Contact.00N1I00000M4Muz"
+    },
+    "QualifiedApiName": "Provider_Type__c",
+    "DurableId": "Contact.00N1I00000M4Muz",
+    "Label": "Provider Type",
+    "DataType": "Picklist (Multi-Select)",
+    "Description": null,
+    "IsCalculated": false,
+    "LastModifiedDate": "2018-04-26T18:29:16.000+0000"
+  },
+  {
+    "attributes": {
+      "type": "FieldDefinition",
+      "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/Contact.00N1I00000M5MCF"
+    },
+    "QualifiedApiName": "Healthie_Ambassador__c",
+    "DurableId": "Contact.00N1I00000M5MCF",
+    "Label": "Healthie Ambassador",
+    "DataType": "Checkbox",
+    "Description": null,
+    "IsCalculated": false,
+    "LastModifiedDate": "2018-05-11T14:48:16.000+0000"
+  },
+  {
+    "attributes": {
+      "type": "FieldDefinition",
+      "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/Contact.00N1I00000MKCpm"
+    },
+    "QualifiedApiName": "Active_Campaign_Test_Automation__c",
+    "DurableId": "Contact.00N1I00000MKCpm",
+    "Label": "Active Campaign: Test Automation",
+    "DataType": "Checkbox",
+    "Description": null,
+    "IsCalculated": false,
+    "LastModifiedDate": "2018-06-12T15:57:40.000+0000"
+  },
+  {
+    "attributes": {
+      "type": "FieldDefinition",
+      "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/Contact.00N1I00000MKCpw"
+    },
+    "QualifiedApiName": "Active_Campaign_SiteSignup__c",
+    "DurableId": "Contact.00N1I00000MKCpw",
+    "Label": "Active Campaign: SiteSignup",
+    "DataType": "Checkbox",
+    "Description": null,
+    "IsCalculated": false,
+    "LastModifiedDate": "2018-06-12T15:58:19.000+0000"
+  },
+  {
+    "attributes": {
+      "type": "FieldDefinition",
+      "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/Contact.00N1I00000MKCq1"
+    },
+    "QualifiedApiName": "Active_Campaign_EBook__c",
+    "DurableId": "Contact.00N1I00000MKCq1",
+    "Label": "Active Campaign: EBook",
+    "DataType": "Checkbox",
+    "Description": null,
+    "IsCalculated": false,
+    "LastModifiedDate": "2018-06-12T15:58:38.000+0000"
+  },
+  {
+    "attributes": {
+      "type": "FieldDefinition",
+      "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/Contact.00N1I00000MKDFu"
+    },
+    "QualifiedApiName": "Active_Campaign_End_All_Automations__c",
+    "DurableId": "Contact.00N1I00000MKDFu",
+    "Label": "Active Campaign: End All Automations",
+    "DataType": "Checkbox",
+    "Description": null,
+    "IsCalculated": false,
+    "LastModifiedDate": "2018-06-12T17:18:24.000+0000"
+  },
+  {
+    "attributes": {
+      "type": "FieldDefinition",
+      "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/Contact.00N1I00000MKDe1"
+    },
+    "QualifiedApiName": "Active_Campaign_Replied_to_EBook__c",
+    "DurableId": "Contact.00N1I00000MKDe1",
+    "Label": "Active Campaign: Replied to EBook",
+    "DataType": "Checkbox",
+    "Description": null,
+    "IsCalculated": false,
+    "LastModifiedDate": "2018-06-12T17:31:10.000+0000"
+  },
+  {
+    "attributes": {
+      "type": "FieldDefinition",
+      "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/Contact.00N1I00000MKDe6"
+    },
+    "QualifiedApiName": "Active_Campaign_Replied_to_SiteSignup__c",
+    "DurableId": "Contact.00N1I00000MKDe6",
+    "Label": "Active Campaign: Replied to SiteSignup",
+    "DataType": "Checkbox",
+    "Description": null,
+    "IsCalculated": false,
+    "LastModifiedDate": "2018-06-12T17:31:36.000+0000"
+  },
+  {
+    "attributes": {
+      "type": "FieldDefinition",
+      "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/Contact.00N1I00000MKp9l"
+    },
+    "QualifiedApiName": "Active_Campaign_Old_SiteSignup__c",
+    "DurableId": "Contact.00N1I00000MKp9l",
+    "Label": "Active Campaign: Old SiteSignup",
+    "DataType": "Checkbox",
+    "Description": null,
+    "IsCalculated": false,
+    "LastModifiedDate": "2018-06-20T19:27:02.000+0000"
+  },
+  {
+    "attributes": {
+      "type": "FieldDefinition",
+      "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/Contact.00N1I00000MKpB3"
+    },
+    "QualifiedApiName": "Active_Campaign_Replied_to_Old_SSu__c",
+    "DurableId": "Contact.00N1I00000MKpB3",
+    "Label": "Active Campaign:Replied to Old SSu",
+    "DataType": "Checkbox",
+    "Description": null,
+    "IsCalculated": false,
+    "LastModifiedDate": "2018-06-20T19:31:12.000+0000"
+  },
+  {
+    "attributes": {
+      "type": "FieldDefinition",
+      "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/Contact.00N1I00000MLJPt"
+    },
+    "QualifiedApiName": "Provider_Reported_Source__c",
+    "DurableId": "Contact.00N1I00000MLJPt",
+    "Label": "Provider Reported Source",
+    "DataType": "Picklist",
+    "Description": null,
+    "IsCalculated": false,
+    "LastModifiedDate": "2018-06-28T16:09:16.000+0000"
+  },
+  {
+    "attributes": {
+      "type": "FieldDefinition",
+      "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/Contact.00N1I00000MLLbN"
+    },
+    "QualifiedApiName": "Active_Campaign_Demo_Missed_Automation__c",
+    "DurableId": "Contact.00N1I00000MLLbN",
+    "Label": "Active Campaign: Demo Missed Automation",
+    "DataType": "Checkbox",
+    "Description": null,
+    "IsCalculated": false,
+    "LastModifiedDate": "2018-06-28T21:43:24.000+0000"
+  },
+  {
+    "attributes": {
+      "type": "FieldDefinition",
+      "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/Contact.00N1I00000MLLpK"
+    },
+    "QualifiedApiName": "Active_Campaign_Replied_to_Demo_Missed__c",
+    "DurableId": "Contact.00N1I00000MLLpK",
+    "Label": "Active Campaign: Replied to Demo Missed",
+    "DataType": "Checkbox",
+    "Description": null,
+    "IsCalculated": false,
+    "LastModifiedDate": "2018-06-28T21:43:54.000+0000"
+  },
+  {
+    "attributes": {
+      "type": "FieldDefinition",
+      "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/Contact.00N1I00000MLOHu"
+    },
+    "QualifiedApiName": "Referred_By__c",
+    "DurableId": "Contact.00N1I00000MLOHu",
+    "Label": "Referred By",
+    "DataType": "Lookup(Contact)",
+    "Description": null,
+    "IsCalculated": false,
+    "LastModifiedDate": "2018-06-29T18:34:51.000+0000"
+  },
+  {
+    "attributes": {
+      "type": "FieldDefinition",
+      "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/Contact.00N1I00000MLePz"
+    },
+    "QualifiedApiName": "Active_Campaign_Old_EBook_Automation__c",
+    "DurableId": "Contact.00N1I00000MLePz",
+    "Label": "Active Campaign: Old EBook Automation",
+    "DataType": "Checkbox",
+    "Description": null,
+    "IsCalculated": false,
+    "LastModifiedDate": "2018-07-10T19:35:51.000+0000"
+  },
+  {
+    "attributes": {
+      "type": "FieldDefinition",
+      "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/Contact.00N1I00000MLeQ4"
+    },
+    "QualifiedApiName": "Active_Campaign_Replied_to_Old_EBook__c",
+    "DurableId": "Contact.00N1I00000MLeQ4",
+    "Label": "Active Campaign: Replied to Old EBook",
+    "DataType": "Checkbox",
+    "Description": null,
+    "IsCalculated": false,
+    "LastModifiedDate": "2018-07-10T19:36:14.000+0000"
+  },
+  {
+    "attributes": {
+      "type": "FieldDefinition",
+      "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/Contact.00N1I00000MLeQO"
+    },
+    "QualifiedApiName": "Active_Campaign_Replied_to_Old_Bootcamp__c",
+    "DurableId": "Contact.00N1I00000MLeQO",
+    "Label": "Active Campaign: Replied to Old Bootcamp",
+    "DataType": "Checkbox",
+    "Description": null,
+    "IsCalculated": false,
+    "LastModifiedDate": "2018-07-10T19:39:06.000+0000"
+  },
+  {
+    "attributes": {
+      "type": "FieldDefinition",
+      "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/Contact.00N1I00000MLeQi"
+    },
+    "QualifiedApiName": "Active_Campaign_Old_Bootcamp_Automation__c",
+    "DurableId": "Contact.00N1I00000MLeQi",
+    "Label": "Active Campaign: Old Bootcamp Automation",
+    "DataType": "Checkbox",
+    "Description": null,
+    "IsCalculated": false,
+    "LastModifiedDate": "2018-07-10T19:39:53.000+0000"
+  },
+  {
+    "attributes": {
+      "type": "FieldDefinition",
+      "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/Contact.00N1I00000MLkwB"
+    },
+    "QualifiedApiName": "Active_Campaign_Bootcamp_Automation__c",
+    "DurableId": "Contact.00N1I00000MLkwB",
+    "Label": "Active Campaign: Bootcamp Automation",
+    "DataType": "Checkbox",
+    "Description": null,
+    "IsCalculated": false,
+    "LastModifiedDate": "2018-07-11T18:50:01.000+0000"
+  },
+  {
+    "attributes": {
+      "type": "FieldDefinition",
+      "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/Contact.00N1I00000MLkwL"
+    },
+    "QualifiedApiName": "Active_Campaign_Replied_to_Bootcamp__c",
+    "DurableId": "Contact.00N1I00000MLkwL",
+    "Label": "Active Campaign: Replied to Bootcamp",
+    "DataType": "Checkbox",
+    "Description": null,
+    "IsCalculated": false,
+    "LastModifiedDate": "2018-07-11T18:50:35.000+0000"
+  },
+  {
+    "attributes": {
+      "type": "FieldDefinition",
+      "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/Contact.00N1I00000MuN5F"
+    },
+    "QualifiedApiName": "Active_Campaign_Intercom_Automation__c",
+    "DurableId": "Contact.00N1I00000MuN5F",
+    "Label": "Active Campaign: Intercom Automation",
+    "DataType": "Checkbox",
+    "Description": null,
+    "IsCalculated": false,
+    "LastModifiedDate": "2018-07-26T19:29:27.000+0000"
+  },
+  {
+    "attributes": {
+      "type": "FieldDefinition",
+      "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/Contact.00N1I00000MuN5K"
+    },
+    "QualifiedApiName": "Active_Campaign_Replied_to_Intercom__c",
+    "DurableId": "Contact.00N1I00000MuN5K",
+    "Label": "Active Campaign: Replied to Intercom",
+    "DataType": "Checkbox",
+    "Description": null,
+    "IsCalculated": false,
+    "LastModifiedDate": "2018-07-26T19:29:43.000+0000"
+  },
+  {
+    "attributes": {
+      "type": "FieldDefinition",
+      "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/Contact.00N1I00000MvEQk"
+    },
+    "QualifiedApiName": "Active_Campaign_Replied_to_Supplemental__c",
+    "DurableId": "Contact.00N1I00000MvEQk",
+    "Label": "Active Campaign: Replied to Supplemental",
+    "DataType": "Checkbox",
+    "Description": null,
+    "IsCalculated": false,
+    "LastModifiedDate": "2018-08-07T15:38:27.000+0000"
+  },
+  {
+    "attributes": {
+      "type": "FieldDefinition",
+      "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/Contact.00N1I00000MvER4"
+    },
+    "QualifiedApiName": "Active_Campaign_Supplemental_Automation__c",
+    "DurableId": "Contact.00N1I00000MvER4",
+    "Label": "Active Campaign: Supplemental Automation",
+    "DataType": "Checkbox",
+    "Description": null,
+    "IsCalculated": false,
+    "LastModifiedDate": "2018-08-07T15:38:47.000+0000"
+  },
+  {
+    "attributes": {
+      "type": "FieldDefinition",
+      "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/Contact.00N1I00000MvrtS"
+    },
+    "QualifiedApiName": "Last_Email_Automation_Start_Date__c",
+    "DurableId": "Contact.00N1I00000MvrtS",
+    "Label": "Last Email Automation Start Date",
+    "DataType": "Date",
+    "Description": null,
+    "IsCalculated": false,
+    "LastModifiedDate": "2018-08-13T17:15:32.000+0000"
+  },
+  {
+    "attributes": {
+      "type": "FieldDefinition",
+      "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/Contact.00N1I00000MvrtX"
+    },
+    "QualifiedApiName": "Last_Email_Automation_End_Date__c",
+    "DurableId": "Contact.00N1I00000MvrtX",
+    "Label": "Last Email Automation End Date",
+    "DataType": "Date",
+    "Description": null,
+    "IsCalculated": false,
+    "LastModifiedDate": "2018-08-13T17:15:51.000+0000"
+  },
+  {
+    "attributes": {
+      "type": "FieldDefinition",
+      "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/Contact.00N1I00000MvutL"
+    },
+    "QualifiedApiName": "Last_Email_Automation__c",
+    "DurableId": "Contact.00N1I00000MvutL",
+    "Label": "Last Email Automation",
+    "DataType": "Text(255)",
+    "Description": null,
+    "IsCalculated": false,
+    "LastModifiedDate": "2018-08-13T19:43:22.000+0000"
+  },
+  {
+    "attributes": {
+      "type": "FieldDefinition",
+      "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/Contact.00N1I00000MvvvI"
+    },
+    "QualifiedApiName": "Active_Campaign_Group_Demo_Automation__c",
+    "DurableId": "Contact.00N1I00000MvvvI",
+    "Label": "Active Campaign: Group Demo Automation",
+    "DataType": "Checkbox",
+    "Description": null,
+    "IsCalculated": false,
+    "LastModifiedDate": "2018-08-13T21:00:23.000+0000"
+  },
+  {
+    "attributes": {
+      "type": "FieldDefinition",
+      "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/Contact.00N1I00000MvvvN"
+    },
+    "QualifiedApiName": "Active_Campaign_Replied_to_Group_Demo__c",
+    "DurableId": "Contact.00N1I00000MvvvN",
+    "Label": "Active Campaign: Replied to Group Demo",
+    "DataType": "Checkbox",
+    "Description": null,
+    "IsCalculated": false,
+    "LastModifiedDate": "2018-08-13T21:01:20.000+0000"
+  },
+  {
+    "attributes": {
+      "type": "FieldDefinition",
+      "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/Contact.00N1I00000MwYUa"
+    },
+    "QualifiedApiName": "Active_Campaign_Webinar_Automation__c",
+    "DurableId": "Contact.00N1I00000MwYUa",
+    "Label": "Active Campaign: Webinar Automation",
+    "DataType": "Checkbox",
+    "Description": null,
+    "IsCalculated": false,
+    "LastModifiedDate": "2018-08-20T18:07:31.000+0000"
+  },
+  {
+    "attributes": {
+      "type": "FieldDefinition",
+      "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/Contact.00N1I00000MwYUk"
+    },
+    "QualifiedApiName": "Active_Campaign_Replied_to_Webinar__c",
+    "DurableId": "Contact.00N1I00000MwYUk",
+    "Label": "Active Campaign: Replied to Webinar",
+    "DataType": "Checkbox",
+    "Description": null,
+    "IsCalculated": false,
+    "LastModifiedDate": "2018-08-20T18:08:12.000+0000"
+  },
+  {
+    "attributes": {
+      "type": "FieldDefinition",
+      "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/Contact.00N1I00000My48e"
+    },
+    "QualifiedApiName": "Business_Bootcamp_Sept_2018__c",
+    "DurableId": "Contact.00N1I00000My48e",
+    "Label": "Business Bootcamp Sept 2018",
+    "DataType": "Checkbox",
+    "Description": null,
+    "IsCalculated": false,
+    "LastModifiedDate": "2018-09-04T17:48:15.000+0000"
+  },
+  {
+    "attributes": {
+      "type": "FieldDefinition",
+      "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/Contact.00N1I00000My48j"
+    },
+    "QualifiedApiName": "Business_Bootcamp_Sept_2018_Reg_Date__c",
+    "DurableId": "Contact.00N1I00000My48j",
+    "Label": "Business Bootcamp Sept 2018 Reg Date",
+    "DataType": "Date",
+    "Description": null,
+    "IsCalculated": false,
+    "LastModifiedDate": "2018-09-04T17:48:37.000+0000"
+  },
+  {
+    "attributes": {
+      "type": "FieldDefinition",
+      "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/Contact.00N1I00000N8bpn"
+    },
+    "QualifiedApiName": "Active_Campaign_Bootcamp_Followup__c",
+    "DurableId": "Contact.00N1I00000N8bpn",
+    "Label": "Active Campaign: Bootcamp Followup",
+    "DataType": "Checkbox",
+    "Description": null,
+    "IsCalculated": false,
+    "LastModifiedDate": "2018-09-26T17:48:03.000+0000"
+  },
+  {
+    "attributes": {
+      "type": "FieldDefinition",
+      "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/Contact.00N1I00000N8bps"
+    },
+    "QualifiedApiName": "Replied_to_Bootcamp_Followup__c",
+    "DurableId": "Contact.00N1I00000N8bps",
+    "Label": "Replied to Bootcamp Followup",
+    "DataType": "Checkbox",
+    "Description": null,
+    "IsCalculated": false,
+    "LastModifiedDate": "2018-09-26T17:48:37.000+0000"
+  },
+  {
+    "attributes": {
+      "type": "FieldDefinition",
+      "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/Contact.00N1I00000NA47x"
+    },
+    "QualifiedApiName": "Marketing_Bootcamp_Oct_2018_Reg_Date__c",
+    "DurableId": "Contact.00N1I00000NA47x",
+    "Label": "Marketing Bootcamp Oct 2018 Reg Date",
+    "DataType": "Date",
+    "Description": null,
+    "IsCalculated": false,
+    "LastModifiedDate": "2018-10-17T15:33:34.000+0000"
+  },
+  {
+    "attributes": {
+      "type": "FieldDefinition",
+      "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/Contact.00N1I00000NA482"
+    },
+    "QualifiedApiName": "Marketing_Bootcamp_Oct_2018__c",
+    "DurableId": "Contact.00N1I00000NA482",
+    "Label": "Marketing Bootcamp Oct 2018",
+    "DataType": "Checkbox",
+    "Description": null,
+    "IsCalculated": false,
+    "LastModifiedDate": "2018-10-17T15:34:44.000+0000"
+  },
+  {
+    "attributes": {
+      "type": "FieldDefinition",
+      "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/Contact.00N1I00000NAIo7"
+    },
+    "QualifiedApiName": "Active_Campaign_FNCE_FU_Automation__c",
+    "DurableId": "Contact.00N1I00000NAIo7",
+    "Label": "Active Campaign: FNCE FU Automation",
+    "DataType": "Checkbox",
+    "Description": null,
+    "IsCalculated": false,
+    "LastModifiedDate": "2018-10-23T15:29:49.000+0000"
+  },
+  {
+    "attributes": {
+      "type": "FieldDefinition",
+      "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/Contact.00N1I00000NAIoH"
+    },
+    "QualifiedApiName": "Active_Campaign_Replied_to_FNCE_FU__c",
+    "DurableId": "Contact.00N1I00000NAIoH",
+    "Label": "Active Campaign: Replied to FNCE FU",
+    "DataType": "Checkbox",
+    "Description": null,
+    "IsCalculated": false,
+    "LastModifiedDate": "2018-10-23T15:30:52.000+0000"
+  },
+  {
+    "attributes": {
+      "type": "FieldDefinition",
+      "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/Contact.00N1I00000NeYe0"
+    },
+    "QualifiedApiName": "Active_Campaign_Timing_Automation__c",
+    "DurableId": "Contact.00N1I00000NeYe0",
+    "Label": "Active Campaign: Timing Automation",
+    "DataType": "Checkbox",
+    "Description": null,
+    "IsCalculated": false,
+    "LastModifiedDate": "2018-11-20T20:02:33.000+0000"
+  },
+  {
+    "attributes": {
+      "type": "FieldDefinition",
+      "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/Contact.00N1I00000NeYe5"
+    },
+    "QualifiedApiName": "Active_Campaign_Price_Automation__c",
+    "DurableId": "Contact.00N1I00000NeYe5",
+    "Label": "Active Campaign: Price Automation",
+    "DataType": "Checkbox",
+    "Description": null,
+    "IsCalculated": false,
+    "LastModifiedDate": "2018-11-20T20:02:57.000+0000"
+  },
+  {
+    "attributes": {
+      "type": "FieldDefinition",
+      "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/Contact.00N1I00000NeYeA"
+    },
+    "QualifiedApiName": "Active_Campaign_Replied_to_Price__c",
+    "DurableId": "Contact.00N1I00000NeYeA",
+    "Label": "Active Campaign: Replied to Price",
+    "DataType": "Checkbox",
+    "Description": null,
+    "IsCalculated": false,
+    "LastModifiedDate": "2018-11-20T20:03:32.000+0000"
+  },
+  {
+    "attributes": {
+      "type": "FieldDefinition",
+      "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/Contact.00N1I00000NeYeF"
+    },
+    "QualifiedApiName": "Active_Campaign_Replied_to_Timing__c",
+    "DurableId": "Contact.00N1I00000NeYeF",
+    "Label": "Active Campaign: Replied to Timing",
+    "DataType": "Checkbox",
+    "Description": null,
+    "IsCalculated": false,
+    "LastModifiedDate": "2018-11-20T20:04:20.000+0000"
+  },
+  {
+    "attributes": {
+      "type": "FieldDefinition",
+      "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/Contact.00N1I00000NecZZ"
+    },
+    "QualifiedApiName": "Clients_Per_Month__c",
+    "DurableId": "Contact.00N1I00000NecZZ",
+    "Label": "Clients Per Month",
+    "DataType": "Text(255)",
+    "Description": null,
+    "IsCalculated": false,
+    "LastModifiedDate": "2018-11-21T18:33:55.000+0000"
+  },
+  {
+    "attributes": {
+      "type": "FieldDefinition",
+      "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/Contact.00N3s00000PvoPj"
+    },
+    "QualifiedApiName": "DHS__c",
+    "DurableId": "Contact.00N3s00000PvoPj",
+    "Label": "DHS",
+    "DataType": "Formula (Checkbox)",
+    "Description": null,
+    "IsCalculated": true,
+    "LastModifiedDate": "2024-11-03T13:14:29.000+0000"
+  },
+  {
+    "attributes": {
+      "type": "FieldDefinition",
+      "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/Contact.00N3s00000PvoPo"
+    },
+    "QualifiedApiName": "DHS_Trial_Start__c",
+    "DurableId": "Contact.00N3s00000PvoPo",
+    "Label": "DHS Trial Start",
+    "DataType": "Date/Time",
+    "Description": null,
+    "IsCalculated": false,
+    "LastModifiedDate": "2023-03-17T22:31:00.000+0000"
+  },
+  {
+    "attributes": {
+      "type": "FieldDefinition",
+      "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/Contact.00N3s00000PvoPt"
+    },
+    "QualifiedApiName": "AC_DHS_Drip__c",
+    "DurableId": "Contact.00N3s00000PvoPt",
+    "Label": "AC: DHS Drip",
+    "DataType": "Formula (Checkbox)",
+    "Description": null,
+    "IsCalculated": true,
+    "LastModifiedDate": "2023-03-20T13:40:10.000+0000"
+  },
+  {
+    "attributes": {
+      "type": "FieldDefinition",
+      "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/Contact.00NRc00000q6AVI"
+    },
+    "QualifiedApiName": "Healthie_Speciality__c",
+    "DurableId": "Contact.00NRc00000q6AVI",
+    "Label": "Healthie Speciality",
+    "DataType": "Formula (Text)",
+    "Description": null,
+    "IsCalculated": true,
+    "LastModifiedDate": "2026-03-11T18:33:07.000+0000"
+  },
+  {
+    "attributes": {
+      "type": "FieldDefinition",
+      "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/Contact.00NRc00000NwfdR"
+    },
+    "QualifiedApiName": "Apollo_Saved_Search_Name__c",
+    "DurableId": "Contact.00NRc00000NwfdR",
+    "Label": "Apollo Saved Search Name",
+    "DataType": "Text(255)",
+    "Description": "Apollo Saved Search Name",
+    "IsCalculated": false,
+    "LastModifiedDate": "2024-09-12T19:37:28.000+0000"
+  },
+  {
+    "attributes": {
+      "type": "FieldDefinition",
+      "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/Contact.00NRc00000Ogh3u"
+    },
+    "QualifiedApiName": "Meeting_Set__c",
+    "DurableId": "Contact.00NRc00000Ogh3u",
+    "Label": "Flag - Meeting Set",
+    "DataType": "Formula (Checkbox)",
+    "Description": null,
+    "IsCalculated": true,
+    "LastModifiedDate": "2024-09-23T15:51:25.000+0000"
+  },
+  {
+    "attributes": {
+      "type": "FieldDefinition",
+      "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/Contact.00NRc00000OgxXc"
+    },
+    "QualifiedApiName": "Closed_Won__c",
+    "DurableId": "Contact.00NRc00000OgxXc",
+    "Label": "Flag - Closed Won",
+    "DataType": "Formula (Number)",
+    "Description": null,
+    "IsCalculated": true,
+    "LastModifiedDate": "2025-07-18T12:19:44.000+0000"
+  },
+  {
+    "attributes": {
+      "type": "FieldDefinition",
+      "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/Contact.00NRc00000SFPlx"
+    },
+    "QualifiedApiName": "Owner_Role_Contact__c",
+    "DurableId": "Contact.00NRc00000SFPlx",
+    "Label": "Owner Role (Contact)",
+    "DataType": "Formula (Text)",
+    "Description": null,
+    "IsCalculated": true,
+    "LastModifiedDate": "2024-11-12T20:58:05.000+0000"
+  },
+  {
+    "attributes": {
+      "type": "FieldDefinition",
+      "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/Contact.00NRc00000Ti7TJ"
+    },
+    "QualifiedApiName": "Account_Contact_Owner_Match__c",
+    "DurableId": "Contact.00NRc00000Ti7TJ",
+    "Label": "Account/Contact Owner Match",
+    "DataType": "Formula (Checkbox)",
+    "Description": null,
+    "IsCalculated": true,
+    "LastModifiedDate": "2024-12-03T14:57:23.000+0000"
+  },
+  {
+    "attributes": {
+      "type": "FieldDefinition",
+      "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/Contact.00NRc00000TsckL"
+    },
+    "QualifiedApiName": "Most_Recent_Sales_Activity__c",
+    "DurableId": "Contact.00NRc00000TsckL",
+    "Label": "Most Recent Sales Activity",
+    "DataType": "Date",
+    "Description": "Last Apollo Activity",
+    "IsCalculated": false,
+    "LastModifiedDate": "2024-12-05T18:28:35.000+0000"
+  },
+  {
+    "attributes": {
+      "type": "FieldDefinition",
+      "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/Contact.00NRc00000UshwL"
+    },
+    "QualifiedApiName": "Account_Customer_Status__c",
+    "DurableId": "Contact.00NRc00000UshwL",
+    "Label": "Account Customer Status",
+    "DataType": "Picklist",
+    "Description": null,
+    "IsCalculated": false,
+    "LastModifiedDate": "2024-12-19T16:18:33.000+0000"
+  },
+  {
+    "attributes": {
+      "type": "FieldDefinition",
+      "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/Contact.00NRc00000agQhJ"
+    },
+    "QualifiedApiName": "Recent_Conv_Date_Last_7_Days__c",
+    "DurableId": "Contact.00NRc00000agQhJ",
+    "Label": "Recent Conv Date Last 7 Days",
+    "DataType": "Formula (Checkbox)",
+    "Description": null,
+    "IsCalculated": true,
+    "LastModifiedDate": "2025-03-11T14:46:06.000+0000"
+  },
+  {
+    "attributes": {
+      "type": "FieldDefinition",
+      "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/Contact.00NRc00000WXaQT"
+    },
+    "QualifiedApiName": "Stripe_Customer_Id__c",
+    "DurableId": "Contact.00NRc00000WXaQT",
+    "Label": "Stripe Customer Id",
+    "DataType": "Text(255)",
+    "Description": null,
+    "IsCalculated": false,
+    "LastModifiedDate": "2025-01-13T15:42:33.000+0000"
+  },
+  {
+    "attributes": {
+      "type": "FieldDefinition",
+      "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/Contact.00NRc00000Wc7m2"
+    },
+    "QualifiedApiName": "Distribution_Date_Contact__c",
+    "DurableId": "Contact.00NRc00000Wc7m2",
+    "Label": "Distribution Date (Contact)",
+    "DataType": "Date",
+    "Description": "Date in which Ringlead distributed Contact",
+    "IsCalculated": false,
+    "LastModifiedDate": "2025-01-14T14:29:19.000+0000"
+  },
+  {
+    "attributes": {
+      "type": "FieldDefinition",
+      "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/Contact.00NRc00000agQxR"
+    },
+    "QualifiedApiName": "Trial_Start_Last_7_Days__c",
+    "DurableId": "Contact.00NRc00000agQxR",
+    "Label": "Trial Start Last 7 Days",
+    "DataType": "Formula (Checkbox)",
+    "Description": null,
+    "IsCalculated": true,
+    "LastModifiedDate": "2025-03-11T14:47:21.000+0000"
+  },
+  {
+    "attributes": {
+      "type": "FieldDefinition",
+      "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/Contact.00NRc00000bCQ1R"
+    },
+    "QualifiedApiName": "PartnerFleet_Id__c",
+    "DurableId": "Contact.00NRc00000bCQ1R",
+    "Label": "PartnerFleet Id",
+    "DataType": "Text(255)",
+    "Description": null,
+    "IsCalculated": false,
+    "LastModifiedDate": "2025-03-18T19:15:29.000+0000"
+  },
+  {
+    "attributes": {
+      "type": "FieldDefinition",
+      "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/Contact.00NRc00000bmXu1"
+    },
+    "QualifiedApiName": "Warm_Fuzzies__c",
+    "DurableId": "Contact.00NRc00000bmXu1",
+    "Label": "Warm & Fuzzies",
+    "DataType": "Text(255)",
+    "Description": "Used for noting special occasions/events for our customers",
+    "IsCalculated": false,
+    "LastModifiedDate": "2025-03-26T19:30:31.000+0000"
+  },
+  {
+    "attributes": {
+      "type": "FieldDefinition",
+      "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/Contact.00NRc00000eMt6r"
+    },
+    "QualifiedApiName": "Company_Size__c",
+    "DurableId": "Contact.00NRc00000eMt6r",
+    "Label": "Company Size",
+    "DataType": "Text(255)",
+    "Description": null,
+    "IsCalculated": false,
+    "LastModifiedDate": "2025-05-29T14:43:21.000+0000"
+  },
+  {
+    "attributes": {
+      "type": "FieldDefinition",
+      "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/Contact.00NRc00000eMvGj"
+    },
+    "QualifiedApiName": "Healthie_Lead_Scoring__c",
+    "DurableId": "Contact.00NRc00000eMvGj",
+    "Label": "Healthie Lead Scoring",
+    "DataType": "Formula (Number)",
+    "Description": null,
+    "IsCalculated": true,
+    "LastModifiedDate": "2025-05-29T15:59:25.000+0000"
+  },
+  {
+    "attributes": {
+      "type": "FieldDefinition",
+      "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/Contact.00NRc00000eMx7o"
+    },
+    "QualifiedApiName": "What_s_your_team_size__c",
+    "DurableId": "Contact.00NRc00000eMx7o",
+    "Label": "What's your team size?",
+    "DataType": "Picklist",
+    "Description": null,
+    "IsCalculated": false,
+    "LastModifiedDate": "2025-12-11T15:12:34.000+0000"
+  },
+  {
+    "attributes": {
+      "type": "FieldDefinition",
+      "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/Contact.00NRc00000eN0VE"
+    },
+    "QualifiedApiName": "Routed_Team__c",
+    "DurableId": "Contact.00NRc00000eN0VE",
+    "Label": "Routed Team",
+    "DataType": "Formula (Text)",
+    "Description": null,
+    "IsCalculated": true,
+    "LastModifiedDate": "2025-05-29T16:56:14.000+0000"
+  },
+  {
+    "attributes": {
+      "type": "FieldDefinition",
+      "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/Contact.00NRc00000gTC6s"
+    },
+    "QualifiedApiName": "Deal_Source__c",
+    "DurableId": "Contact.00NRc00000gTC6s",
+    "Label": "Deal Source",
+    "DataType": "Formula (Text)",
+    "Description": null,
+    "IsCalculated": true,
+    "LastModifiedDate": "2025-07-19T02:13:58.000+0000"
+  },
+  {
+    "attributes": {
+      "type": "FieldDefinition",
+      "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/Contact.00NRc00000gTCej"
+    },
+    "QualifiedApiName": "Recent_Conversion_t180_Days__c",
+    "DurableId": "Contact.00NRc00000gTCej",
+    "Label": "Recent Conversion t180 Days",
+    "DataType": "Formula (Checkbox)",
+    "Description": null,
+    "IsCalculated": true,
+    "LastModifiedDate": "2025-07-19T02:19:49.000+0000"
+  },
+  {
+    "attributes": {
+      "type": "FieldDefinition",
+      "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/Contact.00NRc00000gTIEr"
+    },
+    "QualifiedApiName": "DHS_Trial_t180_Days__c",
+    "DurableId": "Contact.00NRc00000gTIEr",
+    "Label": "DHS Trial t180 Days",
+    "DataType": "Formula (Checkbox)",
+    "Description": null,
+    "IsCalculated": true,
+    "LastModifiedDate": "2025-07-19T02:21:16.000+0000"
+  },
+  {
+    "attributes": {
+      "type": "FieldDefinition",
+      "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/Contact.00NRc00000iPdDG"
+    },
+    "QualifiedApiName": "Biggest_Pain_Point__c",
+    "DurableId": "Contact.00NRc00000iPdDG",
+    "Label": "Biggest Pain Point",
+    "DataType": "Picklist",
+    "Description": null,
+    "IsCalculated": false,
+    "LastModifiedDate": "2025-09-05T15:45:14.000+0000"
+  },
+  {
+    "attributes": {
+      "type": "FieldDefinition",
+      "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/Contact.00NRc00000iPd6V"
+    },
+    "QualifiedApiName": "Biggest_Pain_Point_Text__c",
+    "DurableId": "Contact.00NRc00000iPd6V",
+    "Label": "Biggest Pain Point (Text)",
+    "DataType": "Text(255)",
+    "Description": "If 'Other' is selected",
+    "IsCalculated": false,
+    "LastModifiedDate": "2025-09-05T15:45:45.000+0000"
+  },
+  {
+    "attributes": {
+      "type": "FieldDefinition",
+      "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/Contact.00NRc00000iPiVx"
+    },
+    "QualifiedApiName": "Zapier_Researched_Info__c",
+    "DurableId": "Contact.00NRc00000iPiVx",
+    "Label": "Researched Info",
+    "DataType": "Long Text Area(5000)",
+    "Description": "Clay/Zapier has scoured the internet to provide the best information to share with this prospect",
+    "IsCalculated": false,
+    "LastModifiedDate": "2025-09-10T15:26:54.000+0000"
+  },
+  {
+    "attributes": {
+      "type": "FieldDefinition",
+      "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/Contact.00NRc00000if0U9"
+    },
+    "QualifiedApiName": "Won_Amount_Contact__c",
+    "DurableId": "Contact.00NRc00000if0U9",
+    "Label": "Won Amount (Contact)",
+    "DataType": "Formula (Currency)",
+    "Description": null,
+    "IsCalculated": true,
+    "LastModifiedDate": "2025-09-11T18:12:01.000+0000"
+  },
+  {
+    "attributes": {
+      "type": "FieldDefinition",
+      "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/Contact.00NRc00000ihPZw"
+    },
+    "QualifiedApiName": "Year_1_ACV_Contact__c",
+    "DurableId": "Contact.00NRc00000ihPZw",
+    "Label": "Year 1 ACV (Contact)",
+    "DataType": "Formula (Currency)",
+    "Description": null,
+    "IsCalculated": true,
+    "LastModifiedDate": "2025-09-12T16:39:29.000+0000"
+  },
+  {
+    "attributes": {
+      "type": "FieldDefinition",
+      "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/Contact.00NRc00000jDDdR"
+    },
+    "QualifiedApiName": "DHS_Trial_End__c",
+    "DurableId": "Contact.00NRc00000jDDdR",
+    "Label": "DHS Trial End",
+    "DataType": "Date/Time",
+    "Description": "Captures DHS Trial End Date",
+    "IsCalculated": false,
+    "LastModifiedDate": "2025-09-25T15:21:28.000+0000"
+  },
+  {
+    "attributes": {
+      "type": "FieldDefinition",
+      "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/Contact.00NRc00000jGcXF"
+    },
+    "QualifiedApiName": "Date__c",
+    "DurableId": "Contact.00NRc00000jGcXF",
+    "Label": "Date",
+    "DataType": "Formula (Date)",
+    "Description": null,
+    "IsCalculated": true,
+    "LastModifiedDate": "2025-09-26T18:53:20.000+0000"
+  },
+  {
+    "attributes": {
+      "type": "FieldDefinition",
+      "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/Contact.00NRc00000jGXRi"
+    },
+    "QualifiedApiName": "Trial_End__c",
+    "DurableId": "Contact.00NRc00000jGXRi",
+    "Label": "Trial End",
+    "DataType": "Formula (Date)",
+    "Description": null,
+    "IsCalculated": true,
+    "LastModifiedDate": "2025-09-26T18:57:35.000+0000"
+  },
+  {
+    "attributes": {
+      "type": "FieldDefinition",
+      "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/Contact.00NRc00000jGbDX"
+    },
+    "QualifiedApiName": "Trial_Non_Conversion__c",
+    "DurableId": "Contact.00NRc00000jGbDX",
+    "Label": "Trial Non-Conversion",
+    "DataType": "Formula (Checkbox)",
+    "Description": null,
+    "IsCalculated": true,
+    "LastModifiedDate": "2025-09-26T19:14:58.000+0000"
+  },
+  {
+    "attributes": {
+      "type": "FieldDefinition",
+      "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/Contact.00NRc00000kcyFf"
+    },
+    "QualifiedApiName": "CSAT_Survey_Contact__c",
+    "DurableId": "Contact.00NRc00000kcyFf",
+    "Label": "CSAT Survey Contact",
+    "DataType": "Checkbox",
+    "Description": null,
+    "IsCalculated": false,
+    "LastModifiedDate": "2025-10-28T13:24:54.000+0000"
+  },
+  {
+    "attributes": {
+      "type": "FieldDefinition",
+      "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/Contact.00NRc00000exKjd"
+    },
+    "QualifiedApiName": "Firmographics_Score_Title__c",
+    "DurableId": "Contact.00NRc00000exKjd",
+    "Label": "Firmographics Score - Title",
+    "DataType": "Formula (Number)",
+    "Description": null,
+    "IsCalculated": true,
+    "LastModifiedDate": "2025-06-12T18:25:14.000+0000"
+  },
+  {
+    "attributes": {
+      "type": "FieldDefinition",
+      "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/Contact.00NRc00000ex7i6"
+    },
+    "QualifiedApiName": "Firmographics_Score_Email__c",
+    "DurableId": "Contact.00NRc00000ex7i6",
+    "Label": "Firmographics Score - Email",
+    "DataType": "Formula (Number)",
+    "Description": null,
+    "IsCalculated": true,
+    "LastModifiedDate": "2025-06-12T18:26:25.000+0000"
+  },
+  {
+    "attributes": {
+      "type": "FieldDefinition",
+      "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/Contact.00NRc00000exL7p"
+    },
+    "QualifiedApiName": "Firmographics_Score__c",
+    "DurableId": "Contact.00NRc00000exL7p",
+    "Label": "Firmographics Score",
+    "DataType": "Formula (Number)",
+    "Description": null,
+    "IsCalculated": true,
+    "LastModifiedDate": "2025-06-12T18:27:21.000+0000"
+  },
+  {
+    "attributes": {
+      "type": "FieldDefinition",
+      "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/Contact.00NRc00000exGtD"
+    },
+    "QualifiedApiName": "Engagement_Score_Current_Plan__c",
+    "DurableId": "Contact.00NRc00000exGtD",
+    "Label": "Engagement Score - Current Plan",
+    "DataType": "Formula (Number)",
+    "Description": null,
+    "IsCalculated": true,
+    "LastModifiedDate": "2025-06-12T18:28:29.000+0000"
+  },
+  {
+    "attributes": {
+      "type": "FieldDefinition",
+      "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/Contact.00NRc00000exLNx"
+    },
+    "QualifiedApiName": "Engagement_Score_Recent_Conversion__c",
+    "DurableId": "Contact.00NRc00000exLNx",
+    "Label": "Engagement Score - Recent Conversion",
+    "DataType": "Formula (Number)",
+    "Description": null,
+    "IsCalculated": true,
+    "LastModifiedDate": "2025-06-12T18:29:20.000+0000"
+  },
+  {
+    "attributes": {
+      "type": "FieldDefinition",
+      "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/Contact.00NRc00000exLfh"
+    },
+    "QualifiedApiName": "Engagement_Score__c",
+    "DurableId": "Contact.00NRc00000exLfh",
+    "Label": "Engagement Score",
+    "DataType": "Formula (Number)",
+    "Description": null,
+    "IsCalculated": true,
+    "LastModifiedDate": "2025-06-12T18:30:26.000+0000"
+  },
+  {
+    "attributes": {
+      "type": "FieldDefinition",
+      "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/Contact.00NRc00000exLpN"
+    },
+    "QualifiedApiName": "Total_Lead_Score__c",
+    "DurableId": "Contact.00NRc00000exLpN",
+    "Label": "Total Lead Score",
+    "DataType": "Formula (Number)",
+    "Description": null,
+    "IsCalculated": true,
+    "LastModifiedDate": "2025-06-12T18:31:36.000+0000"
+  },
+  {
+    "attributes": {
+      "type": "FieldDefinition",
+      "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/Contact.00NRc00000exM5V"
+    },
+    "QualifiedApiName": "Engagement_Rating__c",
+    "DurableId": "Contact.00NRc00000exM5V",
+    "Label": "Engagement Rating",
+    "DataType": "Formula (Text)",
+    "Description": null,
+    "IsCalculated": true,
+    "LastModifiedDate": "2025-06-12T19:01:28.000+0000"
+  },
+  {
+    "attributes": {
+      "type": "FieldDefinition",
+      "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/Contact.00NRc00000exSu5"
+    },
+    "QualifiedApiName": "Hubspot_Fit_Score__c",
+    "DurableId": "Contact.00NRc00000exSu5",
+    "Label": "Hubspot Fit Score",
+    "DataType": "Number(18, 0)",
+    "Description": null,
+    "IsCalculated": false,
+    "LastModifiedDate": "2025-06-12T19:07:47.000+0000"
+  },
+  {
+    "attributes": {
+      "type": "FieldDefinition",
+      "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/Contact.00NRc00000exT0X"
+    },
+    "QualifiedApiName": "Hubspot_Engagement_Score__c",
+    "DurableId": "Contact.00NRc00000exT0X",
+    "Label": "Hubspot Engagement Score",
+    "DataType": "Number(18, 0)",
+    "Description": null,
+    "IsCalculated": false,
+    "LastModifiedDate": "2025-06-12T19:08:07.000+0000"
+  },
+  {
+    "attributes": {
+      "type": "FieldDefinition",
+      "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/Contact.00NRc00000exUav"
+    },
+    "QualifiedApiName": "Hubspot_Total_Lead_Score__c",
+    "DurableId": "Contact.00NRc00000exUav",
+    "Label": "Hubspot Total Lead Score",
+    "DataType": "Number(18, 0)",
+    "Description": null,
+    "IsCalculated": false,
+    "LastModifiedDate": "2025-06-12T19:17:39.000+0000"
+  },
+  {
+    "attributes": {
+      "type": "FieldDefinition",
+      "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/Contact.00NRc00000exUcX"
+    },
+    "QualifiedApiName": "Hubspot_DHS_Trial_Score__c",
+    "DurableId": "Contact.00NRc00000exUcX",
+    "Label": "Hubspot DHS Trial Score",
+    "DataType": "Number(18, 0)",
+    "Description": null,
+    "IsCalculated": false,
+    "LastModifiedDate": "2025-06-12T19:18:02.000+0000"
+  },
+  {
+    "attributes": {
+      "type": "FieldDefinition",
+      "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/Contact.00NRc00000exb1J"
+    },
+    "QualifiedApiName": "Hubspot_Engagement_Rating__c",
+    "DurableId": "Contact.00NRc00000exb1J",
+    "Label": "Hubspot Engagement Rating",
+    "DataType": "Formula (Text)",
+    "Description": null,
+    "IsCalculated": true,
+    "LastModifiedDate": "2025-06-12T19:58:25.000+0000"
+  },
+  {
+    "attributes": {
+      "type": "FieldDefinition",
+      "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/Contact.00NRc00000fCf8F"
+    },
+    "QualifiedApiName": "Cold_Rating_Date__c",
+    "DurableId": "Contact.00NRc00000fCf8F",
+    "Label": "Cold Rating Date",
+    "DataType": "Date",
+    "Description": null,
+    "IsCalculated": false,
+    "LastModifiedDate": "2025-06-18T19:50:13.000+0000"
+  },
+  {
+    "attributes": {
+      "type": "FieldDefinition",
+      "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/Contact.00NRc00000fChOR"
+    },
+    "QualifiedApiName": "Warm_Rating_Date__c",
+    "DurableId": "Contact.00NRc00000fChOR",
+    "Label": "Warm Rating Date",
+    "DataType": "Date",
+    "Description": null,
+    "IsCalculated": false,
+    "LastModifiedDate": "2025-06-18T19:50:32.000+0000"
+  },
+  {
+    "attributes": {
+      "type": "FieldDefinition",
+      "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/Contact.00NRc00000fCiHb"
+    },
+    "QualifiedApiName": "Hot_Rating_Date__c",
+    "DurableId": "Contact.00NRc00000fCiHb",
+    "Label": "Hot Rating Date",
+    "DataType": "Date",
+    "Description": null,
+    "IsCalculated": false,
+    "LastModifiedDate": "2025-06-18T20:02:31.000+0000"
+  },
+  {
+    "attributes": {
+      "type": "FieldDefinition",
+      "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/Contact.00NRc00000fWx49"
+    },
+    "QualifiedApiName": "Clay_Created_Date__c",
+    "DurableId": "Contact.00NRc00000fWx49",
+    "Label": "Clay Created Date",
+    "DataType": "Date",
+    "Description": null,
+    "IsCalculated": false,
+    "LastModifiedDate": "2025-06-26T16:58:24.000+0000"
+  },
+  {
+    "attributes": {
+      "type": "FieldDefinition",
+      "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/Contact.00NRc00000fWmYS"
+    },
+    "QualifiedApiName": "Clay_Last_Updated_Date__c",
+    "DurableId": "Contact.00NRc00000fWmYS",
+    "Label": "Clay Last Updated Date",
+    "DataType": "Date",
+    "Description": null,
+    "IsCalculated": false,
+    "LastModifiedDate": "2025-06-26T16:58:44.000+0000"
+  },
+  {
+    "attributes": {
+      "type": "FieldDefinition",
+      "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/Contact.00NRc00000fWzVQ"
+    },
+    "QualifiedApiName": "Clay_Signal__c",
+    "DurableId": "Contact.00NRc00000fWzVQ",
+    "Label": "Clay Signal",
+    "DataType": "Text(255)",
+    "Description": null,
+    "IsCalculated": false,
+    "LastModifiedDate": "2025-06-26T17:00:21.000+0000"
+  },
+  {
+    "attributes": {
+      "type": "FieldDefinition",
+      "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/Contact.00NRc00000gPUfR"
+    },
+    "QualifiedApiName": "Apollo_Campaign_Add__c",
+    "DurableId": "Contact.00NRc00000gPUfR",
+    "Label": "Apollo - Campaign Add",
+    "DataType": "Checkbox",
+    "Description": null,
+    "IsCalculated": false,
+    "LastModifiedDate": "2025-07-17T20:30:33.000+0000"
+  },
+  {
+    "attributes": {
+      "type": "FieldDefinition",
+      "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/Contact.00NRc00000lN4Fx"
+    },
+    "QualifiedApiName": "Opportunity_Age_Contact__c",
+    "DurableId": "Contact.00NRc00000lN4Fx",
+    "Label": "Opportunity Age (Contact)",
+    "DataType": "Formula (Number)",
+    "Description": null,
+    "IsCalculated": true,
+    "LastModifiedDate": "2025-11-13T15:58:01.000+0000"
+  },
+  {
+    "attributes": {
+      "type": "FieldDefinition",
+      "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/Contact.00NRc00000msTUP"
+    },
+    "QualifiedApiName": "Qualified_Opportunity_Amount_Contact__c",
+    "DurableId": "Contact.00NRc00000msTUP",
+    "Label": "Qualified Opportunity Amount (Contact)",
+    "DataType": "Formula (Currency)",
+    "Description": null,
+    "IsCalculated": true,
+    "LastModifiedDate": "2025-12-18T17:24:48.000+0000"
+  },
+  {
+    "attributes": {
+      "type": "FieldDefinition",
+      "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/Contact.00NRc00000nHdDV"
+    },
+    "QualifiedApiName": "Recent_Conversion_Date_Time__c",
+    "DurableId": "Contact.00NRc00000nHdDV",
+    "Label": "Recent Conversion Date & Time",
+    "DataType": "Date/Time",
+    "Description": null,
+    "IsCalculated": false,
+    "LastModifiedDate": "2025-12-30T20:13:42.000+0000"
+  },
+  {
+    "attributes": {
+      "type": "FieldDefinition",
+      "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/Contact.00NRc00000nZyUv"
+    },
+    "QualifiedApiName": "Practice_Plus_Trial_Start_Date__c",
+    "DurableId": "Contact.00NRc00000nZyUv",
+    "Label": "Practice Plus Trial Start Date",
+    "DataType": "Date",
+    "Description": null,
+    "IsCalculated": false,
+    "LastModifiedDate": "2026-01-07T20:19:52.000+0000"
+  },
+  {
+    "attributes": {
+      "type": "FieldDefinition",
+      "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/Contact.00NRc00000nknHw"
+    },
+    "QualifiedApiName": "Most_Recent_HelpScout_Email__c",
+    "DurableId": "Contact.00NRc00000nknHw",
+    "Label": "Most Recent HelpScout Email",
+    "DataType": "Date/Time",
+    "Description": "Most recently created helpscout email thread",
+    "IsCalculated": false,
+    "LastModifiedDate": "2026-01-12T15:48:57.000+0000"
+  },
+  {
+    "attributes": {
+      "type": "FieldDefinition",
+      "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/Contact.00NRc00000qMqhx"
+    },
+    "QualifiedApiName": "Anticipated_of_Providers__c",
+    "DurableId": "Contact.00NRc00000qMqhx",
+    "Label": "Anticipated # of Providers",
+    "DataType": "Picklist",
+    "Description": null,
+    "IsCalculated": false,
+    "LastModifiedDate": "2026-03-18T16:10:55.000+0000"
+  },
+  {
+    "attributes": {
+      "type": "FieldDefinition",
+      "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/Contact.00NRc00000oB4gD"
+    },
+    "QualifiedApiName": "Flag_Plus_Trial_Date_Contact__c",
+    "DurableId": "Contact.00NRc00000oB4gD",
+    "Label": "Flag - Plus Trial Date (Contact)",
+    "DataType": "Date",
+    "Description": null,
+    "IsCalculated": false,
+    "LastModifiedDate": "2026-01-22T17:56:23.000+0000"
+  },
+  {
+    "attributes": {
+      "type": "FieldDefinition",
+      "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/Contact.00NRc00000qenYj"
+    },
+    "QualifiedApiName": "Selected_Plan__c",
+    "DurableId": "Contact.00NRc00000qenYj",
+    "Label": "Selected Plan",
+    "DataType": "Text(255)",
+    "Description": null,
+    "IsCalculated": false,
+    "LastModifiedDate": "2026-03-25T15:19:34.000+0000"
+  },
+  {
+    "attributes": {
+      "type": "FieldDefinition",
+      "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/Contact.00NRc00000qgAug"
+    },
+    "QualifiedApiName": "Product_Pricing__c",
+    "DurableId": "Contact.00NRc00000qgAug",
+    "Label": "Product Pricing",
+    "DataType": "Text(255)",
+    "Description": "Pricing coming from Typeform",
+    "IsCalculated": false,
+    "LastModifiedDate": "2026-03-26T01:37:19.000+0000"
+  },
+  {
+    "attributes": {
+      "type": "FieldDefinition",
+      "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/Contact.00NRc00000rlMGH"
+    },
+    "QualifiedApiName": "PartnerStack_ID__c",
+    "DurableId": "Contact.00NRc00000rlMGH",
+    "Label": "PartnerStack ID",
+    "DataType": "Text(50)",
+    "Description": "Used for PartnerStack integration",
+    "IsCalculated": false,
+    "LastModifiedDate": "2026-04-20T20:36:13.000+0000"
+  },
+  {
+    "attributes": {
+      "type": "FieldDefinition",
+      "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/Contact.00NRc00000s8Jkj"
+    },
+    "QualifiedApiName": "Biggest_Pain_Point_Check__c",
+    "DurableId": "Contact.00NRc00000s8Jkj",
+    "Label": "Biggest Pain Point Check",
+    "DataType": "Formula (Checkbox)",
+    "Description": "Used in routing in ringlead = if true, contains the words in formula and should go to SAEs, if false, it does NOT contain the words in the formula and should to CGA",
+    "IsCalculated": true,
+    "LastModifiedDate": "2026-04-29T15:19:43.000+0000"
+  },
+  {
+    "attributes": {
+      "type": "FieldDefinition",
+      "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/Contact.00NRc00000sCQ1F"
+    },
+    "QualifiedApiName": "Contact_Specialty__c",
+    "DurableId": "Contact.00NRc00000sCQ1F",
+    "Label": "Contact Specialty",
+    "DataType": "Picklist",
+    "Description": null,
+    "IsCalculated": false,
+    "LastModifiedDate": "2026-05-14T16:04:56.000+0000"
+  },
+  {
+    "attributes": {
+      "type": "FieldDefinition",
+      "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/Contact.00NRc00000sC6Ix"
+    },
+    "QualifiedApiName": "Switching_EHR__c",
+    "DurableId": "Contact.00NRc00000sC6Ix",
+    "Label": "Switching EHR?",
+    "DataType": "Picklist",
+    "Description": null,
+    "IsCalculated": false,
+    "LastModifiedDate": "2026-04-30T19:20:54.000+0000"
+  },
+  {
+    "attributes": {
+      "type": "FieldDefinition",
+      "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/Contact.00N3s00000Pvd4x"
+    },
+    "QualifiedApiName": "Contact_18_Digit_ID__c",
+    "DurableId": "Contact.00N3s00000Pvd4x",
+    "Label": "Contact Idx18",
+    "DataType": "Formula (Text)",
+    "Description": "18 digit record ID",
+    "IsCalculated": true,
+    "LastModifiedDate": "2024-07-24T20:15:34.000+0000"
+  },
+  {
+    "attributes": {
+      "type": "FieldDefinition",
+      "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/Contact.00N3s00000PveDh"
+    },
+    "QualifiedApiName": "Neverbounce_Status__c",
+    "DurableId": "Contact.00N3s00000PveDh",
+    "Label": "Neverbounce Status",
+    "DataType": "Text(30)",
+    "Description": "Created 11/22/22 by Kali Berry. Manual import after NeverBounce clean.",
+    "IsCalculated": false,
+    "LastModifiedDate": "2022-11-22T18:56:18.000+0000"
+  },
+  {
+    "attributes": {
+      "type": "FieldDefinition",
+      "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/Contact.00N3s00000PveDw"
+    },
+    "QualifiedApiName": "Email_Bounced__c",
+    "DurableId": "Contact.00N3s00000PveDw",
+    "Label": "Email Bounced",
+    "DataType": "Checkbox",
+    "Description": "Created 11/22/22 by Kali Berry. Bounced status.",
+    "IsCalculated": false,
+    "LastModifiedDate": "2022-11-22T18:58:50.000+0000"
+  },
+  {
+    "attributes": {
+      "type": "FieldDefinition",
+      "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/Contact.00N3s00000PveE1"
+    },
+    "QualifiedApiName": "Temp_Stripe_Status__c",
+    "DurableId": "Contact.00N3s00000PveE1",
+    "Label": "Temp Stripe Status",
+    "DataType": "Text(18)",
+    "Description": "Created 11/22/22 by Kali Berry. temporary field to indicate Stripe status of lead as of 11/22/22. Override with Stripe automation in the future.",
+    "IsCalculated": false,
+    "LastModifiedDate": "2022-11-22T18:59:54.000+0000"
+  },
+  {
+    "attributes": {
+      "type": "FieldDefinition",
+      "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/Contact.00N3s00000PveE6"
+    },
+    "QualifiedApiName": "Domain__c",
+    "DurableId": "Contact.00N3s00000PveE6",
+    "Label": "Domain",
+    "DataType": "Formula (Text)",
+    "Description": "Created 11/22/22 by Kali Berry. Domain based on email address.",
+    "IsCalculated": true,
+    "LastModifiedDate": "2022-11-22T19:01:02.000+0000"
+  },
+  {
+    "attributes": {
+      "type": "FieldDefinition",
+      "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/Contact.00N3s00000Pvl4k"
+    },
+    "QualifiedApiName": "Most_Recent_Campaign_Name__c",
+    "DurableId": "Contact.00N3s00000Pvl4k",
+    "Label": "Most Recent Campaign Name",
+    "DataType": "Text(255)",
+    "Description": null,
+    "IsCalculated": false,
+    "LastModifiedDate": "2023-03-03T20:02:27.000+0000"
+  },
+  {
+    "attributes": {
+      "type": "FieldDefinition",
+      "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/Contact.00N3s00000Pvo7a"
+    },
+    "QualifiedApiName": "Healthie_User_Type__c",
+    "DurableId": "Contact.00N3s00000Pvo7a",
+    "Label": "Healthie User Type",
+    "DataType": "Text(18)",
+    "Description": "Used in Flow to update from Healthie User Object",
+    "IsCalculated": false,
+    "LastModifiedDate": "2023-03-10T17:11:08.000+0000"
+  },
+  {
+    "attributes": {
+      "type": "FieldDefinition",
+      "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/Contact.00N3s00000Pvo7k"
+    },
+    "QualifiedApiName": "Healthie_User_Active__c",
+    "DurableId": "Contact.00N3s00000Pvo7k",
+    "Label": "Healthie User Active",
+    "DataType": "Checkbox",
+    "Description": "updated from a Flow to indicate active status from healthie user",
+    "IsCalculated": false,
+    "LastModifiedDate": "2023-03-10T18:21:03.000+0000"
+  },
+  {
+    "attributes": {
+      "type": "FieldDefinition",
+      "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/Contact.00N3s00000Pvo9H"
+    },
+    "QualifiedApiName": "Timezone__c",
+    "DurableId": "Contact.00N3s00000Pvo9H",
+    "Label": "Timezone",
+    "DataType": "Text(255)",
+    "Description": null,
+    "IsCalculated": false,
+    "LastModifiedDate": "2023-03-11T00:45:24.000+0000"
+  },
+  {
+    "attributes": {
+      "type": "FieldDefinition",
+      "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/Contact.00N3s00000Pvoac"
+    },
+    "QualifiedApiName": "Trial_Start_Date__c",
+    "DurableId": "Contact.00N3s00000Pvoac",
+    "Label": "Trial Start Date",
+    "DataType": "Date/Time",
+    "Description": null,
+    "IsCalculated": false,
+    "LastModifiedDate": "2026-01-07T16:32:47.000+0000"
+  },
+  {
+    "attributes": {
+      "type": "FieldDefinition",
+      "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/Contact.00N3s00000Pvoah"
+    },
+    "QualifiedApiName": "Trial_End_Date__c",
+    "DurableId": "Contact.00N3s00000Pvoah",
+    "Label": "Trial End Date",
+    "DataType": "Date/Time",
+    "Description": null,
+    "IsCalculated": false,
+    "LastModifiedDate": "2026-01-07T16:32:35.000+0000"
+  },
+  {
+    "attributes": {
+      "type": "FieldDefinition",
+      "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/Contact.00N3s00000QFudn"
+    },
+    "QualifiedApiName": "Vitally_Contact_ID__c",
+    "DurableId": "Contact.00N3s00000QFudn",
+    "Label": "Vitally Contact ID",
+    "DataType": "Text(100)",
+    "Description": null,
+    "IsCalculated": false,
+    "LastModifiedDate": "2023-07-17T19:24:04.000+0000"
+  },
+  {
+    "attributes": {
+      "type": "FieldDefinition",
+      "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/Contact.00N3s00000QFuds"
+    },
+    "QualifiedApiName": "Current_Plan__c",
+    "DurableId": "Contact.00N3s00000QFuds",
+    "Label": "Current Plan",
+    "DataType": "Picklist",
+    "Description": null,
+    "IsCalculated": false,
+    "LastModifiedDate": "2025-02-10T20:35:58.000+0000"
+  },
+  {
+    "attributes": {
+      "type": "FieldDefinition",
+      "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/Contact.00NHu00000KJ0tp"
+    },
+    "QualifiedApiName": "Trial_Start__c",
+    "DurableId": "Contact.00NHu00000KJ0tp",
+    "Label": "Trial Start",
+    "DataType": "Formula (Date)",
+    "Description": null,
+    "IsCalculated": true,
+    "LastModifiedDate": "2023-08-03T18:58:28.000+0000"
+  },
+  {
+    "attributes": {
+      "type": "FieldDefinition",
+      "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/Contact.00NRc000002vf8d"
+    },
+    "QualifiedApiName": "asknicely__CSAT_Last_Responded__c",
+    "DurableId": "Contact.00NRc000002vf8d",
+    "Label": "CSAT Last Responded",
+    "DataType": "Date/Time",
+    "Description": null,
+    "IsCalculated": false,
+    "LastModifiedDate": "2023-11-07T21:43:41.000+0000"
+  },
+  {
+    "attributes": {
+      "type": "FieldDefinition",
+      "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/Contact.00NRc000002vf8e"
+    },
+    "QualifiedApiName": "asknicely__CSAT_SurveyTag__c",
+    "DurableId": "Contact.00NRc000002vf8e",
+    "Label": "CSAT Survey Tag",
+    "DataType": "Text(255)",
+    "Description": null,
+    "IsCalculated": false,
+    "LastModifiedDate": "2023-11-07T21:43:41.000+0000"
+  },
+  {
+    "attributes": {
+      "type": "FieldDefinition",
+      "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/Contact.00NRc000002vf8f"
+    },
+    "QualifiedApiName": "asknicely__CSAT_Type__c",
+    "DurableId": "Contact.00NRc000002vf8f",
+    "Label": "CSAT Type",
+    "DataType": "Picklist",
+    "Description": null,
+    "IsCalculated": false,
+    "LastModifiedDate": "2023-11-07T21:43:41.000+0000"
+  },
+  {
+    "attributes": {
+      "type": "FieldDefinition",
+      "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/Contact.00NRc000002vf8g"
+    },
+    "QualifiedApiName": "asknicely__FIVESTAR_Last_Responded__c",
+    "DurableId": "Contact.00NRc000002vf8g",
+    "Label": "Five Star Last Responded",
+    "DataType": "Date/Time",
+    "Description": null,
+    "IsCalculated": false,
+    "LastModifiedDate": "2023-11-07T21:43:41.000+0000"
+  },
+  {
+    "attributes": {
+      "type": "FieldDefinition",
+      "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/Contact.00NRc000002vf8h"
+    },
+    "QualifiedApiName": "asknicely__FIVESTAR_SurveyTag__c",
+    "DurableId": "Contact.00NRc000002vf8h",
+    "Label": "Five Star Survey Tag",
+    "DataType": "Text(255)",
+    "Description": null,
+    "IsCalculated": false,
+    "LastModifiedDate": "2023-11-07T21:43:41.000+0000"
+  },
+  {
+    "attributes": {
+      "type": "FieldDefinition",
+      "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/Contact.00NRc000002vf8i"
+    },
+    "QualifiedApiName": "asknicely__FIVESTAR_Type__c",
+    "DurableId": "Contact.00NRc000002vf8i",
+    "Label": "Five Star Type",
+    "DataType": "Picklist",
+    "Description": null,
+    "IsCalculated": false,
+    "LastModifiedDate": "2023-11-07T21:43:41.000+0000"
+  },
+  {
+    "attributes": {
+      "type": "FieldDefinition",
+      "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/Contact.00NRc000002vf8j"
+    },
+    "QualifiedApiName": "asknicely__NPS_Last_Responded__c",
+    "DurableId": "Contact.00NRc000002vf8j",
+    "Label": "NPS Last Responded",
+    "DataType": "Date/Time",
+    "Description": null,
+    "IsCalculated": false,
+    "LastModifiedDate": "2023-11-07T21:43:42.000+0000"
+  },
+  {
+    "attributes": {
+      "type": "FieldDefinition",
+      "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/Contact.00NRc000002vf8k"
+    },
+    "QualifiedApiName": "asknicely__NPS_SurveyTag__c",
+    "DurableId": "Contact.00NRc000002vf8k",
+    "Label": "NPS Survey Tag",
+    "DataType": "Text(255)",
+    "Description": null,
+    "IsCalculated": false,
+    "LastModifiedDate": "2023-11-07T21:43:42.000+0000"
+  },
+  {
+    "attributes": {
+      "type": "FieldDefinition",
+      "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/Contact.00NRc000002vf8l"
+    },
+    "QualifiedApiName": "asknicely__NPS_Type__c",
+    "DurableId": "Contact.00NRc000002vf8l",
+    "Label": "NPS Type",
+    "DataType": "Picklist",
+    "Description": "Promoter - Contacted scored 9-10\nPassive - Contacted scored 7-8\nDetractor -Contacted scored 0-6",
+    "IsCalculated": false,
+    "LastModifiedDate": "2023-11-07T21:43:42.000+0000"
+  },
+  {
+    "attributes": {
+      "type": "FieldDefinition",
+      "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/Contact.00NRc000002vf8m"
+    },
+    "QualifiedApiName": "asknicely__csat_comment__c",
+    "DurableId": "Contact.00NRc000002vf8m",
+    "Label": "CSAT Comment",
+    "DataType": "Long Text Area(32768)",
+    "Description": null,
+    "IsCalculated": false,
+    "LastModifiedDate": "2023-11-07T21:43:42.000+0000"
+  },
+  {
+    "attributes": {
+      "type": "FieldDefinition",
+      "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/Contact.00NRc000002vf8n"
+    },
+    "QualifiedApiName": "asknicely__csatscore__c",
+    "DurableId": "Contact.00NRc000002vf8n",
+    "Label": "CSAT Score",
+    "DataType": "Number(18, 0)",
+    "Description": null,
+    "IsCalculated": false,
+    "LastModifiedDate": "2023-11-07T21:43:42.000+0000"
+  },
+  {
+    "attributes": {
+      "type": "FieldDefinition",
+      "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/Contact.00NRc000002vf8o"
+    },
+    "QualifiedApiName": "asknicely__fivestar_comment__c",
+    "DurableId": "Contact.00NRc000002vf8o",
+    "Label": "Five Star Comment",
+    "DataType": "Long Text Area(32768)",
+    "Description": null,
+    "IsCalculated": false,
+    "LastModifiedDate": "2023-11-07T21:43:42.000+0000"
+  },
+  {
+    "attributes": {
+      "type": "FieldDefinition",
+      "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/Contact.00NRc000002vf8p"
+    },
+    "QualifiedApiName": "asknicely__fivestarscore__c",
+    "DurableId": "Contact.00NRc000002vf8p",
+    "Label": "Five Star Score",
+    "DataType": "Number(18, 0)",
+    "Description": null,
+    "IsCalculated": false,
+    "LastModifiedDate": "2023-11-07T21:43:42.000+0000"
+  },
+  {
+    "attributes": {
+      "type": "FieldDefinition",
+      "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/Contact.00NRc000002vf8q"
+    },
+    "QualifiedApiName": "asknicely__nps_comment__c",
+    "DurableId": "Contact.00NRc000002vf8q",
+    "Label": "NPS Comment",
+    "DataType": "Long Text Area(32768)",
+    "Description": "The last comment from this customer",
+    "IsCalculated": false,
+    "LastModifiedDate": "2023-11-07T21:43:42.000+0000"
+  },
+  {
+    "attributes": {
+      "type": "FieldDefinition",
+      "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/Contact.00NRc000002vf8r"
+    },
+    "QualifiedApiName": "asknicely__npsscore__c",
+    "DurableId": "Contact.00NRc000002vf8r",
+    "Label": "NPS Score",
+    "DataType": "Number(18, 0)",
+    "Description": "Last NPS Score",
+    "IsCalculated": false,
+    "LastModifiedDate": "2023-11-07T21:43:42.000+0000"
+  },
+  {
+    "attributes": {
+      "type": "FieldDefinition",
+      "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/Contact.00NRc000003ESKT"
+    },
+    "QualifiedApiName": "No_Longer_with_Company__c",
+    "DurableId": "Contact.00NRc000003ESKT",
+    "Label": "No Longer with Company",
+    "DataType": "Checkbox",
+    "Description": null,
+    "IsCalculated": false,
+    "LastModifiedDate": "2023-11-15T15:03:13.000+0000"
+  },
+  {
+    "attributes": {
+      "type": "FieldDefinition",
+      "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/Contact.00NRc000003kZIn"
+    },
+    "QualifiedApiName": "Healthie_User_ID__c",
+    "DurableId": "Contact.00NRc000003kZIn",
+    "Label": "Healthie User ID",
+    "DataType": "Text(50)",
+    "Description": null,
+    "IsCalculated": false,
+    "LastModifiedDate": "2023-11-28T20:45:38.000+0000"
+  },
+  {
+    "attributes": {
+      "type": "FieldDefinition",
+      "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/Contact.00NRc000003p5qL"
+    },
+    "QualifiedApiName": "Original_Source_Drill_Down_1__c",
+    "DurableId": "Contact.00NRc000003p5qL",
+    "Label": "Original Source Drill-Down 1",
+    "DataType": "Text(255)",
+    "Description": null,
+    "IsCalculated": false,
+    "LastModifiedDate": "2023-11-30T15:45:02.000+0000"
+  },
+  {
+    "attributes": {
+      "type": "FieldDefinition",
+      "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/Contact.00NRc000003p6Kz"
+    },
+    "QualifiedApiName": "Original_Source_Drill_Down_2__c",
+    "DurableId": "Contact.00NRc000003p6Kz",
+    "Label": "Original Source Drill-Down 2",
+    "DataType": "Text(255)",
+    "Description": null,
+    "IsCalculated": false,
+    "LastModifiedDate": "2023-11-30T15:45:22.000+0000"
+  },
+  {
+    "attributes": {
+      "type": "FieldDefinition",
+      "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/Contact.00NRc000006aoCX"
+    },
+    "QualifiedApiName": "SalesTax2023_AC_Tag__c",
+    "DurableId": "Contact.00NRc000006aoCX",
+    "Label": "SalesTax2023 (AC Tag)",
+    "DataType": "Checkbox",
+    "Description": null,
+    "IsCalculated": false,
+    "LastModifiedDate": "2024-01-11T19:44:11.000+0000"
+  },
+  {
+    "attributes": {
+      "type": "FieldDefinition",
+      "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/Contact.00NRc000003p6OD"
+    },
+    "QualifiedApiName": "Latest_Source_Drill_Down_1__c",
+    "DurableId": "Contact.00NRc000003p6OD",
+    "Label": "Latest Source Drill-Down 1",
+    "DataType": "Text(255)",
+    "Description": null,
+    "IsCalculated": false,
+    "LastModifiedDate": "2023-11-30T15:46:06.000+0000"
+  },
+  {
+    "attributes": {
+      "type": "FieldDefinition",
+      "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/Contact.00NRc000003p6T3"
+    },
+    "QualifiedApiName": "Latest_Source_Drill_Down_2__c",
+    "DurableId": "Contact.00NRc000003p6T3",
+    "Label": "Latest Source Drill-Down 2",
+    "DataType": "Text(255)",
+    "Description": null,
+    "IsCalculated": false,
+    "LastModifiedDate": "2023-11-30T15:46:45.000+0000"
+  },
+  {
+    "attributes": {
+      "type": "FieldDefinition",
+      "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/Contact.00NRc000006fXiv"
+    },
+    "QualifiedApiName": "Eustace_Update__c",
+    "DurableId": "Contact.00NRc000006fXiv",
+    "Label": "Eustace Update",
+    "DataType": "Text(255)",
+    "Description": null,
+    "IsCalculated": false,
+    "LastModifiedDate": "2024-01-12T20:03:03.000+0000"
+  },
+  {
+    "attributes": {
+      "type": "FieldDefinition",
+      "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/Contact.00NRc000003p6Mb"
+    },
+    "QualifiedApiName": "Latest_Source__c",
+    "DurableId": "Contact.00NRc000003p6Mb",
+    "Label": "Latest Source",
+    "DataType": "Picklist",
+    "Description": null,
+    "IsCalculated": false,
+    "LastModifiedDate": "2023-11-30T15:55:47.000+0000"
+  },
+  {
+    "attributes": {
+      "type": "FieldDefinition",
+      "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/Contact.00NRc000003p5n7"
+    },
+    "QualifiedApiName": "Original_Source__c",
+    "DurableId": "Contact.00NRc000003p5n7",
+    "Label": "Original Source",
+    "DataType": "Picklist",
+    "Description": null,
+    "IsCalculated": false,
+    "LastModifiedDate": "2023-11-30T15:56:07.000+0000"
+  },
+  {
+    "attributes": {
+      "type": "FieldDefinition",
+      "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/Contact.00NRc000003p6WH"
+    },
+    "QualifiedApiName": "Latest_Source_Date__c",
+    "DurableId": "Contact.00NRc000003p6WH",
+    "Label": "Latest Source Date",
+    "DataType": "Date",
+    "Description": null,
+    "IsCalculated": false,
+    "LastModifiedDate": "2023-11-30T16:00:24.000+0000"
+  },
+  {
+    "attributes": {
+      "type": "FieldDefinition",
+      "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/Contact.00N1I000008ijMd"
+    },
+    "QualifiedApiName": "UTM_Device__c",
+    "DurableId": "Contact.00N1I000008ijMd",
+    "Label": "UTM Device",
+    "DataType": "Text(250)",
+    "Description": null,
+    "IsCalculated": false,
+    "LastModifiedDate": "2024-01-18T20:24:53.000+0000"
+  },
+  {
+    "attributes": {
+      "type": "FieldDefinition",
+      "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/Contact.00N1I000008iiGP"
+    },
+    "QualifiedApiName": "UTM_Medium__c",
+    "DurableId": "Contact.00N1I000008iiGP",
+    "Label": "UTM Medium",
+    "DataType": "Text(250)",
+    "Description": null,
+    "IsCalculated": false,
+    "LastModifiedDate": "2024-01-18T20:25:45.000+0000"
+  },
+  {
+    "attributes": {
+      "type": "FieldDefinition",
+      "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/Contact.00N1I000008iitv"
+    },
+    "QualifiedApiName": "UTM_Campaign__c",
+    "DurableId": "Contact.00N1I000008iitv",
+    "Label": "UTM Campaign",
+    "DataType": "Text(250)",
+    "Description": null,
+    "IsCalculated": false,
+    "LastModifiedDate": "2024-01-18T20:26:41.000+0000"
+  },
+  {
+    "attributes": {
+      "type": "FieldDefinition",
+      "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/Contact.00N1I000008iiKl"
+    },
+    "QualifiedApiName": "UTM_Source__c",
+    "DurableId": "Contact.00N1I000008iiKl",
+    "Label": "UTM Source",
+    "DataType": "Text(250)",
+    "Description": null,
+    "IsCalculated": false,
+    "LastModifiedDate": "2024-01-18T20:28:14.000+0000"
+  },
+  {
+    "attributes": {
+      "type": "FieldDefinition",
+      "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/Contact.00NRc00000KJ61N"
+    },
+    "QualifiedApiName": "Number_of_form_submissions__c",
+    "DurableId": "Contact.00NRc00000KJ61N",
+    "Label": "Number of form submissions",
+    "DataType": "Number(18, 0)",
+    "Description": "Hubspot field",
+    "IsCalculated": false,
+    "LastModifiedDate": "2024-07-23T18:52:10.000+0000"
+  },
+  {
+    "attributes": {
+      "type": "FieldDefinition",
+      "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/Contact.00NRc00000KIyP8"
+    },
+    "QualifiedApiName": "Number_of_unique_form_submissions__c",
+    "DurableId": "Contact.00NRc00000KIyP8",
+    "Label": "Number of unique form submissions",
+    "DataType": "Number(18, 0)",
+    "Description": "hubspot field",
+    "IsCalculated": false,
+    "LastModifiedDate": "2024-07-23T18:52:44.000+0000"
+  },
+  {
+    "attributes": {
+      "type": "FieldDefinition",
+      "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/Contact.00NRc00000KJ6Cf"
+    },
+    "QualifiedApiName": "Number_of_page_views__c",
+    "DurableId": "Contact.00NRc00000KJ6Cf",
+    "Label": "Number of page views",
+    "DataType": "Number(18, 0)",
+    "Description": "hubspot field",
+    "IsCalculated": false,
+    "LastModifiedDate": "2024-07-23T18:53:16.000+0000"
+  },
+  {
+    "attributes": {
+      "type": "FieldDefinition",
+      "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/Contact.00NRc00000KJ6ML"
+    },
+    "QualifiedApiName": "First_Conversion__c",
+    "DurableId": "Contact.00NRc00000KJ6ML",
+    "Label": "First Conversion",
+    "DataType": "Long Text Area(2000)",
+    "Description": null,
+    "IsCalculated": false,
+    "LastModifiedDate": "2024-10-07T16:11:18.000+0000"
+  },
+  {
+    "attributes": {
+      "type": "FieldDefinition",
+      "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/Contact.00NRc00000KIxCu"
+    },
+    "QualifiedApiName": "Recent_Conversion__c",
+    "DurableId": "Contact.00NRc00000KIxCu",
+    "Label": "Recent Conversion",
+    "DataType": "Text(255)",
+    "Description": null,
+    "IsCalculated": false,
+    "LastModifiedDate": "2024-10-25T19:44:19.000+0000"
+  },
+  {
+    "attributes": {
+      "type": "FieldDefinition",
+      "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/Contact.00NRc00000KIsgY"
+    },
+    "QualifiedApiName": "First_Conversion_Date__c",
+    "DurableId": "Contact.00NRc00000KIsgY",
+    "Label": "First Conversion Date",
+    "DataType": "Date",
+    "Description": null,
+    "IsCalculated": false,
+    "LastModifiedDate": "2024-07-23T18:55:05.000+0000"
+  },
+  {
+    "attributes": {
+      "type": "FieldDefinition",
+      "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/Contact.00NRc00000KIseg"
+    },
+    "QualifiedApiName": "Recent_Conversion_Date__c",
+    "DurableId": "Contact.00NRc00000KIseg",
+    "Label": "Recent Conversion Date",
+    "DataType": "Date",
+    "Description": null,
+    "IsCalculated": false,
+    "LastModifiedDate": "2024-07-23T18:55:23.000+0000"
+  },
+  {
+    "attributes": {
+      "type": "FieldDefinition",
+      "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/Contact.00NRc00000KJ7Th"
+    },
+    "QualifiedApiName": "Hubspot_Score__c",
+    "DurableId": "Contact.00NRc00000KJ7Th",
+    "Label": "Hubspot Score",
+    "DataType": "Number(18, 0)",
+    "Description": null,
+    "IsCalculated": false,
+    "LastModifiedDate": "2024-07-23T18:59:09.000+0000"
+  },
+  {
+    "attributes": {
+      "type": "FieldDefinition",
+      "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/Contact.00NRc00000KNByq"
+    },
+    "QualifiedApiName": "Contact_Status__c",
+    "DurableId": "Contact.00NRc00000KNByq",
+    "Label": "Contact Status",
+    "DataType": "Picklist",
+    "Description": null,
+    "IsCalculated": false,
+    "LastModifiedDate": "2024-07-24T16:55:53.000+0000"
+  },
+  {
+    "attributes": {
+      "type": "FieldDefinition",
+      "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/Contact.00NRc00000KRmxt"
+    },
+    "QualifiedApiName": "Account_Status_Contact__c",
+    "DurableId": "Contact.00NRc00000KRmxt",
+    "Label": "Account Status (Contact)",
+    "DataType": "Picklist",
+    "Description": null,
+    "IsCalculated": false,
+    "LastModifiedDate": "2024-07-25T14:35:57.000+0000"
+  },
+  {
+    "attributes": {
+      "type": "FieldDefinition",
+      "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/Contact.00NRc00000Kk4mf"
+    },
+    "QualifiedApiName": "Apollo_Stage__c",
+    "DurableId": "Contact.00NRc00000Kk4mf",
+    "Label": "Apollo Stage",
+    "DataType": "Picklist",
+    "Description": null,
+    "IsCalculated": false,
+    "LastModifiedDate": "2024-07-29T18:17:58.000+0000"
+  },
+  {
+    "attributes": {
+      "type": "FieldDefinition",
+      "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/Contact.00NRc00000Kjyum"
+    },
+    "QualifiedApiName": "Related_Opportunity_Contact__c",
+    "DurableId": "Contact.00NRc00000Kjyum",
+    "Label": "Related Opportunity (Contact)",
+    "DataType": "Lookup(Opportunity)",
+    "Description": null,
+    "IsCalculated": false,
+    "LastModifiedDate": "2024-12-18T15:28:19.000+0000"
+  },
+  {
+    "attributes": {
+      "type": "FieldDefinition",
+      "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/Contact.00NRc00000KoMQ1"
+    },
+    "QualifiedApiName": "Healthie_Org_Owner__c",
+    "DurableId": "Contact.00NRc00000KoMQ1",
+    "Label": "Healthie Org Owner",
+    "DataType": "Checkbox",
+    "Description": null,
+    "IsCalculated": false,
+    "LastModifiedDate": "2024-07-30T16:09:04.000+0000"
+  },
+  {
+    "attributes": {
+      "type": "FieldDefinition",
+      "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/Contact.00NRc00000Ksitg"
+    },
+    "QualifiedApiName": "Recent_NPS_Score__c",
+    "DurableId": "Contact.00NRc00000Ksitg",
+    "Label": "Recent NPS Score",
+    "DataType": "Number(18, 0)",
+    "Description": "NPS Score from the last 30 days",
+    "IsCalculated": false,
+    "LastModifiedDate": "2024-07-31T14:45:47.000+0000"
+  },
+  {
+    "attributes": {
+      "type": "FieldDefinition",
+      "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/Contact.00NRc00000Ksnrv"
+    },
+    "QualifiedApiName": "Recent_NPS_Type__c",
+    "DurableId": "Contact.00NRc00000Ksnrv",
+    "Label": "Recent NPS Type",
+    "DataType": "Formula (Text)",
+    "Description": null,
+    "IsCalculated": true,
+    "LastModifiedDate": "2024-07-31T14:49:18.000+0000"
+  },
+  {
+    "attributes": {
+      "type": "FieldDefinition",
+      "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/Contact.00NRc00000KtMHd"
+    },
+    "QualifiedApiName": "Recent_NPS_Date_Time__c",
+    "DurableId": "Contact.00NRc00000KtMHd",
+    "Label": "Recent NPS Date & Time",
+    "DataType": "Date/Time",
+    "Description": null,
+    "IsCalculated": false,
+    "LastModifiedDate": "2024-07-31T16:56:11.000+0000"
+  },
+  {
+    "attributes": {
+      "type": "FieldDefinition",
+      "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/Contact.00NRc00000L2mUH"
+    },
+    "QualifiedApiName": "Outreach_Type__c",
+    "DurableId": "Contact.00NRc00000L2mUH",
+    "Label": "Outreach Type",
+    "DataType": "Picklist",
+    "Description": "Indicates what type of outreach this contact is ready for",
+    "IsCalculated": false,
+    "LastModifiedDate": "2024-08-02T14:42:05.000+0000"
+  },
+  {
+    "attributes": {
+      "type": "FieldDefinition",
+      "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/Contact.00NRc00000L2nRx"
+    },
+    "QualifiedApiName": "Executive_Sponsor__c",
+    "DurableId": "Contact.00NRc00000L2nRx",
+    "Label": "Executive Sponsor",
+    "DataType": "Lookup(User)",
+    "Description": null,
+    "IsCalculated": false,
+    "LastModifiedDate": "2024-08-02T14:46:23.000+0000"
+  },
+  {
+    "attributes": {
+      "type": "FieldDefinition",
+      "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/Contact.00NRc00000L2ekW"
+    },
+    "QualifiedApiName": "Sequence_Name__c",
+    "DurableId": "Contact.00NRc00000L2ekW",
+    "Label": "Sequence Name",
+    "DataType": "Text(255)",
+    "Description": null,
+    "IsCalculated": false,
+    "LastModifiedDate": "2024-08-02T15:10:57.000+0000"
+  },
+  {
+    "attributes": {
+      "type": "FieldDefinition",
+      "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/Contact.00NRc00000L2cJE"
+    },
+    "QualifiedApiName": "Current_Sequence_Step__c",
+    "DurableId": "Contact.00NRc00000L2cJE",
+    "Label": "Current Sequence Step",
+    "DataType": "Text(255)",
+    "Description": null,
+    "IsCalculated": false,
+    "LastModifiedDate": "2024-08-07T11:38:59.000+0000"
+  },
+  {
+    "attributes": {
+      "type": "FieldDefinition",
+      "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/Contact.00NRc00000LGzzo"
+    },
+    "QualifiedApiName": "Indicated_as_Changed_Job_by_Apollo__c",
+    "DurableId": "Contact.00NRc00000LGzzo",
+    "Label": "Indicated as Changed Job by Apollo?",
+    "DataType": "Checkbox",
+    "Description": null,
+    "IsCalculated": false,
+    "LastModifiedDate": "2024-08-05T22:34:51.000+0000"
+  },
+  {
+    "attributes": {
+      "type": "FieldDefinition",
+      "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/Contact.00NRc00000LSyMv"
+    },
+    "QualifiedApiName": "Apollo_Intent_Signal__c",
+    "DurableId": "Contact.00NRc00000LSyMv",
+    "Label": "Apollo - Intent Signal",
+    "DataType": "Text(255)",
+    "Description": null,
+    "IsCalculated": false,
+    "LastModifiedDate": "2024-08-08T14:06:31.000+0000"
+  },
+  {
+    "attributes": {
+      "type": "FieldDefinition",
+      "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/Contact.00NRc00000Mo2LJ"
+    },
+    "QualifiedApiName": "Current_EHR__c",
+    "DurableId": "Contact.00NRc00000Mo2LJ",
+    "Label": "Current EHR",
+    "DataType": "Text(255)",
+    "Description": null,
+    "IsCalculated": false,
+    "LastModifiedDate": "2024-08-27T15:39:25.000+0000"
+  },
+  {
+    "attributes": {
+      "type": "FieldDefinition",
+      "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/Contact.00NRc00000NNmp6"
+    },
+    "QualifiedApiName": "UniqueEntry__Contact_Dupes_Ignored__c",
+    "DurableId": "Contact.00NRc00000NNmp6",
+    "Label": "Contact Dupes Ignored",
+    "DataType": "Number(4, 0)",
+    "Description": "If a record is created with RingLead Unique Entry, this field will reflect the number of possible duplicate Contacts that were presented to the user at the time they created it.",
+    "IsCalculated": false,
+    "LastModifiedDate": "2024-09-04T20:29:25.000+0000"
+  },
+  {
+    "attributes": {
+      "type": "FieldDefinition",
+      "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/Contact.00NRc00000LHW4E"
+    },
+    "QualifiedApiName": "Recommendation_Score__c",
+    "DurableId": "Contact.00NRc00000LHW4E",
+    "Label": "Score",
+    "DataType": "Number(5, 2)",
+    "Description": null,
+    "IsCalculated": false,
+    "LastModifiedDate": "2024-08-09T18:00:06.000+0000"
+  },
+  {
+    "attributes": {
+      "type": "FieldDefinition",
+      "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/Contact.00NRc00000LNiSm"
+    },
+    "QualifiedApiName": "Industry__c",
+    "DurableId": "Contact.00NRc00000LNiSm",
+    "Label": "Industry",
+    "DataType": "Text(255)",
+    "Description": null,
+    "IsCalculated": false,
+    "LastModifiedDate": "2024-08-07T11:44:04.000+0000"
+  },
+  {
+    "attributes": {
+      "type": "FieldDefinition",
+      "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/Contact.00NRc00000LNrJ9"
+    },
+    "QualifiedApiName": "Employee_Count__c",
+    "DurableId": "Contact.00NRc00000LNrJ9",
+    "Label": "Employee Count",
+    "DataType": "Text(255)",
+    "Description": null,
+    "IsCalculated": false,
+    "LastModifiedDate": "2024-08-07T11:44:32.000+0000"
+  },
+  {
+    "attributes": {
+      "type": "FieldDefinition",
+      "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/Contact.00NRc00000LOtqU"
+    },
+    "QualifiedApiName": "Contact_Numbering__c",
+    "DurableId": "Contact.00NRc00000LOtqU",
+    "Label": "Contact Numbering",
+    "DataType": "Auto Number",
+    "Description": null,
+    "IsCalculated": false,
+    "LastModifiedDate": "2024-08-07T17:08:50.000+0000"
+  },
+  {
+    "attributes": {
+      "type": "FieldDefinition",
+      "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/Contact.00NRc00000LP0AP"
+    },
+    "QualifiedApiName": "Contact_Round_Robin__c",
+    "DurableId": "Contact.00NRc00000LP0AP",
+    "Label": "Outbound Round Robin",
+    "DataType": "Formula (Number)",
+    "Description": null,
+    "IsCalculated": true,
+    "LastModifiedDate": "2024-08-26T15:45:18.000+0000"
+  },
+  {
+    "attributes": {
+      "type": "FieldDefinition",
+      "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/Contact.00NRc00000LP5FD"
+    },
+    "QualifiedApiName": "Reject_Reason__c",
+    "DurableId": "Contact.00NRc00000LP5FD",
+    "Label": "Reject Reason",
+    "DataType": "Picklist",
+    "Description": "Select reject reason for marketing/rev ops to review",
+    "IsCalculated": false,
+    "LastModifiedDate": "2024-08-07T18:46:48.000+0000"
+  },
+  {
+    "attributes": {
+      "type": "FieldDefinition",
+      "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/Contact.00NRc00000LYQs1"
+    },
+    "QualifiedApiName": "Already_Approached__c",
+    "DurableId": "Contact.00NRc00000LYQs1",
+    "Label": "Already Approached",
+    "DataType": "Checkbox",
+    "Description": "Stop gap solution to remove contacts from lists",
+    "IsCalculated": false,
+    "LastModifiedDate": "2024-08-09T18:05:54.000+0000"
+  },
+  {
+    "attributes": {
+      "type": "FieldDefinition",
+      "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/Contact.00NRc00000LjtsR"
+    },
+    "QualifiedApiName": "Lifecycle_Stage__c",
+    "DurableId": "Contact.00NRc00000LjtsR",
+    "Label": "Lifecycle Stage",
+    "DataType": "Picklist",
+    "Description": null,
+    "IsCalculated": false,
+    "LastModifiedDate": "2024-08-12T17:14:43.000+0000"
+  },
+  {
+    "attributes": {
+      "type": "FieldDefinition",
+      "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/Contact.00NRc00000LkLyD"
+    },
+    "QualifiedApiName": "Opportunity_Created_Date_Contact__c",
+    "DurableId": "Contact.00NRc00000LkLyD",
+    "Label": "Opportunity Created Date (Contact)",
+    "DataType": "Formula (Date)",
+    "Description": null,
+    "IsCalculated": true,
+    "LastModifiedDate": "2024-08-12T17:21:42.000+0000"
+  },
+  {
+    "attributes": {
+      "type": "FieldDefinition",
+      "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/Contact.00NRc00000LkJVI"
+    },
+    "QualifiedApiName": "Opportunity_Amount_Contact__c",
+    "DurableId": "Contact.00NRc00000LkJVI",
+    "Label": "Opportunity Amount (Contact)",
+    "DataType": "Formula (Currency)",
+    "Description": null,
+    "IsCalculated": true,
+    "LastModifiedDate": "2024-08-12T17:22:33.000+0000"
+  },
+  {
+    "attributes": {
+      "type": "FieldDefinition",
+      "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/Contact.00NRc00000LkNyP"
+    },
+    "QualifiedApiName": "Opportunity_Stage_Contact__c",
+    "DurableId": "Contact.00NRc00000LkNyP",
+    "Label": "Opportunity Stage (Contact)",
+    "DataType": "Picklist",
+    "Description": null,
+    "IsCalculated": false,
+    "LastModifiedDate": "2024-08-12T17:28:59.000+0000"
+  },
+  {
+    "attributes": {
+      "type": "FieldDefinition",
+      "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/Contact.00NRc00000LkO6T"
+    },
+    "QualifiedApiName": "Qualified_Opportunity_Contact__c",
+    "DurableId": "Contact.00NRc00000LkO6T",
+    "Label": "Flag - Qualified Opportunity (Contact)",
+    "DataType": "Formula (Checkbox)",
+    "Description": null,
+    "IsCalculated": true,
+    "LastModifiedDate": "2025-12-18T17:36:10.000+0000"
+  },
+  {
+    "attributes": {
+      "type": "FieldDefinition",
+      "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/Contact.00NRc00000LkMEh"
+    },
+    "QualifiedApiName": "Latest_Source_Campaign_Contact__c",
+    "DurableId": "Contact.00NRc00000LkMEh",
+    "Label": "Latest Source Campaign (Contact)",
+    "DataType": "Lookup(Campaign)",
+    "Description": null,
+    "IsCalculated": false,
+    "LastModifiedDate": "2024-08-12T17:35:26.000+0000"
+  },
+  {
+    "attributes": {
+      "type": "FieldDefinition",
+      "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/Contact.00NRc00000LkBj7"
+    },
+    "QualifiedApiName": "Original_Source_Campaign_Contact__c",
+    "DurableId": "Contact.00NRc00000LkBj7",
+    "Label": "Original Source Campaign (Contact)",
+    "DataType": "Lookup(Campaign)",
+    "Description": null,
+    "IsCalculated": false,
+    "LastModifiedDate": "2024-08-12T17:35:57.000+0000"
+  },
+  {
+    "attributes": {
+      "type": "FieldDefinition",
+      "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/Contact.00NRc00000LkQjN"
+    },
+    "QualifiedApiName": "Original_Source_Channel__c",
+    "DurableId": "Contact.00NRc00000LkQjN",
+    "Label": "Original Source - Channel",
+    "DataType": "Picklist",
+    "Description": null,
+    "IsCalculated": false,
+    "LastModifiedDate": "2024-08-12T17:39:22.000+0000"
+  },
+  {
+    "attributes": {
+      "type": "FieldDefinition",
+      "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/Contact.00NRc00000LkQwH"
+    },
+    "QualifiedApiName": "Latest_Source_Channel__c",
+    "DurableId": "Contact.00NRc00000LkQwH",
+    "Label": "Latest Source - Channel",
+    "DataType": "Picklist",
+    "Description": null,
+    "IsCalculated": false,
+    "LastModifiedDate": "2024-08-12T17:39:54.000+0000"
+  },
+  {
+    "attributes": {
+      "type": "FieldDefinition",
+      "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/Contact.00NRc00000Lt0Bf"
+    },
+    "QualifiedApiName": "Inbound_Round_Robin__c",
+    "DurableId": "Contact.00NRc00000Lt0Bf",
+    "Label": "Inbound Round Robin",
+    "DataType": "Formula (Number)",
+    "Description": null,
+    "IsCalculated": true,
+    "LastModifiedDate": "2024-08-14T14:01:47.000+0000"
+  },
+  {
+    "attributes": {
+      "type": "FieldDefinition",
+      "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/Contact.00NRc00000MOE1x"
+    },
+    "QualifiedApiName": "Warm_Outreach_Contact__c",
+    "DurableId": "Contact.00NRc00000MOE1x",
+    "Label": "Warm Outreach Contact",
+    "DataType": "Formula (Checkbox)",
+    "Description": null,
+    "IsCalculated": true,
+    "LastModifiedDate": "2024-08-21T16:13:01.000+0000"
+  },
+  {
+    "attributes": {
+      "type": "FieldDefinition",
+      "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/Contact.00NRc00000MTqHt"
+    },
+    "QualifiedApiName": "Partnerstack_Partner_Key_Contact__c",
+    "DurableId": "Contact.00NRc00000MTqHt",
+    "Label": "Partnerstack Partner Key (Contact)",
+    "DataType": "Text(255)",
+    "Description": null,
+    "IsCalculated": false,
+    "LastModifiedDate": "2024-08-22T20:39:45.000+0000"
+  },
+  {
+    "attributes": {
+      "type": "FieldDefinition",
+      "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/Contact.00NRc00000NNmp7"
+    },
+    "QualifiedApiName": "UniqueEntry__Current_Endpoint__c",
+    "DurableId": "Contact.00NRc00000NNmp7",
+    "Label": "Current Endpoint",
+    "DataType": "Text(255)",
+    "Description": null,
+    "IsCalculated": false,
+    "LastModifiedDate": "2025-02-27T14:59:27.000+0000"
+  },
+  {
+    "attributes": {
+      "type": "FieldDefinition",
+      "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/Contact.00NRc00000NNmp8"
+    },
+    "QualifiedApiName": "UniqueEntry__EnrichedOn__c",
+    "DurableId": "Contact.00NRc00000NNmp8",
+    "Label": "EnrichedOn",
+    "DataType": "Date/Time",
+    "Description": null,
+    "IsCalculated": false,
+    "LastModifiedDate": "2025-02-27T14:59:27.000+0000"
+  },
+  {
+    "attributes": {
+      "type": "FieldDefinition",
+      "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/Contact.00NRc00000NNmp9"
+    },
+    "QualifiedApiName": "UniqueEntry__Lead_Dupes_Ignored__c",
+    "DurableId": "Contact.00NRc00000NNmp9",
+    "Label": "Lead Dupes Ignored",
+    "DataType": "Number(4, 0)",
+    "Description": "If a record is created with RingLead Unique Entry, this field will reflect the number of possible duplicate Leads that were presented to the user at the time they created it.",
+    "IsCalculated": false,
+    "LastModifiedDate": "2024-09-04T20:29:25.000+0000"
+  },
+  {
+    "attributes": {
+      "type": "FieldDefinition",
+      "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/Contact.00NRc00000NNmpA"
+    },
+    "QualifiedApiName": "UniqueEntry__RingLead_App_Field__c",
+    "DurableId": "Contact.00NRc00000NNmpA",
+    "Label": "RingLead App Field",
+    "DataType": "Text(255)",
+    "Description": null,
+    "IsCalculated": false,
+    "LastModifiedDate": "2025-02-27T14:59:27.000+0000"
+  },
+  {
+    "attributes": {
+      "type": "FieldDefinition",
+      "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/Contact.00NRc00000NNmpB"
+    },
+    "QualifiedApiName": "UniqueEntry__RingLead_Last_Processed_Date__c",
+    "DurableId": "Contact.00NRc00000NNmpB",
+    "Label": "Last Processed Date",
+    "DataType": "Date/Time",
+    "Description": null,
+    "IsCalculated": false,
+    "LastModifiedDate": "2025-02-27T14:59:27.000+0000"
+  },
+  {
+    "attributes": {
+      "type": "FieldDefinition",
+      "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/Contact.00NRc00000NNmpC"
+    },
+    "QualifiedApiName": "UniqueEntry__Ringlead_Id__c",
+    "DurableId": "Contact.00NRc00000NNmpC",
+    "Label": "Ringlead Id",
+    "DataType": "Text(80)",
+    "Description": null,
+    "IsCalculated": false,
+    "LastModifiedDate": "2025-02-27T14:59:27.000+0000"
+  },
+  {
+    "attributes": {
+      "type": "FieldDefinition",
+      "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/Contact.00NRc00000NQuvu"
+    },
+    "QualifiedApiName": "Hubspot_Message__c",
+    "DurableId": "Contact.00NRc00000NQuvu",
+    "Label": "Hubspot Message",
+    "DataType": "Long Text Area(3000)",
+    "Description": null,
+    "IsCalculated": false,
+    "LastModifiedDate": "2024-10-22T15:37:35.000+0000"
+  },
+  {
+    "attributes": {
+      "type": "FieldDefinition",
+      "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/Contact.00NRc00000NSRo1"
+    },
+    "QualifiedApiName": "Apollo_Contact_Id__c",
+    "DurableId": "Contact.00NRc00000NSRo1",
+    "Label": "Apollo Contact Id",
+    "DataType": "Text(100)",
+    "Description": null,
+    "IsCalculated": false,
+    "LastModifiedDate": "2024-09-05T20:06:59.000+0000"
+  },
+  {
+    "attributes": {
+      "type": "FieldDefinition",
+      "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/Contact.00NRc00000Nlu1V"
+    },
+    "QualifiedApiName": "Email_Domain__c",
+    "DurableId": "Contact.00NRc00000Nlu1V",
+    "Label": "Email Domain",
+    "DataType": "Formula (Text)",
+    "Description": null,
+    "IsCalculated": true,
+    "LastModifiedDate": "2024-09-10T13:38:55.000+0000"
+  }
+]
