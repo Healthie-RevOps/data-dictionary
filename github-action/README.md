@@ -78,13 +78,13 @@ the legacy `content` scope when the template is wired to a landing page (ours
 is — it's bound to `212676525863`). The legacy `content` scope **is not
 available to private apps** in modern HubSpot portals.
 
-Personal access keys are the credential the official HubSpot CLI uses; the CLI
-exchanges the key for short-lived OAuth access tokens that carry the broader
+Personal access keys are the credential the official HubSpot CLI uses; HubSpot
+exchanges them for short-lived OAuth access tokens that carry the broader
 legacy scopes the CLI app was approved for, including `content`. The workflow
-does the same thing at runtime: it installs `@hubspot/cli`, writes a minimal
-config from `$HUBSPOT_PERSONAL_ACCESS_KEY`, runs `hs accounts info` (which
-mints + caches a fresh token), pulls the token out of the cache, and feeds it
-to `publish_to_hubspot.py` for that run only. Nothing is written back to the
+does the same exchange directly via the HubSpot REST API at runtime: it calls
+`GET https://api.hubapi.com/integrators/v1/access-tokens/<key>`, parses the
+`accessToken` out of the JSON response, masks it, and feeds it to
+`publish_to_hubspot.py` for that run only. Nothing is written back to the
 repo.
 
 > ⚠️ **Do not paste the cached `accessToken:` line from `hubspot.config.yml`.**
@@ -124,9 +124,10 @@ from then on; the manual button is there for off-cycle re-runs.
    - Re-renders the three HTML files (`peapod_sfdc_data_dictionary.html`, the standalone
      preview, and `deploy_template_peapod_sfdc_data_dictionary.html`).
    - Updates the `.dictionary_cache/` JSON files.
-5. Installs `@hubspot/cli`, writes a minimal `hubspot.config.yml` to `/tmp` using
-   `$HUBSPOT_PERSONAL_ACCESS_KEY`, runs `hs accounts info` to mint and cache a
-   fresh OAuth access token, then extracts that token and masks it in logs.
+5. Exchanges `$HUBSPOT_PERSONAL_ACCESS_KEY` for a short-lived OAuth access token
+   by calling `GET https://api.hubapi.com/integrators/v1/access-tokens/<key>`
+   (the same endpoint the HubSpot CLI hits internally), parses the
+   `accessToken` field out of the JSON response, and masks it in logs.
 6. Runs `python3 scripts/publish_to_hubspot.py` with the minted token in
    `$HUBSPOT_TOKEN`, which PUTs the deploy template to
    `https://api.hubapi.com/cms/v3/source-code/{draft,published}/content/...`.

@@ -78,10 +78,13 @@ jobs:
 
       # We can't use a private-app token directly: HubSpot's source-code endpoint
       # for page-bound templates requires the legacy `content` scope, which isn't
-      # available to private apps. Instead we replicate what the HubSpot CLI does
-      # on a developer laptop -- write a minimal hubspot.config.yml, run `hs` once
-      # to mint and cache a fresh OAuth access token (the CLI app carries the
-      # legacy scope), then hand that token to the publish helper as HUBSPOT_TOKEN.
+      # available to private apps. Instead we exchange the personalAccessKey for
+      # a short-lived OAuth access token by calling the same endpoint the
+      # HubSpot CLI hits internally, then hand the minted token to the publish
+      # helper as $HUBSPOT_TOKEN. (We used to do this via `hs accounts info`,
+      # but the CLI's local-config schema has churned across versions and was
+      # throwing TypeErrors on minimal configs. Calling the underlying API
+      # directly is one curl and one JSON parse -- no CLI install, no YAML.)
       - name: Mint fresh HubSpot access token from personalAccessKey
         if: ${{ github.event.inputs.skip_publish != 'true' }}
         env:
@@ -91,35 +94,30 @@ jobs:
             echo "::error::Repository secret HUBSPOT_PERSONAL_ACCESS_KEY is not set." >&2
             exit 2
           fi
-          npm install -g @hubspot/cli@latest >/dev/null
 
-          # Write the config OUTSIDE the repo so it can't be accidentally staged.
-          # .gitignore would catch it anyway, but defense in depth.
-          CFG=/tmp/hubspot.config.yml
-          cat > "$CFG" <<EOF
-          defaultPortal: healthie-prod
-          portals:
-            - name: healthie-prod
-              portalId: 43826161
-              env: PROD
-              authType: personalaccesskey
-              personalAccessKey: $HUBSPOT_PERSONAL_ACCESS_KEY
-          EOF
+          HTTP_BODY=$(mktemp)
+          HTTP_CODE=$(curl -sS \
+            -w '%{http_code}' \
+            -o "$HTTP_BODY" \
+            "https://api.hubapi.com/integrators/v1/access-tokens/${HUBSPOT_PERSONAL_ACCESS_KEY}")
 
-          # First `hs` invocation against this config triggers a token mint + cache.
-          hs accounts info --account healthie-prod --config "$CFG" >/dev/null
-
-          # The CLI writes the minted token back to the config under
-          # `auth.tokenInfo.accessToken` using a YAML `>-` block scalar.
-          TOKEN=$(python3 -c "import re; m=re.search(r'accessToken:\s*>-\s*\n\s+(\S+)', open('$CFG').read()); print(m.group(1) if m else '')")
-
-          if [ -z "$TOKEN" ]; then
-            echo "::error::Failed to extract accessToken from hubspot.config.yml after hs refresh." >&2
+          if [ "$HTTP_CODE" != "200" ]; then
+            echo "::error::HubSpot token exchange returned HTTP $HTTP_CODE." >&2
+            head -c 2000 "$HTTP_BODY" >&2
+            echo >&2
             exit 3
           fi
 
-          # Mask the token in logs so subsequent steps don't leak it, then expose
-          # it to the Publish step as a process env var via GITHUB_ENV.
+          TOKEN=$(python3 -c "import json,sys; print(json.load(open('$HTTP_BODY')).get('accessToken',''))")
+          rm -f "$HTTP_BODY"
+
+          if [ -z "$TOKEN" ]; then
+            echo "::error::Token exchange returned 200 but accessToken field was empty." >&2
+            exit 4
+          fi
+
+          # Mask the token in any subsequent log output, then expose it to
+          # the Publish step as a process env var via GITHUB_ENV.
           echo "::add-mask::$TOKEN"
           echo "HUBSPOT_TOKEN=$TOKEN" >> "$GITHUB_ENV"
 
@@ -152,7 +150,17 @@ jobs:
             echo "No changes to commit."
           else
             git commit -m "weekly: refresh SFDC data dictionary $(date -u +%Y-%m-%d)"
-            git push
+            # Pull any commits that landed between our checkout and now
+            # (e.g. a manual push, or a prior run's auto-commit that arrived
+            # late). Best-effort: if the rebase conflicts, skip the push
+            # rather than fail the whole run; the next successful run will
+            # re-do the snapshot work.
+            if git pull --rebase --autostash; then
+              git push
+            else
+              git rebase --abort 2>/dev/null || true
+              echo "::warning::pull --rebase failed; skipping snapshot push for this run."
+            fi
           fi
 
       - name: Upload generated HTML as workflow artifact
