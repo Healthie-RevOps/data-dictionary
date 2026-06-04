@@ -95,11 +95,22 @@ jobs:
             exit 2
           fi
 
+          # The HubSpot CLI's internal token exchange (see
+          # @hubspot/local-dev-lib's `fetchAccessToken`) POSTs to
+          # /localdevauth/v1/auth/refresh with the personalAccessKey in the
+          # JSON body as `encodedOAuthRefreshToken`, and receives back a
+          # JSON object with `oauthAccessToken`, `expiresAtMillis`, `scopes`,
+          # and related fields. If this endpoint ever changes, check
+          # https://github.com/HubSpot/hubspot-cli (or @hubspot/local-dev-lib)
+          # for the current path.
           HTTP_BODY=$(mktemp)
           HTTP_CODE=$(curl -sS \
             -w '%{http_code}' \
             -o "$HTTP_BODY" \
-            "https://api.hubapi.com/integrators/v1/access-tokens/${HUBSPOT_PERSONAL_ACCESS_KEY}")
+            -X POST \
+            -H "Content-Type: application/json" \
+            -d "{\"encodedOAuthRefreshToken\":\"${HUBSPOT_PERSONAL_ACCESS_KEY}\"}" \
+            "https://api.hubapi.com/localdevauth/v1/auth/refresh")
 
           if [ "$HTTP_CODE" != "200" ]; then
             echo "::error::HubSpot token exchange returned HTTP $HTTP_CODE." >&2
@@ -108,7 +119,9 @@ jobs:
             exit 3
           fi
 
-          TOKEN=$(python3 -c "import json,sys; print(json.load(open('$HTTP_BODY')).get('accessToken',''))")
+          # The response field has been variously named `oauthAccessToken`
+          # and `accessToken` across HubSpot CLI versions; accept either.
+          TOKEN=$(python3 -c "import json,sys; d=json.load(open('$HTTP_BODY')); print(d.get('oauthAccessToken') or d.get('accessToken') or '')")
           rm -f "$HTTP_BODY"
 
           if [ -z "$TOKEN" ]; then

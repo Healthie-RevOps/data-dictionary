@@ -81,11 +81,11 @@ available to private apps** in modern HubSpot portals.
 Personal access keys are the credential the official HubSpot CLI uses; HubSpot
 exchanges them for short-lived OAuth access tokens that carry the broader
 legacy scopes the CLI app was approved for, including `content`. The workflow
-does the same exchange directly via the HubSpot REST API at runtime: it calls
-`GET https://api.hubapi.com/integrators/v1/access-tokens/<key>`, parses the
-`accessToken` out of the JSON response, masks it, and feeds it to
-`publish_to_hubspot.py` for that run only. Nothing is written back to the
-repo.
+does the same exchange directly via the HubSpot REST API at runtime: it POSTs
+to `https://api.hubapi.com/localdevauth/v1/auth/refresh` with the key in the
+JSON body, parses the `oauthAccessToken` out of the response, masks it, and
+feeds it to `publish_to_hubspot.py` for that run only. Nothing is written
+back to the repo.
 
 > ⚠️ **Do not paste the cached `accessToken:` line from `hubspot.config.yml`.**
 > That value is one of the short-lived tokens minted by the CLI — it expires
@@ -125,9 +125,10 @@ from then on; the manual button is there for off-cycle re-runs.
      preview, and `deploy_template_peapod_sfdc_data_dictionary.html`).
    - Updates the `.dictionary_cache/` JSON files.
 5. Exchanges `$HUBSPOT_PERSONAL_ACCESS_KEY` for a short-lived OAuth access token
-   by calling `GET https://api.hubapi.com/integrators/v1/access-tokens/<key>`
-   (the same endpoint the HubSpot CLI hits internally), parses the
-   `accessToken` field out of the JSON response, and masks it in logs.
+   by POSTing to `https://api.hubapi.com/localdevauth/v1/auth/refresh` with
+   `{"encodedOAuthRefreshToken": "<key>"}` (the same endpoint the HubSpot CLI
+   hits via `@hubspot/local-dev-lib`'s `fetchAccessToken`), parses the
+   `oauthAccessToken` field out of the JSON response, and masks it in logs.
 6. Runs `python3 scripts/publish_to_hubspot.py` with the minted token in
    `$HUBSPOT_TOKEN`, which PUTs the deploy template to
    `https://api.hubapi.com/cms/v3/source-code/{draft,published}/content/...`.
