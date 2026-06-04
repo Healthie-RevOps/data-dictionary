@@ -2028,6 +2028,13 @@ _JS = r"""
         if (hasQuery) bits.push('matching "' + q + '"');
         if (hasSimFilter) bits.push(simMode === 'similar' ? 'with similar siblings' : 'unique within object');
         if (hasDayFilter) bits.push('created in last ' + days + ' days');
+        // When a global query is active it also filters the All Other Fields
+        // section (handled by the search input handler below). Surface its
+        // count here so the user knows there are uncurated matches to scroll to.
+        if (hasQuery){
+          var otherMatches = root.querySelectorAll('#dd-other-fields tr.dd-other-row:not(.is-hidden)').length;
+          if (otherMatches > 0) bits.push(otherMatches + ' in All Other Fields');
+        }
         meta.textContent = bits.join(' · ') + '.';
       } else {
         meta.textContent = 'Type to filter. Tab badges update live.';
@@ -2038,6 +2045,13 @@ _JS = r"""
   if (search){
     search.addEventListener('input', function(){
       filterState.q = search.value;
+      // Also drive the All Other Fields section so global search surfaces
+      // matches there too. Visually sync the section's local search input
+      // so the user sees it's filtered.
+      otherFilterState.q = search.value;
+      var otherSearchInput = root.querySelector('#dd-other-search');
+      if (otherSearchInput) otherSearchInput.value = search.value;
+      applyOtherFilter();
       applyFilter();
     });
   }
