@@ -58,16 +58,39 @@ sf org display --target-org bill.coffin@gethealthie.com --verbose --json
 Copy the value of `result.sfdxAuthUrl` (starts with `force://`). Paste it as the secret
 value. **Single line, no quotes.**
 
-#### `HUBSPOT_TOKEN`
+#### `HUBSPOT_PERSONAL_ACCESS_KEY`
 
-The personal access key from `hubspot.config.yml` — the value of `personalAccessKey`
-under the `healthie-prod` portal. It already has the `cms.source_code.write` and
-`cms.source_code.read` scopes the publisher needs.
+Your HubSpot CLI **personal access key** for the `healthie-prod` portal — the
+same value as `personalAccessKey:` in your local `hubspot.config.yml`.
 
-If you'd rather generate a fresh token, in HubSpot: **Settings → Integrations →
-Private Apps → Create private app → Scopes:** select `cms.source_code.read` and
-`cms.source_code.write` → **Create**. Copy the access token. Paste it as the secret
-value.
+To grab it freshly: log in to HubSpot, open
+**[https://app.hubspot.com/personal-access-key/43826161/](https://app.hubspot.com/personal-access-key/43826161/)**,
+and copy the key. (Or `hs accounts list --config <path>` if you already have a
+working CLI install, then read the value out of the config file.)
+
+Paste it as the secret value. **Single line, no quotes.**
+
+##### Why a personal access key, not a private-app token
+
+The HubSpot source-code endpoint we use,
+`PUT /cms/v3/source-code/{environment}/content/<page-bound-template>`, requires
+the legacy `content` scope when the template is wired to a landing page (ours
+is — it's bound to `212676525863`). The legacy `content` scope **is not
+available to private apps** in modern HubSpot portals.
+
+Personal access keys are the credential the official HubSpot CLI uses; the CLI
+exchanges the key for short-lived OAuth access tokens that carry the broader
+legacy scopes the CLI app was approved for, including `content`. The workflow
+does the same thing at runtime: it installs `@hubspot/cli`, writes a minimal
+config from `$HUBSPOT_PERSONAL_ACCESS_KEY`, runs `hs accounts info` (which
+mints + caches a fresh token), pulls the token out of the cache, and feeds it
+to `publish_to_hubspot.py` for that run only. Nothing is written back to the
+repo.
+
+> ⚠️ **Do not paste the cached `accessToken:` line from `hubspot.config.yml`.**
+> That value is one of the short-lived tokens minted by the CLI — it expires
+> within roughly an hour of being minted. The workflow needs the long-lived
+> personal access key so it can mint a fresh access token each run.
 
 ### 2. Sanity-check the workflow without publishing
 
@@ -101,12 +124,16 @@ from then on; the manual button is there for off-cycle re-runs.
    - Re-renders the three HTML files (`peapod_sfdc_data_dictionary.html`, the standalone
      preview, and `deploy_template_peapod_sfdc_data_dictionary.html`).
    - Updates the `.dictionary_cache/` JSON files.
-5. Runs `python3 scripts/publish_to_hubspot.py`, which PUTs the deploy template to
+5. Installs `@hubspot/cli`, writes a minimal `hubspot.config.yml` to `/tmp` using
+   `$HUBSPOT_PERSONAL_ACCESS_KEY`, runs `hs accounts info` to mint and cache a
+   fresh OAuth access token, then extracts that token and masks it in logs.
+6. Runs `python3 scripts/publish_to_hubspot.py` with the minted token in
+   `$HUBSPOT_TOKEN`, which PUTs the deploy template to
    `https://api.hubapi.com/cms/v3/source-code/{draft,published}/content/...`.
-6. Commits any changes to the generated HTML files and `.dictionary_cache/*` back to the
+7. Commits any changes to the generated HTML files and `.dictionary_cache/*` back to the
    repo, so the next run has the prior snapshot to diff against.
-7. Uploads the three HTML files as a workflow artifact (90-day retention).
-8. Writes a markdown summary to the run page (cron, sizes, prerender-cache reminder).
+8. Uploads the three HTML files as a workflow artifact (90-day retention).
+9. Writes a markdown summary to the run page (cron, sizes, prerender-cache reminder).
 
 ## Manual step still required after each successful run
 
@@ -124,8 +151,12 @@ If `SFDX_AUTH_URL` ever stops working (refresh token revoked, password reset, MF
 re-run `sf org display --target-org bill.coffin@gethealthie.com --verbose --json` on your
 laptop, grab the new `sfdxAuthUrl`, and overwrite the GitHub secret.
 
-If `HUBSPOT_TOKEN` ever stops working (token revoked or scopes changed), generate a fresh
-private-app token with `cms.source_code.write` and overwrite the secret.
+If `HUBSPOT_PERSONAL_ACCESS_KEY` ever stops working (key revoked or scopes
+changed), grab a fresh key from
+[https://app.hubspot.com/personal-access-key/43826161/](https://app.hubspot.com/personal-access-key/43826161/)
+and overwrite the secret. Symptoms of a revoked key: the "Mint fresh HubSpot
+access token" step exits non-zero, or the subsequent `Publish to HubSpot` step
+returns HTTP 401 `EXPIRED_AUTHENTICATION`.
 
 ## Rollback / pause
 

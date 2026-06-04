@@ -25,13 +25,6 @@ on:
 permissions:
   contents: write  # so we can commit updated caches/snapshots/HTML back to the repo
 
-# Opt the workflow's JavaScript actions (checkout, setup-node, setup-python,
-# upload-artifact) into Node 24 ahead of the June 2, 2026 default flip. Lets us
-# verify Node-24 compatibility now and silences the deprecation warning. Remove
-# this once we've bumped to Node-24-native majors of each action.
-env:
-  FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: "true"
-
 concurrency:
   group: sfdc-dictionary-sync
   cancel-in-progress: false
@@ -43,15 +36,15 @@ jobs:
 
     steps:
       - name: Checkout repository
-        uses: actions/checkout@v4
+        uses: actions/checkout@v5
 
       - name: Set up Python 3.11
-        uses: actions/setup-python@v5
+        uses: actions/setup-python@v6
         with:
           python-version: "3.11"
 
       - name: Set up Node (for the Salesforce CLI)
-        uses: actions/setup-node@v4
+        uses: actions/setup-node@v5
         with:
           node-version: "20"
 
@@ -83,13 +76,58 @@ jobs:
           SF_DISABLE_TELEMETRY: "true"
           SF_AUTOUPDATE_DISABLE: "true"
 
-      - name: Publish to HubSpot
+      # We can't use a private-app token directly: HubSpot's source-code endpoint
+      # for page-bound templates requires the legacy `content` scope, which isn't
+      # available to private apps. Instead we replicate what the HubSpot CLI does
+      # on a developer laptop -- write a minimal hubspot.config.yml, run `hs` once
+      # to mint and cache a fresh OAuth access token (the CLI app carries the
+      # legacy scope), then hand that token to the publish helper as HUBSPOT_TOKEN.
+      - name: Mint fresh HubSpot access token from personalAccessKey
         if: ${{ github.event.inputs.skip_publish != 'true' }}
         env:
-          HUBSPOT_TOKEN: ${{ secrets.HUBSPOT_TOKEN }}
+          HUBSPOT_PERSONAL_ACCESS_KEY: ${{ secrets.HUBSPOT_PERSONAL_ACCESS_KEY }}
+        run: |
+          if [ -z "$HUBSPOT_PERSONAL_ACCESS_KEY" ]; then
+            echo "::error::Repository secret HUBSPOT_PERSONAL_ACCESS_KEY is not set." >&2
+            exit 2
+          fi
+          npm install -g @hubspot/cli@latest >/dev/null
+
+          # Write the config OUTSIDE the repo so it can't be accidentally staged.
+          # .gitignore would catch it anyway, but defense in depth.
+          CFG=/tmp/hubspot.config.yml
+          cat > "$CFG" <<EOF
+          defaultPortal: healthie-prod
+          portals:
+            - name: healthie-prod
+              portalId: 43826161
+              env: PROD
+              authType: personalaccesskey
+              personalAccessKey: $HUBSPOT_PERSONAL_ACCESS_KEY
+          EOF
+
+          # First `hs` invocation against this config triggers a token mint + cache.
+          hs accounts info --account healthie-prod --config "$CFG" >/dev/null
+
+          # The CLI writes the minted token back to the config under
+          # `auth.tokenInfo.accessToken` using a YAML `>-` block scalar.
+          TOKEN=$(python3 -c "import re; m=re.search(r'accessToken:\s*>-\s*\n\s+(\S+)', open('$CFG').read()); print(m.group(1) if m else '')")
+
+          if [ -z "$TOKEN" ]; then
+            echo "::error::Failed to extract accessToken from hubspot.config.yml after hs refresh." >&2
+            exit 3
+          fi
+
+          # Mask the token in logs so subsequent steps don't leak it, then expose
+          # it to the Publish step as a process env var via GITHUB_ENV.
+          echo "::add-mask::$TOKEN"
+          echo "HUBSPOT_TOKEN=$TOKEN" >> "$GITHUB_ENV"
+
+      - name: Publish to HubSpot
+        if: ${{ github.event.inputs.skip_publish != 'true' }}
         run: |
           if [ -z "$HUBSPOT_TOKEN" ]; then
-            echo "::error::Repository secret HUBSPOT_TOKEN is not set." >&2
+            echo "::error::HUBSPOT_TOKEN is not set (token mint step likely failed)." >&2
             exit 2
           fi
           python3 scripts/publish_to_hubspot.py \
@@ -119,7 +157,7 @@ jobs:
 
       - name: Upload generated HTML as workflow artifact
         if: always()
-        uses: actions/upload-artifact@v4
+        uses: actions/upload-artifact@v6
         with:
           name: sfdc-dictionary-${{ github.run_id }}
           path: |
