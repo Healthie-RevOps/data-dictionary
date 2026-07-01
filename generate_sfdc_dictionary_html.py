@@ -1200,6 +1200,25 @@ def render_html(model: dict, run_meta: dict) -> str:
   {objects_panels}
 </main>
 
+<section class="dd-results" id="dd-results" aria-live="polite">
+  <div class="dd-table-wrap">
+    <table class="dd-table dd-results-table">
+      <thead>
+        <tr>
+          <th class="c-res-section">Section</th>
+          <th class="c-res-object">Object</th>
+          <th class="c-res-label">Label / Name</th>
+          <th class="c-res-api">API / Dev Name</th>
+          <th class="c-res-type">Type / Process</th>
+          <th class="c-res-desc">Description</th>
+        </tr>
+      </thead>
+      <tbody id="dd-results-body"></tbody>
+    </table>
+  </div>
+  <div class="dd-results-empty" id="dd-results-empty" hidden>No matches — try a different term.</div>
+</section>
+
 {other_html}
 
 {flows_html}
@@ -1776,6 +1795,34 @@ _CSS = """
 .dd-panel { display: none; }
 .dd-panel.is-active { display: block; }
 
+/* ---- Global unified search results ---- */
+/* When a query is active, #dd-root gets .dd-search-active: the tabbed sections
+   collapse and a single aggregated results table takes their place. */
+.dd-results { display: none; max-width: 1240px; margin: 0 auto; padding: 18px 20px 40px; }
+.dd-root.dd-search-active #dd-results { display: block; }
+.dd-root.dd-search-active #dd-tabs,
+.dd-root.dd-search-active #dd-panels,
+.dd-root.dd-search-active #dd-other-fields,
+.dd-root.dd-search-active #dd-flows,
+.dd-root.dd-search-active .dd-legend,
+.dd-root.dd-search-active .dd-controls .dd-filters,
+.dd-root.dd-search-active .dd-accordion-group { display: none; }
+.dd-res-pill { display: inline-block; padding: 2px 8px; border-radius: 999px; font-size: 11px; font-weight: 600; white-space: nowrap; }
+.dd-res-pill.res-curated { background: #eef2ff; color: #4338ca; }
+.dd-res-pill.res-other { background: var(--slate-100); color: var(--slate-700); }
+.dd-res-pill.res-flow { background: #fef3c7; color: #b45309; }
+.dd-result-jump { background: none; border: 0; padding: 0; font: inherit; color: var(--indigo); font-weight: 500; cursor: pointer; text-align: left; }
+.dd-result-jump:hover { text-decoration: underline; }
+.dd-results-table .c-res-section { min-width: 88px; }
+.dd-results-table .c-res-object { min-width: 110px; }
+.dd-results-table .c-res-label { min-width: 200px; max-width: 300px; }
+.dd-results-table .c-res-api { min-width: 190px; max-width: 280px; }
+.dd-results-table .c-res-type { min-width: 130px; max-width: 180px; }
+.dd-results-table .c-res-desc { min-width: 320px; max-width: 480px; }
+.dd-results-empty { padding: 28px; text-align: center; color: var(--slate-500); font-size: 14px; }
+@keyframes dd-row-flash-kf { 0%, 100% { background: transparent; } 20%, 60% { background: #fde68a; } }
+.dd-row-flash > td { animation: dd-row-flash-kf 2s ease; }
+
 /* Object header: colored top band + colored title so each object reads as a
    distinct section. The band uses the object's accent color (--obj-color). */
 .dd-object-header { margin-bottom: 18px; border: 1px solid var(--slate-200); border-radius: 10px; background: white; overflow: hidden; }
@@ -2043,17 +2090,11 @@ _JS = r"""
   }
 
   if (search){
-    search.addEventListener('input', function(){
-      filterState.q = search.value;
-      // Also drive the All Other Fields section so global search surfaces
-      // matches there too. Visually sync the section's local search input
-      // so the user sees it's filtered.
-      otherFilterState.q = search.value;
-      var otherSearchInput = root.querySelector('#dd-other-search');
-      if (otherSearchInput) otherSearchInput.value = search.value;
-      applyOtherFilter();
-      applyFilter();
-    });
+    // The top search box drives the global unified results view (see the
+    // "Global unified search" block below). Non-empty query -> results mode;
+    // empty -> restore the prior tabbed browsing state. runGlobalSearch is a
+    // hoisted function declaration defined later in this IIFE.
+    search.addEventListener('input', function(){ runGlobalSearch(); });
   }
 
   // Similar-fields segmented control
@@ -2346,6 +2387,175 @@ _JS = r"""
       otherDaysInput.value = '';
       otherFilterState.daysWindow = null;
       applyOtherFilter();
+    });
+  }
+
+  // ---- Global unified search ----
+  // The top #dd-search box searches across ALL three sections at once
+  // (curated fields, All Other Fields, Flows) and shows a single aggregated
+  // results table so the user never has to jump between tabs/sections. When
+  // the query is cleared we restore the exact tab/section state we snapshotted
+  // on entry.
+  var SECTION_META = {
+    curated: { label: 'Curated', cls: 'res-curated' },
+    other:   { label: 'All Other', cls: 'res-other' },
+    flow:    { label: 'Flow', cls: 'res-flow' }
+  };
+
+  // Pull a clean text value from a table cell: prefer the anchor text, and
+  // strip decorative chips (NEW / ★ / ⚠) that would otherwise pollute labels.
+  function cellText(cell){
+    if (!cell) return '';
+    var a = cell.querySelector('a');
+    var node = (a || cell).cloneNode(true);
+    Array.prototype.slice.call(node.querySelectorAll('.dd-new-chip,.dd-warn-icon,.dd-key-star,.dd-tip'))
+      .forEach(function(n){ if (n.parentNode) n.parentNode.removeChild(n); });
+    return (node.textContent || '').replace(/\s+/g, ' ').trim();
+  }
+
+  function esc(s){
+    return (s || '').replace(/&/g, '&amp;').replace(/</g, '&lt;')
+      .replace(/>/g, '&gt;').replace(/"/g, '&quot;');
+  }
+
+  // Built lazily on first query. Each entry maps a source row element to its
+  // common columns + the existing data-search blob used for matching.
+  var searchIndex = null;
+  function buildSearchIndex(){
+    if (searchIndex) return searchIndex;
+    searchIndex = [];
+    // Curated fields — cells: 0 label, 1 api, 2 type, 5 definition.
+    Array.prototype.slice.call(root.querySelectorAll('#dd-panels tr.dd-row')).forEach(function(tr){
+      var panel = tr.closest('.dd-panel');
+      searchIndex.push({
+        el: tr, section: 'curated',
+        object: panel ? (panel.getAttribute('data-obj') || '') : '',
+        label: cellText(tr.cells[0]), api: cellText(tr.cells[1]),
+        type: cellText(tr.cells[2]), desc: cellText(tr.cells[5]),
+        blob: tr.getAttribute('data-search') || ''
+      });
+    });
+    // All Other Fields — cells: 0 label, 1 api, 2 type, 5 description.
+    Array.prototype.slice.call(root.querySelectorAll('#dd-other-fields tr.dd-other-row')).forEach(function(tr){
+      var panel = tr.closest('.dd-other-panel');
+      searchIndex.push({
+        el: tr, section: 'other',
+        object: panel ? (panel.getAttribute('data-obj') || '') : '',
+        label: cellText(tr.cells[0]), api: cellText(tr.cells[1]),
+        type: cellText(tr.cells[2]), desc: cellText(tr.cells[5]),
+        blob: tr.getAttribute('data-search') || ''
+      });
+    });
+    // Flows — cells: 0 label, 1 dev name, 2 object, 3 process type, 7 desc.
+    Array.prototype.slice.call(root.querySelectorAll('#dd-flows tr.dd-flow-row')).forEach(function(tr){
+      searchIndex.push({
+        el: tr, section: 'flow',
+        object: cellText(tr.cells[2]), label: cellText(tr.cells[0]),
+        api: cellText(tr.cells[1]), type: cellText(tr.cells[3]),
+        desc: cellText(tr.cells[7]), blob: tr.getAttribute('data-search') || ''
+      });
+    });
+    return searchIndex;
+  }
+
+  var resultsBody = root.querySelector('#dd-results-body');
+  var resultsEmpty = root.querySelector('#dd-results-empty');
+
+  function resultRowHtml(it, i){
+    var sec = SECTION_META[it.section];
+    var desc = (it.desc && it.desc !== '—') ? esc(it.desc) : '<span class="dd-muted">—</span>';
+    var api = it.api ? ('<code>' + esc(it.api) + '</code>') : '<span class="dd-muted">—</span>';
+    return '<tr class="dd-result-row">'
+      + '<td class="c-res-section"><span class="dd-res-pill ' + sec.cls + '">' + sec.label + '</span></td>'
+      + '<td class="c-res-object">' + (it.object ? esc(it.object) : '<span class="dd-muted">—</span>') + '</td>'
+      + '<td class="c-res-label"><button type="button" class="dd-result-jump" data-idx="' + i + '">' + esc(it.label || '(untitled)') + '</button></td>'
+      + '<td class="c-res-api">' + api + '</td>'
+      + '<td class="c-res-type">' + (it.type ? esc(it.type) : '<span class="dd-muted">—</span>') + '</td>'
+      + '<td class="c-res-desc">' + desc + '</td>'
+      + '</tr>';
+  }
+
+  function renderResults(q){
+    var idx = buildSearchIndex();
+    var ql = q.trim().toLowerCase();
+    var counts = { curated: 0, other: 0, flow: 0 };
+    var html = '';
+    for (var i = 0; i < idx.length; i++){
+      var it = idx[i];
+      if (it.blob.indexOf(ql) === -1) continue;
+      counts[it.section]++;
+      html += resultRowHtml(it, i);
+    }
+    if (resultsBody) resultsBody.innerHTML = html;
+    var total = counts.curated + counts.other + counts.flow;
+    if (resultsEmpty) resultsEmpty.hidden = total > 0;
+    if (meta){
+      if (total === 0){
+        meta.textContent = 'No matches for "' + ql + '".';
+      } else {
+        var parts = [];
+        if (counts.curated) parts.push(counts.curated + ' curated');
+        if (counts.other) parts.push(counts.other + ' other');
+        if (counts.flow) parts.push(counts.flow + ' flow' + (counts.flow === 1 ? '' : 's'));
+        meta.textContent = total + ' result' + (total === 1 ? '' : 's') + ' for "' + ql + '" · ' + parts.join(' · ');
+      }
+    }
+    setTimeout(refreshAllScrollEdges, 0);
+  }
+
+  var resultsMode = false;
+  var savedTab = null, savedOtherTab = null;
+  function enterResultsMode(q){
+    if (!resultsMode){
+      var at = tabs.filter(function(t){ return t.classList.contains('is-active'); })[0];
+      savedTab = at ? at.getAttribute('data-tab') : (tabs[0] && tabs[0].getAttribute('data-tab'));
+      var ao = otherTabs.filter(function(t){ return t.classList.contains('is-active'); })[0];
+      savedOtherTab = ao ? ao.getAttribute('data-other-tab') : (otherTabs[0] && otherTabs[0].getAttribute('data-other-tab'));
+      resultsMode = true;
+      root.classList.add('dd-search-active');
+    }
+    renderResults(q);
+  }
+  function exitResultsMode(){
+    if (!resultsMode) return;
+    resultsMode = false;
+    root.classList.remove('dd-search-active');
+    if (savedTab) activateTab(savedTab);
+    if (savedOtherTab) activateOtherTab(savedOtherTab);
+    if (meta) meta.textContent = 'Type to filter. Tab badges update live.';
+    setTimeout(refreshAllScrollEdges, 0);
+  }
+  function runGlobalSearch(){
+    if (!search) return;
+    if (search.value.trim().length > 0) enterResultsMode(search.value);
+    else exitResultsMode();
+  }
+
+  // Jump from a result row to its full entry in the owning section.
+  function jumpToRow(it){
+    if (search) search.value = '';
+    exitResultsMode();
+    if (it.section === 'curated'){
+      var p = it.el.closest('.dd-panel');
+      if (p) activateTab(p.id);
+    } else if (it.section === 'other'){
+      var op = it.el.closest('.dd-other-panel');
+      if (op) activateOtherTab(op.id);
+    }
+    setTimeout(function(){
+      try { it.el.scrollIntoView({ behavior: 'smooth', block: 'center' }); }
+      catch (e) { it.el.scrollIntoView(); }
+      it.el.classList.add('dd-row-flash');
+      setTimeout(function(){ it.el.classList.remove('dd-row-flash'); }, 2100);
+    }, 40);
+  }
+  if (resultsBody){
+    resultsBody.addEventListener('click', function(e){
+      var btn = e.target.closest && e.target.closest('.dd-result-jump');
+      if (!btn) return;
+      var i = parseInt(btn.getAttribute('data-idx'), 10);
+      var it = searchIndex && searchIndex[i];
+      if (it) jumpToRow(it);
     });
   }
 
