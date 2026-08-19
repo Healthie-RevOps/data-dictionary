@@ -20,6 +20,15 @@ Tooling that generates and publishes Healthie's RevOps Salesforce Data Dictionar
 > template that used to live at that path is preserved locally in
 > `deploy_template_peapod_sfdc_data_dictionary.html` — push it back with
 > `scripts/publish_to_hubspot.py` to restore.
+>
+> **2026-08-19 follow-up (RESOLVED):** the Railway app ("Healthie internal reporting",
+> ~25 static report pages behind Google OAuth, owned by Josh Druck) now reads
+> `peapod_sfdc_data_dictionary_standalone.html` from THIS repo
+> (github.com/Healthie-RevOps/data-dictionary — note the repo moved orgs; origin updated
+> locally) and **auto-publishes it to the live SSO page every morning**. So the publish
+> flow is now: regenerate → commit + push the standalone HTML to main → live next
+> morning. The weekly Monday Action keeps this current automatically; no HubSpot pushes
+> of dictionary content anymore (HubSpot only hosts the redirect).
 
 - **Old HubSpot page (unpublished, 404):** https://go.gethealthie.com/peapod-sfdc-data-dictionary
 - **Sibling page (reference only, not generated here):** https://go.gethealthie.com/peapod-hubspot-data-dictionary
