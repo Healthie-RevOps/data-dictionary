@@ -6,7 +6,22 @@ This file is the canonical orientation for any session picking up this work. Rea
 
 Tooling that generates and publishes Healthie's RevOps Salesforce Data Dictionary as a HubSpot CMS landing page.
 
-- **Live page:** https://go.gethealthie.com/peapod-sfdc-data-dictionary
+> **⚠ 2026-08-18 — the dictionary moved off HubSpot.** The new home is
+> https://reports-production-9595.up.railway.app/peapod-sfdc-data-dictionary (Railway-hosted
+> reports app, Google OAuth gated to @gethealthie.com). Both HubSpot landing pages
+> (SFDC + HubSpot dictionaries) were unpublished and now 404. The HubSpot template
+> `custom/pages/PP SFDC Data Dictionary.html` was replaced (draft + published envs) with a
+> small meta-refresh/JS redirect to the Railway URL — source in
+> [redirect_template_peapod_sfdc_data_dictionary.html](redirect_template_peapod_sfdc_data_dictionary.html).
+> The redirect only serves if the landing page is republished in the HubSpot UI (page id
+> `212676525863`, currently `state: DRAFT`); alternatively add a HubSpot URL redirect in
+> Settings → Website → Domains & URLs. The access key lacks `content` /
+> `content.landing_pages.write` scopes, so neither can be automated. The full dictionary
+> template that used to live at that path is preserved locally in
+> `deploy_template_peapod_sfdc_data_dictionary.html` — push it back with
+> `scripts/publish_to_hubspot.py` to restore.
+
+- **Old HubSpot page (unpublished, 404):** https://go.gethealthie.com/peapod-sfdc-data-dictionary
 - **Sibling page (reference only, not generated here):** https://go.gethealthie.com/peapod-hubspot-data-dictionary
 - **HubSpot portal:** healthie-prod, id `43826161`
 - **HubSpot landing page id:** `212676525863`
