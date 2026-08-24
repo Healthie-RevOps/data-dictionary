@@ -1091,14 +1091,22 @@ def _build_export_data(model: dict) -> dict:
 # only holds 180 days — the local register is the durable record, and this
 # section surfaces it in the dictionary. Missing file -> section is skipped.
 # ---------------------------------------------------------------------------
-DELETED_REGISTER_PATH = Path.home() / "Documents/Work/SFDC-Data-Layer/docs/deleted-metadata-register.json"
+# Canonical copy lives in the SFDC-Data-Layer project; a synced copy is kept in
+# this repo so the GitHub Action / Railway rebuild (which has no access to the
+# local data-layer checkout) still renders the section. Freshest wins.
+DELETED_REGISTER_PATHS = [
+    Path.home() / "Documents/Work/SFDC-Data-Layer/docs/deleted-metadata-register.json",
+    Path(__file__).resolve().parent / "deleted-metadata-register.json",
+]
 
 
 def _load_deleted_register() -> dict | None:
-    try:
-        return json.loads(DELETED_REGISTER_PATH.read_text())
-    except (OSError, json.JSONDecodeError):
-        return None
+    for path in DELETED_REGISTER_PATHS:
+        try:
+            return json.loads(path.read_text())
+        except (OSError, json.JSONDecodeError):
+            continue
+    return None
 
 
 def _render_deleted_section(reg: dict | None) -> str:

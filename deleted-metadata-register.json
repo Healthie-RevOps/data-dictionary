@@ -1,0 +1,1075 @@
+{
+  "updated": "2026-08-24",
+  "org": "00D1I000001XymDUAS (healthie prod)",
+  "notes": "Maintained by scripts/refresh-deleted-metadata-register.py. `why`/`evidence` are hand-written and survive refreshes. Refresh at least quarterly: SetupAuditTrail only holds 180 days, and permanently-erased fields vanish from every API.",
+  "fields": [
+    {
+      "object": "Opportunity",
+      "api_name": "dec11stripeemailupdate__c",
+      "recycle_bin_name": "dec11stripeemailupdate_del",
+      "created_on": "2017-12-12",
+      "created_by": "Salesforce Robot",
+      "deleted_on": "2026-08-21",
+      "deleted_by": "James Kase",
+      "why": "One-off Dec-2017 Stripe email-update flag (z-labeled); §8.1 era artifact; audit tier A.",
+      "evidence": "Healthie GTM Field Spec and Cleanup Register.md §8.1 · docs/register-8-1-deletion-audit-2026-08-20.md",
+      "permanently_erased_on": null
+    },
+    {
+      "object": "Opportunity",
+      "api_name": "Test__c",
+      "recycle_bin_name": "Test_del",
+      "created_on": "2017-10-22",
+      "created_by": "Salesforce Robot",
+      "deleted_on": "2026-08-21",
+      "deleted_by": "James Kase",
+      "why": "Test artifact in production (§8.1); audit tier A.",
+      "evidence": "Healthie GTM Field Spec and Cleanup Register.md §8.1 · docs/register-8-1-deletion-audit-2026-08-20.md",
+      "permanently_erased_on": null
+    },
+    {
+      "object": "Lead",
+      "api_name": "test_activity_count__c",
+      "recycle_bin_name": "test_activity_count_del",
+      "created_on": "2018-02-02",
+      "created_by": "Salesforce Robot",
+      "deleted_on": "2026-08-21",
+      "deleted_by": "James Kase",
+      "why": "Test artifact (2018 experiment); §8.1 family; audit tier A.",
+      "evidence": "Healthie GTM Field Spec and Cleanup Register.md §8.1 · docs/register-8-1-deletion-audit-2026-08-20.md",
+      "permanently_erased_on": null
+    },
+    {
+      "object": "Lead",
+      "api_name": "Test__c",
+      "recycle_bin_name": "Test_del",
+      "created_on": "2017-10-22",
+      "created_by": "Salesforce Robot",
+      "deleted_on": "2026-08-21",
+      "deleted_by": "James Kase",
+      "why": "Test artifact in production (§8.1); audit tier A.",
+      "evidence": "Healthie GTM Field Spec and Cleanup Register.md §8.1 · docs/register-8-1-deletion-audit-2026-08-20.md",
+      "permanently_erased_on": null
+    },
+    {
+      "object": "Lead",
+      "api_name": "MC_Test__c",
+      "recycle_bin_name": "MC_Test_del",
+      "created_on": "2018-04-03",
+      "created_by": "Salesforce Robot",
+      "deleted_on": "2026-08-21",
+      "deleted_by": "James Kase",
+      "why": "Marketing-Cloud-era test artifact (§8.1); audit tier A.",
+      "evidence": "Healthie GTM Field Spec and Cleanup Register.md §8.1 · docs/register-8-1-deletion-audit-2026-08-20.md",
+      "permanently_erased_on": "gone from bin (auto-purge, unlogged)"
+    },
+    {
+      "object": "Lead",
+      "api_name": "AC_Test_Automation__c",
+      "recycle_bin_name": "AC_Test_Automation_del",
+      "created_on": "2018-06-11",
+      "created_by": "Salesforce Robot",
+      "deleted_on": "2026-08-21",
+      "deleted_by": "James Kase",
+      "why": "ActiveCampaign test-automation relic (§8.1 campaign relics); ActiveCampaign retired years ago.",
+      "evidence": "Healthie GTM Field Spec and Cleanup Register.md §8.1 · docs/register-8-1-deletion-audit-2026-08-20.md",
+      "permanently_erased_on": null
+    },
+    {
+      "object": "Contact",
+      "api_name": "Test__c",
+      "recycle_bin_name": "Test_del",
+      "created_on": "2017-10-22",
+      "created_by": "Salesforce Robot",
+      "deleted_on": "2026-08-21",
+      "deleted_by": "James Kase",
+      "why": "Test artifact in production (§8.1); audit tier A.",
+      "evidence": "Healthie GTM Field Spec and Cleanup Register.md §8.1 · docs/register-8-1-deletion-audit-2026-08-20.md",
+      "permanently_erased_on": null
+    },
+    {
+      "object": "Contact",
+      "api_name": "MC_Test__c",
+      "recycle_bin_name": "MC_Test_del",
+      "created_on": "2018-04-03",
+      "created_by": "Salesforce Robot",
+      "deleted_on": "2026-08-21",
+      "deleted_by": "James Kase",
+      "why": "Marketing-Cloud-era test artifact (§8.1); audit tier A.",
+      "evidence": "Healthie GTM Field Spec and Cleanup Register.md §8.1 · docs/register-8-1-deletion-audit-2026-08-20.md",
+      "permanently_erased_on": "gone from bin (auto-purge, unlogged)"
+    },
+    {
+      "object": "Account",
+      "api_name": "Test__c",
+      "recycle_bin_name": "Test_del",
+      "created_on": "2017-10-22",
+      "created_by": "Salesforce Robot",
+      "deleted_on": "2026-08-21",
+      "deleted_by": "James Kase",
+      "why": "Test artifact left in production (GTM spec §8.1 'test fields'); audit tier A — zero references.",
+      "evidence": "Healthie GTM Field Spec and Cleanup Register.md §8.1 · docs/register-8-1-deletion-audit-2026-08-20.md",
+      "permanently_erased_on": null
+    },
+    {
+      "object": "Account",
+      "api_name": "Is_Web2Lead__c",
+      "recycle_bin_name": "Is_Web2Lead_del",
+      "created_on": "2017-12-01",
+      "created_by": "Salesforce Robot",
+      "deleted_on": "2026-08-21",
+      "deleted_by": "James Kase",
+      "why": "Legacy Web2Lead automation flag (§8.1); automation long dead; audit-verified safe.",
+      "evidence": "Healthie GTM Field Spec and Cleanup Register.md §8.1 · docs/register-8-1-deletion-audit-2026-08-20.md",
+      "permanently_erased_on": null
+    },
+    {
+      "object": "Account",
+      "api_name": "Invite_Code__c",
+      "recycle_bin_name": "Invite_Code_del",
+      "created_on": "2017-12-01",
+      "created_by": "Salesforce Robot",
+      "deleted_on": "2026-08-21",
+      "deleted_by": "James Kase",
+      "why": "Legacy invite-code automation flag (z-labeled, §8.1); audit-verified safe.",
+      "evidence": "Healthie GTM Field Spec and Cleanup Register.md §8.1 · docs/register-8-1-deletion-audit-2026-08-20.md",
+      "permanently_erased_on": null
+    },
+    {
+      "object": "Account",
+      "api_name": "HelpScout_SAE_Rotation_Date__c",
+      "recycle_bin_name": "HelpScout_SAE_Rotation_Date_del",
+      "created_on": "2025-08-10",
+      "created_by": "James Kase",
+      "deleted_on": "2026-08-21",
+      "deleted_by": "James Kase",
+      "why": "HelpScout-era relic — the DATE companion only. NB: sibling checkbox HelpScout_SAE_Rotation__c was tier-C and NOT deleted (active round-robin flow Account_RT_Round_Robin_Checkbox_Routing references it).",
+      "evidence": "Healthie GTM Field Spec and Cleanup Register.md §8.1 · docs/register-8-1-deletion-audit-2026-08-20.md §C-tier",
+      "permanently_erased_on": null
+    },
+    {
+      "object": "Account",
+      "api_name": "Active_Campaign_End_All_Automations__c",
+      "recycle_bin_name": "Active_Campaign_End_All_Automations_del",
+      "created_on": "2018-06-14",
+      "created_by": "Salesforce Robot",
+      "deleted_on": "2026-08-21",
+      "deleted_by": "James Kase",
+      "why": "ActiveCampaign kill-switch relic (z-labeled, §8.1 campaign relics).",
+      "evidence": "Healthie GTM Field Spec and Cleanup Register.md §8.1 · docs/register-8-1-deletion-audit-2026-08-20.md",
+      "permanently_erased_on": null
+    },
+    {
+      "object": "Opportunity",
+      "api_name": "Renewal_Notice_Period__c",
+      "recycle_bin_name": "Renewal_Notice_Period_del",
+      "created_on": "2024-06-05",
+      "created_by": "Eustace Consulting",
+      "deleted_on": "2026-08-20",
+      "deleted_by": "James Kase",
+      "why": "§8.2 renewal-notice pair — days field (20% fill; created June 2024 in the Eustace Consulting field batch). Deleted with its picklist twin in the renewal cleanup; Stripe adopted as the payment/notice source of truth.",
+      "evidence": "Healthie GTM Field Spec and Cleanup Register.md §8.2 · docs/payment-terms & Renewal Cleanup work · docs/gtm-field-spec-audit-2026-08-19.md",
+      "permanently_erased_on": null
+    },
+    {
+      "object": "Opportunity",
+      "api_name": "Provider_Specialty_text__c",
+      "recycle_bin_name": "Provider_Specialty_text_del",
+      "created_on": "2023-03-12",
+      "created_by": "Kali Berry",
+      "deleted_on": "2026-08-20",
+      "deleted_by": "James Kase",
+      "why": "§8.2 specialty consolidation loser (1% fill, free-text twin).",
+      "evidence": "Healthie GTM Field Spec and Cleanup Register.md §8.2 · docs/specialty-v2-profile-2026-08-21.md",
+      "permanently_erased_on": null
+    },
+    {
+      "object": "Opportunity",
+      "api_name": "Provider_Specialty__c",
+      "recycle_bin_name": "Provider_Specialty_del",
+      "created_on": "2018-01-30",
+      "created_by": "Salesforce Robot",
+      "deleted_on": "2026-08-20",
+      "deleted_by": "James Kase",
+      "why": "§8.2 specialty ×5 consolidation loser (0.2% fill). Winners: Provider_Type__c (Opp) + Healthie_Specialty_v2__c (Acct, backfilled 2026-08-21).",
+      "evidence": "Healthie GTM Field Spec and Cleanup Register.md §8.2 · docs/specialty-v2-profile-2026-08-21.md · docs/change-log.md",
+      "permanently_erased_on": "gone from bin (auto-purge, unlogged)"
+    },
+    {
+      "object": "Opportunity",
+      "api_name": "Non_Renewal_Termination_Notice__c",
+      "recycle_bin_name": "Non_Renewal_Termination_Notice_del",
+      "created_on": "2024-06-13",
+      "created_by": "Eustace Consulting",
+      "deleted_on": "2026-08-20",
+      "deleted_by": "James Kase",
+      "why": "§8.2 renewal-notice duplicate pair — picklist twin (3% fill); z-audit verdict 'safe after backfill'. Notice/payment terms now sourced from Stripe (Collection_Method + Days_Until_Due).",
+      "evidence": "Healthie GTM Field Spec and Cleanup Register.md §8.2 · docs/gtm-field-spec-audit-2026-08-19.md · docs/z-field-deletion-audit-2026-08-19.md",
+      "permanently_erased_on": null
+    },
+    {
+      "object": "Opportunity",
+      "api_name": "Contract_Term_Months2__c",
+      "recycle_bin_name": "Contract_Term_Months2_del",
+      "created_on": "2024-07-31",
+      "created_by": "James Kase",
+      "deleted_on": "2026-08-20",
+      "deleted_by": "James Kase",
+      "why": "§8.2 contract-term duplicate loser. Spec assumed split truth; audit §4.1 proved it was a FORMULA — safe to delete outright. Winner Contract_Term_months__c retained (live).",
+      "evidence": "docs/gtm-field-spec-audit-2026-08-19.md §4.1",
+      "permanently_erased_on": null
+    },
+    {
+      "object": "Account",
+      "api_name": "Exec_Sponsor_Note__c",
+      "recycle_bin_name": "Exec_Sponsor_Note_del",
+      "created_on": "2026-08-18",
+      "created_by": "Bill Coffin",
+      "deleted_on": "2026-08-19",
+      "deleted_by": "Bill Coffin",
+      "why": "Created 2026-08-18 during exec-sponsor pulse field design, deleted next day — superseded design iteration (Exec Sponsor Pulse picklist values removed same day); never held production data.",
+      "evidence": "Setup Audit Trail 2026-08-18/19",
+      "permanently_erased_on": null
+    },
+    {
+      "object": "Opportunity",
+      "api_name": "CSM_Review_Required__c",
+      "label": "CSM Review Required",
+      "recycle_bin_name": null,
+      "deleted_on": "2026-07-30",
+      "deleted_by": "Bill Coffin",
+      "permanently_erased_on": "gone from bin (auto-purge, unlogged)",
+      "why": "Deleted 2026-07-30 during the renewal-cleanup era; review-gating concept retired. (why to confirm — Bill deleted it)",
+      "evidence": "Setup Audit Trail"
+    },
+    {
+      "object": "Account",
+      "api_name": "Last_Note_Subject__c",
+      "label": "Last Note Subject",
+      "recycle_bin_name": null,
+      "deleted_on": "2026-06-30",
+      "deleted_by": "James Kase",
+      "permanently_erased_on": "gone from bin (auto-purge, unlogged)",
+      "why": "Note-echo field on Account; superseded by Most_Recent_Sales_Activity__c / prospecting-notes fields. (why to confirm — James deleted it)",
+      "evidence": "Setup Audit Trail"
+    },
+    {
+      "object": "Account",
+      "api_name": "Last_Note_Date__c",
+      "label": "Last Note Date",
+      "recycle_bin_name": null,
+      "deleted_on": "2026-06-30",
+      "deleted_by": "James Kase",
+      "permanently_erased_on": "gone from bin (auto-purge, unlogged)",
+      "why": "Note-echo field on Account; superseded as above. (why to confirm — James deleted it)",
+      "evidence": "Setup Audit Trail"
+    },
+    {
+      "object": "Case",
+      "api_name": "Needed_By__c",
+      "label": "Needed By",
+      "recycle_bin_name": null,
+      "deleted_on": "2026-06-17",
+      "deleted_by": "Bill Coffin",
+      "permanently_erased_on": "gone from bin (auto-purge, unlogged)",
+      "why": "RevOps-intake Case field iteration, removed 2026-06-17. (why to confirm — Bill deleted it)",
+      "evidence": "Setup Audit Trail"
+    },
+    {
+      "object": "Activity",
+      "api_name": "SDR__c",
+      "recycle_bin_name": "SDR_del",
+      "created_on": "2017-10-26",
+      "created_by": "Salesforce Robot",
+      "deleted_on": null,
+      "deleted_by": null,
+      "why": "Ancient (2017) artifact deleted before the current audit window; purpose unrecorded — row kept for completeness.",
+      "evidence": "Tooling CustomField recycle-bin inventory",
+      "permanently_erased_on": null
+    },
+    {
+      "object": "01I1I000000GJbLUAW",
+      "api_name": "Advanced_Currency__c",
+      "recycle_bin_name": "Advanced_Currency_del",
+      "created_on": "2017-10-27",
+      "created_by": "Salesforce Robot",
+      "deleted_on": null,
+      "deleted_by": null,
+      "why": "Ancient (2017) artifact on the PartnerStack settings object (PS_Settings, id 01I1I000000GJbLUAW); deleted pre-audit-window; purpose unrecorded.",
+      "evidence": "Tooling CustomField recycle-bin inventory",
+      "permanently_erased_on": null
+    }
+  ],
+  "flows": [
+    {
+      "label": "z.winbacktest",
+      "api_name": "winbacktest",
+      "deleted_on": "2026-08-21",
+      "deleted_by": "Aaron Cole",
+      "why": "z-prefixed = admin deprecation convention; long-deactivated legacy automation deleted in the Aug 2026 flow-graveyard cleanup (unblocks tier-B field deletions per the z-field / §8.1 audits).",
+      "evidence": "docs/z-field-deletion-audit-2026-08-19.md · docs/register-8-1-deletion-audit-2026-08-20.md"
+    },
+    {
+      "label": "ow all versionsLEAD DNC/RL Flow Reminder task",
+      "api_name": "ow_all_versionsLEAD_DNC_RL_Flow_Reminder_task",
+      "deleted_on": "2026-08-21",
+      "deleted_by": "Aaron Cole",
+      "why": "Deactivated legacy/test automation from the pre-2022 Lead-era sales process (unprefixed peer of the z-graveyard); deleted in the Aug 2026 flow cleanup wave.",
+      "evidence": "docs/z-field-deletion-audit-2026-08-19.md · docs/register-8-1-deletion-audit-2026-08-20.md"
+    },
+    {
+      "label": "new opp transfer tasks",
+      "api_name": "new_opp_transfer_tasks",
+      "deleted_on": "2026-08-21",
+      "deleted_by": "Aaron Cole",
+      "why": "Deactivated legacy/test automation from the pre-2022 Lead-era sales process (unprefixed peer of the z-graveyard); deleted in the Aug 2026 flow cleanup wave.",
+      "evidence": "docs/z-field-deletion-audit-2026-08-19.md · docs/register-8-1-deletion-audit-2026-08-20.md"
+    },
+    {
+      "label": "2DaysAfter",
+      "api_name": "X2DaysAfter",
+      "deleted_on": "2026-08-21",
+      "deleted_by": "Aaron Cole",
+      "why": "Deactivated legacy/test automation from the pre-2022 Lead-era sales process (unprefixed peer of the z-graveyard); deleted in the Aug 2026 flow cleanup wave.",
+      "evidence": "docs/z-field-deletion-audit-2026-08-19.md · docs/register-8-1-deletion-audit-2026-08-20.md"
+    },
+    {
+      "label": "z.Missed Call Task",
+      "api_name": "Voicemail_Task",
+      "deleted_on": "2026-08-21",
+      "deleted_by": "Aaron Cole",
+      "why": "z-prefixed = admin deprecation convention; long-deactivated legacy automation deleted in the Aug 2026 flow-graveyard cleanup (unblocks tier-B field deletions per the z-field / §8.1 audits).",
+      "evidence": "docs/z-field-deletion-audit-2026-08-19.md · docs/register-8-1-deletion-audit-2026-08-20.md"
+    },
+    {
+      "label": "z.VIP Test",
+      "api_name": "VIP_Test",
+      "deleted_on": "2026-08-21",
+      "deleted_by": "Aaron Cole",
+      "why": "z-prefixed = admin deprecation convention; long-deactivated legacy automation deleted in the Aug 2026 flow-graveyard cleanup (unblocks tier-B field deletions per the z-field / §8.1 audits).",
+      "evidence": "docs/z-field-deletion-audit-2026-08-19.md · docs/register-8-1-deletion-audit-2026-08-20.md"
+    },
+    {
+      "label": "z.VIP: Opp to Account",
+      "api_name": "VIP_Opp_to_Account",
+      "deleted_on": "2026-08-21",
+      "deleted_by": "Aaron Cole",
+      "why": "z-prefixed = admin deprecation convention; long-deactivated legacy automation deleted in the Aug 2026 flow-graveyard cleanup (unblocks tier-B field deletions per the z-field / §8.1 audits).",
+      "evidence": "docs/z-field-deletion-audit-2026-08-19.md · docs/register-8-1-deletion-audit-2026-08-20.md"
+    },
+    {
+      "label": "z.VIP: Contact to Account",
+      "api_name": "VIP_Contact_to_Account",
+      "deleted_on": "2026-08-21",
+      "deleted_by": "Aaron Cole",
+      "why": "z-prefixed = admin deprecation convention; long-deactivated legacy automation deleted in the Aug 2026 flow-graveyard cleanup (unblocks tier-B field deletions per the z-field / §8.1 audits).",
+      "evidence": "docs/z-field-deletion-audit-2026-08-19.md · docs/register-8-1-deletion-audit-2026-08-20.md"
+    },
+    {
+      "label": "z.Upgrade Number of Providers",
+      "api_name": "Upgrade_Number_of_Providers",
+      "deleted_on": "2026-08-21",
+      "deleted_by": "Aaron Cole",
+      "why": "z-prefixed = admin deprecation convention; long-deactivated legacy automation deleted in the Aug 2026 flow-graveyard cleanup (unblocks tier-B field deletions per the z-field / §8.1 audits).",
+      "evidence": "docs/z-field-deletion-audit-2026-08-19.md · docs/register-8-1-deletion-audit-2026-08-20.md"
+    },
+    {
+      "label": "z.Update Last NPS",
+      "api_name": "Update_Last_NPS",
+      "deleted_on": "2026-08-21",
+      "deleted_by": "Aaron Cole",
+      "why": "z-prefixed = admin deprecation convention; long-deactivated legacy automation deleted in the Aug 2026 flow-graveyard cleanup (unblocks tier-B field deletions per the z-field / §8.1 audits).",
+      "evidence": "docs/z-field-deletion-audit-2026-08-19.md · docs/register-8-1-deletion-audit-2026-08-20.md"
+    },
+    {
+      "label": "Unattached Parakeet Call",
+      "api_name": "Unattached_Parakeet_Call",
+      "deleted_on": "2026-08-21",
+      "deleted_by": "Aaron Cole",
+      "why": "Deactivated legacy/test automation from the pre-2022 Lead-era sales process (unprefixed peer of the z-graveyard); deleted in the Aug 2026 flow cleanup wave.",
+      "evidence": "docs/z-field-deletion-audit-2026-08-19.md · docs/register-8-1-deletion-audit-2026-08-20.md"
+    },
+    {
+      "label": "z.Time To First Call",
+      "api_name": "Time_To_First_Call",
+      "deleted_on": "2026-08-21",
+      "deleted_by": "Aaron Cole",
+      "why": "z-prefixed = admin deprecation convention; long-deactivated legacy automation deleted in the Aug 2026 flow-graveyard cleanup (unblocks tier-B field deletions per the z-field / §8.1 audits).",
+      "evidence": "docs/z-field-deletion-audit-2026-08-19.md · docs/register-8-1-deletion-audit-2026-08-20.md"
+    },
+    {
+      "label": "Task Assignment Lead test",
+      "api_name": "Task_Assignment_Lead_test",
+      "deleted_on": "2026-08-21",
+      "deleted_by": "Aaron Cole",
+      "why": "Deactivated legacy/test automation from the pre-2022 Lead-era sales process (unprefixed peer of the z-graveyard); deleted in the Aug 2026 flow cleanup wave.",
+      "evidence": "docs/z-field-deletion-audit-2026-08-19.md · docs/register-8-1-deletion-audit-2026-08-20.md"
+    },
+    {
+      "label": "z.Send A Gift Date Lead",
+      "api_name": "Send_A_Gift_Date_Lead",
+      "deleted_on": "2026-08-21",
+      "deleted_by": "Aaron Cole",
+      "why": "z-prefixed = admin deprecation convention; long-deactivated legacy automation deleted in the Aug 2026 flow-graveyard cleanup (unblocks tier-B field deletions per the z-field / §8.1 audits).",
+      "evidence": "docs/z-field-deletion-audit-2026-08-19.md · docs/register-8-1-deletion-audit-2026-08-20.md"
+    },
+    {
+      "label": "z.Send A Gift Account",
+      "api_name": "Send_A_Gift_Account",
+      "deleted_on": "2026-08-21",
+      "deleted_by": "Aaron Cole",
+      "why": "z-prefixed = admin deprecation convention; long-deactivated legacy automation deleted in the Aug 2026 flow-graveyard cleanup (unblocks tier-B field deletions per the z-field / §8.1 audits).",
+      "evidence": "docs/z-field-deletion-audit-2026-08-19.md · docs/register-8-1-deletion-audit-2026-08-20.md"
+    },
+    {
+      "label": "z.Second Email Second Contact",
+      "api_name": "Second_Email_Second_Contact",
+      "deleted_on": "2026-08-21",
+      "deleted_by": "Aaron Cole",
+      "why": "z-prefixed = admin deprecation convention; long-deactivated legacy automation deleted in the Aug 2026 flow-graveyard cleanup (unblocks tier-B field deletions per the z-field / §8.1 audits).",
+      "evidence": "docs/z-field-deletion-audit-2026-08-19.md · docs/register-8-1-deletion-audit-2026-08-20.md"
+    },
+    {
+      "label": "z.Revisit Opp Later Task",
+      "api_name": "Revisit_Opp_Later_Task",
+      "deleted_on": "2026-08-21",
+      "deleted_by": "Aaron Cole",
+      "why": "z-prefixed = admin deprecation convention; long-deactivated legacy automation deleted in the Aug 2026 flow-graveyard cleanup (unblocks tier-B field deletions per the z-field / §8.1 audits).",
+      "evidence": "docs/z-field-deletion-audit-2026-08-19.md · docs/register-8-1-deletion-audit-2026-08-20.md"
+    },
+    {
+      "label": "z.Rainforest Lead Delete",
+      "api_name": "Rainforest_Lead_Delete",
+      "deleted_on": "2026-08-21",
+      "deleted_by": "Aaron Cole",
+      "why": "z-prefixed = admin deprecation convention; long-deactivated legacy automation deleted in the Aug 2026 flow-graveyard cleanup (unblocks tier-B field deletions per the z-field / §8.1 audits).",
+      "evidence": "docs/z-field-deletion-audit-2026-08-19.md · docs/register-8-1-deletion-audit-2026-08-20.md"
+    },
+    {
+      "label": "z.Push Weekend Task",
+      "api_name": "Push_Weekend_Task",
+      "deleted_on": "2026-08-21",
+      "deleted_by": "Aaron Cole",
+      "why": "z-prefixed = admin deprecation convention; long-deactivated legacy automation deleted in the Aug 2026 flow-graveyard cleanup (unblocks tier-B field deletions per the z-field / §8.1 audits).",
+      "evidence": "docs/z-field-deletion-audit-2026-08-19.md · docs/register-8-1-deletion-audit-2026-08-20.md"
+    },
+    {
+      "label": "z.Push Opp Data to Mixpanel",
+      "api_name": "Push_Opp_Data_to_Mixpanel",
+      "deleted_on": "2026-08-21",
+      "deleted_by": "Aaron Cole",
+      "why": "z-prefixed = admin deprecation convention; long-deactivated legacy automation deleted in the Aug 2026 flow-graveyard cleanup (unblocks tier-B field deletions per the z-field / §8.1 audits).",
+      "evidence": "docs/z-field-deletion-audit-2026-08-19.md · docs/register-8-1-deletion-audit-2026-08-20.md"
+    },
+    {
+      "label": "z.Provider Email for Automation",
+      "api_name": "Provider_Email_for_Automation",
+      "deleted_on": "2026-08-21",
+      "deleted_by": "Aaron Cole",
+      "why": "z-prefixed = admin deprecation convention; long-deactivated legacy automation deleted in the Aug 2026 flow-graveyard cleanup (unblocks tier-B field deletions per the z-field / §8.1 audits).",
+      "evidence": "docs/z-field-deletion-audit-2026-08-19.md · docs/register-8-1-deletion-audit-2026-08-20.md"
+    },
+    {
+      "label": "z.Active Campaign: Contact Push And Killswitch",
+      "api_name": "Process_Builder_Active_Campaign_Contact_Push_And_Killswitch",
+      "deleted_on": "2026-08-21",
+      "deleted_by": "Aaron Cole",
+      "why": "z-prefixed = admin deprecation convention; long-deactivated legacy automation deleted in the Aug 2026 flow-graveyard cleanup (unblocks tier-B field deletions per the z-field / §8.1 audits).",
+      "evidence": "docs/z-field-deletion-audit-2026-08-19.md · docs/register-8-1-deletion-audit-2026-08-20.md"
+    },
+    {
+      "label": "Ownership Change: Opp to Account",
+      "api_name": "Ownership_Change_Opp_to_Account",
+      "deleted_on": "2026-08-21",
+      "deleted_by": "Aaron Cole",
+      "why": "Deactivated legacy/test automation from the pre-2022 Lead-era sales process (unprefixed peer of the z-graveyard); deleted in the Aug 2026 flow cleanup wave.",
+      "evidence": "docs/z-field-deletion-audit-2026-08-19.md · docs/register-8-1-deletion-audit-2026-08-20.md"
+    },
+    {
+      "label": "z.Ownership Change: Contact to Account",
+      "api_name": "Ownership_Change_Contact_to_Account",
+      "deleted_on": "2026-08-21",
+      "deleted_by": "Aaron Cole",
+      "why": "z-prefixed = admin deprecation convention; long-deactivated legacy automation deleted in the Aug 2026 flow-graveyard cleanup (unblocks tier-B field deletions per the z-field / §8.1 audits).",
+      "evidence": "docs/z-field-deletion-audit-2026-08-19.md · docs/register-8-1-deletion-audit-2026-08-20.md"
+    },
+    {
+      "label": "Ownership Change: Account to Opp and Contact",
+      "api_name": "Ownership_Change_Account_to_Opp_and_Contact",
+      "deleted_on": "2026-08-21",
+      "deleted_by": "Aaron Cole",
+      "why": "Deactivated legacy/test automation from the pre-2022 Lead-era sales process (unprefixed peer of the z-graveyard); deleted in the Aug 2026 flow cleanup wave.",
+      "evidence": "docs/z-field-deletion-audit-2026-08-19.md · docs/register-8-1-deletion-audit-2026-08-20.md"
+    },
+    {
+      "label": "New Opp - Find Old Lead - Transfer Tasks and Activity",
+      "api_name": "New_Opp_Find_Old_Lead_Transfer_Tasks_and_Activity",
+      "deleted_on": "2026-08-21",
+      "deleted_by": "Aaron Cole",
+      "why": "Deactivated legacy/test automation from the pre-2022 Lead-era sales process (unprefixed peer of the z-graveyard); deleted in the Aug 2026 flow cleanup wave.",
+      "evidence": "docs/z-field-deletion-audit-2026-08-19.md · docs/register-8-1-deletion-audit-2026-08-20.md"
+    },
+    {
+      "label": "Missed Call Task Ownership",
+      "api_name": "Missed_Call_Task_Ownership",
+      "deleted_on": "2026-08-21",
+      "deleted_by": "Aaron Cole",
+      "why": "Deactivated legacy/test automation from the pre-2022 Lead-era sales process (unprefixed peer of the z-graveyard); deleted in the Aug 2026 flow cleanup wave.",
+      "evidence": "docs/z-field-deletion-audit-2026-08-19.md · docs/register-8-1-deletion-audit-2026-08-20.md"
+    },
+    {
+      "label": "Missed Call Task Test",
+      "api_name": "Missed_Call_Task",
+      "deleted_on": "2026-08-21",
+      "deleted_by": "Aaron Cole",
+      "why": "Deactivated legacy/test automation from the pre-2022 Lead-era sales process (unprefixed peer of the z-graveyard); deleted in the Aug 2026 flow cleanup wave.",
+      "evidence": "docs/z-field-deletion-audit-2026-08-19.md · docs/register-8-1-deletion-audit-2026-08-20.md"
+    },
+    {
+      "label": "Lead to Opportunity",
+      "api_name": "Lead_to_Opportunity",
+      "deleted_on": "2026-08-21",
+      "deleted_by": "Aaron Cole",
+      "why": "Deactivated legacy/test automation from the pre-2022 Lead-era sales process (unprefixed peer of the z-graveyard); deleted in the Aug 2026 flow cleanup wave.",
+      "evidence": "docs/z-field-deletion-audit-2026-08-19.md · docs/register-8-1-deletion-audit-2026-08-20.md"
+    },
+    {
+      "label": "z.Lead Intercom Messaged",
+      "api_name": "Lead_Intercom_Messaged",
+      "deleted_on": "2026-08-21",
+      "deleted_by": "Aaron Cole",
+      "why": "z-prefixed = admin deprecation convention; long-deactivated legacy automation deleted in the Aug 2026 flow-graveyard cleanup (unblocks tier-B field deletions per the z-field / §8.1 audits).",
+      "evidence": "docs/z-field-deletion-audit-2026-08-19.md · docs/register-8-1-deletion-audit-2026-08-20.md"
+    },
+    {
+      "label": "z.Lead Called",
+      "api_name": "Lead_Called",
+      "deleted_on": "2026-08-21",
+      "deleted_by": "Aaron Cole",
+      "why": "z-prefixed = admin deprecation convention; long-deactivated legacy automation deleted in the Aug 2026 flow-graveyard cleanup (unblocks tier-B field deletions per the z-field / §8.1 audits).",
+      "evidence": "docs/z-field-deletion-audit-2026-08-19.md · docs/register-8-1-deletion-audit-2026-08-20.md"
+    },
+    {
+      "label": "z.Lead: Bootcamp Registration",
+      "api_name": "Lead_Bootcamp_Registration",
+      "deleted_on": "2026-08-21",
+      "deleted_by": "Aaron Cole",
+      "why": "z-prefixed = admin deprecation convention; long-deactivated legacy automation deleted in the Aug 2026 flow-graveyard cleanup (unblocks tier-B field deletions per the z-field / §8.1 audits).",
+      "evidence": "docs/z-field-deletion-audit-2026-08-19.md · docs/register-8-1-deletion-audit-2026-08-20.md"
+    },
+    {
+      "label": "z.Landing Page Lead Source Updates",
+      "api_name": "Landing_Page_Lead_Source_Updates",
+      "deleted_on": "2026-08-21",
+      "deleted_by": "Aaron Cole",
+      "why": "z-prefixed = admin deprecation convention; long-deactivated legacy automation deleted in the Aug 2026 flow-graveyard cleanup (unblocks tier-B field deletions per the z-field / §8.1 audits).",
+      "evidence": "docs/z-field-deletion-audit-2026-08-19.md · docs/register-8-1-deletion-audit-2026-08-20.md"
+    },
+    {
+      "label": "LEAD DNC/RL Flow Reminder wait period",
+      "api_name": "LEAD_DNC_RL_Flow_Reminder",
+      "deleted_on": "2026-08-21",
+      "deleted_by": "Aaron Cole",
+      "why": "Deactivated legacy/test automation from the pre-2022 Lead-era sales process (unprefixed peer of the z-graveyard); deleted in the Aug 2026 flow cleanup wave.",
+      "evidence": "docs/z-field-deletion-audit-2026-08-19.md · docs/register-8-1-deletion-audit-2026-08-20.md"
+    },
+    {
+      "label": "z.Jane App Event",
+      "api_name": "Jane_App_Event",
+      "deleted_on": "2026-08-21",
+      "deleted_by": "Aaron Cole",
+      "why": "z-prefixed = admin deprecation convention; long-deactivated legacy automation deleted in the Aug 2026 flow-graveyard cleanup (unblocks tier-B field deletions per the z-field / §8.1 audits).",
+      "evidence": "docs/z-field-deletion-audit-2026-08-19.md · docs/register-8-1-deletion-audit-2026-08-20.md"
+    },
+    {
+      "label": "z.Integration Call Task",
+      "api_name": "Integration_Call_Task",
+      "deleted_on": "2026-08-21",
+      "deleted_by": "Aaron Cole",
+      "why": "z-prefixed = admin deprecation convention; long-deactivated legacy automation deleted in the Aug 2026 flow-graveyard cleanup (unblocks tier-B field deletions per the z-field / §8.1 audits).",
+      "evidence": "docs/z-field-deletion-audit-2026-08-19.md · docs/register-8-1-deletion-audit-2026-08-20.md"
+    },
+    {
+      "label": "z.Integration Call No Showed Event",
+      "api_name": "Integration_Call_No_Showed_Event",
+      "deleted_on": "2026-08-21",
+      "deleted_by": "Aaron Cole",
+      "why": "z-prefixed = admin deprecation convention; long-deactivated legacy automation deleted in the Aug 2026 flow-graveyard cleanup (unblocks tier-B field deletions per the z-field / §8.1 audits).",
+      "evidence": "docs/z-field-deletion-audit-2026-08-19.md · docs/register-8-1-deletion-audit-2026-08-20.md"
+    },
+    {
+      "label": "z.Integration Call Cancels and Reschedules",
+      "api_name": "Integration_Call_Cancels_and_Reschedules",
+      "deleted_on": "2026-08-21",
+      "deleted_by": "Aaron Cole",
+      "why": "z-prefixed = admin deprecation convention; long-deactivated legacy automation deleted in the Aug 2026 flow-graveyard cleanup (unblocks tier-B field deletions per the z-field / §8.1 audits).",
+      "evidence": "docs/z-field-deletion-audit-2026-08-19.md · docs/register-8-1-deletion-audit-2026-08-20.md"
+    },
+    {
+      "label": "z. From Contact Page Lead Update",
+      "api_name": "From_Contact_Page_Lead_Update",
+      "deleted_on": "2026-08-21",
+      "deleted_by": "Aaron Cole",
+      "why": "z-prefixed = admin deprecation convention; long-deactivated legacy automation deleted in the Aug 2026 flow-graveyard cleanup (unblocks tier-B field deletions per the z-field / §8.1 audits).",
+      "evidence": "docs/z-field-deletion-audit-2026-08-19.md · docs/register-8-1-deletion-audit-2026-08-20.md"
+    },
+    {
+      "label": "Friday Queue to user test",
+      "api_name": "Friday_Queue_to_user_test",
+      "deleted_on": "2026-08-21",
+      "deleted_by": "Aaron Cole",
+      "why": "Deactivated legacy/test automation from the pre-2022 Lead-era sales process (unprefixed peer of the z-graveyard); deleted in the Aug 2026 flow cleanup wave.",
+      "evidence": "docs/z-field-deletion-audit-2026-08-19.md · docs/register-8-1-deletion-audit-2026-08-20.md"
+    },
+    {
+      "label": "z.First Payment Date",
+      "api_name": "First_Payment_Date",
+      "deleted_on": "2026-08-21",
+      "deleted_by": "Aaron Cole",
+      "why": "z-prefixed = admin deprecation convention; long-deactivated legacy automation deleted in the Aug 2026 flow-graveyard cleanup (unblocks tier-B field deletions per the z-field / §8.1 audits).",
+      "evidence": "docs/z-field-deletion-audit-2026-08-19.md · docs/register-8-1-deletion-audit-2026-08-20.md"
+    },
+    {
+      "label": "z.DialPad Tracking",
+      "api_name": "DialPad_Tracking",
+      "deleted_on": "2026-08-21",
+      "deleted_by": "Aaron Cole",
+      "why": "z-prefixed = admin deprecation convention; long-deactivated legacy automation deleted in the Aug 2026 flow-graveyard cleanup (unblocks tier-B field deletions per the z-field / §8.1 audits).",
+      "evidence": "docs/z-field-deletion-audit-2026-08-19.md · docs/register-8-1-deletion-audit-2026-08-20.md"
+    },
+    {
+      "label": "Demo Scheduled",
+      "api_name": "Demo_Scheduled",
+      "deleted_on": "2026-08-21",
+      "deleted_by": "Aaron Cole",
+      "why": "Deactivated legacy/test automation from the pre-2022 Lead-era sales process (unprefixed peer of the z-graveyard); deleted in the Aug 2026 flow cleanup wave.",
+      "evidence": "docs/z-field-deletion-audit-2026-08-19.md · docs/register-8-1-deletion-audit-2026-08-20.md"
+    },
+    {
+      "label": "z.Demo Missed",
+      "api_name": "Demo_Missed",
+      "deleted_on": "2026-08-21",
+      "deleted_by": "Aaron Cole",
+      "why": "z-prefixed = admin deprecation convention; long-deactivated legacy automation deleted in the Aug 2026 flow-graveyard cleanup (unblocks tier-B field deletions per the z-field / §8.1 audits).",
+      "evidence": "docs/z-field-deletion-audit-2026-08-19.md · docs/register-8-1-deletion-audit-2026-08-20.md"
+    },
+    {
+      "label": "z.Demo Completed Event",
+      "api_name": "Demo_Completed_Event",
+      "deleted_on": "2026-08-21",
+      "deleted_by": "Aaron Cole",
+      "why": "z-prefixed = admin deprecation convention; long-deactivated legacy automation deleted in the Aug 2026 flow-graveyard cleanup (unblocks tier-B field deletions per the z-field / §8.1 audits).",
+      "evidence": "docs/z-field-deletion-audit-2026-08-19.md · docs/register-8-1-deletion-audit-2026-08-20.md"
+    },
+    {
+      "label": "z.Demo Cancellations And No Shows",
+      "api_name": "Demo_Cancellations_And_No_Shows",
+      "deleted_on": "2026-08-21",
+      "deleted_by": "Aaron Cole",
+      "why": "z-prefixed = admin deprecation convention; long-deactivated legacy automation deleted in the Aug 2026 flow-graveyard cleanup (unblocks tier-B field deletions per the z-field / §8.1 audits).",
+      "evidence": "docs/z-field-deletion-audit-2026-08-19.md · docs/register-8-1-deletion-audit-2026-08-20.md"
+    },
+    {
+      "label": "z.Demo Booked Needs Approval alert",
+      "api_name": "Demo_Booked_Needs_Approval_alert",
+      "deleted_on": "2026-08-21",
+      "deleted_by": "Aaron Cole",
+      "why": "z-prefixed = admin deprecation convention; long-deactivated legacy automation deleted in the Aug 2026 flow-graveyard cleanup (unblocks tier-B field deletions per the z-field / §8.1 audits).",
+      "evidence": "docs/z-field-deletion-audit-2026-08-19.md · docs/register-8-1-deletion-audit-2026-08-20.md"
+    },
+    {
+      "label": "z.Demo Booked: Approved",
+      "api_name": "Demo_Booked_Approved",
+      "deleted_on": "2026-08-21",
+      "deleted_by": "Aaron Cole",
+      "why": "z-prefixed = admin deprecation convention; long-deactivated legacy automation deleted in the Aug 2026 flow-graveyard cleanup (unblocks tier-B field deletions per the z-field / §8.1 audits).",
+      "evidence": "docs/z-field-deletion-audit-2026-08-19.md · docs/register-8-1-deletion-audit-2026-08-20.md"
+    },
+    {
+      "label": "z.Deal Won / Lost Event",
+      "api_name": "Deal_Won_Event",
+      "deleted_on": "2026-08-21",
+      "deleted_by": "Aaron Cole",
+      "why": "z-prefixed = admin deprecation convention; long-deactivated legacy automation deleted in the Aug 2026 flow-graveyard cleanup (unblocks tier-B field deletions per the z-field / §8.1 audits).",
+      "evidence": "docs/z-field-deletion-audit-2026-08-19.md · docs/register-8-1-deletion-audit-2026-08-20.md"
+    },
+    {
+      "label": "z.Created Time",
+      "api_name": "Created_Time",
+      "deleted_on": "2026-08-21",
+      "deleted_by": "Aaron Cole",
+      "why": "z-prefixed = admin deprecation convention; long-deactivated legacy automation deleted in the Aug 2026 flow-graveyard cleanup (unblocks tier-B field deletions per the z-field / §8.1 audits).",
+      "evidence": "docs/z-field-deletion-audit-2026-08-19.md · docs/register-8-1-deletion-audit-2026-08-20.md"
+    },
+    {
+      "label": "Country From Phone Number",
+      "api_name": "Country_From_Phone_Number",
+      "deleted_on": "2026-08-21",
+      "deleted_by": "Aaron Cole",
+      "why": "Deactivated legacy/test automation from the pre-2022 Lead-era sales process (unprefixed peer of the z-graveyard); deleted in the Aug 2026 flow cleanup wave.",
+      "evidence": "docs/z-field-deletion-audit-2026-08-19.md · docs/register-8-1-deletion-audit-2026-08-20.md"
+    },
+    {
+      "label": "Contact SMS Test",
+      "api_name": "Contact_SMS_Test",
+      "deleted_on": "2026-08-21",
+      "deleted_by": "Aaron Cole",
+      "why": "Deactivated legacy/test automation from the pre-2022 Lead-era sales process (unprefixed peer of the z-graveyard); deleted in the Aug 2026 flow cleanup wave.",
+      "evidence": "docs/z-field-deletion-audit-2026-08-19.md · docs/register-8-1-deletion-audit-2026-08-20.md"
+    },
+    {
+      "label": "z.Contact: Bootcamp Registration",
+      "api_name": "Contact_Bootcamp_Registration",
+      "deleted_on": "2026-08-21",
+      "deleted_by": "Aaron Cole",
+      "why": "z-prefixed = admin deprecation convention; long-deactivated legacy automation deleted in the Aug 2026 flow-graveyard cleanup (unblocks tier-B field deletions per the z-field / §8.1 audits).",
+      "evidence": "docs/z-field-deletion-audit-2026-08-19.md · docs/register-8-1-deletion-audit-2026-08-20.md"
+    },
+    {
+      "label": "z.Closed Lost Date",
+      "api_name": "Closed_Lost_Date",
+      "deleted_on": "2026-08-21",
+      "deleted_by": "Aaron Cole",
+      "why": "z-prefixed = admin deprecation convention; long-deactivated legacy automation deleted in the Aug 2026 flow-graveyard cleanup (unblocks tier-B field deletions per the z-field / §8.1 audits).",
+      "evidence": "docs/z-field-deletion-audit-2026-08-19.md · docs/register-8-1-deletion-audit-2026-08-20.md"
+    },
+    {
+      "label": "z.Calendly SOB",
+      "api_name": "Calendly_SOB",
+      "deleted_on": "2026-08-21",
+      "deleted_by": "Aaron Cole",
+      "why": "z-prefixed = admin deprecation convention; long-deactivated legacy automation deleted in the Aug 2026 flow-graveyard cleanup (unblocks tier-B field deletions per the z-field / §8.1 audits).",
+      "evidence": "docs/z-field-deletion-audit-2026-08-19.md · docs/register-8-1-deletion-audit-2026-08-20.md"
+    },
+    {
+      "label": "z.CLOSE STUDENT TASK",
+      "api_name": "CLOSE_STUDENT_TASK",
+      "deleted_on": "2026-08-21",
+      "deleted_by": "Aaron Cole",
+      "why": "z-prefixed = admin deprecation convention; long-deactivated legacy automation deleted in the Aug 2026 flow-graveyard cleanup (unblocks tier-B field deletions per the z-field / §8.1 audits).",
+      "evidence": "docs/z-field-deletion-audit-2026-08-19.md · docs/register-8-1-deletion-audit-2026-08-20.md"
+    },
+    {
+      "label": "z.Autoconvert student",
+      "api_name": "Autoconvert_student",
+      "deleted_on": "2026-08-21",
+      "deleted_by": "Aaron Cole",
+      "why": "z-prefixed = admin deprecation convention; long-deactivated legacy automation deleted in the Aug 2026 flow-graveyard cleanup (unblocks tier-B field deletions per the z-field / §8.1 audits).",
+      "evidence": "docs/z-field-deletion-audit-2026-08-19.md · docs/register-8-1-deletion-audit-2026-08-20.md"
+    },
+    {
+      "label": "z.Autoconvert Opp",
+      "api_name": "Autoconvert_Opp",
+      "deleted_on": "2026-08-21",
+      "deleted_by": "Aaron Cole",
+      "why": "z-prefixed = admin deprecation convention; long-deactivated legacy automation deleted in the Aug 2026 flow-graveyard cleanup (unblocks tier-B field deletions per the z-field / §8.1 audits).",
+      "evidence": "docs/z-field-deletion-audit-2026-08-19.md · docs/register-8-1-deletion-audit-2026-08-20.md"
+    },
+    {
+      "label": "z.Autoconvert Enterprise Domains",
+      "api_name": "Autoconvert_Enterprise_Domains",
+      "deleted_on": "2026-08-21",
+      "deleted_by": "Aaron Cole",
+      "why": "z-prefixed = admin deprecation convention; long-deactivated legacy automation deleted in the Aug 2026 flow-graveyard cleanup (unblocks tier-B field deletions per the z-field / §8.1 audits).",
+      "evidence": "docs/z-field-deletion-audit-2026-08-19.md · docs/register-8-1-deletion-audit-2026-08-20.md"
+    },
+    {
+      "label": "z.Approve Demo Booked",
+      "api_name": "Approve_Demo_Booked",
+      "deleted_on": "2026-08-21",
+      "deleted_by": "Aaron Cole",
+      "why": "z-prefixed = admin deprecation convention; long-deactivated legacy automation deleted in the Aug 2026 flow-graveyard cleanup (unblocks tier-B field deletions per the z-field / §8.1 audits).",
+      "evidence": "docs/z-field-deletion-audit-2026-08-19.md · docs/register-8-1-deletion-audit-2026-08-20.md"
+    },
+    {
+      "label": "z.Activities To Booked",
+      "api_name": "Activities_To_Booked",
+      "deleted_on": "2026-08-21",
+      "deleted_by": "Aaron Cole",
+      "why": "z-prefixed = admin deprecation convention; long-deactivated legacy automation deleted in the Aug 2026 flow-graveyard cleanup (unblocks tier-B field deletions per the z-field / §8.1 audits).",
+      "evidence": "docs/z-field-deletion-audit-2026-08-19.md · docs/register-8-1-deletion-audit-2026-08-20.md"
+    },
+    {
+      "label": "z.Active Campaign: Lead Creation",
+      "api_name": "Active_Campaign_Lead_Creation",
+      "deleted_on": "2026-08-21",
+      "deleted_by": "Aaron Cole",
+      "why": "z-prefixed = admin deprecation convention; long-deactivated legacy automation deleted in the Aug 2026 flow-graveyard cleanup (unblocks tier-B field deletions per the z-field / §8.1 audits).",
+      "evidence": "docs/z-field-deletion-audit-2026-08-19.md · docs/register-8-1-deletion-audit-2026-08-20.md"
+    },
+    {
+      "label": "z.Active Campaign: Lead Conversion Killswitch",
+      "api_name": "Active_Campaign_Lead_Conversion_Killswitch",
+      "deleted_on": "2026-08-21",
+      "deleted_by": "Aaron Cole",
+      "why": "z-prefixed = admin deprecation convention; long-deactivated legacy automation deleted in the Aug 2026 flow-graveyard cleanup (unblocks tier-B field deletions per the z-field / §8.1 audits).",
+      "evidence": "docs/z-field-deletion-audit-2026-08-19.md · docs/register-8-1-deletion-audit-2026-08-20.md"
+    },
+    {
+      "label": "z.Active Campaign: Global Automation Start Date",
+      "api_name": "Active_Campaign_Global_Automation_Start_Date",
+      "deleted_on": "2026-08-21",
+      "deleted_by": "Aaron Cole",
+      "why": "z-prefixed = admin deprecation convention; long-deactivated legacy automation deleted in the Aug 2026 flow-graveyard cleanup (unblocks tier-B field deletions per the z-field / §8.1 audits).",
+      "evidence": "docs/z-field-deletion-audit-2026-08-19.md · docs/register-8-1-deletion-audit-2026-08-20.md"
+    },
+    {
+      "label": "AE-CSM Handoff Test",
+      "api_name": "AE_CSM_Handoff_Test",
+      "deleted_on": "2026-08-21",
+      "deleted_by": "Aaron Cole",
+      "why": "Deactivated legacy/test automation from the pre-2022 Lead-era sales process (unprefixed peer of the z-graveyard); deleted in the Aug 2026 flow cleanup wave.",
+      "evidence": "docs/z-field-deletion-audit-2026-08-19.md · docs/register-8-1-deletion-audit-2026-08-20.md"
+    },
+    {
+      "label": "z.AE-CSM Handoff",
+      "api_name": "AE_CSM_Handoff",
+      "deleted_on": "2026-08-21",
+      "deleted_by": "Aaron Cole",
+      "why": "z-prefixed = admin deprecation convention; long-deactivated legacy automation deleted in the Aug 2026 flow-graveyard cleanup (unblocks tier-B field deletions per the z-field / §8.1 audits).",
+      "evidence": "docs/z-field-deletion-audit-2026-08-19.md · docs/register-8-1-deletion-audit-2026-08-20.md"
+    },
+    {
+      "label": "z.",
+      "api_name": "z",
+      "deleted_on": "2026-08-20",
+      "deleted_by": "Aaron Cole",
+      "why": "z-prefixed = admin deprecation convention; long-deactivated legacy automation deleted in the Aug 2026 flow-graveyard cleanup (unblocks tier-B field deletions per the z-field / §8.1 audits).",
+      "evidence": "docs/z-field-deletion-audit-2026-08-19.md · docs/register-8-1-deletion-audit-2026-08-20.md"
+    },
+    {
+      "label": "z.new first touchpoint when a lead signs up for a plan",
+      "api_name": "new_first_touchpoint_when_a_lead_signs_up_for_a_plan",
+      "deleted_on": "2026-08-20",
+      "deleted_by": "Aaron Cole",
+      "why": "z-prefixed = admin deprecation convention; long-deactivated legacy automation deleted in the Aug 2026 flow-graveyard cleanup (unblocks tier-B field deletions per the z-field / §8.1 audits).",
+      "evidence": "docs/z-field-deletion-audit-2026-08-19.md · docs/register-8-1-deletion-audit-2026-08-20.md"
+    },
+    {
+      "label": "z.get rid of bot opps",
+      "api_name": "get_rid_of_bot_opps",
+      "deleted_on": "2026-08-20",
+      "deleted_by": "Aaron Cole",
+      "why": "z-prefixed = admin deprecation convention; long-deactivated legacy automation deleted in the Aug 2026 flow-graveyard cleanup (unblocks tier-B field deletions per the z-field / §8.1 audits).",
+      "evidence": "docs/z-field-deletion-audit-2026-08-19.md · docs/register-8-1-deletion-audit-2026-08-20.md"
+    },
+    {
+      "label": "z.Updgrade Deal Flow",
+      "api_name": "Updgrade_Deal_Flow",
+      "deleted_on": "2026-08-20",
+      "deleted_by": "Aaron Cole",
+      "why": "z-prefixed = admin deprecation convention; long-deactivated legacy automation deleted in the Aug 2026 flow-graveyard cleanup (unblocks tier-B field deletions per the z-field / §8.1 audits).",
+      "evidence": "docs/z-field-deletion-audit-2026-08-19.md · docs/register-8-1-deletion-audit-2026-08-20.md"
+    },
+    {
+      "label": "Send a Gift Date",
+      "api_name": "Send_a_Gift_Date",
+      "deleted_on": "2026-08-20",
+      "deleted_by": "Aaron Cole",
+      "why": "Send-A-Gift automation family (§8.1 legacy automation flags).",
+      "evidence": "Healthie GTM Field Spec and Cleanup Register.md §8.1"
+    },
+    {
+      "label": "z.Retroactive Demo Booked Flow",
+      "api_name": "Retroactive_Demo_Booked_Flow",
+      "deleted_on": "2026-08-20",
+      "deleted_by": "Aaron Cole",
+      "why": "z-prefixed = admin deprecation convention; long-deactivated legacy automation deleted in the Aug 2026 flow-graveyard cleanup (unblocks tier-B field deletions per the z-field / §8.1 audits).",
+      "evidence": "docs/z-field-deletion-audit-2026-08-19.md · docs/register-8-1-deletion-audit-2026-08-20.md"
+    },
+    {
+      "label": "z.Opp: Bootcamp Registration",
+      "api_name": "Opp_Bootcamp_Registration",
+      "deleted_on": "2026-08-20",
+      "deleted_by": "Aaron Cole",
+      "why": "z-prefixed = admin deprecation convention; long-deactivated legacy automation deleted in the Aug 2026 flow-graveyard cleanup (unblocks tier-B field deletions per the z-field / §8.1 audits).",
+      "evidence": "docs/z-field-deletion-audit-2026-08-19.md · docs/register-8-1-deletion-audit-2026-08-20.md"
+    },
+    {
+      "label": "z.Lead DNC / RL Flow",
+      "api_name": "Lead_DNC_RL_Flow",
+      "deleted_on": "2026-08-20",
+      "deleted_by": "Aaron Cole",
+      "why": "z-prefixed = admin deprecation convention; long-deactivated legacy automation deleted in the Aug 2026 flow-graveyard cleanup (unblocks tier-B field deletions per the z-field / §8.1 audits).",
+      "evidence": "docs/z-field-deletion-audit-2026-08-19.md · docs/register-8-1-deletion-audit-2026-08-20.md"
+    },
+    {
+      "label": "z.Integration Call Completed Flow",
+      "api_name": "Integration_Call_Completed_Flow",
+      "deleted_on": "2026-08-20",
+      "deleted_by": "Aaron Cole",
+      "why": "z-prefixed = admin deprecation convention; long-deactivated legacy automation deleted in the Aug 2026 flow-graveyard cleanup (unblocks tier-B field deletions per the z-field / §8.1 audits).",
+      "evidence": "docs/z-field-deletion-audit-2026-08-19.md · docs/register-8-1-deletion-audit-2026-08-20.md"
+    },
+    {
+      "label": "z.FirstTouchpointNewLead",
+      "api_name": "FirstTouchpointNewLead",
+      "deleted_on": "2026-08-20",
+      "deleted_by": "Aaron Cole",
+      "why": "z-prefixed = admin deprecation convention; long-deactivated legacy automation deleted in the Aug 2026 flow-graveyard cleanup (unblocks tier-B field deletions per the z-field / §8.1 audits).",
+      "evidence": "docs/z-field-deletion-audit-2026-08-19.md · docs/register-8-1-deletion-audit-2026-08-20.md"
+    },
+    {
+      "label": "z.Demo Booked Flow",
+      "api_name": "Demo_Booked_Flow",
+      "deleted_on": "2026-08-20",
+      "deleted_by": "Aaron Cole",
+      "why": "z-prefixed = admin deprecation convention; long-deactivated legacy automation deleted in the Aug 2026 flow-graveyard cleanup (unblocks tier-B field deletions per the z-field / §8.1 audits).",
+      "evidence": "docs/z-field-deletion-audit-2026-08-19.md · docs/register-8-1-deletion-audit-2026-08-20.md"
+    },
+    {
+      "label": "z.Opp DNC / RL Flow",
+      "api_name": "DNC_RL_Flow",
+      "deleted_on": "2026-08-20",
+      "deleted_by": "Aaron Cole",
+      "why": "z-prefixed = admin deprecation convention; long-deactivated legacy automation deleted in the Aug 2026 flow-graveyard cleanup (unblocks tier-B field deletions per the z-field / §8.1 audits).",
+      "evidence": "docs/z-field-deletion-audit-2026-08-19.md · docs/register-8-1-deletion-audit-2026-08-20.md"
+    },
+    {
+      "label": "Customer Status Update",
+      "api_name": "Customer_Status_Update",
+      "deleted_on": "2026-08-20",
+      "deleted_by": "Aaron Cole",
+      "why": "Obsolete Account status flow — identified in phase0-writers-map as a deactivated writer of Customer_Status__c, superseded by the Stripe Integration's API writes.",
+      "evidence": "docs/phase0-writers-map.md"
+    },
+    {
+      "label": "z.Close Deal Flow",
+      "api_name": "Close_Deal_Flow",
+      "deleted_on": "2026-08-20",
+      "deleted_by": "Aaron Cole",
+      "why": "z-prefixed = admin deprecation convention; long-deactivated legacy automation deleted in the Aug 2026 flow-graveyard cleanup (unblocks tier-B field deletions per the z-field / §8.1 audits).",
+      "evidence": "docs/z-field-deletion-audit-2026-08-19.md · docs/register-8-1-deletion-audit-2026-08-20.md"
+    },
+    {
+      "label": "z.Closed Lost Flow",
+      "api_name": "Cancellation_Flow",
+      "deleted_on": "2026-08-20",
+      "deleted_by": "Aaron Cole",
+      "why": "z-prefixed = admin deprecation convention; long-deactivated legacy automation deleted in the Aug 2026 flow-graveyard cleanup (unblocks tier-B field deletions per the z-field / §8.1 audits).",
+      "evidence": "docs/z-field-deletion-audit-2026-08-19.md · docs/register-8-1-deletion-audit-2026-08-20.md"
+    },
+    {
+      "label": "Autoconvert II",
+      "api_name": "Autoconvert_II",
+      "deleted_on": "2026-08-20",
+      "deleted_by": "Aaron Cole",
+      "why": "Lead auto-conversion process, abandoned; AutoConvert family per §8.1.",
+      "evidence": "SFDC-Replication/docs/lead-vs-contact-transition-assessment.md"
+    },
+    {
+      "label": "Autoconvert I",
+      "api_name": "Autoconvert_I",
+      "deleted_on": "2026-08-20",
+      "deleted_by": "Aaron Cole",
+      "why": "Lead auto-conversion process, abandoned (~5 conversions/yr per the Lead-vs-Contact assessment); AutoConvert family per §8.1.",
+      "evidence": "SFDC-Replication/docs/lead-vs-contact-transition-assessment.md"
+    },
+    {
+      "label": "z.Active Campaign Task Date",
+      "api_name": "Active_Campaign_Task_Date",
+      "deleted_on": "2026-08-20",
+      "deleted_by": "Aaron Cole",
+      "why": "z-prefixed = admin deprecation convention; long-deactivated legacy automation deleted in the Aug 2026 flow-graveyard cleanup (unblocks tier-B field deletions per the z-field / §8.1 audits).",
+      "evidence": "docs/z-field-deletion-audit-2026-08-19.md · docs/register-8-1-deletion-audit-2026-08-20.md"
+    },
+    {
+      "label": "z.Active Campaign: Lead Push And Killswitch",
+      "api_name": "Active_Campaign_Send_Lead",
+      "deleted_on": "2026-08-20",
+      "deleted_by": "Aaron Cole",
+      "why": "z-prefixed = admin deprecation convention; long-deactivated legacy automation deleted in the Aug 2026 flow-graveyard cleanup (unblocks tier-B field deletions per the z-field / §8.1 audits).",
+      "evidence": "docs/z-field-deletion-audit-2026-08-19.md · docs/register-8-1-deletion-audit-2026-08-20.md"
+    },
+    {
+      "label": "z.Active Campaign: Opp Killswitch",
+      "api_name": "Active_Campaign_Opp_Killswitch",
+      "deleted_on": "2026-08-20",
+      "deleted_by": "Aaron Cole",
+      "why": "z-prefixed = admin deprecation convention; long-deactivated legacy automation deleted in the Aug 2026 flow-graveyard cleanup (unblocks tier-B field deletions per the z-field / §8.1 audits).",
+      "evidence": "docs/z-field-deletion-audit-2026-08-19.md · docs/register-8-1-deletion-audit-2026-08-20.md"
+    },
+    {
+      "label": "z.Active Campaign: Account Killswitch",
+      "api_name": "Active_Campaign_Account_Killswitch",
+      "deleted_on": "2026-08-20",
+      "deleted_by": "Aaron Cole",
+      "why": "z-prefixed = admin deprecation convention; long-deactivated legacy automation deleted in the Aug 2026 flow-graveyard cleanup (unblocks tier-B field deletions per the z-field / §8.1 audits).",
+      "evidence": "docs/z-field-deletion-audit-2026-08-19.md · docs/register-8-1-deletion-audit-2026-08-20.md"
+    },
+    {
+      "label": "z.AE Flows",
+      "api_name": "AE_Flows",
+      "deleted_on": "2026-08-20",
+      "deleted_by": "Aaron Cole",
+      "why": "z-prefixed = admin deprecation convention; long-deactivated legacy automation deleted in the Aug 2026 flow-graveyard cleanup (unblocks tier-B field deletions per the z-field / §8.1 audits).",
+      "evidence": "docs/z-field-deletion-audit-2026-08-19.md · docs/register-8-1-deletion-audit-2026-08-20.md"
+    },
+    {
+      "label": "z.AE-CSM Handoff Flow",
+      "api_name": "AE_CSM_Handoff_Flow",
+      "deleted_on": "2026-08-20",
+      "deleted_by": "Aaron Cole",
+      "why": "z-prefixed = admin deprecation convention; long-deactivated legacy automation deleted in the Aug 2026 flow-graveyard cleanup (unblocks tier-B field deletions per the z-field / §8.1 audits).",
+      "evidence": "docs/z-field-deletion-audit-2026-08-19.md · docs/register-8-1-deletion-audit-2026-08-20.md"
+    }
+  ],
+  "other": [
+    {
+      "kind": "PermissionSet",
+      "label": "gtmhubReact Access",
+      "deleted_on": "2026-08-20",
+      "deleted_by": "Aaron Cole",
+      "why": "GTM Hub React app permission set — superseded.",
+      "evidence": ""
+    },
+    {
+      "kind": "PermissionSet",
+      "label": "GTM Hub Leadership",
+      "deleted_on": "2026-08-20",
+      "deleted_by": "Aaron Cole",
+      "why": "GTM Hub app permission iteration — superseded during Aug 2026 access cleanup.",
+      "evidence": ""
+    },
+    {
+      "kind": "PermissionSet",
+      "label": "FIvetran Integration",
+      "deleted_on": "2026-08-19",
+      "deleted_by": "Aaron Cole",
+      "why": "Fivetran integration access retired (DWH handoff path changed; note typo'd name).",
+      "evidence": ""
+    },
+    {
+      "kind": "PermissionSet",
+      "label": "Scribe Adoption Field Access",
+      "deleted_on": "2026-08-11",
+      "deleted_by": "Bill Coffin",
+      "why": "Scribe adoption field rollout finished; temporary FLS grant no longer needed.",
+      "evidence": ""
+    },
+    {
+      "kind": "PermissionSet",
+      "label": "High Assurance Exemption",
+      "deleted_on": "2026-07-29",
+      "deleted_by": "Aaron Cole",
+      "why": "",
+      "evidence": ""
+    },
+    {
+      "kind": "PermissionSet",
+      "label": "Agentforce Agent Healthie_Create_Update_Agent Permissions",
+      "deleted_on": "2026-07-01",
+      "deleted_by": "Aaron Cole",
+      "why": "",
+      "evidence": ""
+    },
+    {
+      "kind": "PermissionSet",
+      "label": "Agentforce Agent Healthie_Sales_Agent_Beta Permissions",
+      "deleted_on": "2026-06-30",
+      "deleted_by": "Aaron Cole",
+      "why": "",
+      "evidence": ""
+    }
+  ]
+}
