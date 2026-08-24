@@ -1081,6 +1081,93 @@ def _build_export_data(model: dict) -> dict:
     return {"fields": fields, "flows": flows}
 
 
+
+# ---------------------------------------------------------------------------
+# Deleted-metadata register (fields & flows removed from prod)
+#
+# The canonical register lives in the SFDC-Data-Layer project and is refreshed
+# by scripts/refresh-deleted-metadata-register.py there. Salesforce erases all
+# trace of a field once it is permanently deleted and the Setup Audit Trail
+# only holds 180 days — the local register is the durable record, and this
+# section surfaces it in the dictionary. Missing file -> section is skipped.
+# ---------------------------------------------------------------------------
+DELETED_REGISTER_PATH = Path.home() / "Documents/Work/SFDC-Data-Layer/docs/deleted-metadata-register.json"
+
+
+def _load_deleted_register() -> dict | None:
+    try:
+        return json.loads(DELETED_REGISTER_PATH.read_text())
+    except (OSError, json.JSONDecodeError):
+        return None
+
+
+def _render_deleted_section(reg: dict | None) -> str:
+    if not reg or not (reg.get("fields") or reg.get("flows")):
+        return ""
+    fields = reg.get("fields") or []
+    flows = reg.get("flows") or []
+    other = reg.get("other") or []
+
+    def why_cell(row: dict) -> str:
+        why = H(row.get("why") or "(undocumented)")
+        ev = row.get("evidence")
+        return f'{why}<span class="dd-deleted-ev"> — {H(ev)}</span>' if ev else why
+
+    field_rows = "".join(
+        f"<tr><td>{H(f.get('deleted_on') or 'pre-window')}</td>"
+        f"<td>{H(f.get('deleted_by') or '—')}</td>"
+        f"<td>{H(f.get('object', ''))}</td>"
+        f"<td><code>{H(f.get('api_name', ''))}</code></td>"
+        f"<td>{H(f.get('permanently_erased_on') or 'in recycle bin')}</td>"
+        f"<td class=\"dd-deleted-why\">{why_cell(f)}</td></tr>"
+        for f in fields
+    )
+    flow_rows = "".join(
+        f"<tr><td>{H(f.get('deleted_on') or '?')}</td>"
+        f"<td>{H(f.get('deleted_by') or '—')}</td>"
+        f"<td>{H(f.get('label', ''))}</td>"
+        f"<td><code>{H(f.get('api_name', ''))}</code></td>"
+        f"<td class=\"dd-deleted-why\">{why_cell(f)}</td></tr>"
+        for f in flows
+    )
+    other_rows = "".join(
+        f"<tr><td>{H(o.get('deleted_on') or '?')}</td>"
+        f"<td>{H(o.get('deleted_by') or '—')}</td>"
+        f"<td>{H(o.get('kind', ''))}</td>"
+        f"<td>{H(o.get('label', ''))}</td>"
+        f"<td class=\"dd-deleted-why\">{why_cell(o)}</td></tr>"
+        for o in other
+    )
+    other_block = f"""
+  <h3 class="dd-deleted-sub">Other deleted metadata ({len(other)})</h3>
+  <div class="dd-table-wrap"><table class="dd-table">
+    <thead><tr><th>Deleted</th><th>By</th><th>Kind</th><th>Name</th><th>Why</th></tr></thead>
+    <tbody>{other_rows}</tbody></table></div>""" if other else ""
+
+    return f"""
+<section class="dd-flows dd-deleted" id="dd-deleted" style="--obj-color: #9f1239;">
+  <header class="dd-object-header">
+    <div class="dd-object-band"></div>
+    <div class="dd-object-header-body">
+      <h2 class="dd-object-title">Deleted Fields &amp; Flows</h2>
+      <div class="dd-object-meta">
+        <strong>{len(fields)}</strong> fields &nbsp;·&nbsp; <strong>{len(flows)}</strong> flows &nbsp;·&nbsp; register updated {H(reg.get("updated", "?"))}
+        &nbsp;·&nbsp; Salesforce keeps no history once metadata is permanently erased — the durable record (with rationale and evidence) is the
+        <em>deleted-metadata register</em> in the SFDC-Data-Layer project; this section is generated from it.
+      </div>
+    </div>
+  </header>
+  <h3 class="dd-deleted-sub">Fields ({len(fields)})</h3>
+  <div class="dd-table-wrap"><table class="dd-table">
+    <thead><tr><th>Deleted</th><th>By</th><th>Object</th><th>Field (original API name)</th><th>Erased?</th><th>Why deleted</th></tr></thead>
+    <tbody>{field_rows}</tbody></table></div>
+  <h3 class="dd-deleted-sub">Flows ({len(flows)})</h3>
+  <div class="dd-table-wrap"><table class="dd-table">
+    <thead><tr><th>Deleted</th><th>By</th><th>Flow</th><th>Unique name</th><th>Why deleted</th></tr></thead>
+    <tbody>{flow_rows}</tbody></table></div>{other_block}
+</section>"""
+
+
 def render_html(model: dict, run_meta: dict) -> str:
     total_fields = sum(o["field_count"] for o in model["objects"])
     data_sources_count = len(model["front_matter"].get("data_sources") or [])
@@ -1102,6 +1189,9 @@ def render_html(model: dict, run_meta: dict) -> str:
     front_matter_html = _render_front_matter(model["front_matter"])
     appendix_html = _render_appendix(model["appendix"])
     flows_html = _render_flows_section(model.get("flows") or [])
+    deleted_reg = _load_deleted_register()
+    deleted_html = _render_deleted_section(deleted_reg)
+    deleted_count = len((deleted_reg or {}).get("fields") or []) + len((deleted_reg or {}).get("flows") or [])
     other_html = _render_other_fields_section(model["objects"])
     total_other = sum(o.get("other_count", 0) for o in model["objects"])
 
@@ -1140,6 +1230,7 @@ def render_html(model: dict, run_meta: dict) -> str:
     </div>
     <a href="#dd-other-fields" class="dd-nav-link dd-nav-link-slate-2">All Fields ({total_other}) ↓</a>
     <a href="#dd-flows" class="dd-nav-link dd-nav-link-amber">Flows ({len(model['flows'])}) ↓</a>
+    {f'<a href="#dd-deleted" class="dd-nav-link dd-nav-link-slate">Deleted ({deleted_count}) ↓</a>' if deleted_count else ''}
     <a href="https://go.gethealthie.com/peapod-hubspot-data-dictionary?hsLang=en" class="dd-nav-link dd-nav-link-purple">← HubSpot Dictionary</a>
     <a href="https://go.gethealthie.com/peapod-data-governance?hsLang=en" class="dd-nav-link dd-nav-link-green">Data Governance →</a>
     <span class="dd-nav-stats">{total_fields} fields &nbsp;·&nbsp; {len(model['objects'])} objects &nbsp;·&nbsp; {_human_count(total_records)} records &nbsp;·&nbsp; v6 updated {H(run_meta['generated_at_date'])}</span>
@@ -1222,6 +1313,8 @@ def render_html(model: dict, run_meta: dict) -> str:
 {other_html}
 
 {flows_html}
+
+{deleted_html}
 
 <section class="dd-accordion-group">
   <h2 class="dd-section-title">How to Use This Dictionary</h2>
@@ -1928,6 +2021,9 @@ _CSS = """
 
 .dd-others { max-width: 1240px; margin: 24px auto 0; padding: 0 20px; }
 .dd-other-tabs { position: static; margin-top: 14px; }
+.dd-deleted-sub { max-width: 1240px; margin: 18px auto 8px; padding: 0 20px; font-size: 15px; color: var(--slate-700); }
+.dd-deleted-why { font-size: 12.5px; }
+.dd-deleted-ev { color: var(--slate-500); font-size: 11.5px; }
 .dd-other-panels { padding: 0; }
 .dd-other-panel { display: none; }
 .dd-other-panel.is-active { display: block; }
