@@ -27,6 +27,7 @@ venv/
 # --- Sandboxes / scratch (not part of the repo) ---
 .playwright-mcp/
 .claude/
+.mcp.json
 tmp/
 
 # --- Generated previews kept local-only (the canonical generated files are committed at root) ---
